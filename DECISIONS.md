@@ -299,3 +299,8 @@ Append tile at(3.25,-1.25),size(0.25,4.0),total9728x8192,approx7.497km2 grounden
 ## 2026-11-16 left6
 
 Append tile at(-1.5,-1.25),size(0.25,4.0),total10240x8192,approx7.891km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city-core extension using existing model sources. PNOA July2024 same-camera preflight, railway fan, irregular central blocks and paved feria forecourt. Seven overlapping panels and joins visually checked, previous31art sources preserved. No2026facade claim.
+
+
+## 2026-11-16 left7
+
+Append tile at(-1.75,-1.25),size(0.25,4.0),total10752x8192,approx8.286km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city strip. Same-camera PNOA July2024 samples. Interpretation, not surveyed facades. No new source records.

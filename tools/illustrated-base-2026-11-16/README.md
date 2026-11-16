@@ -154,3 +154,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## left6
 
 10240x8192px, bounds[-1.5, -1.25, 3.5, 2.75]. Source records26589, renderedparts26573, roadways16651, faces780185, OSMelements18749. Contiguous city-core extension using existing model sources. PNOA July2024 same-camera preflight, railway fan, irregular central blocks and paved feria forecourt. Seven overlapping panels and joins visually checked, previous31art sources preserved. No2026facade claim.
+
+
+## left7
+
+10752x8192px, bounds[-1.75, -1.25, 3.5, 2.75]. Source records26589, renderedparts26573, roadways16651, faces780185, OSMelements18749. Contiguous city strip. Same-camera PNOA July2024 samples. Interpretation, not surveyed facades. No new source records.
