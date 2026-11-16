@@ -209,3 +209,8 @@ Retrieve all25public municipal neighborhood features and18singular entities. Use
 ## 2026-11-16 top3
 
 Append tile at(-0.5,-0.75),size(2.25,0.25),total4608x5120,approx2.219km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. No new OSM fetch for this band: reuses archived right4 source URLs and geometry. Capture4608x5120,scale590,focus(-149.10471439,-190.66928932),angle-154,tilt.60; priorbaseoverlapRMS<=.624/255. Originalart pixels preserved.
+
+
+## 2026-11-16 left3
+
+Append tile at(-0.75,-0.75),size(0.25,2.5),total5120x5120,approx2.466km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Reuses right4 geometry and source URLs without additional OSM requests. Camera square5120,focus(-174.96861205,-137.64044059),scale590; shared reference overlap RMS <=0.568/255. Five reference-led panels, existing pixels preserved exactly. Geometry is cadastral/OSM, facade details interpreted, not current-photo evidence.

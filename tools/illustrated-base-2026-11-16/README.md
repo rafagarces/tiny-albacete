@@ -69,3 +69,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## top3
 
 4608x5120px, bounds[-0.5, -0.75, 1.75, 1.75]. Source records16917, renderedparts16901, roadways6649, faces500052, OSMelements7166. No new OSM fetch for this band: reuses archived right4 source URLs and geometry. Capture4608x5120,scale590,focus(-149.10471439,-190.66928932),angle-154,tilt.60; priorbaseoverlapRMS<=.624/255. Originalart pixels preserved.
+
+
+## left3
+
+5120x5120px, bounds[-0.75, -0.75, 1.75, 1.75]. Source records16917, renderedparts16901, roadways6649, faces500052, OSMelements7166. Reuses right4 geometry and source URLs without additional OSM requests. Camera square5120,focus(-174.96861205,-137.64044059),scale590; shared reference overlap RMS <=0.568/255. Five reference-led panels, existing pixels preserved exactly. Geometry is cadastral/OSM, facade details interpreted, not current-photo evidence.
