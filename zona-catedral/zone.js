@@ -1,21 +1,25 @@
 /* Tiny Albacete: original bounded WebGL mesh viewer. No remote mapping API. */
 (async()=>{
 const c=document.getElementById('scene'),status=document.getElementById('status');
-const gl=c.getContext('webgl',{antialias:false,alpha:false});
+const gl=c.getContext('webgl',{antialias:false,alpha:false,stencil:true});
 if(!gl){status.innerHTML='Este dispositivo no ofrece WebGL. <a href="../">Abrir el mapa completo</a>';return;}
 const shader=(type,src)=>{const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;};
 const vs=shader(gl.VERTEX_SHADER,`attribute vec3 p;attribute vec3 col;varying vec3 cc;uniform float a,e,asp,scale;uniform vec2 focus;void main(){vec3 q=p-vec3(focus,0.0);float ca=cos(a),sa=sin(a);float xx=-sa*q.x+ca*q.y;float yy=sin(e)*(ca*q.x+sa*q.y)-cos(e)*q.z;float dd=cos(e)*(ca*q.x+sa*q.y)+sin(e)*q.z;gl_Position=vec4(xx/scale/asp,-(yy+9.0)/scale,-dd/1300.0,1.0);cc=col;}`);
-const fs=shader(gl.FRAGMENT_SHADER,`precision mediump float;varying vec3 cc;void main(){gl_FragColor=vec4(cc,1.0);}`);
+const fs=shader(gl.FRAGMENT_SHADER,`precision mediump float;varying vec3 cc;uniform float opacity;void main(){gl_FragColor=vec4(cc,opacity);}`);
 const prog=gl.createProgram();gl.attachShader(prog,vs);gl.attachShader(prog,fs);gl.linkProgram(prog);gl.useProgram(prog);
 let faces;try{faces=await fetch('model.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()});}catch(e){status.innerHTML='No se ha podido cargar la zona. <a href="../">Mapa completo</a>';return;}
 const arr=[];for(const f of faces){let [A,B,C]=f.v;const u=B.map((x,i)=>x-A[i]),v=C.map((x,i)=>x-A[i]);let n=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],len=Math.hypot(...n)||1;
 const light=.78+.22*Math.abs((n[0]*-.6+n[1]*-.45+n[2]*.65)/len);const rgb=[1,3,5].map(i=>parseInt(f.c.slice(i,i+2),16)/255*light);
 for(let k=1;k<f.v.length-1;k++)for(const p of [A,f.v[k],f.v[k+1]])arr.push(...p,...rgb);}
-const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(arr),gl.STATIC_DRAW);
+// A fixed illustrative sun casts ground-only shadows from the same estimated meshes.
+const hasStencil=!!gl.getContextAttributes().stencil;
+const shadow=[];if(hasStencil)for(const f of faces){if(f.kind.startsWith('osm')||f.kind==='presentation-base')continue;for(let k=1;k<f.v.length-1;k++)for(const [x,y,z] of [f.v[0],f.v[k],f.v[k+1]])shadow.push(x+z*.62,y+z*.34,.055,.29,.34,.27);}
+const meshVertices=arr.length/6;const all=new Float32Array(arr.length+shadow.length);all.set(arr);all.set(shadow,arr.length);
+const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,all,gl.STATIC_DRAW);
 for(const [name,off]of [['p',0],['col',12]]){const loc=gl.getAttribLocation(prog,name);gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,3,gl.FLOAT,false,24,off);}
 const closeScale=()=>Math.max(75,75*390/innerWidth);
 let angle=-154*Math.PI/180,tilt=.60,scale=Math.max(95,95*390/innerWidth),fx=-13,fy=7;
-function draw(){const w=Math.max(1,Math.round(innerWidth*.85)),h=Math.max(1,Math.round(innerHeight*.85));if(c.width!==w||c.height!==h){c.width=w;c.height=h;}gl.viewport(0,0,w,h);for(const[n,v]of Object.entries({a:angle,e:tilt,asp:w/h,scale}))gl.uniform1f(gl.getUniformLocation(prog,n),v);gl.uniform2f(gl.getUniformLocation(prog,'focus'),fx,fy);gl.clearColor(.863,.882,.835,1);gl.enable(gl.DEPTH_TEST);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.drawArrays(gl.TRIANGLES,0,arr.length/6);}
+function draw(){const w=Math.max(1,Math.round(innerWidth*.85)),h=Math.max(1,Math.round(innerHeight*.85));if(c.width!==w||c.height!==h){c.width=w;c.height=h;}gl.viewport(0,0,w,h);for(const[n,v]of Object.entries({a:angle,e:tilt,asp:w/h,scale}))gl.uniform1f(gl.getUniformLocation(prog,n),v);gl.uniform2f(gl.getUniformLocation(prog,'focus'),fx,fy);gl.clearColor(.863,.882,.835,1);gl.enable(gl.DEPTH_TEST);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT|gl.STENCIL_BUFFER_BIT);gl.uniform1f(gl.getUniformLocation(prog,'opacity'),1);gl.disable(gl.BLEND);gl.disable(gl.STENCIL_TEST);gl.drawArrays(gl.TRIANGLES,0,meshVertices);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.enable(gl.STENCIL_TEST);gl.stencilFunc(gl.EQUAL,0,255);gl.stencilOp(gl.KEEP,gl.KEEP,gl.INCR);gl.uniform1f(gl.getUniformLocation(prog,'opacity'),.20);gl.drawArrays(gl.TRIANGLES,meshVertices,shadow.length/6);gl.disable(gl.STENCIL_TEST);gl.disable(gl.BLEND);}
 function zoom(f){scale=Math.min(900,Math.max(12,scale*f));draw();}
 const intro=document.getElementById('intro');function explore(){intro.hidden=true;}
 document.getElementById('explore').onclick=()=>{explore();scale=closeScale();draw();};document.getElementById('plus').onclick=()=>zoom(.8);document.getElementById('minus').onclick=()=>zoom(1.25);
