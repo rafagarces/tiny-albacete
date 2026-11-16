@@ -45,3 +45,9 @@ Sitio: https://tiny-albacete.pages.dev (Cloudflare Pages, proyecto `tiny-albacet
 - Galería superior de cinco ventanas, tres huecos bajos, entrada/mirador derechos, azulejo verde, torres asimétricas y pináculos según fotos inspeccionadas. Talla floral simplificada. Profundidades, alturas, cubierta y geometría ornamental estimadas; caras ocultas sin detalle.
 - Selector Catedral / Cuchillería / Vista general, con encuadres propios. Se preservan oclusión y geometría, sin retirar vecinos para forzar la vista. Ruta directa ?l=museo. Mapa general intacto.
 - Generador reproducible pilots/hortelano-3d/build.py. Sin fotos originales dentro del deploy, sin servicios remotos, facturación ni contacto con terceros. Primera zona respaldada en da9fd6d.
+
+## 16 noviembre 2026: Ayuntamiento antiguo / Casa Cortés
+- Fachada parcial original basada solo en JPOK, 10 noviembre 2016, CC0, foto inspeccionada; fecha histórica visible. Identidad contrastada con Turismo de Albacete, OSM y Catastro 9371110WJ9197A. No se presenta como registro actual.
+- Frente Catastro20.14m, registro sobre arista(161.2,-60.6)->(178.8,-70.4). Se mantienen masas catastrales traseras; ajuste frontal11.2m según proporción fotográfica, alturas/profundidades estimadas. Sin fachada lateral genérica.
+- Dos ventanas superiores y dos rejas bajas por lado, acceso/balcón centrales, torre con dos esferas visibles, escudo esquemático y coronación. Sin copiar carteles, banderas o tráfico; sin heráldica, texto ni talla ornamental inventados. Agujas estáticas artísticas, no hora real.
+- Generador y modelo propios CC BY-SA4.0, fuenteCC0 acreditada. Navegación Ayto. antiguo y ?l=ayuntamiento. Zoom mínimo corregido de30a12m para evitar salto hacia atrás al pulsar+desde encuadreHortelano24m.

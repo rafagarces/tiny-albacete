@@ -45,6 +45,8 @@ for b in parts:
  if abs(cx)>250 or abs(cy)>250 or b['area']<18:continue
  col=palette[int(catparse.h01(b['id'])*len(palette))%len(palette)]
  h=min(50,max(3,b['floors']*3+2)) if b['floors']>0 else 9
+ # Front coarse mass adjusted to match documented facade proportions; still estimated.
+ if b['id']=='9371110WJ9197A_part4':h=11.2
  flat(pts,h,'#c6b5a0')
  for a,B in zip(pts,pts[1:]+pts[:1]):
   if a==B:continue
@@ -60,6 +62,10 @@ for f in json.load(open(ROOT/'pilots/catedral-3d/model.json')):
 ang=math.atan2(2.7,15.7);ca,sa=math.cos(ang),math.sin(ang)
 for f in json.load(open(ROOT/'pilots/hortelano-3d/model.json')):
  face([[ca*x-sa*y-70.3,sa*x+ca*y+59.7,z]for x,y,z in f['v']],f['c'],f['kind'])
+# Antiguo Ayuntamiento front registered to cadastral edge; rear masses retained.
+ang=math.atan2(-9.8,17.6);ca,sa=math.cos(ang),math.sin(ang)
+for f in json.load(open(ROOT/'pilots/ayuntamiento-3d/model.json')):
+ face([[ca*x-sa*y+161.2,sa*x+ca*y-60.6,z]for x,y,z in f['v']],f['c'],f['kind'])
 (ROOT/'zona-catedral/model.json').write_text(json.dumps(out,separators=(',',':')))
 (ROOT/'zona-catedral/stats.json').write_text(json.dumps({'buildingParts':count,'roads':roads,'faces':len(out),'extentMeters':500,'generated':'2026-11-16','cathedralRegistration':'approximate rotation-24deg, offset(-13.1,6.7)m; not a surveyed alignment'}))
 print(count,'parts',roads,'roads',len(out),'faces')
