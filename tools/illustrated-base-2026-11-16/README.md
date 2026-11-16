@@ -119,3 +119,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## bottom8
 
 7168x7680px, bounds[-1.25, -1.25, 2.25, 2.5]. Source records24439, renderedparts24423, roadways16651, faces723029, OSMelements18575. Seven geometry-led illustrated panels extending the principal candidate, final overlap1024. Prior24sourceimages unchanged. Regionalroads alreadycached;2615newCatastrorecords. Current2026facades pending.
+
+
+## right7
+
+7680x7680px, bounds[-1.25, -1.25, 2.5, 2.5]. Source records24439, renderedparts24423, roadways16651, faces723029, OSMelements18575. Seven geometry-led panels; all existing cadastral and regionalroad records cover this strip, no newIDs. No citywide currentfacadeclaim.

@@ -259,3 +259,8 @@ Append tile at(-1.25,-1.25),size(0.25,3.5),total7168x7168,approx4.833km2 grounde
 ## 2026-11-16 bottom8
 
 Append tile at(-1.25,2.25),size(3.5,0.25),total7168x7680,approx5.179km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Seven geometry-led illustrated panels extending the principal candidate, final overlap1024. Prior24sourceimages unchanged. Regionalroads alreadycached;2615newCatastrorecords. Current2026facades pending.
+
+
+## 2026-11-16 right7
+
+Append tile at(2.25,-1.25),size(0.25,3.75),total7680x7680,approx5.548km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Seven geometry-led panels; all existing cadastral and regionalroad records cover this strip, no newIDs. No citywide currentfacadeclaim.
