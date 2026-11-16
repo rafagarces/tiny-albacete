@@ -143,3 +143,9 @@ After this illustrated quality is extended across the city, Rafa requests a whol
 ## 2026-11-16 · third right contiguous illustrated strip
 
 Add512x2048at world(1.25,0),width.25. Total3072x2048. This strip is inside the previously archived6479-part municipal source coverage and existing OSM street extract, so no new source inventory is claimed. Same camera projection, overlap RMS<=.60/255per channel. Only new strip pixels changed; previous six art assets and rotating3D unchanged. Interpreted ordinary architecture without new monument claims. No billing or paid resources.
+
+## 2026-11-16 · explicit spatial catalog, coverage and scaling
+
+Replace hard-coded image positions with a local JSON tile catalog, keeping the same six surroundings tiles and all image bytes. Dynamic bounds admit future growth to negative coordinates without moving existing world coordinates or URL revision2. Local tests cover normal catalog, temporary catalog failure with bundled fallback, and test-only negative coordinates. No test-only tile is published. Add an independent overlap/gap/dimension/hash validator.
+
+Current fixed-camera ground-plane envelope is approximately0.592km2, recorded as GeoJSON with explicit projection/height/artistic-drift limits. This is a small central area, not citywide coverage. No completion percentage is claimed. A whole-city operational mask remains under contrast: municipal neighborhood maps, actual built form, parks, industrial areas and fringes must not be silently replaced by one SIU planning-class component. The later citywide current-facade reference pass remains after artistic extension. Spatial/orthophoto work here defines territorial scope, not facade-currentness.

@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "units": "one world unit = 2048 atlas pixels",
+  "url_revision": 2,
+  "bounds": {
+    "minX": 0,
+    "minY": 0,
+    "maxX": 1.5,
+    "maxY": 1
+  },
+  "comparison": {
+    "url": "base-right3.webp",
+    "x": 0,
+    "y": 0,
+    "width": 1.5,
+    "height": 1
+  },
+  "tiles": [
+    {
+      "id": "core",
+      "url": "entorno.webp",
+      "x": 0,
+      "y": 0,
+      "width": 0.75,
+      "height": 0.5
+    },
+    {
+      "id": "east",
+      "url": "east.webp",
+      "x": 0.75,
+      "y": 0,
+      "width": 0.25,
+      "height": 0.5
+    },
+    {
+      "id": "bottom",
+      "url": "bottom.webp",
+      "x": 0,
+      "y": 0.5,
+      "width": 1,
+      "height": 0.25
+    },
+    {
+      "id": "right2",
+      "url": "right2.webp",
+      "x": 1,
+      "y": 0,
+      "width": 0.25,
+      "height": 0.75
+    },
+    {
+      "id": "bottom2",
+      "url": "bottom2.webp",
+      "x": 0,
+      "y": 0.75,
+      "width": 1.25,
+      "height": 0.25
+    },
+    {
+      "id": "right3",
+      "url": "right3.webp",
+      "x": 1.25,
+      "y": 0,
+      "width": 0.25,
+      "height": 1
+    }
+  ]
+}
