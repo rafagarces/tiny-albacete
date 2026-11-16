@@ -20,4 +20,9 @@ Ground platform is a presentation base, not a plaza survey. Sources span2013/201
 Original model and rendered adaptations:CC BY-SA4.0. Attribute JnCrlsMG,Fernando,Nakuir for photo references and IGN/SCNE for LiDAR as above. Changes: original approximate3Dmodelling, materials, lighting and orthographic rendering. No image texture is pasted onto the mesh. This pilot does not use Google meshes, textures or imagery.
 
 ## Production
-The current TinyAlbacete website is untouched. No deploy/push, billing, paid resource or third-party contact. This is one standalone pilot, not a claim that the city is reconstructed or theNYCartdirection is matched.
+The first pilot was reviewed before publication. The model is now part of the bounded Cathedral zone on Tiny Albacete, not a claim that the city is reconstructed or that the Isometric NYC visual target has been reached. No billable service or third-party contact is used.
+
+## South lower aisle refinement, 16 November 2026
+The Nakuir south-side photograph above clearly shows a low aisle projecting beyond the upper window wall, its tile shed roof, and a slightly raised roof over the side portal. The first pilot flattened the low doorway and upper wall into one plane. Added that documented stepped mass and moved the existing side doorway and lower windows onto its outer face. No extra facade was invented on the unknown north/east sides.
+
+Width 47 m follows the existing simplified nave; projection about 4.3 m, low wall height 11.8 m, roof heights 11.9-13.2 m and portal roof 12.9-14.2 m are **model estimates**, not measured dimensions. The low roof is not a separate gabled pediment. Opening counts and positions remain interpreted. Main roof continuity and registration are still simplified. A trial fit to 2017 main-roof returns showed multiple height clusters and registration sensitivity, so no main-roof height change was made from that trial. Historical returns alone do not identify every architectural surface.

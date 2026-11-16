@@ -15,7 +15,7 @@ def box(x0,x1,y0,y1,z0,z1,c=stone,kind='estimated'):
  face(b,c,kind)
  for i in range(4):face([a[i],a[(i+1)%4],b[(i+1)%4],b[i]],c,kind)
 def plane(u,v,z,side):
- return (u,-14.12-v,z) if side=='south' else (-24.12-v,u,z)
+ return (u,-18.42-v,z) if side=='south-low' else ((u,-14.12-v,z) if side=='south' else (-24.12-v,u,z))
 def patch(pts,c,side,offset=0,kind='photo-feature-estimated-position'):
  face([plane(u,offset,z,side) for u,z in pts],c,kind)
 def arch(u,z,w,h,side,c=glass,offset=.03):
@@ -38,6 +38,18 @@ face([(23,-14,24),(23,0,32),(23,14,24)],dark,'unknown-simplified')
 # Stone courses are stylistic surface treatment, not an archaeological claim.
 for z in np.arange(2,23,1.3):
  patch([(-23,z),(22,z),(22,z+.045),(-23,z+.045)],'#bea789','south',.02,'artistic-material')
+# Documented south lower aisle and roof from lateral2026 photograph.
+# Depth, heights and roof transitions are estimates, not a measured section.
+box(-24,23,-18.3,-14.0,0,11.8)
+face([(-24,-18.5,11.9),(23,-18.5,11.9),(23,-13.95,13.2),(-24,-13.95,13.2)],roof,'photo-feature-estimated-position')
+face([(-24,-18.5,11.9),(-24,-13.95,13.2),(-24,-13.95,11.8)],stone,'photo-feature-estimated-position')
+face([(23,-18.5,11.9),(23,-13.95,13.2),(23,-13.95,11.8)],stone,'photo-feature-estimated-position')
+# Slightly raised south portal shed roof, dimensions inferred from the photo.
+# The photo does not establish a separate gabled pediment: do not invent one.
+face([(-4.8,-18.65,11.8),(4.8,-18.65,11.8),(4.8,-18.65,12.8),(-4.8,-18.65,12.8)],stone,'photo-feature-estimated-position')
+face([(-4.8,-18.7,12.9),(4.8,-18.7,12.9),(4.8,-14,14.2),(-4.8,-14,14.2)],roof,'photo-feature-estimated-position')
+for x in [-4.8,4.8]:
+ face([(x,-18.7,11.8),(x,-18.7,12.9),(x,-14,14.2),(x,-14,11.8)],stone,'estimated-roof-junction')
 # South face: three upper arched windows and doorway observed in2026 source.
 for u in [-11,1,13]:
  arch(u,18.5,2.9,4.9,'south',trim,.08);arch(u,18.9,2.15,4.1,'south',glass,.1)
@@ -46,11 +58,11 @@ for u in [-18,-5,7,20]:
  box(u-.5,u+.5,-15.5,-13.9,0,24.4,dark)
  box(u-.76,u+.76,-15.72,-13.7,0,1.4,light)
  box(u-.65,u+.65,-15.7,-13.7,23.6,24.7,trim)
-for w,h in [(7.6,10),(6.8,9.6),(6,9.1),(5.15,8.6)]:arch(0,0,w,h,'south',trim if w in [7.6,6] else dark,.22+(7.6-w)*.02)
-arch(0,.2,4.4,7.8,'south',shadow,.4)
+for w,h in [(7.6,10),(6.8,9.6),(6,9.1),(5.15,8.6)]:arch(0,0,w,h,'south-low',trim if w in [7.6,6] else dark,.22+(7.6-w)*.02)
+arch(0,.2,4.4,7.8,'south-low',shadow,.4)
 # Door slats are artistic material, not claims of exact board count.
-for u in np.arange(-1.9,2,.4):patch([(u,.4),(u+.035,.4),(u+.035,5.6),(u,5.6)],'#736754','south',.42,kind='artistic-material')
-for u in [-17,-9,9,18]:arch(u,5,1.1,2.3,'south',shadow,.2)
+for u in np.arange(-1.9,2,.4):patch([(u,.4),(u+.035,.4),(u+.035,5.6),(u,5.6)],'#736754','south-low',.42,kind='artistic-material')
+for u in [-17,-9,9,18]:arch(u,5,1.1,2.3,'south-low',shadow,.2)
 box(-24,23,-14.5,-13.8,23.4,24.3,trim)
 # Stylised roof tile courses, visual material only. Not surveyed tile count.
 for yy in np.arange(-13.5,0,.85):
