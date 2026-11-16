@@ -1,0 +1,32 @@
+/* Tiny Albacete: original bounded WebGL mesh viewer. No remote mapping API. */
+(async()=>{
+const c=document.getElementById('scene'),status=document.getElementById('status');
+const gl=c.getContext('webgl',{antialias:false,alpha:false});
+if(!gl){status.innerHTML='Este dispositivo no ofrece WebGL. <a href="../">Abrir el mapa completo</a>';return;}
+const shader=(type,src)=>{const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;};
+const vs=shader(gl.VERTEX_SHADER,`attribute vec3 p;attribute vec3 col;varying vec3 cc;uniform float a,e,asp,scale;uniform vec2 focus;void main(){vec3 q=p-vec3(focus,0.0);float ca=cos(a),sa=sin(a);float xx=-sa*q.x+ca*q.y;float yy=sin(e)*(ca*q.x+sa*q.y)-cos(e)*q.z;float dd=cos(e)*(ca*q.x+sa*q.y)+sin(e)*q.z;gl_Position=vec4(xx/scale/asp,-(yy+9.0)/scale,-dd/1300.0,1.0);cc=col;}`);
+const fs=shader(gl.FRAGMENT_SHADER,`precision mediump float;varying vec3 cc;void main(){gl_FragColor=vec4(cc,1.0);}`);
+const prog=gl.createProgram();gl.attachShader(prog,vs);gl.attachShader(prog,fs);gl.linkProgram(prog);gl.useProgram(prog);
+let faces;try{faces=await fetch('model.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()});}catch(e){status.innerHTML='No se ha podido cargar la zona. <a href="../">Mapa completo</a>';return;}
+const arr=[];for(const f of faces){let [A,B,C]=f.v;const u=B.map((x,i)=>x-A[i]),v=C.map((x,i)=>x-A[i]);let n=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],len=Math.hypot(...n)||1;
+const light=.78+.22*Math.abs((n[0]*-.6+n[1]*-.45+n[2]*.65)/len);const rgb=[1,3,5].map(i=>parseInt(f.c.slice(i,i+2),16)/255*light);
+for(let k=1;k<f.v.length-1;k++)for(const p of [A,f.v[k],f.v[k+1]])arr.push(...p,...rgb);}
+const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(arr),gl.STATIC_DRAW);
+for(const [name,off]of [['p',0],['col',12]]){const loc=gl.getAttribLocation(prog,name);gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,3,gl.FLOAT,false,24,off);}
+const closeScale=()=>Math.max(75,75*390/innerWidth);
+let angle=-154*Math.PI/180,tilt=.60,scale=Math.max(95,95*390/innerWidth),fx=-13,fy=7;
+function draw(){const w=Math.max(1,Math.round(innerWidth*.85)),h=Math.max(1,Math.round(innerHeight*.85));if(c.width!==w||c.height!==h){c.width=w;c.height=h;}gl.viewport(0,0,w,h);for(const[n,v]of Object.entries({a:angle,e:tilt,asp:w/h,scale}))gl.uniform1f(gl.getUniformLocation(prog,n),v);gl.uniform2f(gl.getUniformLocation(prog,'focus'),fx,fy);gl.clearColor(.863,.882,.835,1);gl.enable(gl.DEPTH_TEST);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.drawArrays(gl.TRIANGLES,0,arr.length/6);}
+function zoom(f){scale=Math.min(900,Math.max(30,scale*f));draw();}
+const intro=document.getElementById('intro');function explore(){intro.hidden=true;}
+document.getElementById('explore').onclick=()=>{explore();scale=closeScale();draw();};document.getElementById('plus').onclick=()=>zoom(.8);document.getElementById('minus').onclick=()=>zoom(1.25);
+document.getElementById('reset').onclick=()=>{explore();fx=-13;fy=7;scale=closeScale();angle=-154*Math.PI/180;tilt=.60;draw();};document.getElementById('area').onclick=()=>{explore();fx=0;fy=0;scale=Math.max(270,270*innerHeight/innerWidth);draw();};
+const info=document.getElementById('info'),details=document.getElementById('details');info.onclick=()=>{details.hidden=!details.hidden;info.setAttribute('aria-expanded',!details.hidden)};document.getElementById('close').onclick=()=>{details.hidden=true;info.setAttribute('aria-expanded','false');info.focus()};
+const pointers=new Map();let last;function pan(dx,dy){const m=scale*2/innerHeight;fx+=(Math.sin(angle)*dx-Math.cos(angle)*dy/Math.sin(tilt))*m;fy+=(-Math.cos(angle)*dx-Math.sin(angle)*dy/Math.sin(tilt))*m;}
+c.onpointerdown=e=>{explore();c.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);last={x:e.clientX,y:e.clientY,d:0};if(pointers.size===2){const p=[...pointers.values()];last={x:(p[0][0]+p[1][0])/2,y:(p[0][1]+p[1][1])/2,d:Math.hypot(p[0][0]-p[1][0],p[0][1]-p[1][1])};}};
+c.onpointermove=e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,[e.clientX,e.clientY]);if(pointers.size===2){const p=[...pointers.values()],d=Math.hypot(p[0][0]-p[1][0],p[0][1]-p[1][1]);const x=(p[0][0]+p[1][0])/2,y=(p[0][1]+p[1][1])/2;if(last.d){scale=Math.min(900,Math.max(30,scale*last.d/d));pan(x-last.x,y-last.y);}last={x,y,d};draw();return;}
+const dx=e.clientX-last.x,dy=e.clientY-last.y;
+if(e.shiftKey||e.buttons===2){pan(dx,dy);}else{angle+=dx*.007;tilt=Math.max(.25,Math.min(1.25,tilt+dy*.004));}last={x:e.clientX,y:e.clientY,d:0};draw();};
+c.onpointerup=c.onpointercancel=e=>{pointers.delete(e.pointerId);last={x:e.clientX,y:e.clientY,d:0}};c.oncontextmenu=e=>e.preventDefault();c.onwheel=e=>{e.preventDefault();explore();zoom(Math.exp(e.deltaY*.001))};
+c.tabIndex=0;c.onkeydown=e=>{if(e.key==='ArrowLeft')angle-=.13;else if(e.key==='ArrowRight')angle+=.13;else if(e.key==='ArrowUp')tilt=Math.min(1.25,tilt+.1);else if(e.key==='ArrowDown')tilt=Math.max(.25,tilt-.1);else if(e.key==='+')zoom(.85);else if(e.key==='-')zoom(1.15);else return;e.preventDefault();draw()};
+window.addEventListener('resize',draw);draw();document.body.classList.add('ready');
+})();

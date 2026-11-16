@@ -106,3 +106,9 @@ kbd{background:var(--paper-2);border:2px solid var(--ink);border-radius:4px;padd
 .searchbox ul[hidden]{display:none}
 .searchbox ul{position:absolute;left:0;right:0;top:100%;margin:4px 0 0;background:var(--paper);border:2px solid var(--ink);border-radius:6px;box-shadow:var(--shadow);padding:4px}
 .searchbox input{padding:7px 10px}
+/* New bounded3D view, general map remains unchanged. */
+.zone-link{position:fixed;z-index:14;top:96px;left:16px;background:#f8f5e9;color:#394c35;border:2px solid #a8b497;border-radius:8px;padding:10px 14px;text-decoration:none;font:15px 'Pixelify Sans',monospace;box-shadow:0 3px 10px #0002}
+@media(max-width:760px){.zone-link{top:88px;left:12px;font-size:12px;padding:8px 10px}}
+
+@media(max-width:760px){.zone-link{top:auto;bottom:66px;left:12px;z-index:18}}
+@media(min-width:761px){.zone-link{top:140px}}

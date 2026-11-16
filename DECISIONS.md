@@ -28,3 +28,13 @@ Sitio: https://tiny-albacete.pages.dev (Cloudflare Pages, proyecto `tiny-albacet
 - Nivel de detalle y variedad de fachadas por debajo de la referencia; es un renderizador procedural, no obra ilustrada a mano.
 - Teatro Circo: sin piel curva ni cubierta inclinada, solo cierre del volumen y color. Lodares: parcialmente tapado por vecinos segun el angulo.
 - Pruebas moviles con viewport emulado (iframe 390 px) y capturas de escritorio 1280x720; no se probo en dispositivo fisico.
+
+## 16 noviembre 2026: dirección Catedral validada
+- Rafa aprobó el piloto3D propio de Catedral, con estimaciones señaladas, y pidió continuar en esa dirección. El gusto validado es el del piloto, no una promesa de igualar otra referencia.
+- Nueva ruta `/zona-catedral/`: unas500m de contexto,1.240partes de edificios Catastro, calles OSM y modelo propio parcial Catedral. El mapa general y sus teselas se preservan. Enlaces de ida/vuelta, no sustitución silenciosa de cobertura.
+- Catedral: se eliminan del contexto todas las partes9271101WJ9197A. Maqueta posicionada con giro aproximado-24° y desplazamiento(-13.1,6.7)m en el sistema local del mapa. No es un registro topográfico. Mesh original754caras.
+- Vecinos: huellas Catastro, alturas plantas×3+2m (máx50m),9m si faltan plantas. Sin ventanas, balcones o tejados históricos inventados. Son contexto simplificado, no un cumplimiento de réplica edificio por edificio. Materiales artísticos suaves.
+- WebGL local sin motor remoto ni API facturable. Controles de giro/inclinación,zoom y desplazamiento(Shift+arrastrar o botón derecho), teclado flechas/+/-; fallback explícito al mapa general si no hayWebGL. No se instalan recursos de pago.
+- Calles consultadas16/11/2026, extracto API OSM bbox-1.8600,38.9925,-1.8515,38.9990. Trazado real; anchos estimados. Fuente exacta: https://www.openstreetmap.org/api/0.6/map?bbox=-1.8600,38.9925,-1.8515,38.9990 . DerivadoOSM en zona-catedral/osm-source.json,ODbL.
+- Créditos/licencias de fuentes fotográficas y limitaciones en zona-catedral/sources.html y pilots/catedral-3d/README.md. Modelo Catedral y renders:CC BY-SA4.0. NoGoogle. No datos personales ni secretos en el repositorio o deploy.
+- Reproducibilidad: modelo publicado, generadores src/build_zone.py y pilots/catedral-3d/build.py. El primero requiere Catastro bu_parts.json reconstruible con src/parse_bu.py y el extractoOSM incluido. Datos originales Catastro no se redistribuyen en bruto. Respaldo del mapa previo:git9ef5c64.
