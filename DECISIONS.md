@@ -159,3 +159,8 @@ Add3072x512atworld(0,1),total3072x2560,approximately0.740km2ground-plane envelop
 ## 2026-11-16 · first left strip
 
 Extend512x2560to negative worldx[-.25,0], total3584x2560,approximately0.863km2 ground envelope. Existing art and coordinate links unchanged. Negative coordinates tested in real content, no renormalization. Same interpreted-art limits and0EUR/no billing/no external contact. Remaining city target provisional, no completion percentage.
+
+
+## 2026-11-16 · on-demand illustrated display and territorial ledger
+
+Replace eager loading of all full illustrations with an explicitly registered WebPDeepZoompyramid. Source spatial coordinates, fixed framing, previous URLs and original art files remain unchanged. Top level is lossless relative to decoded originals. Tested local image-transfer bytes: mobile-left1.69MBinstead of4.64MB, desktop-home1.55MBinstead of4.64MB; default mobile4.44MBso no universal speedup claim. Work ledger inventories25official2016neighborhoods,30SIUcomponents and exterior sectors. No city completion percentage until a contrasted current operational target exists.0EUR,no billing,no contact.

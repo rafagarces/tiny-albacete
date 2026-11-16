@@ -15,3 +15,12 @@ Sources inspected:
 - https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0
 
 A future target-grid ledger should identify every cell by stable column/row, source coverage, target-mask intersection, art state and review state. Target cells are not automatically complete because a cadastral source exists. No current-completion claim is inferred from source-part counts.
+
+
+## Territorial ledger
+
+`ilustrado/coverage-ledger.json` inventories stable512pixel cells, the inspected25municipal neighborhoods (2016raster), all30disconnected SIUplanning components and named exterior industrial sectors without silently excluding them.35published cells currently intersect the429-cell principal-SIUcandidate. This is a work ledger, NOT city progress or a final city mask. The single SIUcomponent omits portions of the neighborhood plan and parks; do not use429as a final denominator. Individual neighborhood coverage is unmeasured. Citywide current-facade checks have not happened.
+
+## On-demand display
+
+The spatial source catalog remains the authority. Display pyramids load512pixel tiles at the required level, with1pixel overlap. The top display level is lossless relative to decoded source WebPimages; smaller levels are downsampled. Original illustration files remain untouched. Atlas and comparison each use61display tiles at the present extent. OSD4.1requires explicit WebPsupport registration for DZI, safe here because all existing source illustrations already require WebP. Old catalog compatibility is retained.

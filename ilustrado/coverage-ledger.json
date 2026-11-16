@@ -1,0 +1,4373 @@
+{
+  "status": "planning-class-candidate-not-final-city-mask",
+  "official_class_area_km2": 8.781388194907008,
+  "pixel_bounds": [
+    -8714.858105515521,
+    -2154.0697469104193,
+    10461.789086054387,
+    6287.305861831309
+  ],
+  "candidate_cells": 429,
+  "published_cells_intersecting_candidate": 35,
+  "cell_ground_area_km2": 0.02465985230667989,
+  "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
+  "cells": [
+    {
+      "column": 7,
+      "row": -5,
+      "candidate_target_fraction": 0.004436,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r-5"
+    },
+    {
+      "column": 8,
+      "row": -5,
+      "candidate_target_fraction": 0.089882,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r-5"
+    },
+    {
+      "column": 9,
+      "row": -5,
+      "candidate_target_fraction": 0.156255,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r-5"
+    },
+    {
+      "column": 10,
+      "row": -5,
+      "candidate_target_fraction": 0.133875,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r-5"
+    },
+    {
+      "column": -5,
+      "row": -4,
+      "candidate_target_fraction": 0.281613,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r-4"
+    },
+    {
+      "column": -4,
+      "row": -4,
+      "candidate_target_fraction": 0.599297,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r-4"
+    },
+    {
+      "column": -3,
+      "row": -4,
+      "candidate_target_fraction": 0.695618,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r-4"
+    },
+    {
+      "column": -2,
+      "row": -4,
+      "candidate_target_fraction": 0.772267,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r-4"
+    },
+    {
+      "column": -1,
+      "row": -4,
+      "candidate_target_fraction": 0.848915,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r-4"
+    },
+    {
+      "column": 0,
+      "row": -4,
+      "candidate_target_fraction": 0.910113,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r-4"
+    },
+    {
+      "column": 1,
+      "row": -4,
+      "candidate_target_fraction": 0.698984,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r-4"
+    },
+    {
+      "column": 2,
+      "row": -4,
+      "candidate_target_fraction": 0.525474,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r-4"
+    },
+    {
+      "column": 3,
+      "row": -4,
+      "candidate_target_fraction": 0.590602,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r-4"
+    },
+    {
+      "column": 4,
+      "row": -4,
+      "candidate_target_fraction": 0.626805,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r-4"
+    },
+    {
+      "column": 5,
+      "row": -4,
+      "candidate_target_fraction": 0.72329,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r-4"
+    },
+    {
+      "column": 6,
+      "row": -4,
+      "candidate_target_fraction": 0.849027,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r-4"
+    },
+    {
+      "column": 7,
+      "row": -4,
+      "candidate_target_fraction": 0.957747,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r-4"
+    },
+    {
+      "column": 8,
+      "row": -4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r-4"
+    },
+    {
+      "column": 9,
+      "row": -4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r-4"
+    },
+    {
+      "column": 10,
+      "row": -4,
+      "candidate_target_fraction": 0.757946,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r-4"
+    },
+    {
+      "column": 11,
+      "row": -4,
+      "candidate_target_fraction": 0.077586,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r-4"
+    },
+    {
+      "column": -9,
+      "row": -3,
+      "candidate_target_fraction": 0.042852,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r-3"
+    },
+    {
+      "column": -8,
+      "row": -3,
+      "candidate_target_fraction": 0.168951,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r-3"
+    },
+    {
+      "column": -7,
+      "row": -3,
+      "candidate_target_fraction": 0.313975,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r-3"
+    },
+    {
+      "column": -6,
+      "row": -3,
+      "candidate_target_fraction": 0.692823,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r-3"
+    },
+    {
+      "column": -5,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r-3"
+    },
+    {
+      "column": -4,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r-3"
+    },
+    {
+      "column": -3,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r-3"
+    },
+    {
+      "column": -2,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r-3"
+    },
+    {
+      "column": -1,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r-3"
+    },
+    {
+      "column": 0,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r-3"
+    },
+    {
+      "column": 1,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r-3"
+    },
+    {
+      "column": 2,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r-3"
+    },
+    {
+      "column": 3,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r-3"
+    },
+    {
+      "column": 4,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r-3"
+    },
+    {
+      "column": 5,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r-3"
+    },
+    {
+      "column": 6,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r-3"
+    },
+    {
+      "column": 7,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r-3"
+    },
+    {
+      "column": 8,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r-3"
+    },
+    {
+      "column": 9,
+      "row": -3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r-3"
+    },
+    {
+      "column": 10,
+      "row": -3,
+      "candidate_target_fraction": 0.997191,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r-3"
+    },
+    {
+      "column": 11,
+      "row": -3,
+      "candidate_target_fraction": 0.988343,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r-3"
+    },
+    {
+      "column": 12,
+      "row": -3,
+      "candidate_target_fraction": 0.307231,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r-3"
+    },
+    {
+      "column": -15,
+      "row": -2,
+      "candidate_target_fraction": 0.083357,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r-2"
+    },
+    {
+      "column": -14,
+      "row": -2,
+      "candidate_target_fraction": 0.35517,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r-2"
+    },
+    {
+      "column": -13,
+      "row": -2,
+      "candidate_target_fraction": 0.482592,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-13r-2"
+    },
+    {
+      "column": -12,
+      "row": -2,
+      "candidate_target_fraction": 0.581214,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-12r-2"
+    },
+    {
+      "column": -11,
+      "row": -2,
+      "candidate_target_fraction": 0.630299,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-11r-2"
+    },
+    {
+      "column": -10,
+      "row": -2,
+      "candidate_target_fraction": 0.642531,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r-2"
+    },
+    {
+      "column": -9,
+      "row": -2,
+      "candidate_target_fraction": 0.59176,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r-2"
+    },
+    {
+      "column": -8,
+      "row": -2,
+      "candidate_target_fraction": 0.475632,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r-2"
+    },
+    {
+      "column": -7,
+      "row": -2,
+      "candidate_target_fraction": 0.977002,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r-2"
+    },
+    {
+      "column": -6,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r-2"
+    },
+    {
+      "column": -5,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r-2"
+    },
+    {
+      "column": -4,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r-2"
+    },
+    {
+      "column": -3,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r-2"
+    },
+    {
+      "column": -2,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r-2"
+    },
+    {
+      "column": -1,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r-2"
+    },
+    {
+      "column": 0,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r-2"
+    },
+    {
+      "column": 1,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r-2"
+    },
+    {
+      "column": 2,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r-2"
+    },
+    {
+      "column": 3,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r-2"
+    },
+    {
+      "column": 4,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r-2"
+    },
+    {
+      "column": 5,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r-2"
+    },
+    {
+      "column": 6,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r-2"
+    },
+    {
+      "column": 7,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r-2"
+    },
+    {
+      "column": 8,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r-2"
+    },
+    {
+      "column": 9,
+      "row": -2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r-2"
+    },
+    {
+      "column": 10,
+      "row": -2,
+      "candidate_target_fraction": 0.992122,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r-2"
+    },
+    {
+      "column": 11,
+      "row": -2,
+      "candidate_target_fraction": 0.445136,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r-2"
+    },
+    {
+      "column": 12,
+      "row": -2,
+      "candidate_target_fraction": 0.512848,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r-2"
+    },
+    {
+      "column": 13,
+      "row": -2,
+      "candidate_target_fraction": 0.624585,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r-2"
+    },
+    {
+      "column": 14,
+      "row": -2,
+      "candidate_target_fraction": 0.653997,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r-2"
+    },
+    {
+      "column": -15,
+      "row": -1,
+      "candidate_target_fraction": 0.254262,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r-1"
+    },
+    {
+      "column": -14,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r-1"
+    },
+    {
+      "column": -13,
+      "row": -1,
+      "candidate_target_fraction": 0.807694,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-13r-1"
+    },
+    {
+      "column": -12,
+      "row": -1,
+      "candidate_target_fraction": 0.008806,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-12r-1"
+    },
+    {
+      "column": -11,
+      "row": -1,
+      "candidate_target_fraction": 0.085712,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-11r-1"
+    },
+    {
+      "column": -10,
+      "row": -1,
+      "candidate_target_fraction": 0.060519,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r-1"
+    },
+    {
+      "column": -9,
+      "row": -1,
+      "candidate_target_fraction": 0.134723,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r-1"
+    },
+    {
+      "column": -8,
+      "row": -1,
+      "candidate_target_fraction": 0.421384,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r-1"
+    },
+    {
+      "column": -7,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r-1"
+    },
+    {
+      "column": -6,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r-1"
+    },
+    {
+      "column": -5,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r-1"
+    },
+    {
+      "column": -4,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r-1"
+    },
+    {
+      "column": -3,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r-1"
+    },
+    {
+      "column": -2,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r-1"
+    },
+    {
+      "column": -1,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r-1"
+    },
+    {
+      "column": 0,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r-1"
+    },
+    {
+      "column": 1,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r-1"
+    },
+    {
+      "column": 2,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r-1"
+    },
+    {
+      "column": 3,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r-1"
+    },
+    {
+      "column": 4,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r-1"
+    },
+    {
+      "column": 5,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r-1"
+    },
+    {
+      "column": 6,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r-1"
+    },
+    {
+      "column": 7,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r-1"
+    },
+    {
+      "column": 8,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r-1"
+    },
+    {
+      "column": 9,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r-1"
+    },
+    {
+      "column": 10,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r-1"
+    },
+    {
+      "column": 11,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r-1"
+    },
+    {
+      "column": 12,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r-1"
+    },
+    {
+      "column": 13,
+      "row": -1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r-1"
+    },
+    {
+      "column": 14,
+      "row": -1,
+      "candidate_target_fraction": 0.455775,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r-1"
+    },
+    {
+      "column": -15,
+      "row": 0,
+      "candidate_target_fraction": 0.540732,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r0"
+    },
+    {
+      "column": -14,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r0"
+    },
+    {
+      "column": -13,
+      "row": 0,
+      "candidate_target_fraction": 0.951343,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-13r0"
+    },
+    {
+      "column": -12,
+      "row": 0,
+      "candidate_target_fraction": 0.535262,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-12r0"
+    },
+    {
+      "column": -11,
+      "row": 0,
+      "candidate_target_fraction": 0.84957,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-11r0"
+    },
+    {
+      "column": -10,
+      "row": 0,
+      "candidate_target_fraction": 0.882031,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r0"
+    },
+    {
+      "column": -9,
+      "row": 0,
+      "candidate_target_fraction": 0.92763,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r0"
+    },
+    {
+      "column": -8,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r0"
+    },
+    {
+      "column": -7,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r0"
+    },
+    {
+      "column": -6,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r0"
+    },
+    {
+      "column": -5,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r0"
+    },
+    {
+      "column": -4,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r0"
+    },
+    {
+      "column": -3,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r0"
+    },
+    {
+      "column": -2,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r0"
+    },
+    {
+      "column": -1,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r0"
+    },
+    {
+      "column": 0,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r0"
+    },
+    {
+      "column": 1,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r0"
+    },
+    {
+      "column": 2,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r0"
+    },
+    {
+      "column": 3,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r0"
+    },
+    {
+      "column": 4,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r0"
+    },
+    {
+      "column": 5,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r0"
+    },
+    {
+      "column": 6,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r0"
+    },
+    {
+      "column": 7,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r0"
+    },
+    {
+      "column": 8,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r0"
+    },
+    {
+      "column": 9,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r0"
+    },
+    {
+      "column": 10,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r0"
+    },
+    {
+      "column": 11,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r0"
+    },
+    {
+      "column": 12,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r0"
+    },
+    {
+      "column": 13,
+      "row": 0,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r0"
+    },
+    {
+      "column": 14,
+      "row": 0,
+      "candidate_target_fraction": 0.979104,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r0"
+    },
+    {
+      "column": 15,
+      "row": 0,
+      "candidate_target_fraction": 0.833732,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c15r0"
+    },
+    {
+      "column": 16,
+      "row": 0,
+      "candidate_target_fraction": 0.580818,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c16r0"
+    },
+    {
+      "column": -16,
+      "row": 1,
+      "candidate_target_fraction": 0.324816,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-16r1"
+    },
+    {
+      "column": -15,
+      "row": 1,
+      "candidate_target_fraction": 0.986608,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r1"
+    },
+    {
+      "column": -14,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r1"
+    },
+    {
+      "column": -13,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-13r1"
+    },
+    {
+      "column": -12,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-12r1"
+    },
+    {
+      "column": -11,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-11r1"
+    },
+    {
+      "column": -10,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r1"
+    },
+    {
+      "column": -9,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r1"
+    },
+    {
+      "column": -8,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r1"
+    },
+    {
+      "column": -7,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r1"
+    },
+    {
+      "column": -6,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r1"
+    },
+    {
+      "column": -5,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r1"
+    },
+    {
+      "column": -4,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r1"
+    },
+    {
+      "column": -3,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r1"
+    },
+    {
+      "column": -2,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r1"
+    },
+    {
+      "column": -1,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r1"
+    },
+    {
+      "column": 0,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r1"
+    },
+    {
+      "column": 1,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r1"
+    },
+    {
+      "column": 2,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r1"
+    },
+    {
+      "column": 3,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r1"
+    },
+    {
+      "column": 4,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r1"
+    },
+    {
+      "column": 5,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r1"
+    },
+    {
+      "column": 6,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r1"
+    },
+    {
+      "column": 7,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r1"
+    },
+    {
+      "column": 8,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r1"
+    },
+    {
+      "column": 9,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r1"
+    },
+    {
+      "column": 10,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r1"
+    },
+    {
+      "column": 11,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r1"
+    },
+    {
+      "column": 12,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r1"
+    },
+    {
+      "column": 13,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r1"
+    },
+    {
+      "column": 14,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r1"
+    },
+    {
+      "column": 15,
+      "row": 1,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c15r1"
+    },
+    {
+      "column": 16,
+      "row": 1,
+      "candidate_target_fraction": 0.995509,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c16r1"
+    },
+    {
+      "column": 17,
+      "row": 1,
+      "candidate_target_fraction": 0.881006,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c17r1"
+    },
+    {
+      "column": 18,
+      "row": 1,
+      "candidate_target_fraction": 0.719192,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c18r1"
+    },
+    {
+      "column": 19,
+      "row": 1,
+      "candidate_target_fraction": 0.557337,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c19r1"
+    },
+    {
+      "column": 20,
+      "row": 1,
+      "candidate_target_fraction": 0.14682,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c20r1"
+    },
+    {
+      "column": -17,
+      "row": 2,
+      "candidate_target_fraction": 0.332949,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-17r2"
+    },
+    {
+      "column": -16,
+      "row": 2,
+      "candidate_target_fraction": 0.985037,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-16r2"
+    },
+    {
+      "column": -15,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r2"
+    },
+    {
+      "column": -14,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r2"
+    },
+    {
+      "column": -13,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-13r2"
+    },
+    {
+      "column": -12,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-12r2"
+    },
+    {
+      "column": -11,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-11r2"
+    },
+    {
+      "column": -10,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r2"
+    },
+    {
+      "column": -9,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r2"
+    },
+    {
+      "column": -8,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r2"
+    },
+    {
+      "column": -7,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r2"
+    },
+    {
+      "column": -6,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r2"
+    },
+    {
+      "column": -5,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r2"
+    },
+    {
+      "column": -4,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r2"
+    },
+    {
+      "column": -3,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r2"
+    },
+    {
+      "column": -2,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r2"
+    },
+    {
+      "column": -1,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r2"
+    },
+    {
+      "column": 0,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r2"
+    },
+    {
+      "column": 1,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r2"
+    },
+    {
+      "column": 2,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r2"
+    },
+    {
+      "column": 3,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r2"
+    },
+    {
+      "column": 4,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r2"
+    },
+    {
+      "column": 5,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r2"
+    },
+    {
+      "column": 6,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r2"
+    },
+    {
+      "column": 7,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r2"
+    },
+    {
+      "column": 8,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r2"
+    },
+    {
+      "column": 9,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r2"
+    },
+    {
+      "column": 10,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r2"
+    },
+    {
+      "column": 11,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r2"
+    },
+    {
+      "column": 12,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r2"
+    },
+    {
+      "column": 13,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r2"
+    },
+    {
+      "column": 14,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r2"
+    },
+    {
+      "column": 15,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c15r2"
+    },
+    {
+      "column": 16,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c16r2"
+    },
+    {
+      "column": 17,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c17r2"
+    },
+    {
+      "column": 18,
+      "row": 2,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c18r2"
+    },
+    {
+      "column": 19,
+      "row": 2,
+      "candidate_target_fraction": 0.880468,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c19r2"
+    },
+    {
+      "column": 20,
+      "row": 2,
+      "candidate_target_fraction": 0.037082,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c20r2"
+    },
+    {
+      "column": -18,
+      "row": 3,
+      "candidate_target_fraction": 0.002825,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-18r3"
+    },
+    {
+      "column": -17,
+      "row": 3,
+      "candidate_target_fraction": 0.888708,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-17r3"
+    },
+    {
+      "column": -16,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-16r3"
+    },
+    {
+      "column": -15,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r3"
+    },
+    {
+      "column": -14,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r3"
+    },
+    {
+      "column": -13,
+      "row": 3,
+      "candidate_target_fraction": 0.99362,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-13r3"
+    },
+    {
+      "column": -12,
+      "row": 3,
+      "candidate_target_fraction": 0.860188,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-12r3"
+    },
+    {
+      "column": -11,
+      "row": 3,
+      "candidate_target_fraction": 0.822482,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-11r3"
+    },
+    {
+      "column": -10,
+      "row": 3,
+      "candidate_target_fraction": 0.971791,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r3"
+    },
+    {
+      "column": -9,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r3"
+    },
+    {
+      "column": -8,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r3"
+    },
+    {
+      "column": -7,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r3"
+    },
+    {
+      "column": -6,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r3"
+    },
+    {
+      "column": -5,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r3"
+    },
+    {
+      "column": -4,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r3"
+    },
+    {
+      "column": -3,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r3"
+    },
+    {
+      "column": -2,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r3"
+    },
+    {
+      "column": -1,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r3"
+    },
+    {
+      "column": 0,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r3"
+    },
+    {
+      "column": 1,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r3"
+    },
+    {
+      "column": 2,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r3"
+    },
+    {
+      "column": 3,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r3"
+    },
+    {
+      "column": 4,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r3"
+    },
+    {
+      "column": 5,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r3"
+    },
+    {
+      "column": 6,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r3"
+    },
+    {
+      "column": 7,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r3"
+    },
+    {
+      "column": 8,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r3"
+    },
+    {
+      "column": 9,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r3"
+    },
+    {
+      "column": 10,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r3"
+    },
+    {
+      "column": 11,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r3"
+    },
+    {
+      "column": 12,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r3"
+    },
+    {
+      "column": 13,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r3"
+    },
+    {
+      "column": 14,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r3"
+    },
+    {
+      "column": 15,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c15r3"
+    },
+    {
+      "column": 16,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c16r3"
+    },
+    {
+      "column": 17,
+      "row": 3,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c17r3"
+    },
+    {
+      "column": 18,
+      "row": 3,
+      "candidate_target_fraction": 0.994285,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c18r3"
+    },
+    {
+      "column": 19,
+      "row": 3,
+      "candidate_target_fraction": 0.295523,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c19r3"
+    },
+    {
+      "column": -17,
+      "row": 4,
+      "candidate_target_fraction": 0.087077,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-17r4"
+    },
+    {
+      "column": -16,
+      "row": 4,
+      "candidate_target_fraction": 0.810777,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-16r4"
+    },
+    {
+      "column": -15,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r4"
+    },
+    {
+      "column": -14,
+      "row": 4,
+      "candidate_target_fraction": 0.731273,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r4"
+    },
+    {
+      "column": -13,
+      "row": 4,
+      "candidate_target_fraction": 0.295786,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-13r4"
+    },
+    {
+      "column": -10,
+      "row": 4,
+      "candidate_target_fraction": 0.017393,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r4"
+    },
+    {
+      "column": -9,
+      "row": 4,
+      "candidate_target_fraction": 0.763636,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r4"
+    },
+    {
+      "column": -8,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r4"
+    },
+    {
+      "column": -7,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r4"
+    },
+    {
+      "column": -6,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r4"
+    },
+    {
+      "column": -5,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r4"
+    },
+    {
+      "column": -4,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r4"
+    },
+    {
+      "column": -3,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r4"
+    },
+    {
+      "column": -2,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r4"
+    },
+    {
+      "column": -1,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r4"
+    },
+    {
+      "column": 0,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r4"
+    },
+    {
+      "column": 1,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r4"
+    },
+    {
+      "column": 2,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r4"
+    },
+    {
+      "column": 3,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r4"
+    },
+    {
+      "column": 4,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r4"
+    },
+    {
+      "column": 5,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r4"
+    },
+    {
+      "column": 6,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r4"
+    },
+    {
+      "column": 7,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r4"
+    },
+    {
+      "column": 8,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r4"
+    },
+    {
+      "column": 9,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r4"
+    },
+    {
+      "column": 10,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r4"
+    },
+    {
+      "column": 11,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r4"
+    },
+    {
+      "column": 12,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r4"
+    },
+    {
+      "column": 13,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r4"
+    },
+    {
+      "column": 14,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r4"
+    },
+    {
+      "column": 15,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c15r4"
+    },
+    {
+      "column": 16,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c16r4"
+    },
+    {
+      "column": 17,
+      "row": 4,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c17r4"
+    },
+    {
+      "column": 18,
+      "row": 4,
+      "candidate_target_fraction": 0.669846,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c18r4"
+    },
+    {
+      "column": -16,
+      "row": 5,
+      "candidate_target_fraction": 0.123089,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-16r5"
+    },
+    {
+      "column": -15,
+      "row": 5,
+      "candidate_target_fraction": 0.232753,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-15r5"
+    },
+    {
+      "column": -14,
+      "row": 5,
+      "candidate_target_fraction": 0.099044,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-14r5"
+    },
+    {
+      "column": -10,
+      "row": 5,
+      "candidate_target_fraction": 0.015609,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r5"
+    },
+    {
+      "column": -9,
+      "row": 5,
+      "candidate_target_fraction": 0.949453,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r5"
+    },
+    {
+      "column": -8,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r5"
+    },
+    {
+      "column": -7,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r5"
+    },
+    {
+      "column": -6,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r5"
+    },
+    {
+      "column": -5,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r5"
+    },
+    {
+      "column": -4,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r5"
+    },
+    {
+      "column": -3,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r5"
+    },
+    {
+      "column": -2,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r5"
+    },
+    {
+      "column": -1,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r5"
+    },
+    {
+      "column": 0,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r5"
+    },
+    {
+      "column": 1,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r5"
+    },
+    {
+      "column": 2,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r5"
+    },
+    {
+      "column": 3,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r5"
+    },
+    {
+      "column": 4,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r5"
+    },
+    {
+      "column": 5,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r5"
+    },
+    {
+      "column": 6,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r5"
+    },
+    {
+      "column": 7,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r5"
+    },
+    {
+      "column": 8,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r5"
+    },
+    {
+      "column": 9,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r5"
+    },
+    {
+      "column": 10,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r5"
+    },
+    {
+      "column": 11,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r5"
+    },
+    {
+      "column": 12,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r5"
+    },
+    {
+      "column": 13,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r5"
+    },
+    {
+      "column": 14,
+      "row": 5,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r5"
+    },
+    {
+      "column": 15,
+      "row": 5,
+      "candidate_target_fraction": 0.9041,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c15r5"
+    },
+    {
+      "column": 16,
+      "row": 5,
+      "candidate_target_fraction": 0.631711,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c16r5"
+    },
+    {
+      "column": 17,
+      "row": 5,
+      "candidate_target_fraction": 0.419917,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c17r5"
+    },
+    {
+      "column": 18,
+      "row": 5,
+      "candidate_target_fraction": 0.066128,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c18r5"
+    },
+    {
+      "column": -10,
+      "row": 6,
+      "candidate_target_fraction": 0.209731,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r6"
+    },
+    {
+      "column": -9,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r6"
+    },
+    {
+      "column": -8,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r6"
+    },
+    {
+      "column": -7,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r6"
+    },
+    {
+      "column": -6,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r6"
+    },
+    {
+      "column": -5,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r6"
+    },
+    {
+      "column": -4,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r6"
+    },
+    {
+      "column": -3,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r6"
+    },
+    {
+      "column": -2,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r6"
+    },
+    {
+      "column": -1,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r6"
+    },
+    {
+      "column": 0,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r6"
+    },
+    {
+      "column": 1,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r6"
+    },
+    {
+      "column": 2,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r6"
+    },
+    {
+      "column": 3,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r6"
+    },
+    {
+      "column": 4,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r6"
+    },
+    {
+      "column": 5,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r6"
+    },
+    {
+      "column": 6,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r6"
+    },
+    {
+      "column": 7,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r6"
+    },
+    {
+      "column": 8,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r6"
+    },
+    {
+      "column": 9,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r6"
+    },
+    {
+      "column": 10,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r6"
+    },
+    {
+      "column": 11,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r6"
+    },
+    {
+      "column": 12,
+      "row": 6,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r6"
+    },
+    {
+      "column": 13,
+      "row": 6,
+      "candidate_target_fraction": 0.942677,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r6"
+    },
+    {
+      "column": 14,
+      "row": 6,
+      "candidate_target_fraction": 0.541092,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c14r6"
+    },
+    {
+      "column": 15,
+      "row": 6,
+      "candidate_target_fraction": 0.060346,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c15r6"
+    },
+    {
+      "column": -10,
+      "row": 7,
+      "candidate_target_fraction": 0.313229,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-10r7"
+    },
+    {
+      "column": -9,
+      "row": 7,
+      "candidate_target_fraction": 0.904742,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r7"
+    },
+    {
+      "column": -8,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r7"
+    },
+    {
+      "column": -7,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r7"
+    },
+    {
+      "column": -6,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r7"
+    },
+    {
+      "column": -5,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r7"
+    },
+    {
+      "column": -4,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r7"
+    },
+    {
+      "column": -3,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r7"
+    },
+    {
+      "column": -2,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r7"
+    },
+    {
+      "column": -1,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r7"
+    },
+    {
+      "column": 0,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r7"
+    },
+    {
+      "column": 1,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r7"
+    },
+    {
+      "column": 2,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r7"
+    },
+    {
+      "column": 3,
+      "row": 7,
+      "candidate_target_fraction": 0.724606,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r7"
+    },
+    {
+      "column": 4,
+      "row": 7,
+      "candidate_target_fraction": 0.585053,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r7"
+    },
+    {
+      "column": 5,
+      "row": 7,
+      "candidate_target_fraction": 0.924074,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r7"
+    },
+    {
+      "column": 6,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r7"
+    },
+    {
+      "column": 7,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r7"
+    },
+    {
+      "column": 8,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r7"
+    },
+    {
+      "column": 9,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r7"
+    },
+    {
+      "column": 10,
+      "row": 7,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r7"
+    },
+    {
+      "column": 11,
+      "row": 7,
+      "candidate_target_fraction": 0.887658,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r7"
+    },
+    {
+      "column": 12,
+      "row": 7,
+      "candidate_target_fraction": 0.409749,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r7"
+    },
+    {
+      "column": 13,
+      "row": 7,
+      "candidate_target_fraction": 0.046079,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r7"
+    },
+    {
+      "column": -9,
+      "row": 8,
+      "candidate_target_fraction": 0.000475,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-9r8"
+    },
+    {
+      "column": -8,
+      "row": 8,
+      "candidate_target_fraction": 0.135181,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-8r8"
+    },
+    {
+      "column": -7,
+      "row": 8,
+      "candidate_target_fraction": 0.472307,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-7r8"
+    },
+    {
+      "column": -6,
+      "row": 8,
+      "candidate_target_fraction": 0.682439,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-6r8"
+    },
+    {
+      "column": -5,
+      "row": 8,
+      "candidate_target_fraction": 0.907151,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r8"
+    },
+    {
+      "column": -4,
+      "row": 8,
+      "candidate_target_fraction": 0.999625,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r8"
+    },
+    {
+      "column": -3,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r8"
+    },
+    {
+      "column": -2,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r8"
+    },
+    {
+      "column": -1,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r8"
+    },
+    {
+      "column": 0,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r8"
+    },
+    {
+      "column": 1,
+      "row": 8,
+      "candidate_target_fraction": 0.998816,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r8"
+    },
+    {
+      "column": 2,
+      "row": 8,
+      "candidate_target_fraction": 0.582316,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r8"
+    },
+    {
+      "column": 3,
+      "row": 8,
+      "candidate_target_fraction": 0.082712,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c3r8"
+    },
+    {
+      "column": 4,
+      "row": 8,
+      "candidate_target_fraction": 0.000477,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c4r8"
+    },
+    {
+      "column": 5,
+      "row": 8,
+      "candidate_target_fraction": 0.768056,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r8"
+    },
+    {
+      "column": 6,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r8"
+    },
+    {
+      "column": 7,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r8"
+    },
+    {
+      "column": 8,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r8"
+    },
+    {
+      "column": 9,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r8"
+    },
+    {
+      "column": 10,
+      "row": 8,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r8"
+    },
+    {
+      "column": 11,
+      "row": 8,
+      "candidate_target_fraction": 0.973962,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r8"
+    },
+    {
+      "column": 12,
+      "row": 8,
+      "candidate_target_fraction": 0.364804,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r8"
+    },
+    {
+      "column": -5,
+      "row": 9,
+      "candidate_target_fraction": 0.046933,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r9"
+    },
+    {
+      "column": -4,
+      "row": 9,
+      "candidate_target_fraction": 0.944869,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r9"
+    },
+    {
+      "column": -3,
+      "row": 9,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r9"
+    },
+    {
+      "column": -2,
+      "row": 9,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r9"
+    },
+    {
+      "column": -1,
+      "row": 9,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r9"
+    },
+    {
+      "column": 0,
+      "row": 9,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r9"
+    },
+    {
+      "column": 1,
+      "row": 9,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r9"
+    },
+    {
+      "column": 2,
+      "row": 9,
+      "candidate_target_fraction": 0.343465,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r9"
+    },
+    {
+      "column": 5,
+      "row": 9,
+      "candidate_target_fraction": 0.001038,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c5r9"
+    },
+    {
+      "column": 6,
+      "row": 9,
+      "candidate_target_fraction": 0.521682,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r9"
+    },
+    {
+      "column": 7,
+      "row": 9,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r9"
+    },
+    {
+      "column": 8,
+      "row": 9,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r9"
+    },
+    {
+      "column": 9,
+      "row": 9,
+      "candidate_target_fraction": 0.925621,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r9"
+    },
+    {
+      "column": 10,
+      "row": 9,
+      "candidate_target_fraction": 0.68268,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c10r9"
+    },
+    {
+      "column": 11,
+      "row": 9,
+      "candidate_target_fraction": 0.727047,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r9"
+    },
+    {
+      "column": 12,
+      "row": 9,
+      "candidate_target_fraction": 0.997638,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r9"
+    },
+    {
+      "column": 13,
+      "row": 9,
+      "candidate_target_fraction": 0.474836,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r9"
+    },
+    {
+      "column": -5,
+      "row": 10,
+      "candidate_target_fraction": 0.064392,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-5r10"
+    },
+    {
+      "column": -4,
+      "row": 10,
+      "candidate_target_fraction": 0.255186,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-4r10"
+    },
+    {
+      "column": -3,
+      "row": 10,
+      "candidate_target_fraction": 0.366885,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-3r10"
+    },
+    {
+      "column": -2,
+      "row": 10,
+      "candidate_target_fraction": 0.91192,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r10"
+    },
+    {
+      "column": -1,
+      "row": 10,
+      "candidate_target_fraction": 0.994222,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r10"
+    },
+    {
+      "column": 0,
+      "row": 10,
+      "candidate_target_fraction": 0.712028,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c0r10"
+    },
+    {
+      "column": 1,
+      "row": 10,
+      "candidate_target_fraction": 0.682372,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c1r10"
+    },
+    {
+      "column": 2,
+      "row": 10,
+      "candidate_target_fraction": 0.02122,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c2r10"
+    },
+    {
+      "column": 6,
+      "row": 10,
+      "candidate_target_fraction": 0.497245,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r10"
+    },
+    {
+      "column": 7,
+      "row": 10,
+      "candidate_target_fraction": 1.0,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r10"
+    },
+    {
+      "column": 8,
+      "row": 10,
+      "candidate_target_fraction": 0.802264,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r10"
+    },
+    {
+      "column": 9,
+      "row": 10,
+      "candidate_target_fraction": 0.006466,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r10"
+    },
+    {
+      "column": 11,
+      "row": 10,
+      "candidate_target_fraction": 0.026152,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c11r10"
+    },
+    {
+      "column": 12,
+      "row": 10,
+      "candidate_target_fraction": 0.735727,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r10"
+    },
+    {
+      "column": 13,
+      "row": 10,
+      "candidate_target_fraction": 0.456229,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r10"
+    },
+    {
+      "column": -2,
+      "row": 11,
+      "candidate_target_fraction": 0.000511,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-2r11"
+    },
+    {
+      "column": -1,
+      "row": 11,
+      "candidate_target_fraction": 0.018528,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c-1r11"
+    },
+    {
+      "column": 6,
+      "row": 11,
+      "candidate_target_fraction": 0.010585,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c6r11"
+    },
+    {
+      "column": 7,
+      "row": 11,
+      "candidate_target_fraction": 0.938897,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r11"
+    },
+    {
+      "column": 8,
+      "row": 11,
+      "candidate_target_fraction": 0.998297,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r11"
+    },
+    {
+      "column": 9,
+      "row": 11,
+      "candidate_target_fraction": 0.170459,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r11"
+    },
+    {
+      "column": 12,
+      "row": 11,
+      "candidate_target_fraction": 0.026745,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c12r11"
+    },
+    {
+      "column": 13,
+      "row": 11,
+      "candidate_target_fraction": 0.005091,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c13r11"
+    },
+    {
+      "column": 7,
+      "row": 12,
+      "candidate_target_fraction": 0.237254,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c7r12"
+    },
+    {
+      "column": 8,
+      "row": 12,
+      "candidate_target_fraction": 0.243305,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c8r12"
+    },
+    {
+      "column": 9,
+      "row": 12,
+      "candidate_target_fraction": 0.073176,
+      "art_status": "not-started",
+      "published_fraction": 0.0,
+      "reference_status": "not-citywide-currentness-checked",
+      "id": "c9r12"
+    }
+  ],
+  "published_ground_envelope_km2": 0.863094830733859,
+  "published_revision": "see containing repository commit",
+  "neighborhood_inventory": [
+    {
+      "name": "El Pilar",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Cañicas - Canal de María Cristina",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Carretas - Huerta de Marzo",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "La Estrella",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Fátima",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Feria",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Franciscanos",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Hermanos Falcó",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Hospital",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Industria",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "La Milagrosa",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Los Llanos",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Medicina",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "La Pajarita",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Parque Sur",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Pedro Lamata",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Polígono San Antón",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "San Antonio Abad",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "San Pablo",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "San Pedro - Mortero",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Santa Teresa",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Sepulcro - Bolera",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Universidad",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Vereda",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    },
+    {
+      "name": "Villacerrada - Centro",
+      "source_year": 2016,
+      "boundary_status": "official raster inspected; not individually digitized",
+      "coverage_status": "not measured by neighborhood"
+    }
+  ],
+  "municipal_planning_components": [
+    {
+      "id": "siu-284fa9ac3827",
+      "area_km2": 8.781388,
+      "centroid_utm25830": [
+        598736.5,
+        4316641.3
+      ],
+      "published_intersection_km2": 0.863095,
+      "role": "principal planning component; incomplete city candidate"
+    },
+    {
+      "id": "siu-9a67cefef1c5",
+      "area_km2": 3.14347,
+      "centroid_utm25830": [
+        596808.7,
+        4319234.9
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-39bf18992a71",
+      "area_km2": 1.529546,
+      "centroid_utm25830": [
+        600802.7,
+        4331439.2
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-60e994219485",
+      "area_km2": 0.676903,
+      "centroid_utm25830": [
+        593606.0,
+        4308319.9
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-67aee221e88f",
+      "area_km2": 0.588818,
+      "centroid_utm25830": [
+        595222.4,
+        4315799.7
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-6d3bf23fa398",
+      "area_km2": 0.492535,
+      "centroid_utm25830": [
+        592862.1,
+        4312378.1
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-d2890f874cb4",
+      "area_km2": 0.450705,
+      "centroid_utm25830": [
+        595758.5,
+        4308717.2
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-300e9ac1f5b7",
+      "area_km2": 0.369198,
+      "centroid_utm25830": [
+        593440.5,
+        4302614.2
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-83f08b49e8a4",
+      "area_km2": 0.330627,
+      "centroid_utm25830": [
+        587593.2,
+        4306662.4
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-7a30fa5e4e7e",
+      "area_km2": 0.320852,
+      "centroid_utm25830": [
+        598954.6,
+        4319692.4
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-6a524357ec86",
+      "area_km2": 0.282956,
+      "centroid_utm25830": [
+        589550.6,
+        4308118.1
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-71398783cfbd",
+      "area_km2": 0.250967,
+      "centroid_utm25830": [
+        600142.7,
+        4321234.9
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-121be7609003",
+      "area_km2": 0.20301,
+      "centroid_utm25830": [
+        599874.7,
+        4313783.8
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-38d11e31f17a",
+      "area_km2": 0.17116,
+      "centroid_utm25830": [
+        584423.5,
+        4300813.2
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-e107f8c24eea",
+      "area_km2": 0.140166,
+      "centroid_utm25830": [
+        592044.8,
+        4323961.8
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-1769065780a3",
+      "area_km2": 0.127777,
+      "centroid_utm25830": [
+        599832.5,
+        4321085.2
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-6369cb6483d3",
+      "area_km2": 0.112153,
+      "centroid_utm25830": [
+        608664.0,
+        4325109.8
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-9f440174313e",
+      "area_km2": 0.106912,
+      "centroid_utm25830": [
+        594896.6,
+        4306440.8
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-34197c3b9233",
+      "area_km2": 0.079505,
+      "centroid_utm25830": [
+        600253.0,
+        4320245.0
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-07f225cb55d9",
+      "area_km2": 0.073789,
+      "centroid_utm25830": [
+        590023.7,
+        4299264.1
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-e2cc7c4e475c",
+      "area_km2": 0.05998,
+      "centroid_utm25830": [
+        601750.4,
+        4291210.6
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-c2fb96739579",
+      "area_km2": 0.039075,
+      "centroid_utm25830": [
+        604418.6,
+        4287534.6
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-1a12b60b6707",
+      "area_km2": 0.029257,
+      "centroid_utm25830": [
+        605958.9,
+        4289746.7
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-2769c3bbfd16",
+      "area_km2": 0.026812,
+      "centroid_utm25830": [
+        617026.2,
+        4284963.3
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-e9bc9be22f95",
+      "area_km2": 0.02521,
+      "centroid_utm25830": [
+        586642.1,
+        4306660.3
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-9124c51cbdfe",
+      "area_km2": 0.019133,
+      "centroid_utm25830": [
+        604349.7,
+        4288179.5
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-1d39c0c9fb82",
+      "area_km2": 0.016208,
+      "centroid_utm25830": [
+        599063.3,
+        4319222.1
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-5038b7cb450c",
+      "area_km2": 0.01048,
+      "centroid_utm25830": [
+        595128.6,
+        4315302.5
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-cfa5cb198ff0",
+      "area_km2": 0.007752,
+      "centroid_utm25830": [
+        595360.1,
+        4315436.1
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    },
+    {
+      "id": "siu-d0420667ff28",
+      "area_km2": 0.000149,
+      "centroid_utm25830": [
+        593555.6,
+        4302102.3
+      ],
+      "published_intersection_km2": 0.0,
+      "role": "separate component; place/scope not yet classified"
+    }
+  ],
+  "exterior_inventory": [
+    {
+      "name": "Campollano",
+      "status": "explicitly pending extent and scope review; not silently excluded",
+      "source": "municipal economic infrastructure directory"
+    },
+    {
+      "name": "Romica",
+      "status": "explicitly pending extent and scope review; not silently excluded",
+      "source": "municipal economic infrastructure directory"
+    },
+    {
+      "name": "Parque Empresarial Ajusa",
+      "status": "explicitly pending extent and scope review; not silently excluded",
+      "source": "municipal economic infrastructure directory"
+    },
+    {
+      "name": "Parque Aeronáutico y Logístico",
+      "status": "explicitly pending extent and scope review; not silently excluded",
+      "source": "municipal economic infrastructure directory"
+    },
+    {
+      "name": "Rural settlements and pedanías",
+      "status": "separate municipal outcome, not equated to principal casco urbano; scope unresolved"
+    }
+  ],
+  "sources": [
+    "https://www.albacete.es/es/ciudad/cartoteca/divisiones-administrativas",
+    "https://aytoab365-my.sharepoint.com/:f:/g/personal/ayuntamiento_albacete_es/ElE9CmKfrRRPgZLkaFcnYqcBpIWlL8wooRP--SmTUHhllw?e=NYeWkf",
+    "https://mapas.fomento.gob.es/arcgis/rest/services/SIU/CLASES_DE_SUELO/MapServer/0",
+    "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+    "https://www.albacete.es/es/empleo-promocion-economica/promocion-economica/infraestructuras-para-actividad-economica"
+  ],
+  "limitations": [
+    "No city completion percentage: target mask still being contrasted.",
+    "Main SIU component alone omits parks, portions of2016neighborhoods and peripheral areas.",
+    "2016neighborhood map is historical administrative evidence, not2026footprint.",
+    "PNOAdateJuly2024was checked at one point only, not across the city.",
+    "Published coverage describes a fixed-camera ground-plane envelope, not certified current facades."
+  ]
+}

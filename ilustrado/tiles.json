@@ -13,7 +13,8 @@
     "x": -0.25,
     "y": 0,
     "width": 1.75,
-    "height": 1.25
+    "height": 1.25,
+    "pyramid": "comparison.dzi"
   },
   "tiles": [
     {
@@ -80,5 +81,12 @@
       "width": 0.25,
       "height": 1.25
     }
-  ]
+  ],
+  "display": {
+    "url": "atlas.dzi",
+    "x": -0.25,
+    "y": 0,
+    "width": 1.75,
+    "height": 1.25
+  }
 }
