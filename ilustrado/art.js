@@ -1,10 +1,10 @@
 (()=>{
 'use strict';
 const $=id=>document.getElementById(id),q=new URLSearchParams(location.search);
-const urls={entorno:'entorno.webp',catedral:'catedral.webp',base:'base-right2.webp'};
+const urls={entorno:'entorno.webp',catedral:'catedral.webp',base:'base-bottom2.webp'};
 let restoreBounds=null;
 let view=q.get('v')==='catedral'?'catedral':'entorno',loading=true,first=true,timer;
-function source(v){return v==='entorno'?[{tileSource:{type:'image',url:urls.entorno},x:0,y:0,width:.75},{tileSource:{type:'image',url:'east.webp'},x:.75,y:0,width:.25},{tileSource:{type:'image',url:'bottom.webp'},x:0,y:.5,width:1},{tileSource:{type:'image',url:'right2.webp'},x:1,y:0,width:.25}]:v==='base'?[{tileSource:{type:'image',url:urls[v]},x:0,y:0,width:1.25}]:{type:'image',url:urls[v]};}
+function source(v){return v==='entorno'?[{tileSource:{type:'image',url:urls.entorno},x:0,y:0,width:.75},{tileSource:{type:'image',url:'east.webp'},x:.75,y:0,width:.25},{tileSource:{type:'image',url:'bottom.webp'},x:0,y:.5,width:1},{tileSource:{type:'image',url:'right2.webp'},x:1,y:0,width:.25},{tileSource:{type:'image',url:'bottom2.webp'},x:0,y:.75,width:1.25}]:v==='base'?[{tileSource:{type:'image',url:urls[v]},x:0,y:0,width:1.25}]:{type:'image',url:urls[v]};}
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const viewer=OpenSeadragon({id:'map',prefixUrl:'',showNavigationControl:false,showNavigator:false,animationTime:reduced?0:.55,blendTime:0,zoomPerScroll:1.3,zoomPerClick:1.8,minZoomImageRatio:.65,maxZoomPixelRatio:2.4,visibilityRatio:.55,constrainDuringPan:true,gestureSettingsMouse:{clickToZoom:false,dblClickToZoom:true,flickEnabled:true},gestureSettingsTouch:{pinchRotate:false,dblClickToZoom:true,flickEnabled:true},tileSources:source(view)});
 function labels(){ $('surround').setAttribute('aria-pressed',view!=='catedral');$('cathedral').setAttribute('aria-pressed',view==='catedral');$('compare').setAttribute('aria-pressed',view==='base');$('compare').textContent=view==='base'?'Volver al entorno ilustrado':'Ver base geométrica del entorno';$('coverage').textContent=view==='catedral'?'Catedral · detalle artístico separado':view==='base'?'Base geométrica · alturas estimadas':'Catedral - Altozano · ilustración interpretativa';document.title='Tiny Albacete · '+(view==='catedral'?'Catedral ilustrada':'Entorno ilustrado'); }

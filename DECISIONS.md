@@ -128,3 +128,13 @@ QA rejected an enlarged gold/blue invented dome near the largely occluded Perona
 Add512x1536right-hand strip, total2560x1536, placed at world x1,y0,width.25. Keep world units anchored to2048pixels rather than re-normalizing old coordinates on every expansion. Expanded comparison is width1.25 in the same world frame; URL restoration now accepts x through1.25. All previous illustration files and production3D remain byte-identical.
 
 Local geometry base expands southward with843additional source records from municipal GML,5046records total/5030rendered context parts. Reprojected expanded crop matches previous base RMS0.59/255before extension; this verifies camera registration, not artistic parcel fidelity. Existing bounded OSM street source covers the added strip; road widths remain estimated. Generated ordinary building facades use already-documented local conventions, no new monument identification. New strip is interpreted, not new measured architecture. Reviewed full scene and vertical join for roof, wall and street continuity. No billing or paid resources enabled.
+
+
+## 2026-11-16 · second lower contiguous illustrated strip
+
+Add2560x512at world(0,.75),width1.25. Total atlas2560x2048. Source base extended with1433additional municipal building-part records,6479total,6463rendered context parts. Same local UTM frame and existing OSM street extract. Camera overlap RMS<=.53/255per channel against prior base, no map-wide accuracy claim. Ordinary facades remain interpreted, not an inventory. Existing five illustration assets and rotating3D preserved unchanged. Fine-detail pass is applied only within the added region. Archive updated with source snapshot and repeatable camera/base instructions. No billing or paid resources enabled.
+
+
+## Requested next phase,16November2026,12:25Europe/Madrid
+
+After this illustrated quality is extended across the city, Rafa requests a whole-city reference pass to bring it close to the current real appearance. His approved routes include photographs, Google Maps and other suitable visual references. Preserve the explicit order: artistic extension first, current-reality fidelity pass second. Reference dates, observed features and inferred details must stay distinct; an old photograph is not evidence of current appearance. This does not replace the approved artistic direction or promise an exact replica. Keep0EUR/no billing/no third-party contact constraints. A visual reference can inform interpretation; do not copy third-party imagery,3D or textures into the delivered map without compatible rights.
