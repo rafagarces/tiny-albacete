@@ -46,6 +46,9 @@ for b in parts:
  if cx < -300 or cx > 250 or abs(cy)>250 or b['area']<18:continue
  col=palette[int(catparse.h01(b['id'])*len(palette))%len(palette)]
  h=min(50,max(3,b['floors']*3+2)) if b['floors']>0 else 9
+ if b['id']=='9470007WJ9197A_part6':
+  h=18.6
+  pts=[q for p in pts for q in ([(176.1,-125.9),(171.6,-126.5)] if p==[173.6,-124.5] else [p])]
  if b['id'] in ['8971009WJ9187B_part2','8971009WJ9187B_part7','8971009WJ9187B_part4']:h=8.7
  # Front coarse mass adjusted to match documented facade proportions; still estimated.
  if b['id']=='9371110WJ9197A_part4':h=11.2
@@ -86,6 +89,8 @@ for f in json.load(open(ROOT/'pilots/diputacion-3d/model.json')):
 ang=math.atan2(.1,-24);ca,sa=math.cos(ang),math.sin(ang)
 for f in json.load(open(ROOT/'pilots/perona-3d/model.json')):
  face([[ca*x-sa*y-239.5,sa*x+ca*y+11.2,z]for x,y,z in f['v']],f['c'],f['kind'])
+# Gran Hotel uses global EN positions registered against its cadastral street edges.
+for f in json.load(open(ROOT/'pilots/granhotel-3d/model.json')):face(f['v'],f['c'],f['kind'])
 (ROOT/'zona-catedral/model.json').write_text(json.dumps(out,separators=(',',':')))
 (ROOT/'zona-catedral/stats.json').write_text(json.dumps({'buildingParts':count,'roads':roads,'faces':len(out),'extentMeters':550,'generated':'2026-11-16','cathedralRegistration':'approximate rotation-24deg, offset(-13.1,6.7)m; not a surveyed alignment'}))
 print(count,'parts',roads,'roads',len(out),'faces')

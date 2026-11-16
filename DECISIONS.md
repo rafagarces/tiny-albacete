@@ -69,3 +69,7 @@ Two documented facades and blue/white dome interpreted from free photos; no clai
 
 ## 2026-11-16 · Navigation consistency
 Landmark selection updates the shareable URL and accessible canvas label as well as visible title. Explicit Cathedral links enter the close view. Escape closes information; desktop helper explains Shift-drag panning rather than touch gestures. A ground-shadow experiment was kept out of production pending physical-device performance evidence.
+
+## 2026-11-16 Gran Hotel parcial
+El Gran Hotel incorpora dos frentes parciales y su chaflán: tres cupulillas azules con linternas, ático con parejas de ventanas y jerarquía de balcones documentados. Geometría, alturas, chaflán y ubicación de cúpulas estimados. Planta baja simplificada, sin comercios ni detalle de talla. No se reconstruyen el tercer lienzo de Marqués de Molins, patio, interior ni fachadas ocultas.
+Catastro9470007WJ9197A y DOCM2019. Dos frentes registrados, pequeño chaflán estimado sustituye esquina generalizada; tercer lienzo no añadido sin registro suficiente. Fotos libres2008/2009/2017/publicación2020 con licencias atribuidas.3007caras originales, no texturas. Contexto general y mapa anterior conservados.
