@@ -25,6 +25,18 @@ LID=re.compile(r'<base:localId>([^<]+)</base:localId>')
 FLOORS=re.compile(r'<bu-ext2d:numberOfFloorsAboveGround>(\d+)<')
 USE=re.compile(r'<bu-ext2d:currentUse>([^<]+)<')
 
+def interior_rings(member):
+    """Preserve every interior GML ring in the same 0.1 m local UTM frame."""
+    rings=[]
+    for interior in re.findall(r'<gml:interior>(.*?)</gml:interior>', member, re.S):
+        for text in POS.findall(interior):
+            nums=list(map(float,text.split()));pts=[]
+            for a,b in zip(nums[::2],nums[1::2]):
+                x,y=utm_to_en(b,a) if abs(a)>10000 else to_en(a,b)
+                pts.append([round(x,1),round(y,1)])
+            if len(pts)>=4:rings.append(pts)
+    return rings
+
 def stream_members(path):
     buf=''
     with open(path,encoding='utf-8',errors='replace') as f:
@@ -64,7 +76,7 @@ def parse(path,want_use):
             um=USE.search(m); use=um.group(1) if um else ''
         xs=[p[0] for p in pts]; ys=[p[1] for p in pts]
         out.append({'id':lid.group(1),'pts':[[round(x,1),round(y,1)] for x,y in pts],
-                    'floors':floors,'use':use,'area':round(area,1)})
+                    'floors':floors,'use':use,'area':round(area,1),'holes':interior_rings(m)})
     return out
 
 if __name__=='__main__':

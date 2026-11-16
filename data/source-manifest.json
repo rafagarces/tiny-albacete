@@ -1,0 +1,9 @@
+{
+  "source": "https://www.catastro.hacienda.gob.es/INSPIRE/Buildings/02/02900-ALBACETE/A.ES.SDGC.BU.02900.zip",
+  "snapshotDownloaded": "2026-11-16",
+  "buildingpartGmlSha256": "b65e35a687ebdbe14e06d314699d380abae83a6536b013b65f9b3d2cb443e047",
+  "boundedRecords": 1362,
+  "recordsWithInteriorRings": 85,
+  "interiorRings": 119,
+  "normalizedInputSha256": "23bec432470ecb7b83f3d478a3b604d8c5fff5851a782343f9b8b6aacf39526c"
+}

@@ -12,8 +12,8 @@ from local_frame import to_local
 out=[]
 def face(v,c,kind='context-estimated'):
  out.append({'v':v,'c':c,'kind':kind})
-def flat(pts,z,col,kind='context-estimated'):
- p=Polygon(pts)
+def flat(pts,z,col,kind='context-estimated',holes=None):
+ p=Polygon(pts,holes)
  if not p.is_valid:p=p.buffer(0)
  if kind.startswith('osm'):p=p.intersection(box(-310,-255,255,255))
  if p.geom_type not in ('Polygon','MultiPolygon'):return
@@ -68,10 +68,11 @@ for b in parts:
     face([[*a,ha],[*B,hb],[163.45,52.30,21.2]],'#9a9f89','pnoa2017-cone-fit')
     face([[*a,0],[*B,0],[*B,hb],[*a,ha]],col,'pnoa2017-roof-reference')
  else:
-  flat(pts,h,'#c6b5a0')
-  for a,B in zip(pts,pts[1:]+pts[:1]):
-   if a==B:continue
-   face([[*a,0],[*B,0],[*B,h],[*a,h]],col)
+  flat(pts,h,'#c6b5a0',holes=b.get('holes'))
+  for ring in [pts]+b.get('holes',[]):
+   for a,B in zip(ring,ring[1:]+ring[:1]):
+    if a==B:continue
+    face([[*a,0],[*B,0],[*B,h],[*a,h]],col)
  # No invented windows/balconies/chimneys. Restrained cornice as artistic edge.
  count+=1
 # Replace ALL cadastral Cathedral parts, not a duplicate overlay. Approximate registration.

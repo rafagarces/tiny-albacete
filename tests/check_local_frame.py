@@ -1,5 +1,5 @@
 """Independent frame consistency and transformed footprint regression."""
-import sys,json
+import sys,json,hashlib
 from pathlib import Path
 import numpy as np
 from pyproj import Transformer
@@ -19,3 +19,11 @@ assert len(samples)==274 and all(p.buffer(-.999).covers(Point(x,y))for x,y in sa
 res=21.18969574-.5046525*np.hypot(samples[:,0]-163.45082123,samples[:,1]-52.29728775)-samples[:,2]
 assert abs(np.median(abs(res))-.26748575)<1e-5
 print('Shared-frame roundtrip and274roof sample checks passed')
+
+assert sum(len(b.get('holes',[]))for b in parts)==119
+assert sum(bool(b.get('holes'))for b in parts)==85
+manifest=json.loads((ROOT/'data/source-manifest.json').read_text())
+assert hashlib.sha256((ROOT/'data/zone-building-parts.json').read_bytes()).hexdigest()==manifest['normalizedInputSha256']
+for b in parts:
+ if b.get('holes'):assert Polygon(b['pts'],b['holes']).is_valid,b['id']
+print('Source snapshot checksum and119interior rings passed')
