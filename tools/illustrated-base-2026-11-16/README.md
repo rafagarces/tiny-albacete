@@ -144,3 +144,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## right10
 
 9216x8192px, bounds[-1.25, -1.25, 3.25, 2.75]. Source records26130, renderedparts26114, roadways16651, faces769649, OSMelements18749. Contiguous city-core extension. PNOA July2024 three-point date check and same-camera reference preflight preserve dry vacant ground and low flat institutional sites; no2026facade claim. Seven overlapping panels visually checked, previous29art sources preserved.
+
+
+## right11
+
+9728x8192px, bounds[-1.25, -1.25, 3.5, 2.75]. Source records26589, renderedparts26573, roadways16651, faces780185, OSMelements18749. Contiguous city-core extension. PNOA July2024 same-camera preflight retains low flat grey institutional roofs, dry vacant lots and construction. Seven overlapping panels and seams visually checked; previous30art sources preserved. No2026facade claim.

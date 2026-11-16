@@ -289,3 +289,8 @@ Continue the contiguous Albacete city core. No pedanias or automatic detached in
 ## 2026-11-16 right10
 
 Append tile at(3.0,-1.25),size(0.25,4.0),total9216x8192,approx7.102km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city-core extension. PNOA July2024 three-point date check and same-camera reference preflight preserve dry vacant ground and low flat institutional sites; no2026facade claim. Seven overlapping panels visually checked, previous29art sources preserved.
+
+
+## 2026-11-16 right11
+
+Append tile at(3.25,-1.25),size(0.25,4.0),total9728x8192,approx7.497km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city-core extension. PNOA July2024 same-camera preflight retains low flat grey institutional roofs, dry vacant lots and construction. Seven overlapping panels and seams visually checked; previous30art sources preserved. No2026facade claim.
