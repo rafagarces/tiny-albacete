@@ -284,3 +284,8 @@ Append tile at(2.75,-1.25),size(0.25,4.0),total8704x8192,approx6.707km2 grounden
 ## 2026-11-16 active city-only scope
 
 Continue the contiguous Albacete city core. No pedanias or automatic detached industrial/park additions. Prior source inventories stay available as evidence, not additional obligations. Administrative neighborhood/planning candidates do not require filling every polygon. Existing art, general map and rotating3D remain intact.
+
+
+## 2026-11-16 right10
+
+Append tile at(3.0,-1.25),size(0.25,4.0),total9216x8192,approx7.102km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city-core extension. PNOA July2024 three-point date check and same-camera reference preflight preserve dry vacant ground and low flat institutional sites; no2026facade claim. Seven overlapping panels visually checked, previous29art sources preserved.
