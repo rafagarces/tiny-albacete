@@ -3,16 +3,16 @@
   "units": "one world unit = 2048 atlas pixels",
   "url_revision": 2,
   "bounds": {
-    "minX": -1.25,
+    "minX": -1.5,
     "minY": -1.25,
     "maxX": 3.5,
     "maxY": 2.75
   },
   "comparison": {
-    "url": "base-right11.webp",
-    "x": -1.25,
+    "url": "base-left6.webp",
+    "x": -1.5,
     "y": -1.25,
-    "width": 4.75,
+    "width": 5.0,
     "height": 4.0,
     "pyramid": "comparison.dzi"
   },
@@ -264,14 +264,22 @@
       "y": -1.25,
       "width": 0.25,
       "height": 4.0
+    },
+    {
+      "id": "left6",
+      "url": "left6.webp",
+      "x": -1.5,
+      "y": -1.25,
+      "width": 0.25,
+      "height": 4.0
     }
   ],
   "display": {
     "url": "atlas.dzi",
-    "x": -1.25,
+    "x": -1.5,
     "y": -1.25,
-    "width": 4.75,
+    "width": 5.0,
     "height": 4.0
   },
-  "asset_revision": "e7716b3232df6536"
+  "asset_revision": "452b89c3151d6da7"
 }

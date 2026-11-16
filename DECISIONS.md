@@ -294,3 +294,8 @@ Append tile at(3.0,-1.25),size(0.25,4.0),total9216x8192,approx7.102km2 groundenv
 ## 2026-11-16 right11
 
 Append tile at(3.25,-1.25),size(0.25,4.0),total9728x8192,approx7.497km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city-core extension. PNOA July2024 same-camera preflight retains low flat grey institutional roofs, dry vacant lots and construction. Seven overlapping panels and seams visually checked; previous30art sources preserved. No2026facade claim.
+
+
+## 2026-11-16 left6
+
+Append tile at(-1.5,-1.25),size(0.25,4.0),total10240x8192,approx7.891km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city-core extension using existing model sources. PNOA July2024 same-camera preflight, railway fan, irregular central blocks and paved feria forecourt. Seven overlapping panels and joins visually checked, previous31art sources preserved. No2026facade claim.

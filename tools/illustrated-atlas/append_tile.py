@@ -16,7 +16,7 @@ for i,t in enumerate(cat['tiles']):
  area+=t['width']*t['height']
  for u in cat['tiles'][:i]:assert min(t['x']+t['width'],u['x']+u['width'])<=max(t['x'],u['x'])or min(t['y']+t['height'],u['y']+u['height'])<=max(t['y'],u['y'])
 assert abs(area-(b['maxX']-b['minX'])*(b['maxY']-b['minY']))<1e-8
-base='base-'+a.id+'.webp';Image.open(a.base).convert('RGB').save(ill/base,quality=88,method=6);cat['comparison'].update(url=base,x=b['minX'],y=b['minY'],width=b['maxX']-b['minX'],height=b['maxY']-b['minY']);cat['display'].update(x=b['minX'],y=b['minY'],width=b['maxX']-b['minX'],height=b['maxY']-b['minY']);(ill/'tiles.json').write_text(json.dumps(cat,indent=2)+'\n')
+base='base-'+a.id+'.webp';Image.open(a.base).convert('RGB').save(ill/base,quality=78,method=4);cat['comparison'].update(url=base,x=b['minX'],y=b['minY'],width=b['maxX']-b['minX'],height=b['maxY']-b['minY']);cat['display'].update(x=b['minX'],y=b['minY'],width=b['maxX']-b['minX'],height=b['maxY']-b['minY']);(ill/'tiles.json').write_text(json.dumps(cat,indent=2)+'\n')
 p=ill/'art.js';s=p.read_text();i=s.index('const fallback=');j=s.index('\nlet atlas=',i);p.write_text(s[:i]+'const fallback='+json.dumps(cat,separators=(',',':'))+';'+s[j:]);p=ill/'asset-manifest.json';m=json.loads(p.read_text());m['atlas'].update(width=W,height=H,world_bounds=[b['minX'],b['minY'],b['maxX'],b['maxY']])
 for n in[tile['url'],base]:
  raw=(ill/n).read_bytes();m['files'].append({'name':n,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()})
