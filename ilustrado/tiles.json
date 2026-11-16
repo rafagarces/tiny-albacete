@@ -6,14 +6,14 @@
     "minX": -0.5,
     "minY": -0.5,
     "maxX": 1.5,
-    "maxY": 1.5
+    "maxY": 1.75
   },
   "comparison": {
-    "url": "base-left2.webp",
+    "url": "base-bottom5.webp",
     "x": -0.5,
     "y": -0.5,
-    "width": 2,
-    "height": 2,
+    "width": 2.0,
+    "height": 2.25,
     "pyramid": "comparison.dzi"
   },
   "tiles": [
@@ -112,13 +112,21 @@
       "y": -0.5,
       "width": 0.25,
       "height": 2
+    },
+    {
+      "id": "bottom5",
+      "url": "bottom5.webp",
+      "x": -0.5,
+      "y": 1.5,
+      "width": 2.0,
+      "height": 0.25
     }
   ],
   "display": {
     "url": "atlas.dzi",
     "x": -0.5,
     "y": -0.5,
-    "width": 2,
-    "height": 2
+    "width": 2.0,
+    "height": 2.25
   }
 }

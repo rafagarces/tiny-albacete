@@ -184,3 +184,8 @@ Add3584x512atworld(-.25,-.5),total3584x4096,approx1.381km2groundenvelope. Origin
 ##2026-11-16 second left strip
 
 Add512x4096atworld(-.5,-.5),total4096x4096,approx1.578km2groundenvelope. Originalartandcoordinatesunchanged. Fourgeometry-guidedpanels, no current-facadeclaim.0EUR,no billing,no contact. Internalprogressonlyuntilcitycomplete.
+
+
+## 2026-11-16 bottom5
+
+Append tile at(-0.5,1.5),size(2.0,0.25),total4096x4608,approx1.776km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Capture4096x4608,scale531,focus(-268.88441051,-183.44623608),angle-154,tilt.60. ExistingbaseoverlapRMS<=1.766/255. Fourgeometry-guidedpanels.

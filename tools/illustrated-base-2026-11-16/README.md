@@ -54,3 +54,8 @@ Atlasbounds[-.25,-.5,1.5,1.5],3584x4096pixels. Add3584x512atworld(-.25,-.5). Cap
 ## Second left strip
 
 Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Capture4096x4096,scale472,focus(-174.96861205,-137.64044059),sameangle-154/tilt.60. Source14303records/14287renderedparts,5020OSMelements/4944roadways/418189faces. Sourcegeometrynotcertifiedfacades. ExistingbaseoverlapRMS<=2.920/255perchannel. New OSMapi reads archived with source URLs.
+
+
+## bottom5
+
+4096x4608px, bounds[-0.5, -0.5, 1.5, 1.75]. Source records15547, renderedparts15531, roadways5451, faces451721, OSMelements5529. Capture4096x4608,scale531,focus(-268.88441051,-183.44623608),angle-154,tilt.60. ExistingbaseoverlapRMS<=1.766/255. Fourgeometry-guidedpanels.
