@@ -224,3 +224,8 @@ Append tile at(-0.75,1.75),size(2.5,0.25),total5120x5632,approx2.713km2 grounden
 ## 2026-11-16 right5
 
 Append tile at(1.75,-0.75),size(0.25,2.75),total5632x5632,approx2.984km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Five overlap-aligned right panels. Existing source pixels unchanged. Same municipal/OSM geometry extent adequate for strip; capture uses narrow viewport to avoid WebGLcontextloss above31millionpixels. Rounded central Romica PNOAsample confirmsJuly2024/25cm, no2026currentnessclaim.
+
+
+## 2026-11-16 top4
+
+Append tile at(-0.75,-1.0),size(2.75,0.25),total5632x6144,approx3.255km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Five top panels. Empty outer land preserved. Fixed projection narrow5632x1024capture,overlapRMS<=3.04includingnewgeometry. Previous artwork pixels untouched. Bpaneltimeoutrecoveredaftertwomissingfilechecks. No2026currentfacadeclaim.

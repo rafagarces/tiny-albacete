@@ -84,3 +84,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## right5
 
 5632x5632px, bounds[-0.75, -0.75, 2.0, 2.0]. Source records17674, renderedparts17658, roadways7548, faces527285, OSMelements8227. Five overlap-aligned right panels. Existing source pixels unchanged. Same municipal/OSM geometry extent adequate for strip; capture uses narrow viewport to avoid WebGLcontextloss above31millionpixels. Rounded central Romica PNOAsample confirmsJuly2024/25cm, no2026currentnessclaim.
+
+
+## top4
+
+5632x6144px, bounds[-0.75, -1.0, 2.0, 2.0]. Source records18155, renderedparts18139, roadways7637, faces536752, OSMelements8336. Five top panels. Empty outer land preserved. Fixed projection narrow5632x1024capture,overlapRMS<=3.04includingnewgeometry. Previous artwork pixels untouched. Bpaneltimeoutrecoveredaftertwomissingfilechecks. No2026currentfacadeclaim.
