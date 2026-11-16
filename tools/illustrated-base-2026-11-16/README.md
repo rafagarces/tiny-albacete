@@ -114,3 +114,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## left5
 
 7168x7168px, bounds[-1.25, -1.25, 2.25, 2.25]. Source records21824, renderedparts21808, roadways16651, faces656611, OSMelements18575. Seven aligned panels with regional roads and507 additional cadastral records. Circular market complex kept as covered concentric rings; rejected stadium-like draft. Last panels use1024px overlap. All prior art preserved exactly; narrow capture-only projected crop, full model archived.
+
+
+## bottom8
+
+7168x7680px, bounds[-1.25, -1.25, 2.25, 2.5]. Source records24439, renderedparts24423, roadways16651, faces723029, OSMelements18575. Seven geometry-led illustrated panels extending the principal candidate, final overlap1024. Prior24sourceimages unchanged. Regionalroads alreadycached;2615newCatastrorecords. Current2026facades pending.

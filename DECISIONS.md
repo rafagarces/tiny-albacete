@@ -254,3 +254,8 @@ Append tile at(-1.0,2.0),size(3.25,0.25),total6656x7168,approx4.488km2 groundenv
 ## 2026-11-16 left5
 
 Append tile at(-1.25,-1.25),size(0.25,3.5),total7168x7168,approx4.833km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Seven aligned panels with regional roads and507 additional cadastral records. Circular market complex kept as covered concentric rings; rejected stadium-like draft. Last panels use1024px overlap. All prior art preserved exactly; narrow capture-only projected crop, full model archived.
+
+
+## 2026-11-16 bottom8
+
+Append tile at(-1.25,2.25),size(3.5,0.25),total7168x7680,approx5.179km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Seven geometry-led illustrated panels extending the principal candidate, final overlap1024. Prior24sourceimages unchanged. Regionalroads alreadycached;2615newCatastrorecords. Current2026facades pending.
