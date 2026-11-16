@@ -42,7 +42,7 @@ button{font:inherit;color:inherit}
 .btn[aria-pressed="true"]{background:var(--orange);color:#fff}
 
 /* search */
-.searchbox{position:fixed;z-index:30;top:calc(var(--gap) + 48px);right:var(--gap);width:min(320px,86vw);padding:8px}
+.searchbox{position:fixed;z-index:30;top:calc(var(--gap) + 66px);left:var(--gap);width:min(260px,calc(100vw - 2*var(--gap)));padding:6px}
 .searchbox input{width:100%;font:400 15px/1.2 var(--pixel);padding:9px 10px;border:2px solid var(--ink);
   border-radius:4px;background:#fff;color:var(--ink)}
 .searchbox input:focus{outline:3px solid var(--blue);outline-offset:1px}
@@ -87,6 +87,22 @@ kbd{background:var(--paper-2);border:2px solid var(--ink);border-radius:4px;padd
   .btn.icon{width:34px}
   .credits{font-size:11px;max-width:62vw}
   .minimap{display:none}
-  .searchbox{top:calc(var(--gap) + 42px)}
+  .tools{top:calc(var(--gap) + 100px);flex-wrap:wrap;justify-content:flex-end;max-width:calc(100vw - 2*var(--gap))}
+  .searchbox{top:calc(var(--gap) + 46px);width:calc(100vw - 2*var(--gap))}
 }
 .toast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%);padding:8px 16px;z-index:60;font-size:14px}
+
+.btn.txt{font:700 13px "Pixelify Sans",system-ui,sans-serif;width:auto;min-width:38px}
+.lg-en{display:none}html[data-lang=en] .lg-en{display:block}html[data-lang=en] .lg-es{display:none}
+.placesBtn{position:fixed;right:12px;bottom:44px;z-index:5;width:auto;padding:6px 12px;font:700 14px "Pixelify Sans",system-ui,sans-serif}
+.placesbox{position:fixed;right:12px;bottom:90px;z-index:6;width:min(300px,calc(100vw - 24px));max-height:55vh;overflow:auto;padding:10px}
+.placesbox[hidden]{display:none}.placesbox h2{margin:0 0 6px;font-size:16px}
+.placesbox ul{list-style:none;margin:0;padding:0}.placesbox li{padding:6px 4px;cursor:pointer;border-bottom:1px solid rgba(0,0,0,.1)}
+.placesbox li:hover{background:rgba(0,0,0,.06)}
+
+.navigator{background:#ede5d3 !important}
+
+.btn.lblbtn{padding:0 10px}.btn .lbl{font:700 13px var(--pixel)}
+.searchbox ul[hidden]{display:none}
+.searchbox ul{position:absolute;left:0;right:0;top:100%;margin:4px 0 0;background:var(--paper);border:2px solid var(--ink);border-radius:6px;box-shadow:var(--shadow);padding:4px}
+.searchbox input{padding:7px 10px}

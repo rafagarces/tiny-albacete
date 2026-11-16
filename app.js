@@ -74,8 +74,9 @@
   });
 
   // búsqueda
-  const sb=document.getElementById('searchbox'), si=document.getElementById('searchInput'),
+  const sbEl=document.getElementById('searchbox'), si=document.getElementById('searchInput'),
         sr=document.getElementById('searchResults');
+  const sb={set hidden(v){sr.hidden=v;}, get hidden(){return sr.hidden;}}; sr.hidden=true;
   const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
   function showResults(list){
     sr.innerHTML='';
@@ -91,7 +92,30 @@
     const v=norm(si.value.trim());
     showResults(v?PLACES.filter(p=>norm(p.n).includes(v)):PLACES);
   });
+  si.addEventListener('focus',()=>{const v=norm(si.value.trim());showResults(v?PLACES.filter(p=>norm(p.n).includes(v)):PLACES);sr.hidden=false;});
+  document.addEventListener('pointerdown',(e)=>{ if(!sbEl.contains(e.target) && e.target.id!=='searchBtn') sr.hidden=true; });
   document.getElementById('searchBtn').onclick=()=> sb.hidden?openSearch():(sb.hidden=true);
+
+  // idioma + sitios
+  const L={es:{sub:'Albacete en miniatura',about:'Acerca de',places:'Sitios',data:'Datos',bld:'Edificios',ph:'Buscar un sitio…',copied:'Enlace copiado',mon:'Monstruos',shr:'Compartir',rnd:'Al azar'},
+           en:{sub:'Albacete in miniature',about:'About',places:'Places',data:'Data',bld:'Buildings',ph:'Search a place…',copied:'Link copied',mon:'Monsters',shr:'Share',rnd:'Random'}};
+  let lang=localStorage.getItem('lang')||((navigator.language||'es').startsWith('es')?'es':'en');
+  let applyLang=function(){
+    document.documentElement.dataset.lang=lang; document.documentElement.lang=lang;
+    document.querySelectorAll('[data-i]').forEach(e=>{e.innerHTML=L[lang][e.dataset.i]});
+    si.placeholder=L[lang].ph; si.setAttribute('aria-label',L[lang].ph);
+    document.getElementById('langBtn').textContent=lang==='es'?'EN':'ES';
+    document.getElementById('aboutBtn').title=document.getElementById('aboutBtn').ariaLabel=L[lang].about;
+    document.getElementById('placesBtn').setAttribute('aria-label',L[lang].places);
+  }
+  document.getElementById('langBtn').onclick=()=>{lang=lang==='es'?'en':'es';localStorage.setItem('lang',lang);applyLang();};
+  const pb=document.getElementById('placesbox'), pl=document.getElementById('placesList');
+  for(const p of PLACES){const li=document.createElement('li');li.textContent=p.n;li.onclick=()=>{flyLl(p.lat,p.lon,17.2);pb.hidden=true;};pl.appendChild(li);}
+  document.getElementById('placesBtn').onclick=()=>{pb.hidden=!pb.hidden;};
+  const TT={zinBtn:['Acercar (+)','Zoom in (+)'],zoutBtn:['Alejar (-)','Zoom out (-)'],shareBtn:['Compartir vista','Share view'],searchBtn:['Buscar ( / )','Search ( / )'],monsterBtn:['Monstruos (M)','Monsters (M)'],randBtn:['Vista aleatoria (R)','Random view (R)'],fullBtn:['Pantalla completa (F)','Full screen (F)']};
+  const _al=applyLang;
+  applyLang=function(){_al();for(const k in TT){const e=document.getElementById(k);const v=TT[k][lang==='es'?0:1];e.title=v;e.setAttribute('aria-label',v);}document.getElementById('langBtn').title=lang==='es'?'Switch to English':'Cambiar a español';};
+  applyLang();
 
   // aleatorio
   function randomView(){
@@ -105,7 +129,7 @@
   document.getElementById('zoutBtn').onclick=()=>{viewer.viewport.zoomBy(1/1.5);viewer.viewport.applyConstraints();};
   document.getElementById('shareBtn').onclick=async ()=>{
     const u=location.href;
-    try{ await navigator.clipboard.writeText(u); toast('Enlace copiado'); }
+    try{ await navigator.clipboard.writeText(u); toast(L[lang].copied); }
     catch(e){ prompt('Copia el enlace:',u); }
   };
   function toast(msg){
@@ -165,7 +189,7 @@
       case '-': document.getElementById('zoutBtn').click(); break;
       case '/': e.preventDefault(); openSearch(); break;
       case 'm': case 'M': setMonsters(!monstersOn); break;
-      case 'Escape': sb.hidden=true; break;
+      case 'Escape': sb.hidden=true; pb.hidden=true; break;
     }
   });
 })();
