@@ -6,14 +6,14 @@
     "minX": -0.25,
     "minY": -0.25,
     "maxX": 1.5,
-    "maxY": 1.25
+    "maxY": 1.5
   },
   "comparison": {
-    "url": "base-top1.webp",
+    "url": "base-bottom4.webp",
     "x": -0.25,
     "y": -0.25,
     "width": 1.75,
-    "height": 1.5,
+    "height": 1.75,
     "pyramid": "comparison.dzi"
   },
   "tiles": [
@@ -88,6 +88,14 @@
       "y": -0.25,
       "width": 1.75,
       "height": 0.25
+    },
+    {
+      "id": "bottom4",
+      "url": "bottom4.webp",
+      "x": -0.25,
+      "y": 1.25,
+      "width": 1.75,
+      "height": 0.25
     }
   ],
   "display": {
@@ -95,6 +103,6 @@
     "x": -0.25,
     "y": -0.25,
     "width": 1.75,
-    "height": 1.5
+    "height": 1.75
   }
 }

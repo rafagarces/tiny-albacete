@@ -169,3 +169,8 @@ Replace eager loading of all full illustrations with an explicitly registered We
 ## 2026-11-16 · first top strip
 
 Add3584x512atworld(-.25,-.25),total3584x3072,approx1.036km2groundenvelope. All previous sourceart and URLs remain unchanged. Geometry-guided interpretation, open spaces retained, four overlapping panels. Current-facade reference pass remains later, not claimed now. Main user asked no intermediate updates; internal progress only until city complete. No completionpercentage, no new monument certification.0EUR,no billing,no contact.
+
+
+##2026-11-16 fourth bottom strip
+
+Add3584x512atworld(-.25,1.25),total3584x3584,approx1.208km2groundenvelope. Originalartandcoordinatesunchanged. Fourgeometry-guidedpanels, no current-facadeclaim.0EUR,no billing,no contact. Internalprogressonlyuntilcitycomplete.

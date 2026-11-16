@@ -39,3 +39,8 @@ Atlas now spans world[-.25,0,1.5,1.25],3584x2560pixels. Negative world coordinat
 ## First top strip
 
 Atlas bounds[-.25,-.25,1.5,1.25],3584x3072pixels. Added3584x512at(-.25,-.25). Capture3584x3072,scale354,focus(-149.10471439,-190.66928932),angle-154,tilt.60. Additional4113municipalparts yield14303records/14287renderedparts.3731OSMelements/3666roadways/404527faces. Street additions preserve oldIDs; no claim of current building facade accuracy. Existing base overlapRMS<=0.464/255perchannel. All prior art remains untouched.
+
+
+## Fourth bottom strip
+
+Atlasbounds[-.25,-.25,1.5,1.5],3584x3584pixels. Add3584x512atworld(-.25,1.25). Capture3584x3584,scale413,focus(-243.02051285,-236.47508481),sameangle-154/tilt.60. Source14303records/14287renderedparts,4042OSMelements/3973roadways/408069faces. Sourcegeometrynotcertifiedfacades. ExistingbaseoverlapRMS<=.666/255perchannel.
