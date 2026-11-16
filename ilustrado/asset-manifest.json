@@ -17,6 +17,23 @@
       "name": "base.webp",
       "bytes": 120974,
       "sha256": "09e091094fa6852f5427b1b2edaf1c1f2db6da85ad38dd1293f4b78713f360a9"
+    },
+    {
+      "name": "east.webp",
+      "bytes": 255398,
+      "sha256": "7c685056cd018e78a918d12825549444b4d64279d19097fb7ce06a230a1ad47d"
+    },
+    {
+      "name": "base-east.webp",
+      "bytes": 158464,
+      "sha256": "7c427fb8db467ed790054b7eb4a26bae498de0ad968b7b14851ec96f48137f22"
     }
-  ]
+  ],
+  "atlas": {
+    "width": 2048,
+    "height": 1024,
+    "original_width": 1536,
+    "new_strip_width": 512,
+    "url_coordinate_revision": 2
+  }
 }
