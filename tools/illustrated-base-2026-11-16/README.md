@@ -94,3 +94,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## left4
 
 6144x6144px, bounds[-1.0, -1.0, 2.0, 2.0]. Source records19742, renderedparts19726, roadways8813, faces580039, OSMelements9811. Real cadastral geometry with distinctive curved and elongated complexes preserved. Five overlapping art panels; former pixels unchanged. Southern SciencePark/Botanic explicitly inventoried as points and imagery, not certified boundaries.
+
+
+## top5
+
+6144x6656px, bounds[-1.0, -1.25, 2.0, 2.0]. Source records19810, renderedparts19794, roadways8813, faces581579, OSMelements9811. Cached OSM data only, no requests after throttle. Downloaded successful bboxes cover99.9733percent of new band;79m2tip visually checked against PNOA and existing full-way centerlines. Open arterial roadside land preserved. Previous art unchanged.

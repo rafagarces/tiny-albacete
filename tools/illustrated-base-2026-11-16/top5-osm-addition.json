@@ -1,0 +1,5 @@
+{
+  "elements": [],
+  "source_urls": [],
+  "note": "No OSM request after429. Existing successful query extents cover99.9733percentofnewband; remaining79m2tip checked againstPNOAwithfull downloadedways. Prior Catastro geometry cache extended, not new extraction."
+}

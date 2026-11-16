@@ -234,3 +234,8 @@ Append tile at(-0.75,-1.0),size(2.75,0.25),total5632x6144,approx3.255km2 grounde
 ## 2026-11-16 left4
 
 Append tile at(-1.0,-1.0),size(0.25,3.0),total6144x6144,approx3.551km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Real cadastral geometry with distinctive curved and elongated complexes preserved. Five overlapping art panels; former pixels unchanged. Southern SciencePark/Botanic explicitly inventoried as points and imagery, not certified boundaries.
+
+
+## 2026-11-16 top5
+
+Append tile at(-1.0,-1.25),size(3.0,0.25),total6144x6656,approx3.847km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Cached OSM data only, no requests after throttle. Downloaded successful bboxes cover99.9733percent of new band;79m2tip visually checked against PNOA and existing full-way centerlines. Open arterial roadside land preserved. Previous art unchanged.

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=600450%2C4316690%2C600650%2C4316890&WIDTH=800&HEIGHT=800&FORMAT=image%2Fjpeg",
+  "bbox25830": [
+    600450,
+    4316690,
+    600650,
+    4316890
+  ],
+  "tip_not_query_covered_m2": 79.06,
+  "tip_bbox4326": [
+    -1.839,
+    38.9942670510653,
+    -1.838909787770202,
+    38.99444939439602
+  ],
+  "imagery_date": "not sampled at this tip",
+  "visual_check": "PNOA inspected against cached OSM centerlines. Red rectangle encloses79m2unsourced-querytip; cached full ways cross junction. No unrepresented building visible in tip.",
+  "nearby_cached_highway_way_ids": [
+    "36996461",
+    "140430817",
+    "140430916",
+    "140430916",
+    "1016408972",
+    "1016408973",
+    "1023080098",
+    "1023082812"
+  ]
+}
