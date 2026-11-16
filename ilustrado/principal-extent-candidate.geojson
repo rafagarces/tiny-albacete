@@ -15,7 +15,8 @@
       "Some source rows carry2022-2023record dates; these do not establish source imagery freshness.",
       "External industrial sectors and separate settlements remain explicitly unresolved, not silently excluded.",
       "Current facade/reference review remains pending."
-    ]
+    ],
+    "active_scope_caveat": "Administrative neighborhoods and planning-class union are research candidates, not an obligation to fill every polygon."
   },
   "geometry": {
     "type": "Polygon",

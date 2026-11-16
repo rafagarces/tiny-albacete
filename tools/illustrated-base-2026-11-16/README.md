@@ -134,3 +134,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## right8
 
 8192x8192px, bounds[-1.25, -1.25, 2.75, 2.75]. Source records25760, renderedparts25744, roadways16651, faces754234, OSMelements18575. Dated PNOA July2024 preflight. Seven successful high-detail panels cover entire strip; F/H meet at contiguous pixel6656 after redundant G timed out. Join visually inspected. No current-facade claim.
+
+
+## right9
+
+8704x8192px, bounds[-1.25, -1.25, 3.0, 2.75]. Source records25906, renderedparts25890, roadways16651, faces761234, OSMelements18749. Contiguous city-core extension; railway alignments recovered from the existing regional cache, estimated track widths. PNOA July2024 three-point date check and same-camera reference preflight; no2026facade claim. F3overlap repairs rejected zero-overlap roof-ground seam.

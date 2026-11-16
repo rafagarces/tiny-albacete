@@ -18,7 +18,7 @@
         },
         "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
         "visual_review": "follows wooded park but excludes northeastern sports courts and western large open field; total equipment footprint unresolved",
-        "scope_status": "Explicit exterior sector, not excluded; retain equipment fringe inventory beyond this candidate."
+        "scope_status": "deferred-not-automatically-included-in-city-only-task"
       },
       "geometry": {
         "type": "Polygon",
@@ -477,7 +477,7 @@
         },
         "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
         "visual_review": "matches visible garden enclosure and operator approximate7ha",
-        "scope_status": "Explicit exterior sector, not excluded; retain equipment fringe inventory beyond this candidate."
+        "scope_status": "deferred-not-automatically-included-in-city-only-task"
       },
       "geometry": {
         "type": "Polygon",
@@ -583,5 +583,6 @@
         ]
       }
     }
-  ]
+  ],
+  "active_scope_status": "source-inventory-only; additions-deferred-under-city-only-task"
 }

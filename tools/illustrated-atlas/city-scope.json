@@ -1,0 +1,10 @@
+{
+  "status": "contiguous-city-core-only",
+  "clarified": "2026-11-16",
+  "included": "Albacete continuous urban core; reference-led artistic interpretation",
+  "excluded": "Pedanias and other municipal settlements",
+  "deferred": "Ambiguous detached industrial/park additions are not presumed included.",
+  "candidate_caveat": "Administrative neighborhoods and planning-class union are research candidates, not an obligation to fill every polygon.",
+  "preservation": "Existing artwork and general map access preserved; no automatic clipping or deletion.",
+  "completion_percentage": null
+}

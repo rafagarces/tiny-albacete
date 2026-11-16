@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 238,
+  "published_cells_intersecting_candidate": 253,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -196,8 +196,8 @@
       "column": 11,
       "row": -4,
       "candidate_target_fraction": 0.077586,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r-4"
     },
@@ -385,8 +385,8 @@
       "column": 11,
       "row": -3,
       "candidate_target_fraction": 0.988343,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r-3"
     },
@@ -637,8 +637,8 @@
       "column": 11,
       "row": -2,
       "candidate_target_fraction": 0.445136,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r-2"
     },
@@ -907,8 +907,8 @@
       "column": 11,
       "row": -1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r-1"
     },
@@ -1177,8 +1177,8 @@
       "column": 11,
       "row": 0,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r0"
     },
@@ -1474,8 +1474,8 @@
       "column": 11,
       "row": 1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r1"
     },
@@ -1816,8 +1816,8 @@
       "column": 11,
       "row": 2,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r2"
     },
@@ -2167,8 +2167,8 @@
       "column": 11,
       "row": 3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r3"
     },
@@ -2482,8 +2482,8 @@
       "column": 11,
       "row": 4,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r4"
     },
@@ -2770,8 +2770,8 @@
       "column": 11,
       "row": 5,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r5"
     },
@@ -3031,8 +3031,8 @@
       "column": 11,
       "row": 6,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r6"
     },
@@ -3265,8 +3265,8 @@
       "column": 11,
       "row": 7,
       "candidate_target_fraction": 0.887658,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r7"
     },
@@ -3472,8 +3472,8 @@
       "column": 11,
       "row": 8,
       "candidate_target_fraction": 0.973962,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r8"
     },
@@ -3616,8 +3616,8 @@
       "column": 11,
       "row": 9,
       "candidate_target_fraction": 0.727047,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r9"
     },
@@ -3751,8 +3751,8 @@
       "column": 11,
       "row": 10,
       "candidate_target_fraction": 0.026152,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c11r10"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 6.3129221905101165,
+  "published_ground_envelope_km2": 6.707479827416983,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 5.365117,
+      "published_intersection_km2": 5.664139,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -4047,7 +4047,7 @@
         4319234.9
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-39bf18992a71",
@@ -4057,7 +4057,7 @@
         4331439.2
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-60e994219485",
@@ -4067,7 +4067,7 @@
         4308319.9
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-67aee221e88f",
@@ -4077,7 +4077,7 @@
         4315799.7
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-6d3bf23fa398",
@@ -4087,7 +4087,7 @@
         4312378.1
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-d2890f874cb4",
@@ -4097,7 +4097,7 @@
         4308717.2
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-300e9ac1f5b7",
@@ -4107,7 +4107,7 @@
         4302614.2
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-83f08b49e8a4",
@@ -4117,7 +4117,7 @@
         4306662.4
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-7a30fa5e4e7e",
@@ -4127,7 +4127,7 @@
         4319692.4
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-6a524357ec86",
@@ -4137,7 +4137,7 @@
         4308118.1
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-71398783cfbd",
@@ -4147,7 +4147,7 @@
         4321234.9
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-121be7609003",
@@ -4157,7 +4157,7 @@
         4313783.8
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-38d11e31f17a",
@@ -4167,7 +4167,7 @@
         4300813.2
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-e107f8c24eea",
@@ -4177,7 +4177,7 @@
         4323961.8
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-1769065780a3",
@@ -4187,7 +4187,7 @@
         4321085.2
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-6369cb6483d3",
@@ -4197,7 +4197,7 @@
         4325109.8
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-9f440174313e",
@@ -4207,7 +4207,7 @@
         4306440.8
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-34197c3b9233",
@@ -4217,7 +4217,7 @@
         4320245.0
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-07f225cb55d9",
@@ -4227,7 +4227,7 @@
         4299264.1
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-e2cc7c4e475c",
@@ -4237,7 +4237,7 @@
         4291210.6
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-c2fb96739579",
@@ -4247,7 +4247,7 @@
         4287534.6
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-1a12b60b6707",
@@ -4257,7 +4257,7 @@
         4289746.7
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-2769c3bbfd16",
@@ -4267,7 +4267,7 @@
         4284963.3
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-e9bc9be22f95",
@@ -4277,7 +4277,7 @@
         4306660.3
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-9124c51cbdfe",
@@ -4287,7 +4287,7 @@
         4288179.5
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-1d39c0c9fb82",
@@ -4297,7 +4297,7 @@
         4319222.1
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-5038b7cb450c",
@@ -4307,7 +4307,7 @@
         4315302.5
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-cfa5cb198ff0",
@@ -4317,7 +4317,7 @@
         4315436.1
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     },
     {
       "id": "siu-d0420667ff28",
@@ -4327,47 +4327,47 @@
         4302102.3
       ],
       "published_intersection_km2": 0.0,
-      "role": "separate component; place/scope not yet classified"
+      "role": "detached planning component retained as source evidence, not active city-only task"
     }
   ],
   "exterior_inventory": [
     {
       "name": "Campollano",
-      "status": "explicitly pending extent and scope review; not silently excluded",
+      "status": "deferred-not-automatically-included-in-city-only-task",
       "source": "municipal economic infrastructure directory"
     },
     {
       "name": "Romica",
-      "status": "explicitly pending extent and scope review; not silently excluded",
+      "status": "deferred-not-automatically-included-in-city-only-task",
       "source": "municipal economic infrastructure directory"
     },
     {
       "name": "Parque Empresarial Ajusa",
-      "status": "explicitly pending extent and scope review; not silently excluded",
+      "status": "deferred-not-automatically-included-in-city-only-task",
       "source": "municipal economic infrastructure directory"
     },
     {
       "name": "Parque Aeronáutico y Logístico",
-      "status": "explicitly pending extent and scope review; not silently excluded",
+      "status": "deferred-not-automatically-included-in-city-only-task",
       "source": "municipal economic infrastructure directory"
     },
     {
       "name": "Rural settlements and pedanías",
-      "status": "separate municipal outcome, not equated to principal casco urbano; scope unresolved"
+      "status": "excluded-from-city-only-task"
     },
     {
       "name": "Parque Científico y Tecnológico de Albacete",
-      "status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+      "status": "deferred-not-automatically-included-in-city-only-task",
       "source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/"
     },
     {
       "name": "Jardín Botánico de Castilla-La Mancha",
-      "status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+      "status": "deferred-not-automatically-included-in-city-only-task",
       "source": "https://www.jardinbotanico-clm.com/sobre-nosotros"
     },
     {
       "name": "Parque de La Pulgosa",
-      "status": "Explicit pending exterior park, not excluded. No certified polygon yet. Geocoded point is not a boundary.",
+      "status": "deferred-not-automatically-included-in-city-only-task",
       "source": "https://www.albacete.es/es/noticias/concejalia-sostenibilidad-culmina-instalacion-telegestion-riego-parque-pulgosa"
     }
   ],
@@ -4436,7 +4436,7 @@
         "row": -5,
         "id": "c11r-5",
         "candidate_fraction": 0.043508,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -4569,7 +4569,7 @@
         "row": -4,
         "id": "c11r-4",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -4737,7 +4737,7 @@
         "row": -3,
         "id": "c11r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -4996,7 +4996,7 @@
         "row": -2,
         "id": "c11r-2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -5276,7 +5276,7 @@
         "row": -1,
         "id": "c11r-1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -5563,7 +5563,7 @@
         "row": 0,
         "id": "c11r0",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -5850,7 +5850,7 @@
         "row": 1,
         "id": "c11r1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -6158,7 +6158,7 @@
         "row": 2,
         "id": "c11r2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -6459,7 +6459,7 @@
         "row": 3,
         "id": "c11r3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -6753,7 +6753,7 @@
         "row": 4,
         "id": "c11r4",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -7040,7 +7040,7 @@
         "row": 5,
         "id": "c11r5",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -7306,7 +7306,7 @@
         "row": 6,
         "id": "c11r6",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -7565,7 +7565,7 @@
         "row": 7,
         "id": "c11r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -7824,7 +7824,7 @@
         "row": 8,
         "id": "c11r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -8055,7 +8055,7 @@
         "row": 9,
         "id": "c11r9",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -8237,7 +8237,7 @@
         "row": 10,
         "id": "c11r10",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 12,
@@ -8457,7 +8457,8 @@
         "art_status": "not-started"
       }
     ],
-    "completion_percentage": null
+    "completion_percentage": null,
+    "scope_caveat": "Administrative neighborhoods and planning-class union are research candidates, not an obligation to fill every polygon."
   },
   "pnoa_date_sampling": {
     "date": "2024-07",
@@ -8506,14 +8507,14 @@
         "name": "HOSPITAL",
         "source_id": "barrios.1",
         "administrative_area_km2": 0.43157693353976134,
-        "published_ground_envelope_intersection_km2": 0.1552748548277155,
+        "published_ground_envelope_intersection_km2": 0.24836174123376653,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "PARQUE SUR",
         "source_id": "barrios.3",
         "administrative_area_km2": 0.2704680431623052,
-        "published_ground_envelope_intersection_km2": 0.20903552043098506,
+        "published_ground_envelope_intersection_km2": 0.2572515473580853,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8583,28 +8584,28 @@
         "name": "SAN PEDRO - MORTERO",
         "source_id": "barrios.14",
         "administrative_area_km2": 0.9432136242081502,
-        "published_ground_envelope_intersection_km2": 0.6244382396577263,
+        "published_ground_envelope_intersection_km2": 0.6560378786171995,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SEPULCRO",
         "source_id": "barrios.15",
         "administrative_area_km2": 0.6057334375289314,
-        "published_ground_envelope_intersection_km2": 0.12080526094554785,
+        "published_ground_envelope_intersection_km2": 0.22840396767880972,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "UNIVERSIDAD",
         "source_id": "barrios.16",
         "administrative_area_km2": 0.9913328433007585,
-        "published_ground_envelope_intersection_km2": 0.0005151838298477134,
+        "published_ground_envelope_intersection_km2": 0.01503693774508162,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "LA MILAGROSA",
         "source_id": "barrios.17",
         "administrative_area_km2": 0.36585435179839754,
-        "published_ground_envelope_intersection_km2": 0.14750580119422108,
+        "published_ground_envelope_intersection_km2": 0.22345711522680295,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8680,129 +8681,130 @@
         "cod_es": 7,
         "distrito": "08001",
         "ent_sin": "CASA CAPITÁN",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 8,
         "distrito": "08001",
         "ent_sin": "CASA GRANDE",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 5,
         "distrito": "08001",
         "ent_sin": "BACARIZA",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 16,
         "distrito": "08001",
         "ent_sin": "VILLAR DE POZO RUBIO",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 14,
         "distrito": "08001",
         "ent_sin": "TINAJEROS",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 15,
         "distrito": "08001",
         "ent_sin": "LA TORRECICA",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 13,
         "distrito": "08002",
         "ent_sin": "SANTA ANA",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 12,
         "distrito": "08003",
         "ent_sin": "EL SALOBRAL",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 9,
         "distrito": "08001",
         "ent_sin": "LOS LLANOS",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 1,
         "distrito": "08006",
         "ent_sin": "AGUAS NUEVAS",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 11,
         "distrito": "08001",
         "ent_sin": "LA PULGOSA",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 2,
         "distrito": "08000",
         "ent_sin": "ALBACETE",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 18,
         "distrito": "08001",
         "ent_sin": "CASA DE LAS MONJAS",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 4,
         "distrito": "08002",
         "ent_sin": "ARGAMASÓN",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 3,
         "distrito": "08002",
         "ent_sin": "LOS ANGUIJES",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 6,
         "distrito": "08001",
         "ent_sin": "CAMPILLO DE LAS DOBLAS",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 17,
         "distrito": "08001",
         "ent_sin": "ABUZADERAS",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       },
       {
         "cod_es": 19,
         "distrito": "08001",
         "ent_sin": "CERRO LOBO",
-        "status": "scope-unresolved-not-completed-not-excluded",
+        "status": "source-inventory-only; detached settlements excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
       }
-    ]
+    ],
+    "active_scope_status": "detached settlements excluded; source inventory is not a city boundary"
   },
   "exterior_industrial_geometry_inventory": {
     "status": "candidate-boundaries-not-final-city-mask",
@@ -8821,7 +8823,7 @@
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
-        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
         "pnoa_date_scope": "one central sample only, not every pixel"
       },
@@ -8838,7 +8840,7 @@
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
-        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
         "pnoa_date_scope": "one central sample only, not every pixel"
       },
@@ -8855,7 +8857,7 @@
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
-        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
         "pnoa_date_scope": "one central sample only, not every pixel"
       },
@@ -8872,11 +8874,12 @@
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
-        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
         "pnoa_date_scope": "one central sample only, not every pixel"
       }
-    ]
+    ],
+    "active_scope_status": "deferred-not-automatically-included"
   },
   "southern_science_botanic_inventory": {
     "status": "points-and-visual-evidence-not-final-boundaries",
@@ -8894,7 +8897,7 @@
         "point_not_boundary": true,
         "display_name": "Parque Científico y Tecnológico de Albacete",
         "official_source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/",
-        "scope_status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
         "pnoa_date_check": {
           "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598900%2C4314800%2C599100%2C4315000&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
@@ -8922,7 +8925,7 @@
         "point_not_boundary": true,
         "display_name": "Jardín Botánico de Castilla-La Mancha",
         "official_source": "https://www.jardinbotanico-clm.com/sobre-nosotros",
-        "scope_status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
         "pnoa_date_check": {
           "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598600%2C4314600%2C598800%2C4314800&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
@@ -8938,7 +8941,8 @@
         "official_plan": "https://www.jardinbotanico-clm.com/plano-e-itinerario",
         "visual_review": "Inspected PNOA south of AB20 against official visitor plan. Garden extends south of the principal candidate. Boundary still untraced."
       }
-    ]
+    ],
+    "active_scope_status": "deferred-not-automatically-included"
   },
   "southern_pulgosa_inventory": {
     "name": "Parque de La Pulgosa",
@@ -8950,7 +8954,7 @@
     "point_distance_to_principal_candidate_m": 1279.8114714411201,
     "point_in_art": false,
     "point_distance_to_art_m": 2192.1895084016655,
-    "scope_status": "Explicit pending exterior park, not excluded. No certified polygon yet. Geocoded point is not a boundary.",
+    "scope_status": "deferred-not-automatically-included-in-city-only-task",
     "sources": [
       {
         "url": "https://www.albacete.es/es/noticias/concejalia-sostenibilidad-culmina-instalacion-telegestion-riego-parque-pulgosa",
@@ -9002,7 +9006,7 @@
         },
         "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
         "visual_review": "follows wooded park but excludes northeastern sports courts and western large open field; total equipment footprint unresolved",
-        "scope_status": "Explicit exterior sector, not excluded; retain equipment fringe inventory beyond this candidate."
+        "scope_status": "deferred-not-automatically-included-in-city-only-task"
       },
       {
         "name": "botanico",
@@ -9019,9 +9023,20 @@
         },
         "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
         "visual_review": "matches visible garden enclosure and operator approximate7ha",
-        "scope_status": "Explicit exterior sector, not excluded; retain equipment fringe inventory beyond this candidate."
+        "scope_status": "deferred-not-automatically-included-in-city-only-task"
       }
     ],
-    "caveat": "Polygons do not silently settle40ha vs51.7777ha maintenance scope or omit sports courts/open-field fringe."
+    "caveat": "Polygons do not silently settle40ha vs51.7777ha maintenance scope or omit sports courts/open-field fringe.",
+    "active_scope_status": "deferred-not-automatically-included"
+  },
+  "active_scope": {
+    "status": "contiguous-city-core-only",
+    "clarified": "2026-11-16",
+    "included": "Albacete continuous urban core; reference-led artistic interpretation",
+    "excluded": "Pedanias and other municipal settlements",
+    "deferred": "Ambiguous detached industrial/park additions are not presumed included.",
+    "candidate_caveat": "Administrative neighborhoods and planning-class union are research candidates, not an obligation to fill every polygon.",
+    "preservation": "Existing artwork and general map access preserved; no automatic clipping or deletion.",
+    "completion_percentage": null
   }
 }

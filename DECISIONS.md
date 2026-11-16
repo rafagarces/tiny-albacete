@@ -274,3 +274,13 @@ Append tile at(-1.25,2.5),size(3.75,0.25),total7680x8192,approx5.918km2 grounden
 ## 2026-11-16 right8
 
 Append tile at(2.5,-1.25),size(0.25,4.0),total8192x8192,approx6.313km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Dated PNOA July2024 preflight. Seven successful high-detail panels cover entire strip; F/H meet at contiguous pixel6656 after redundant G timed out. Join visually inspected. No current-facade claim.
+
+
+## 2026-11-16 right9
+
+Append tile at(2.75,-1.25),size(0.25,4.0),total8704x8192,approx6.707km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city-core extension; railway alignments recovered from the existing regional cache, estimated track widths. PNOA July2024 three-point date check and same-camera reference preflight; no2026facade claim. F3overlap repairs rejected zero-overlap roof-ground seam.
+
+
+## 2026-11-16 active city-only scope
+
+Continue the contiguous Albacete city core. No pedanias or automatic detached industrial/park additions. Prior source inventories stay available as evidence, not additional obligations. Administrative neighborhood/planning candidates do not require filling every polygon. Existing art, general map and rotating3D remain intact.
