@@ -4,16 +4,16 @@
   "url_revision": 2,
   "bounds": {
     "minX": -0.25,
-    "minY": 0,
+    "minY": -0.25,
     "maxX": 1.5,
     "maxY": 1.25
   },
   "comparison": {
-    "url": "base-left1.webp",
+    "url": "base-top1.webp",
     "x": -0.25,
-    "y": 0,
+    "y": -0.25,
     "width": 1.75,
-    "height": 1.25,
+    "height": 1.5,
     "pyramid": "comparison.dzi"
   },
   "tiles": [
@@ -80,13 +80,21 @@
       "y": 0,
       "width": 0.25,
       "height": 1.25
+    },
+    {
+      "id": "top1",
+      "url": "top1.webp",
+      "x": -0.25,
+      "y": -0.25,
+      "width": 1.75,
+      "height": 0.25
     }
   ],
   "display": {
     "url": "atlas.dzi",
     "x": -0.25,
-    "y": 0,
+    "y": -0.25,
     "width": 1.75,
-    "height": 1.25
+    "height": 1.5
   }
 }

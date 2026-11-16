@@ -8,7 +8,7 @@ def pyramid(name,im):
   f=2**(levels-level);sw=math.ceil(w/f);sh=math.ceil(h/f);small=im if f==1 else im.resize((sw,sh),Image.Resampling.LANCZOS);p=folder/str(level);p.mkdir(parents=True,exist_ok=True)
   for y in range(math.ceil(sh/512)):
    for x in range(math.ceil(sw/512)):
-    tile=small.crop((max(0,x*512-1),max(0,y*512-1),min(sw,(x+1)*512+1),min(sh,(y+1)*512+1)));tile.save(p/f'{x}_{y}.webp',lossless=level==levels,quality=88,method=6);count+=1
+    tile=small.crop((max(0,x*512-1),max(0,y*512-1),min(sw,(x+1)*512+1),min(sh,(y+1)*512+1)));tile.save(p/f'{x}_{y}.webp',lossless=level==levels,quality=88,method=4);count+=1
  (r/(name+'.dzi')).write_text(f'<Image xmlns="http://schemas.microsoft.com/deepzoom/2008" Format="webp" Overlap="1" TileSize="512"><Size Width="{w}" Height="{h}"/></Image>\n');print(name,w,h,'files',count,'bytes',sum(p.stat().st_size for p in folder.rglob('*.webp')))
 full=Image.new('RGB',(W,H))
 for t in d['tiles']:full.paste(Image.open(r/t['url']).convert('RGB'),(round((t['x']-b['minX'])*U),round((t['y']-b['minY'])*U)))

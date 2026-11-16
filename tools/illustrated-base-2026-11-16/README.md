@@ -34,3 +34,8 @@ Capture3072x2560,angle-154,tilt.60,scale295,focus(-217.156615188007,-289.5039335
 ## First left strip
 
 Atlas now spans world[-.25,0,1.5,1.25],3584x2560pixels. Negative world coordinates extend rather than shift the existing map. Append512x2560atworld(-.25,0). Capture3584x2560,scale295,focus(-243.020512845,-236.475084811),same angle-154/tilt.60. Geometry source parts unchanged10190/10174rendered;2852OSMelements/2817roadways/289498faces. Additional476source ways preserved existing IDs; two small public OSM API requests16November2026, no contact or user data. Existing base overlap after street additions RMS<=1.78/255per channel.
+
+
+## First top strip
+
+Atlas bounds[-.25,-.25,1.5,1.25],3584x3072pixels. Added3584x512at(-.25,-.25). Capture3584x3072,scale354,focus(-149.10471439,-190.66928932),angle-154,tilt.60. Additional4113municipalparts yield14303records/14287renderedparts.3731OSMelements/3666roadways/404527faces. Street additions preserve oldIDs; no claim of current building facade accuracy. Existing base overlapRMS<=0.464/255perchannel. All prior art remains untouched.

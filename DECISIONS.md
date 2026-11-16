@@ -164,3 +164,8 @@ Extend512x2560to negative worldx[-.25,0], total3584x2560,approximately0.863km2 g
 ## 2026-11-16 · on-demand illustrated display and territorial ledger
 
 Replace eager loading of all full illustrations with an explicitly registered WebPDeepZoompyramid. Source spatial coordinates, fixed framing, previous URLs and original art files remain unchanged. Top level is lossless relative to decoded originals. Tested local image-transfer bytes: mobile-left1.69MBinstead of4.64MB, desktop-home1.55MBinstead of4.64MB; default mobile4.44MBso no universal speedup claim. Work ledger inventories25official2016neighborhoods,30SIUcomponents and exterior sectors. No city completion percentage until a contrasted current operational target exists.0EUR,no billing,no contact.
+
+
+## 2026-11-16 · first top strip
+
+Add3584x512atworld(-.25,-.25),total3584x3072,approx1.036km2groundenvelope. All previous sourceart and URLs remain unchanged. Geometry-guided interpretation, open spaces retained, four overlapping panels. Current-facade reference pass remains later, not claimed now. Main user asked no intermediate updates; internal progress only until city complete. No completionpercentage, no new monument certification.0EUR,no billing,no contact.
