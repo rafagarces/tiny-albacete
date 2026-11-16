@@ -41,13 +41,19 @@ parts=json.load(open('/tmp/tinyalba/bu_parts.json'));count=0
 palette=['#d6c9b1','#c9bea7','#d9cbb8','#c2baa8','#dfd4bd','#cbbbaa']
 for b in parts:
  if b['id'].startswith(('9271101WJ9197A','9272019WJ9197S')):continue
+ if b['id'] in ['9472601WJ9197A_part8','9472601WJ9197A_part9']:continue
  pts=b['pts'];cx=sum(p[0]for p in pts)/len(pts);cy=sum(p[1]for p in pts)/len(pts)
  if abs(cx)>250 or abs(cy)>250 or b['area']<18:continue
  col=palette[int(catparse.h01(b['id'])*len(palette))%len(palette)]
  h=min(50,max(3,b['floors']*3+2)) if b['floors']>0 else 9
  # Front coarse mass adjusted to match documented facade proportions; still estimated.
  if b['id']=='9371110WJ9197A_part4':h=11.2
- flat(pts,h,'#c6b5a0')
+ if b['id'] in ['9472601WJ9197A_part6','9472601WJ9197A_part12']:
+  # Conical auditorium roof documented by COACM2024; apex/height estimated.
+  h=11
+  for a,B in zip(pts,pts[1:]+pts[:1]):
+   if a!=B:face([[*a,h],[*B,h],[163.5,51.5,18]],'#9a9f89','documented-conical-roof-estimated')
+ else:flat(pts,h,'#c6b5a0')
  for a,B in zip(pts,pts[1:]+pts[:1]):
   if a==B:continue
   face([[*a,0],[*B,0],[*B,h],[*a,h]],col)
@@ -66,6 +72,10 @@ for f in json.load(open(ROOT/'pilots/hortelano-3d/model.json')):
 ang=math.atan2(-9.8,17.6);ca,sa=math.cos(ang),math.sin(ang)
 for f in json.load(open(ROOT/'pilots/ayuntamiento-3d/model.json')):
  face([[ca*x-sa*y+161.2,sa*x+ca*y-60.6,z]for x,y,z in f['v']],f['c'],f['kind'])
+# Modern Teatro Circo facade along Catastro front edge, not fictitious historical facade.
+ang=math.atan2(-17.9,30.4);ca,sa=math.cos(ang),math.sin(ang)
+for f in json.load(open(ROOT/'pilots/teatro-3d/model.json')):
+ face([[ca*x-sa*y+130.7,sa*x+ca*y+31.7,z]for x,y,z in f['v']],f['c'],f['kind'])
 (ROOT/'zona-catedral/model.json').write_text(json.dumps(out,separators=(',',':')))
 (ROOT/'zona-catedral/stats.json').write_text(json.dumps({'buildingParts':count,'roads':roads,'faces':len(out),'extentMeters':500,'generated':'2026-11-16','cathedralRegistration':'approximate rotation-24deg, offset(-13.1,6.7)m; not a surveyed alignment'}))
 print(count,'parts',roads,'roads',len(out),'faces')

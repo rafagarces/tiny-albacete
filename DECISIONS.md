@@ -51,3 +51,9 @@ Sitio: https://tiny-albacete.pages.dev (Cloudflare Pages, proyecto `tiny-albacet
 - Frente Catastro20.14m, registro sobre arista(161.2,-60.6)->(178.8,-70.4). Se mantienen masas catastrales traseras; ajuste frontal11.2m según proporción fotográfica, alturas/profundidades estimadas. Sin fachada lateral genérica.
 - Dos ventanas superiores y dos rejas bajas por lado, acceso/balcón centrales, torre con dos esferas visibles, escudo esquemático y coronación. Sin copiar carteles, banderas o tráfico; sin heráldica, texto ni talla ornamental inventados. Agujas estáticas artísticas, no hora real.
 - Generador y modelo propios CC BY-SA4.0, fuenteCC0 acreditada. Navegación Ayto. antiguo y ?l=ayuntamiento. Zoom mínimo corregido de30a12m para evitar salto hacia atrás al pulsar+desde encuadreHortelano24m.
+
+## 16 noviembre 2026: Teatro Circo moderno
+- Foto DnTrotaMundos ☮,22septiembre2010,CC BY3.0 inspeccionada; créditos/licencia/cambios publicados. No se confunden lonas con fachadas históricas reales. Retirada de lonas junio2025 contrastada enLaTribuna, por eso se omiten.
+- Pórticos, telón curvo, marquesina y rótulo simplificados; no carteles. Catastro9472601WJ9197A,frente35.28m,partes8/9sustituidas,1236partescontexto restantes. No interior ni trasera reconstruidos.
+- COACM2024 documenta cubierta cónica decobre; se aproxima sobre partescurvas6/12 con altura11-18m y vértice estimados, no cúpula arbitraria. Fotografías/planos de COACM y CasaArquitectura no copiados.
+- Encaje/curvatura/cubierta/altura y letras estimados. Vecinos no se eliminan para ocultaroclusiones. SelectorTeatroCirco y ?l=teatro, mapa completo intacto. 0€sinserviciosnuevos.
