@@ -149,3 +149,8 @@ Add512x2048at world(1.25,0),width.25. Total3072x2048. This strip is inside the p
 Replace hard-coded image positions with a local JSON tile catalog, keeping the same six surroundings tiles and all image bytes. Dynamic bounds admit future growth to negative coordinates without moving existing world coordinates or URL revision2. Local tests cover normal catalog, temporary catalog failure with bundled fallback, and test-only negative coordinates. No test-only tile is published. Add an independent overlap/gap/dimension/hash validator.
 
 Current fixed-camera ground-plane envelope is approximately0.592km2, recorded as GeoJSON with explicit projection/height/artistic-drift limits. This is a small central area, not citywide coverage. No completion percentage is claimed. A whole-city operational mask remains under contrast: municipal neighborhood maps, actual built form, parks, industrial areas and fringes must not be silently replaced by one SIU planning-class component. The later citywide current-facade reference pass remains after artistic extension. Spatial/orthophoto work here defines territorial scope, not facade-currentness.
+
+
+## 2026-11-16 · third bottom strip
+
+Add3072x512atworld(0,1),total3072x2560,approximately0.740km2ground-plane envelope. Citywide coverage is still incomplete and no percentage is claimed. Art extends the main urban area using three overlapping geometry-guided panels with edge matching confined to new pixels. Prior seven art files and rotating3D unchanged. Expanded municipal base and OSM streets archived for reproduction. Additional source records do not certify a count of faithfully illustrated buildings. No new monument identification or current-facade claims.0EUR,no billing, no external contact.
