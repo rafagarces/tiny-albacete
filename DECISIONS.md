@@ -249,3 +249,8 @@ Append tile at(2.0,-1.25),size(0.25,3.25),total6656x6656,approx4.168km2 grounden
 ## 2026-11-16 bottom7
 
 Append tile at(-1.0,2.0),size(3.25,0.25),total6656x7168,approx4.488km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Six aligned illustration panels, georeferenced cadastral buildings and regional Geofabrik roads. Earlier source IDs retained;8764 suitable new regional IDs added,800 additional cadastral records. Capture-only projected-frustum crop avoids renderer memory exhaustion without changing source geometry. Existing art pixels unchanged.
+
+
+## 2026-11-16 left5
+
+Append tile at(-1.25,-1.25),size(0.25,3.5),total7168x7168,approx4.833km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Seven aligned panels with regional roads and507 additional cadastral records. Circular market complex kept as covered concentric rings; rejected stadium-like draft. Last panels use1024px overlap. All prior art preserved exactly; narrow capture-only projected crop, full model archived.

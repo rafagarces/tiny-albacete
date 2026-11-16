@@ -109,3 +109,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## bottom7
 
 6656x7168px, bounds[-1.0, -1.25, 2.25, 2.25]. Source records21317, renderedparts21301, roadways16651, faces636444, OSMelements18575. Six aligned illustration panels, georeferenced cadastral buildings and regional Geofabrik roads. Earlier source IDs retained;8764 suitable new regional IDs added,800 additional cadastral records. Capture-only projected-frustum crop avoids renderer memory exhaustion without changing source geometry. Existing art pixels unchanged.
+
+
+## left5
+
+7168x7168px, bounds[-1.25, -1.25, 2.25, 2.25]. Source records21824, renderedparts21808, roadways16651, faces656611, OSMelements18575. Seven aligned panels with regional roads and507 additional cadastral records. Circular market complex kept as covered concentric rings; rejected stadium-like draft. Last panels use1024px overlap. All prior art preserved exactly; narrow capture-only projected crop, full model archived.
