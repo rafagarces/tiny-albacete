@@ -8,6 +8,7 @@ from shapely.geometry import Polygon,box
 from shapely import constrained_delaunay_triangles
 ROOT=Path(__file__).resolve().parent.parent
 sys.path.insert(0,str(ROOT/'src'));import catparse
+from local_frame import to_local
 out=[]
 def face(v,c,kind='context-estimated'):
  out.append({'v':v,'c':c,'kind':kind})
@@ -27,7 +28,7 @@ roads=0
 for el in osm.get('elements',[]):
  tags=el.get('tags',{});g=el.get('geometry',[])
  if len(g)<2:continue
- pts=[catparse.to_en(p['lat'],p['lon'])for p in g]
+ pts=[to_local(p['lat'],p['lon'])for p in g]
  if tags.get('highway'):
   width={'primary':11,'secondary':9,'tertiary':8,'residential':6,'service':4,'pedestrian':6,'footway':2,'steps':2}.get(tags['highway'],5)
   col='#c8c5bb' if tags['highway'] in ['pedestrian','footway','steps'] else '#b0b3a9'
@@ -40,7 +41,7 @@ for el in osm.get('elements',[]):
    flat([(x+dx,y+dy),(X+dx,Y+dy),(X-dx,Y-dy),(x-dx,y-dy)],.025,col,'osm-road-width-estimated')
   roads+=1
  elif len(pts)>3:flat(pts,.02,'#b8c6a2','osm-green')
-parts=json.load(open('/tmp/tinyalba/bu_parts.json'));count=0
+parts=json.load(open(ROOT/'data/zone-building-parts.json'));count=0
 palette=['#d6c9b1','#c9bea7','#d9cbb8','#c2baa8','#dfd4bd','#cbbbaa']
 for b in parts:
  if b['id'].startswith(('9271101WJ9197A','9272019WJ9197S')):continue
@@ -58,13 +59,13 @@ for b in parts:
  if b['id'] in ['9472604WJ9197S_part5','9472604WJ9197S_part6','9472604WJ9197S_part7']:h=12.0
  if b['id']=='9472601WJ9197A_part12':h=12.0 # 2017 annular-roof median, not another cone.
  if b['id']=='9472601WJ9197A_part6':
-  # Robust cone fitted to266PNOA2017 roof returns; not a current survey.
+  # Robust cone fitted to274PNOA2017 roof returns; not a current survey.
   # No fan across the non-star-shaped annular part12.
-  def roofheight(p):return 21.2-.5*math.hypot(p[0]-164.1,p[1]-50.2)
+  def roofheight(p):return 21.2-.505*math.hypot(p[0]-163.45,p[1]-52.30)
   for a,B in zip(pts,pts[1:]+pts[:1]):
    if a!=B:
     ha,hb=roofheight(a),roofheight(B)
-    face([[*a,ha],[*B,hb],[164.1,50.2,21.2]],'#9a9f89','pnoa2017-cone-fit')
+    face([[*a,ha],[*B,hb],[163.45,52.30,21.2]],'#9a9f89','pnoa2017-cone-fit')
     face([[*a,0],[*B,0],[*B,hb],[*a,ha]],col,'pnoa2017-roof-reference')
  else:
   flat(pts,h,'#c6b5a0')

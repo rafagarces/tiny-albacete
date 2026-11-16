@@ -4,7 +4,7 @@ from pathlib import Path
 from shapely import constrained_delaunay_triangles
 from shapely.geometry import Polygon
 from shapely.ops import triangulate, unary_union
-source = Path(sys.argv[1]) if len(sys.argv)>1 else Path('/tmp/tinyalba/bu_parts.json')
+source = Path(sys.argv[1]) if len(sys.argv)>1 else Path(__file__).resolve().parents[1]/'data/zone-building-parts.json'
 count = affected = 0
 extra = missing = 0.0
 previously_skipped=0
