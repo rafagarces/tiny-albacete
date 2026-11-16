@@ -189,3 +189,8 @@ Add512x4096atworld(-.5,-.5),total4096x4096,approx1.578km2groundenvelope. Origina
 ## 2026-11-16 bottom5
 
 Append tile at(-0.5,1.5),size(2.0,0.25),total4096x4608,approx1.776km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Capture4096x4608,scale531,focus(-268.88441051,-183.44623608),angle-154,tilt.60. ExistingbaseoverlapRMS<=1.766/255. Fourgeometry-guidedpanels.
+
+
+## 2026-11-16 right4
+
+Append tile at(1.5,-0.5),size(0.25,2.25),total4608x4608,approx1.997km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Capture4608x4608,scale531,focus(-243.02051285,-236.47508481),angle-154,tilt.60. ExistingbaseoverlapRMS<=2.326/255. Fourgeometry-guidedpanels.

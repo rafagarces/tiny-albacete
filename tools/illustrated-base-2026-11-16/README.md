@@ -59,3 +59,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## bottom5
 
 4096x4608px, bounds[-0.5, -0.5, 1.5, 1.75]. Source records15547, renderedparts15531, roadways5451, faces451721, OSMelements5529. Capture4096x4608,scale531,focus(-268.88441051,-183.44623608),angle-154,tilt.60. ExistingbaseoverlapRMS<=1.766/255. Fourgeometry-guidedpanels.
+
+
+## right4
+
+4608x4608px, bounds[-0.5, -0.5, 1.75, 1.75]. Source records16917, renderedparts16901, roadways6649, faces500052, OSMelements7166. Capture4608x4608,scale531,focus(-243.02051285,-236.47508481),angle-154,tilt.60. ExistingbaseoverlapRMS<=2.326/255. Fourgeometry-guidedpanels.
