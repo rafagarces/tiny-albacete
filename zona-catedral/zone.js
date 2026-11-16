@@ -19,7 +19,8 @@ function draw(){const w=Math.max(1,Math.round(innerWidth*.85)),h=Math.max(1,Math
 function zoom(f){scale=Math.min(900,Math.max(30,scale*f));draw();}
 const intro=document.getElementById('intro');function explore(){intro.hidden=true;}
 document.getElementById('explore').onclick=()=>{explore();scale=closeScale();draw();};document.getElementById('plus').onclick=()=>zoom(.8);document.getElementById('minus').onclick=()=>zoom(1.25);
-document.getElementById('reset').onclick=()=>{explore();fx=-13;fy=7;scale=closeScale();angle=-154*Math.PI/180;tilt=.60;draw();};document.getElementById('area').onclick=()=>{explore();fx=0;fy=0;scale=Math.max(270,270*innerHeight/innerWidth);draw();};
+function place(value){explore();if(value==='museo'){fx=-62.5;fy=66;scale=Math.max(24,24*390/innerWidth);angle=-85*Math.PI/180;tilt=.55;}else if(value==='zona'){fx=0;fy=0;scale=Math.max(270,270*innerHeight/innerWidth);}else{fx=-13;fy=7;scale=closeScale();angle=-154*Math.PI/180;tilt=.60;}draw();}
+document.getElementById('landmark').onchange=e=>place(e.target.value);
 const info=document.getElementById('info'),details=document.getElementById('details');info.onclick=()=>{details.hidden=!details.hidden;info.setAttribute('aria-expanded',!details.hidden)};document.getElementById('close').onclick=()=>{details.hidden=true;info.setAttribute('aria-expanded','false');info.focus()};
 const pointers=new Map();let last;function pan(dx,dy){const m=scale*2/innerHeight;fx+=(Math.sin(angle)*dx-Math.cos(angle)*dy/Math.sin(tilt))*m;fy+=(-Math.cos(angle)*dx-Math.sin(angle)*dy/Math.sin(tilt))*m;}
 c.onpointerdown=e=>{explore();c.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);last={x:e.clientX,y:e.clientY,d:0};if(pointers.size===2){const p=[...pointers.values()];last={x:(p[0][0]+p[1][0])/2,y:(p[0][1]+p[1][1])/2,d:Math.hypot(p[0][0]-p[1][0],p[0][1]-p[1][1])};}};
@@ -28,5 +29,5 @@ const dx=e.clientX-last.x,dy=e.clientY-last.y;
 if(e.shiftKey||e.buttons===2){pan(dx,dy);}else{angle+=dx*.007;tilt=Math.max(.25,Math.min(1.25,tilt+dy*.004));}last={x:e.clientX,y:e.clientY,d:0};draw();};
 c.onpointerup=c.onpointercancel=e=>{pointers.delete(e.pointerId);last={x:e.clientX,y:e.clientY,d:0}};c.oncontextmenu=e=>e.preventDefault();c.onwheel=e=>{e.preventDefault();explore();zoom(Math.exp(e.deltaY*.001))};
 c.tabIndex=0;c.onkeydown=e=>{if(e.key==='ArrowLeft')angle-=.13;else if(e.key==='ArrowRight')angle+=.13;else if(e.key==='ArrowUp')tilt=Math.min(1.25,tilt+.1);else if(e.key==='ArrowDown')tilt=Math.max(.25,tilt-.1);else if(e.key==='+')zoom(.85);else if(e.key==='-')zoom(1.15);else return;e.preventDefault();draw()};
-window.addEventListener('resize',draw);draw();document.body.classList.add('ready');
+window.addEventListener('resize',draw);draw();document.body.classList.add('ready');const target=new URLSearchParams(location.search).get('l');if(['museo','zona'].includes(target)){document.getElementById('landmark').value=target;place(target);}
 })();

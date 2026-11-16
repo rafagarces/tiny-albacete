@@ -40,7 +40,7 @@ for el in osm.get('elements',[]):
 parts=json.load(open('/tmp/tinyalba/bu_parts.json'));count=0
 palette=['#d6c9b1','#c9bea7','#d9cbb8','#c2baa8','#dfd4bd','#cbbbaa']
 for b in parts:
- if b['id'].startswith('9271101WJ9197A'):continue
+ if b['id'].startswith(('9271101WJ9197A','9272019WJ9197S')):continue
  pts=b['pts'];cx=sum(p[0]for p in pts)/len(pts);cy=sum(p[1]for p in pts)/len(pts)
  if abs(cx)>250 or abs(cy)>250 or b['area']<18:continue
  col=palette[int(catparse.h01(b['id'])*len(palette))%len(palette)]
@@ -56,6 +56,10 @@ ang=math.radians(-24);ca,sa=math.cos(ang),math.sin(ang)
 for f in json.load(open(ROOT/'pilots/catedral-3d/model.json')):
  v=[[ca*x-sa*y-13.1,sa*x+ca*y+6.7,z]for x,y,z in f['v']]
  face(v,f['c'],f['kind'])
+# CasaHortelano registered to cadastral front edge(-70.3,59.7)->(-54.6,62.4).
+ang=math.atan2(2.7,15.7);ca,sa=math.cos(ang),math.sin(ang)
+for f in json.load(open(ROOT/'pilots/hortelano-3d/model.json')):
+ face([[ca*x-sa*y-70.3,sa*x+ca*y+59.7,z]for x,y,z in f['v']],f['c'],f['kind'])
 (ROOT/'zona-catedral/model.json').write_text(json.dumps(out,separators=(',',':')))
 (ROOT/'zona-catedral/stats.json').write_text(json.dumps({'buildingParts':count,'roads':roads,'faces':len(out),'extentMeters':500,'generated':'2026-11-16','cathedralRegistration':'approximate rotation-24deg, offset(-13.1,6.7)m; not a surveyed alignment'}))
 print(count,'parts',roads,'roads',len(out),'faces')

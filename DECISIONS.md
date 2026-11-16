@@ -38,3 +38,10 @@ Sitio: https://tiny-albacete.pages.dev (Cloudflare Pages, proyecto `tiny-albacet
 - Calles consultadas16/11/2026, extracto API OSM bbox-1.8600,38.9925,-1.8515,38.9990. Trazado real; anchos estimados. Fuente exacta: https://www.openstreetmap.org/api/0.6/map?bbox=-1.8600,38.9925,-1.8515,38.9990 . DerivadoOSM en zona-catedral/osm-source.json,ODbL.
 - Créditos/licencias de fuentes fotográficas y limitaciones en zona-catedral/sources.html y pilots/catedral-3d/README.md. Modelo Catedral y renders:CC BY-SA4.0. NoGoogle. No datos personales ni secretos en el repositorio o deploy.
 - Reproducibilidad: modelo publicado, generadores src/build_zone.py y pilots/catedral-3d/build.py. El primero requiere Catastro bu_parts.json reconstruible con src/parse_bu.py y el extractoOSM incluido. Datos originales Catastro no se redistribuyen en bruto. Respaldo del mapa previo:git9ef5c64.
+
+## 16 noviembre 2026: Casa de Hortelano
+- Segunda ampliación dentro de la dirección aprobada. Modelo propio parcial de 1033 caras, no una fachada genérica. Referencias libres Rodelar (27 abril 2024) y User041 (17 abril 2026), CC BY-SA 4.0. Créditos, enlaces y límites en sources.html.
+- Huella Catastro 9272019WJ9197S, frente de 15.93 m. Se sustituyen sus partes catastrales por el modelo. Contexto ahora: 1238 partes, no 1238 fachadas reconstruidas. El resto del museo anexo conserva volúmenes de contexto.
+- Galería superior de cinco ventanas, tres huecos bajos, entrada/mirador derechos, azulejo verde, torres asimétricas y pináculos según fotos inspeccionadas. Talla floral simplificada. Profundidades, alturas, cubierta y geometría ornamental estimadas; caras ocultas sin detalle.
+- Selector Catedral / Cuchillería / Vista general, con encuadres propios. Se preservan oclusión y geometría, sin retirar vecinos para forzar la vista. Ruta directa ?l=museo. Mapa general intacto.
+- Generador reproducible pilots/hortelano-3d/build.py. Sin fotos originales dentro del deploy, sin servicios remotos, facturación ni contacto con terceros. Primera zona respaldada en da9fd6d.

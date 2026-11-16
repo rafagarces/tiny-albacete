@@ -1,6 +1,6 @@
-# Catedral 3D: bounded first integration
-Original WebGL, no remote runtime dependencies.500m context. Cathedral geometry comes from ../pilots/catedral-3d/model.json. Neighbours:1240Catastrobuildingparts, heights estimated, no reconstructed facades. Streets derived from OpenStreetMap,ODbL,source and licence in sources.html. Cathedral underCC-BY-SA4.0. Context geometry is already transformed, not raw Catastro redistribution.
+# Catedral 3D: bounded integration
+Original WebGL, no remote runtime dependencies. About 500 m context. Cathedral geometry: ../pilots/catedral-3d/model.json (754 faces); Casa de Hortelano: ../pilots/hortelano-3d/model.json (1033 faces). Neighbours: 1238 Catastro building parts, estimated heights, no reconstructed facades. Streets derived from OpenStreetMap, ODbL. Both original landmark models under CC BY-SA 4.0; sources and limits in sources.html.
 
-build_zone.py requires Python3,shapely,the existing Catastro parser output /tmp/tinyalba/bu_parts.json,and the included osm-source.json. Regenerate from repository root: python src/build_zone.py. Serve root overHTTP. Open /zona-catedral/. Index/source page and noWebGL fallback are plainHTML.
+build_zone.py requires Python 3, shapely, Catastro parser output /tmp/tinyalba/bu_parts.json, and included osm-source.json. Regenerate from repository root: python src/build_zone.py. Serve root over HTTP. Open /zona-catedral/; ?l=museo focuses Hortelano; ?l=zona opens the wider area.
 
-QA16November2026:1280x800,390x800,320x800emulated. ChromeWebGLsoftware rendering,not a physical mobileGPU. Rotation,zoom,reset,area,info/source links and map link checked. General map's scripts,search and existing tiles preserved. Camera framing on320adapted,controls fit320. No claim of a fully reconstructed city.
+QA 16 November 2026: 1280x800, 390x844, 320x800 emulated. Chrome WebGL software rendering, not a physical mobile GPU. Rotation, zoom, landmark selector, overview, info/source and general map links checked. No horizontal overflow at 320 px. General map scripts, search and tiles preserved. No claim of a fully reconstructed city.
