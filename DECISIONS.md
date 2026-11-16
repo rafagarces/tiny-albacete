@@ -194,3 +194,8 @@ Append tile at(-0.5,1.5),size(2.0,0.25),total4096x4608,approx1.776km2 groundenve
 ## 2026-11-16 right4
 
 Append tile at(1.5,-0.5),size(0.25,2.25),total4608x4608,approx1.997km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Capture4608x4608,scale531,focus(-243.02051285,-236.47508481),angle-154,tilt.60. ExistingbaseoverlapRMS<=2.326/255. Fourgeometry-guidedpanels.
+
+
+## 2026-11-16 Atlas cache consistency
+
+Two immediate post-deploy comparison checks briefly changed the viewport, then passed on repeat. Independent stale metadata is a suspected cause, not proven. Construct DZI sources from the current catalog instead of independently cached DZI metadata. Version raster tile requests by source-content digest, fetch catalog without storage, and revalidate viewer entry points. This removes a cross-revision metadata dependency; physical device cache behavior remains untested.

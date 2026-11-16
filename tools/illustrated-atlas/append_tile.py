@@ -8,7 +8,7 @@ from pyproj import Transformer
 p=argparse.ArgumentParser();p.add_argument('--id',required=True);p.add_argument('--x',type=float,required=True);p.add_argument('--y',type=float,required=True);p.add_argument('--width',type=float,required=True);p.add_argument('--height',type=float,required=True);p.add_argument('--base',required=True);p.add_argument('--build',required=True);p.add_argument('--osm-addition',required=True);p.add_argument('--note',required=True);a=p.parse_args()
 r=Path(__file__).resolve().parents[2];ill=r/'ilustrado';build=Path(a.build);cat=json.loads((ill/'tiles.json').read_text());assert a.id not in [t['id']for t in cat['tiles']]
 tile={'id':a.id,'url':a.id+'.webp','x':a.x,'y':a.y,'width':a.width,'height':a.height};assert Image.open(ill/tile['url']).size==(round(a.width*2048),round(a.height*2048))
-cat['tiles'].append(tile);b=cat['bounds'];b.update(minX=min(b['minX'],a.x),minY=min(b['minY'],a.y),maxX=max(b['maxX'],a.x+a.width),maxY=max(b['maxY'],a.y+a.height));W=round((b['maxX']-b['minX'])*2048);H=round((b['maxY']-b['minY'])*2048)
+cat['tiles'].append(tile);cat['asset_revision']=hashlib.sha256(b''.join((ill/t['url']).read_bytes()for t in cat['tiles'])).hexdigest()[:16];b=cat['bounds'];b.update(minX=min(b['minX'],a.x),minY=min(b['minY'],a.y),maxX=max(b['maxX'],a.x+a.width),maxY=max(b['maxY'],a.y+a.height));W=round((b['maxX']-b['minX'])*2048);H=round((b['maxY']-b['minY'])*2048)
 assert Image.open(a.base).size==(W,H)
 # Validate proposed coverage before writing metadata.
 area=0

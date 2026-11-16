@@ -1,0 +1,8 @@
+/ilustrado/
+  Cache-Control: no-cache, must-revalidate
+/ilustrado/index.html
+  Cache-Control: no-cache, must-revalidate
+/ilustrado/art.js
+  Cache-Control: no-cache, must-revalidate
+/ilustrado/tiles.json
+  Cache-Control: no-store
