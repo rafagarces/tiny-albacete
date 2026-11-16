@@ -214,3 +214,8 @@ Append tile at(-0.5,-0.75),size(2.25,0.25),total4608x5120,approx2.219km2 grounde
 ## 2026-11-16 left3
 
 Append tile at(-0.75,-0.75),size(0.25,2.5),total5120x5120,approx2.466km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Reuses right4 geometry and source URLs without additional OSM requests. Camera square5120,focus(-174.96861205,-137.64044059),scale590; shared reference overlap RMS <=0.568/255. Five reference-led panels, existing pixels preserved exactly. Geometry is cadastral/OSM, facade details interpreted, not current-photo evidence.
+
+
+## 2026-11-16 bottom6
+
+Append tile at(-0.75,1.75),size(2.5,0.25),total5120x5632,approx2.713km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Camera5120x5632,focus(-268.88441051,-183.44623607),scale649. Additional cadastral parts and1061OSMways extend western base edge. Shared-reference RMS<=1.276/255 includes additional roads; artistic previous pixels unchanged. Five panels with interpreted facades, no claim of current facade verification.

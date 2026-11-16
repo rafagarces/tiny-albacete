@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 100,
+  "published_cells_intersecting_candidate": 110,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -3139,8 +3139,8 @@
       "column": -3,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-3r7"
     },
@@ -3148,8 +3148,8 @@
       "column": -2,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r7"
     },
@@ -3157,8 +3157,8 @@
       "column": -1,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-1r7"
     },
@@ -3166,8 +3166,8 @@
       "column": 0,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c0r7"
     },
@@ -3175,8 +3175,8 @@
       "column": 1,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c1r7"
     },
@@ -3184,8 +3184,8 @@
       "column": 2,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c2r7"
     },
@@ -3193,8 +3193,8 @@
       "column": 3,
       "row": 7,
       "candidate_target_fraction": 0.724606,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c3r7"
     },
@@ -3202,8 +3202,8 @@
       "column": 4,
       "row": 7,
       "candidate_target_fraction": 0.585053,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c4r7"
     },
@@ -3211,8 +3211,8 @@
       "column": 5,
       "row": 7,
       "candidate_target_fraction": 0.924074,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c5r7"
     },
@@ -3220,8 +3220,8 @@
       "column": 6,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c6r7"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 2.465985230667977,
+  "published_ground_envelope_km2": 2.712583753734797,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 2.465985,
+      "published_intersection_km2": 2.693688,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -7452,70 +7452,70 @@
         "row": 7,
         "id": "c-3r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -2,
         "row": 7,
         "id": "c-2r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -1,
         "row": 7,
         "id": "c-1r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 0,
         "row": 7,
         "id": "c0r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 1,
         "row": 7,
         "id": "c1r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 2,
         "row": 7,
         "id": "c2r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 3,
         "row": 7,
         "id": "c3r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 4,
         "row": 7,
         "id": "c4r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 5,
         "row": 7,
         "id": "c5r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 6,
         "row": 7,
         "id": "c6r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 7,
@@ -8505,21 +8505,21 @@
         "name": "PEDRO LAMATA",
         "source_id": "barrios.4",
         "administrative_area_km2": 0.10332277957417861,
-        "published_ground_envelope_intersection_km2": 0.003956809639348961,
+        "published_ground_envelope_intersection_km2": 0.037057071472352675,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SANTA TERESA",
         "source_id": "barrios.5",
         "administrative_area_km2": 0.2722938332622918,
-        "published_ground_envelope_intersection_km2": 0.0003581986642284619,
+        "published_ground_envelope_intersection_km2": 0.144927202148265,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "FRANCISCANOS",
         "source_id": "barrios.6",
         "administrative_area_km2": 0.6224287683489467,
-        "published_ground_envelope_intersection_km2": 0.4786825798115971,
+        "published_ground_envelope_intersection_km2": 0.47868478325316416,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8540,7 +8540,7 @@
         "name": "FERIA",
         "source_id": "barrios.10",
         "administrative_area_km2": 0.40935669600910607,
-        "published_ground_envelope_intersection_km2": 0.24557905068478567,
+        "published_ground_envelope_intersection_km2": 0.24720328525069127,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8554,21 +8554,21 @@
         "name": "SAN PABLO",
         "source_id": "barrios.12",
         "administrative_area_km2": 0.6931638739375532,
-        "published_ground_envelope_intersection_km2": 0.0,
+        "published_ground_envelope_intersection_km2": 0.014633763564388098,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "VEREDA",
         "source_id": "barrios.13",
         "administrative_area_km2": 0.34469531000804476,
-        "published_ground_envelope_intersection_km2": 0.0,
+        "published_ground_envelope_intersection_km2": 0.004258405061780149,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SAN PEDRO - MORTERO",
         "source_id": "barrios.14",
         "administrative_area_km2": 0.9432136242081502,
-        "published_ground_envelope_intersection_km2": 0.001051900069623745,
+        "published_ground_envelope_intersection_km2": 0.04173525518059696,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8638,7 +8638,7 @@
         "name": "FÁTIMA",
         "source_id": "barrios.9",
         "administrative_area_km2": 0.36964259690903595,
-        "published_ground_envelope_intersection_km2": 0.3619167156877089,
+        "published_ground_envelope_intersection_km2": 0.36964259690903595,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8786,6 +8786,80 @@
         "ent_sin": "CERRO LOBO",
         "status": "scope-unresolved-not-completed-not-excluded",
         "note": "Administrative statistical entity; its polygon is not a built-up footprint."
+      }
+    ]
+  },
+  "exterior_industrial_geometry_inventory": {
+    "status": "candidate-boundaries-not-final-city-mask",
+    "source": "OSM named industrial landuse geometries; geocoded points independent location checks, not polygon certification",
+    "rows": [
+      {
+        "name": "Parque Empresarial Campollano",
+        "osm_way": "31137184",
+        "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.903,39.005,-1.863,39.036",
+        "retrieved": "2026-11-16",
+        "boundary_kind": "community mapped industrial landuse; not official built-edge or approved city scope",
+        "area_km2": 3.828241834095064,
+        "outside_principal_candidate_km2": 3.578645563239835,
+        "overlap_all_municipal_SIU_km2": 3.0509875195487535,
+        "published_ground_envelope_intersection_km2": 0.0,
+        "geocoded_point_inside": true,
+        "geocoded_point_distance_to_polygon_m": 0.0,
+        "currentness_status": "2026built-edge and facade review pending",
+        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "pnoa_sample_date": "2024-07",
+        "pnoa_date_scope": "one central sample only, not every pixel"
+      },
+      {
+        "name": "Polígono Industrial Romica",
+        "osm_way": "205937669",
+        "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.859,39.044,-1.821,39.074",
+        "retrieved": "2026-11-16",
+        "boundary_kind": "community mapped industrial landuse; not official built-edge or approved city scope",
+        "area_km2": 2.8281224351882535,
+        "outside_principal_candidate_km2": 2.8281224351882552,
+        "overlap_all_municipal_SIU_km2": 0.0,
+        "published_ground_envelope_intersection_km2": 0.0,
+        "geocoded_point_inside": true,
+        "geocoded_point_distance_to_polygon_m": 0.0,
+        "currentness_status": "2026built-edge and facade review pending",
+        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "pnoa_sample_date": null,
+        "pnoa_date_scope": "one central sample only, not every pixel"
+      },
+      {
+        "name": "Polígono Ajusa",
+        "osm_way": "188337171",
+        "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.829,38.999,-1.808,39.012",
+        "retrieved": "2026-11-16",
+        "boundary_kind": "community mapped industrial landuse; not official built-edge or approved city scope",
+        "area_km2": 0.3199145997671179,
+        "outside_principal_candidate_km2": 0.31991459976711795,
+        "overlap_all_municipal_SIU_km2": 0.0,
+        "published_ground_envelope_intersection_km2": 0.0,
+        "geocoded_point_inside": true,
+        "geocoded_point_distance_to_polygon_m": 0.0,
+        "currentness_status": "2026built-edge and facade review pending",
+        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "pnoa_sample_date": "2024-07",
+        "pnoa_date_scope": "one central sample only, not every pixel"
+      },
+      {
+        "name": "Parque Aeronáutico y Logístico de Albacete",
+        "osm_way": "140643731",
+        "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.895,38.929,-1.866,38.950",
+        "retrieved": "2026-11-16",
+        "boundary_kind": "community mapped industrial landuse; not official built-edge or approved city scope",
+        "area_km2": 0.753813956459521,
+        "outside_principal_candidate_km2": 0.753813956459521,
+        "overlap_all_municipal_SIU_km2": 0.0,
+        "published_ground_envelope_intersection_km2": 0.0,
+        "geocoded_point_inside": true,
+        "geocoded_point_distance_to_polygon_m": 0.0,
+        "currentness_status": "2026built-edge and facade review pending",
+        "scope_status": "explicit exterior sector, not excluded; final mask pending",
+        "pnoa_sample_date": "2024-07",
+        "pnoa_date_scope": "one central sample only, not every pixel"
       }
     ]
   }

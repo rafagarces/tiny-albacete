@@ -74,3 +74,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## left3
 
 5120x5120px, bounds[-0.75, -0.75, 1.75, 1.75]. Source records16917, renderedparts16901, roadways6649, faces500052, OSMelements7166. Reuses right4 geometry and source URLs without additional OSM requests. Camera square5120,focus(-174.96861205,-137.64044059),scale590; shared reference overlap RMS <=0.568/255. Five reference-led panels, existing pixels preserved exactly. Geometry is cadastral/OSM, facade details interpreted, not current-photo evidence.
+
+
+## bottom6
+
+5120x5632px, bounds[-0.75, -0.75, 1.75, 2.0]. Source records17674, renderedparts17658, roadways7548, faces527285, OSMelements8227. Camera5120x5632,focus(-268.88441051,-183.44623607),scale649. Additional cadastral parts and1061OSMways extend western base edge. Shared-reference RMS<=1.276/255 includes additional roads; artistic previous pixels unchanged. Five panels with interpreted facades, no claim of current facade verification.

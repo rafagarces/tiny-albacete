@@ -29,3 +29,12 @@ Sources:
 - https://ide.ayto-albacete.es/gvsigonline/core/load_public_project/visorgenerico/
 - https://ide.ayto-albacete.es/geoserver/ws_albacete/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=ws_albacete%3Abarrios&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100
 - https://ide.ayto-albacete.es/geoserver/ws_albacete/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=ws_albacete%3Aentidad_singular&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=1000
+
+
+## Exterior geometry,16November2026
+
+Four named OSM industrial landuse polygons recovered directly through bboxAPI; source URLs in exterior-evidence/*-source.json. They are community landuse boundaries, not official built-edge or final scope. Named geocode points all fall inside corresponding polygons, independently confirming location only. Campollano3.8282km2,Romica2.8281,Ajusa0.3199,PAL0.7538. Romica,Ajusa,PAL have no overlap with the downloaded SIU urban-class union, showing that even all30SIU components cannot define whole city. Campollano3.5786km2 lies outside principal candidate. No target percentage is introduced.
+
+Fetched municipal descriptions: https://www.albacete.es/es/directorio/parque-empresarial-campollano ; https://www.albacete.es/es/directorio/poligono-industrial-romica ; https://www.albacete.es/es/directorio/parque-empresarial-ajusa ; https://www.albacete.es/es/directorio/parque-aeronautico-logistico . Undated descriptions, inconsistent extent figures across historical promotional documents, not polygon authority. Independent OSM-derived named sources fetched https://mapcarta.com/es/W205937669 and https://mapcarta.com/es/W31137184 .
+
+PNOA inspected individually for industrial polygons. Acquisition metadata sampled centrally, stored in exterior-evidence/pnoa-point-dates.json; point month does not certify every pixel. Romica and Ajusa include large empty industrial plots: industrial landuse must not be filled with invented buildings. PAL outline cuts past structures along northeast edge and imagery has obscured land beyond: not a complete industrial built-edge. Campollano closeup initialWMS502twice, rounded whole-sector request succeeded. No2026currentness claim. Separate settlements remain an unresolved scope outcome, not silently excluded.

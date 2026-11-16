@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Parque Empresarial Campollano",
+    "source_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=595345.019491489%2C4317848.2850374%2C598792.3519747211%2C4321295.617520632&WIDTH=1100&HEIGHT=1100&FORMAT=image%2Fjpeg",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "name": "Pol\u00edgono Industrial Romica",
+    "source_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=598978.3809675003%2C4322678.579686955%2C601547.4547834398%2C4325247.653502895&WIDTH=1100&HEIGHT=1100&FORMAT=image%2Fjpeg",
+    "bbox_utm25830": [
+      598978.3809675003,
+      4322678.579686955,
+      601547.4547834398,
+      4325247.653502895
+    ],
+    "retrieved": "2026-11-16",
+    "acquisition_date": "not verified at this sector"
+  },
+  {
+    "name": "Pol\u00edgono Ajusa",
+    "source_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=601954.4592084751%2C4317731.852941628%2C602828.7645848774%2C4318606.158318031&WIDTH=1100&HEIGHT=1100&FORMAT=image%2Fjpeg",
+    "bbox_utm25830": [
+      601954.4592084751,
+      4317731.852941628,
+      602828.7645848774,
+      4318606.158318031
+    ],
+    "retrieved": "2026-11-16",
+    "acquisition_date": "not verified at this sector"
+  },
+  {
+    "name": "Parque Aeron\u00e1utico y Log\u00edstico de Albacete",
+    "source_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=596291.674872808%2C4310202.5782498345%2C597635.4408172203%2C4311546.344194246&WIDTH=1100&HEIGHT=1100&FORMAT=image%2Fjpeg",
+    "bbox_utm25830": [
+      596291.674872808,
+      4310202.5782498345,
+      597635.4408172203,
+      4311546.344194246
+    ],
+    "retrieved": "2026-11-16",
+    "acquisition_date": "not verified at this sector"
+  }
+]
