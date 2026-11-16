@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tiny Albacete · un mapa pixel-art de la ciudad</title>
+<meta name="description" content="Un mapa isométrico pixel-art de Albacete, dibujado manzana a manzana. Haz zoom de la catedral al Parque de los Llanos.">
+<meta name="theme-color" content="#e7dfcf">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tiny Albacete">
+<meta property="og:description" content="Un mapa isométrico pixel-art de Albacete, dibujado manzana a manzana.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="map" aria-label="Mapa isométrico de Albacete"></div>
+
+<header class="brand panel">
+  <img class="logo" src="favicon.svg" alt="" width="32" height="32">
+  <div>
+    <h1>Tiny Albacete</h1>
+    <div class="sub">un mapa <b>pixel-art</b> de la ciudad</div>
+  </div>
+</header>
+
+<nav class="tools" aria-label="Herramientas">
+  <button class="btn icon" id="zinBtn" title="Acercar (+)" aria-label="Acercar">
+    <svg viewBox="0 0 16 16"><path d="M7 2h2v5h5v2H9v5H7V9H2V7h5V2z"/></svg>
+  </button>
+  <button class="btn icon" id="zoutBtn" title="Alejar (-)" aria-label="Alejar">
+    <svg viewBox="0 0 16 16"><path d="M2 7h12v2H2V7z"/></svg>
+  </button>
+  <button class="btn icon" id="shareBtn" title="Compartir vista" aria-label="Compartir vista">
+    <svg viewBox="0 0 16 16"><path d="M8 1l4 4-1.4 1.4L9 4.8V10H7V4.8L5.4 6.4 4 5l4-4zM3 9h2v5h6V9h2v7H3V9z"/></svg>
+  </button>
+  <button class="btn icon" id="searchBtn" title="Buscar ( / )" aria-label="Buscar">
+    <svg viewBox="0 0 16 16"><path d="M7 1a6 6 0 1 0 3.7 10.7l3.3 3.3 1.4-1.4-3.3-3.3A6 6 0 0 0 7 1zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/></svg>
+  </button>
+  <button class="btn icon" id="monsterBtn" title="Monstruos (M)" aria-label="Monstruos" aria-pressed="false">
+    <svg viewBox="0 0 16 16"><path d="M3 14V8l2-2V4l2-2h2l2 2v2l2 2v6h-3v-3h-2v3H8v-3H6v3H3zm4-9h1v2H7V5zm2 1h2v1H9V6z"/></svg>
+  </button>
+  <button class="btn icon" id="randBtn" title="Vista aleatoria (R)" aria-label="Vista aleatoria">
+    <svg viewBox="0 0 16 16"><path d="M3 3h3l4 7h3v2h-4L6 6H4v4H2V4h1v1zm7 0h3v3h-2V5h-1V3zM3 12h2v1H3v-1z"/></svg>
+  </button>
+  <button class="btn icon" id="fullBtn" title="Pantalla completa (F)" aria-label="Pantalla completa">
+    <svg viewBox="0 0 16 16"><path d="M2 2h5v2H4v3H2V2zm7 0h5v5h-2V4H9V2zM2 9h2v3h3v2H2V9zm10 0h2v5h-5v-2h3V9z"/></svg>
+  </button>
+  <button class="btn icon" id="aboutBtn" title="Acerca de" aria-label="Acerca de">
+    <svg viewBox="0 0 16 16"><path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 2a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zM6.5 7h3v6h-3V7z"/></svg>
+  </button>
+</nav>
+
+<div class="searchbox panel" id="searchbox" hidden>
+  <input id="searchInput" type="search" placeholder="Buscar un sitio…" aria-label="Buscar un sitio" autocomplete="off">
+  <ul id="searchResults" role="listbox"></ul>
+</div>
+
+<footer class="credits">
+  <button class="linkish" id="aboutLink">Acerca de</button> ·
+  Datos © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> ·
+  Edificios © <a href="https://www.catastro.meh.es/" target="_blank" rel="noopener">Catastro</a>
+</footer>
+
+<dialog id="about" class="panel">
+  <form method="dialog"><button class="btn icon close" aria-label="Cerrar">✕</button></form>
+  <h2>Tiny Albacete</h2>
+  <p>Un mapa isométrico pixel-art de Albacete, al estilo de SimCity y de
+    <a href="https://tinyvalencia.com/" target="_blank" rel="noopener">Tiny València</a>.
+    Cada edificio es uno de verdad, dibujado desde arriba con el mismo ángulo, manzana a manzana.</p>
+  <h3>Cómo está hecho</h3>
+  <p>Las huellas reales de los edificios del Catastro y las calles, parques y árboles de OpenStreetMap
+    se dibujan desde una cámara isométrica fija, tile a tile, con una paleta pixel-art. Sin fotos ni IA:
+    todo lo que ves está generado a partir de datos abiertos. Las plantas de cada edificio son las oficiales
+    del Catastro; las alturas se deducen de ellas (unos 3 m por planta más el remate), no son mediciones reales,
+    y al pequeño porcentaje de edificios sin dato de plantas se les asigna una altura estimada.</p>
+  <h3>Cómo moverse</h3>
+  <ul class="keys">
+    <li><b>Arrastra</b> para moverte, <b>rueda</b> o <b>pellizca</b> para zoom, <b>doble clic</b> para acercar</li>
+    <li><kbd>R</kbd> un sitio al azar · <kbd>H</kbd> todo el mapa · <kbd>F</kbd> pantalla completa · <kbd>/</kbd> buscar · <kbd>M</kbd> monstruos</li>
+    <li>La barra de direcciones guarda siempre la vista actual: cualquier enlace que copies abre justo aquí.</li>
+  </ul>
+  <h3>Monstruos</h3>
+  <p>Pulsa <kbd>M</kbd> y tres visitantes enormes pasean por la ciudad: Godzilla, un robot gigante y una manchega gigante.</p>
+  <h3>Datos</h3>
+  <p class="small">Calles, parques, agua, raíles y árboles © colaboradores de
+    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (ODbL) ·
+    Huellas, usos y plantas de edificios © Dirección General del Catastro ·
+    Tipografía Pixelify Sans (OFL) · Visor OpenSeadragon (BSD).</p>
+</dialog>
+
+<script src="config.js"></script>
+<script src="openseadragon.min.js"></script>
+<script src="places.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
