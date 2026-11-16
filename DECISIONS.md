@@ -239,3 +239,8 @@ Append tile at(-1.0,-1.0),size(0.25,3.0),total6144x6144,approx3.551km2 groundenv
 ## 2026-11-16 top5
 
 Append tile at(-1.0,-1.25),size(3.0,0.25),total6144x6656,approx3.847km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Cached OSM data only, no requests after throttle. Downloaded successful bboxes cover99.9733percent of new band;79m2tip visually checked against PNOA and existing full-way centerlines. Open arterial roadside land preserved. Previous art unchanged.
+
+
+## 2026-11-16 right6
+
+Append tile at(2.0,-1.25),size(0.25,3.25),total6656x6656,approx4.168km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Six reference-ledpanels, all priorpixelsunchanged. OSM429paused;97.995percentcachequerycoverage,newgapthreepolygons6420m2checkedPNOAandcachedfullwaycenterlines. Catastro707additionalrecords. LaPulgosaexplicitpointinventory,noexclusionbyprincipalborder.

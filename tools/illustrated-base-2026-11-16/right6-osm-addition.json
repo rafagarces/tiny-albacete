@@ -1,0 +1,61 @@
+{
+  "elements": [],
+  "source_urls": [],
+  "note": "No fresh OSM geometry after429. Cache request extents cover97.995percentofnewband. Three gaps6420m2 visually inspected PNOA: two junction/sidewalk tips and residential road triangle. Downloaded fullways coverthe visible road centerlines; Catastro cache supplies building footprints. Not2026facade certification.",
+  "cached_roads_intersecting_gaps": [
+    {
+      "id": "139269776",
+      "name": "Calle Demetrio Nalda",
+      "highway": "residential",
+      "length_m": 10.096842616662999
+    },
+    {
+      "id": "1498044608",
+      "name": "Calle Demetrio Nalda",
+      "highway": "footway",
+      "length_m": 12.234818354367958
+    },
+    {
+      "id": "1498299654",
+      "name": "Calle Demetrio Nalda",
+      "highway": "footway",
+      "length_m": 2.9455952129416856
+    },
+    {
+      "id": "139528629",
+      "name": "Calle San Joaqu\u00edn",
+      "highway": "residential",
+      "length_m": 9.413557734118244
+    },
+    {
+      "id": "36996461",
+      "name": null,
+      "highway": "motorway_link",
+      "length_m": 11.011129549693333
+    },
+    {
+      "id": "140430817",
+      "name": null,
+      "highway": "motorway_link",
+      "length_m": 13.699421451494807
+    },
+    {
+      "id": "151098459",
+      "name": "Calle San Lorenzo",
+      "highway": "residential",
+      "length_m": 21.14076932866738
+    },
+    {
+      "id": "1016408973",
+      "name": "Autov\u00eda de Alicante",
+      "highway": "motorway",
+      "length_m": 68.83917757175013
+    },
+    {
+      "id": "1023082812",
+      "name": "Autov\u00eda de Alicante",
+      "highway": "motorway",
+      "length_m": 50.73929567462982
+    }
+  ]
+}

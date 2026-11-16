@@ -99,3 +99,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## top5
 
 6144x6656px, bounds[-1.0, -1.25, 2.0, 2.0]. Source records19810, renderedparts19794, roadways8813, faces581579, OSMelements9811. Cached OSM data only, no requests after throttle. Downloaded successful bboxes cover99.9733percent of new band;79m2tip visually checked against PNOA and existing full-way centerlines. Open arterial roadside land preserved. Previous art unchanged.
+
+
+## right6
+
+6656x6656px, bounds[-1.0, -1.25, 2.25, 2.0]. Source records20517, renderedparts20501, roadways8813, faces598164, OSMelements9811. Six reference-ledpanels, all priorpixelsunchanged. OSM429paused;97.995percentcachequerycoverage,newgapthreepolygons6420m2checkedPNOAandcachedfullwaycenterlines. Catastro707additionalrecords. LaPulgosaexplicitpointinventory,noexclusionbyprincipalborder.

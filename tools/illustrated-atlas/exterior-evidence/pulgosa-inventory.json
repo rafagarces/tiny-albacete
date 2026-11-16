@@ -1,0 +1,44 @@
+{
+  "name": "Parque de La Pulgosa",
+  "point_lonlat": [
+    -1.8679459,
+    38.9641021
+  ],
+  "point_in_principal_candidate": false,
+  "point_distance_to_principal_candidate_m": 1279.8114714411201,
+  "point_in_art": false,
+  "point_distance_to_art_m": 2192.1895084016655,
+  "scope_status": "Explicit pending exterior park, not excluded. No certified polygon yet. Geocoded point is not a boundary.",
+  "sources": [
+    {
+      "url": "https://www.albacete.es/es/noticias/concejalia-sostenibilidad-culmina-instalacion-telegestion-riego-parque-pulgosa",
+      "date": "2022-04-11",
+      "area_ha": 40
+    },
+    {
+      "url": "https://www.turismocastillalamancha.es/es/naturaleza/monumentos-naturales/parque-de-la-pulgosa",
+      "area_ha_approx": 40
+    },
+    {
+      "url": "https://zonasverdesalbacete.es/zvf.php?zv=107",
+      "area_description_ha": 40,
+      "maintenance_total_m2": 517777,
+      "surface_component_sum_m2": 519790
+    }
+  ],
+  "conflict": "Maintenance total is51.7777ha while municipal/operator prose states40ha. Its listed component sum is519790m2,2013m2above total; do not silently reconcile or choose final perimeter.",
+  "pnoa_source": {
+    "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=597200%2C4312600%2C599000%2C4314400&WIDTH=1400&HEIGHT=1400&FORMAT=image%2Fjpeg",
+    "bbox": [
+      597200,
+      4312600,
+      599000,
+      4314400
+    ]
+  },
+  "pnoa_visual": "Inspected park with sports courts, paths, wooded plots and agricultural land around it. Not yet a traced perimeter.",
+  "pnoa_sample_date": "2024-07",
+  "pnoa_resolution_m": 0.25,
+  "pnoa_date_scope": "one rounded central sample only, not wholepark or2026proof",
+  "pnoa_date_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=598000%2C4313300%2C598200%2C4313500&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+}

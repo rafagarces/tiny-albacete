@@ -4,7 +4,7 @@
     "scope": "approximate ground-plane footprint of fixed camera, excludes height displacement and artistic positional drift",
     "date": "2026-11-16",
     "atlas_commit": "see repository revision containing this file",
-    "area_km2": 3.8469369598420626
+    "area_km2": 4.167515039828901
   },
   "geometry": {
     "type": "Polygon",
@@ -15,12 +15,12 @@
           39.00583773994187
         ],
         [
-          -1.838909787770202,
-          38.99430028373172
+          -1.8383282066033402,
+          38.99333881074079
         ],
         [
-          -1.8672720839619588,
-          38.983847445605434
+          -1.8666901976214036,
+          38.98288610786345
         ],
         [
           -1.87425592904904,
