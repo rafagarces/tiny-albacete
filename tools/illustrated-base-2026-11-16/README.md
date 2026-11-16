@@ -129,3 +129,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## bottom9
 
 7680x8192px, bounds[-1.25, -1.25, 2.5, 2.75]. Source records25760, renderedparts25744, roadways16651, faces754234, OSMelements18575. Seven panels visually inspected. Three seam segments inspected. Prior26sourcebytes and original3D preserved. Reference preflight PNOAJuly2024 at3points: barefields/dirtpaths retained, no claim2026facades. Temporary image precision interruptions recovered for all7production panels.
+
+
+## right8
+
+8192x8192px, bounds[-1.25, -1.25, 2.75, 2.75]. Source records25760, renderedparts25744, roadways16651, faces754234, OSMelements18575. Dated PNOA July2024 preflight. Seven successful high-detail panels cover entire strip; F/H meet at contiguous pixel6656 after redundant G timed out. Join visually inspected. No current-facade claim.

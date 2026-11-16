@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 223,
+  "published_cells_intersecting_candidate": 238,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -43,8 +43,8 @@
       "column": 10,
       "row": -5,
       "candidate_target_fraction": 0.133875,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r-5"
     },
@@ -187,8 +187,8 @@
       "column": 10,
       "row": -4,
       "candidate_target_fraction": 0.757946,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r-4"
     },
@@ -376,8 +376,8 @@
       "column": 10,
       "row": -3,
       "candidate_target_fraction": 0.997191,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r-3"
     },
@@ -628,8 +628,8 @@
       "column": 10,
       "row": -2,
       "candidate_target_fraction": 0.992122,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r-2"
     },
@@ -898,8 +898,8 @@
       "column": 10,
       "row": -1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r-1"
     },
@@ -1168,8 +1168,8 @@
       "column": 10,
       "row": 0,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r0"
     },
@@ -1465,8 +1465,8 @@
       "column": 10,
       "row": 1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r1"
     },
@@ -1807,8 +1807,8 @@
       "column": 10,
       "row": 2,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r2"
     },
@@ -2158,8 +2158,8 @@
       "column": 10,
       "row": 3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r3"
     },
@@ -2473,8 +2473,8 @@
       "column": 10,
       "row": 4,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r4"
     },
@@ -2761,8 +2761,8 @@
       "column": 10,
       "row": 5,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r5"
     },
@@ -3022,8 +3022,8 @@
       "column": 10,
       "row": 6,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r6"
     },
@@ -3256,8 +3256,8 @@
       "column": 10,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r7"
     },
@@ -3463,8 +3463,8 @@
       "column": 10,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r8"
     },
@@ -3607,8 +3607,8 @@
       "column": 10,
       "row": 9,
       "candidate_target_fraction": 0.68268,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c10r9"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 5.918364553603116,
+  "published_ground_envelope_km2": 6.3129221905101165,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 5.030635,
+      "published_intersection_km2": 5.365117,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -4429,7 +4429,7 @@
         "row": -5,
         "id": "c10r-5",
         "candidate_fraction": 0.149367,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -4562,7 +4562,7 @@
         "row": -4,
         "id": "c10r-4",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -4730,7 +4730,7 @@
         "row": -3,
         "id": "c10r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -4989,7 +4989,7 @@
         "row": -2,
         "id": "c10r-2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -5269,7 +5269,7 @@
         "row": -1,
         "id": "c10r-1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -5556,7 +5556,7 @@
         "row": 0,
         "id": "c10r0",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -5843,7 +5843,7 @@
         "row": 1,
         "id": "c10r1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -6151,7 +6151,7 @@
         "row": 2,
         "id": "c10r2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -6452,7 +6452,7 @@
         "row": 3,
         "id": "c10r3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -6746,7 +6746,7 @@
         "row": 4,
         "id": "c10r4",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -7033,7 +7033,7 @@
         "row": 5,
         "id": "c10r5",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -7299,7 +7299,7 @@
         "row": 6,
         "id": "c10r6",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -7558,7 +7558,7 @@
         "row": 7,
         "id": "c10r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -7817,7 +7817,7 @@
         "row": 8,
         "id": "c10r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -8048,7 +8048,7 @@
         "row": 9,
         "id": "c10r9",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -8230,7 +8230,7 @@
         "row": 10,
         "id": "c10r10",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 11,
@@ -8506,21 +8506,21 @@
         "name": "HOSPITAL",
         "source_id": "barrios.1",
         "administrative_area_km2": 0.43157693353976134,
-        "published_ground_envelope_intersection_km2": 0.05520404058767024,
+        "published_ground_envelope_intersection_km2": 0.1552748548277155,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "PARQUE SUR",
         "source_id": "barrios.3",
         "administrative_area_km2": 0.2704680431623052,
-        "published_ground_envelope_intersection_km2": 0.14965637210558166,
+        "published_ground_envelope_intersection_km2": 0.20903552043098506,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "PEDRO LAMATA",
         "source_id": "barrios.4",
         "administrative_area_km2": 0.10332277957417861,
-        "published_ground_envelope_intersection_km2": 0.10330267399240137,
+        "published_ground_envelope_intersection_km2": 0.1033227795741786,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8534,7 +8534,7 @@
         "name": "FRANCISCANOS",
         "source_id": "barrios.6",
         "administrative_area_km2": 0.6224287683489467,
-        "published_ground_envelope_intersection_km2": 0.6166265187258568,
+        "published_ground_envelope_intersection_km2": 0.6224287683489466,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8583,35 +8583,35 @@
         "name": "SAN PEDRO - MORTERO",
         "source_id": "barrios.14",
         "administrative_area_km2": 0.9432136242081502,
-        "published_ground_envelope_intersection_km2": 0.5598806164445892,
+        "published_ground_envelope_intersection_km2": 0.6244382396577263,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SEPULCRO",
         "source_id": "barrios.15",
         "administrative_area_km2": 0.6057334375289314,
-        "published_ground_envelope_intersection_km2": 0.044384575673865174,
+        "published_ground_envelope_intersection_km2": 0.12080526094554785,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "UNIVERSIDAD",
         "source_id": "barrios.16",
         "administrative_area_km2": 0.9913328433007585,
-        "published_ground_envelope_intersection_km2": 0.0,
+        "published_ground_envelope_intersection_km2": 0.0005151838298477134,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "LA MILAGROSA",
         "source_id": "barrios.17",
         "administrative_area_km2": 0.36585435179839754,
-        "published_ground_envelope_intersection_km2": 0.10876581052714197,
+        "published_ground_envelope_intersection_km2": 0.14750580119422108,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "LA ESTRELLA",
         "source_id": "barrios.18",
         "administrative_area_km2": 0.11891166845557789,
-        "published_ground_envelope_intersection_km2": 0.09371602206980675,
+        "published_ground_envelope_intersection_km2": 0.1189116684555779,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {

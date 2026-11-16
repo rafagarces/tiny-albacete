@@ -5,14 +5,14 @@
   "bounds": {
     "minX": -1.25,
     "minY": -1.25,
-    "maxX": 2.5,
+    "maxX": 2.75,
     "maxY": 2.75
   },
   "comparison": {
-    "url": "base-bottom9.webp",
+    "url": "base-right8.webp",
     "x": -1.25,
     "y": -1.25,
-    "width": 3.75,
+    "width": 4.0,
     "height": 4.0,
     "pyramid": "comparison.dzi"
   },
@@ -232,14 +232,22 @@
       "y": 2.5,
       "width": 3.75,
       "height": 0.25
+    },
+    {
+      "id": "right8",
+      "url": "right8.webp",
+      "x": 2.5,
+      "y": -1.25,
+      "width": 0.25,
+      "height": 4.0
     }
   ],
   "display": {
     "url": "atlas.dzi",
     "x": -1.25,
     "y": -1.25,
-    "width": 3.75,
+    "width": 4.0,
     "height": 4.0
   },
-  "asset_revision": "5c480be40c5e66e0"
+  "asset_revision": "601d1e24bc839ed0"
 }

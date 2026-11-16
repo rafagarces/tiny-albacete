@@ -269,3 +269,8 @@ Append tile at(2.25,-1.25),size(0.25,3.75),total7680x7680,approx5.548km2 grounde
 ## 2026-11-16 bottom9
 
 Append tile at(-1.25,2.5),size(3.75,0.25),total7680x8192,approx5.918km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Seven panels visually inspected. Three seam segments inspected. Prior26sourcebytes and original3D preserved. Reference preflight PNOAJuly2024 at3points: barefields/dirtpaths retained, no claim2026facades. Temporary image precision interruptions recovered for all7production panels.
+
+
+## 2026-11-16 right8
+
+Append tile at(2.5,-1.25),size(0.25,4.0),total8192x8192,approx6.313km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Dated PNOA July2024 preflight. Seven successful high-detail panels cover entire strip; F/H meet at contiguous pixel6656 after redundant G timed out. Join visually inspected. No current-facade claim.
