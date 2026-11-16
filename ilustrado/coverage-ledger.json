@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 158,
+  "published_cells_intersecting_candidate": 171,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -3337,8 +3337,8 @@
       "column": -4,
       "row": 8,
       "candidate_target_fraction": 0.999625,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r8"
     },
@@ -3346,8 +3346,8 @@
       "column": -3,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-3r8"
     },
@@ -3355,8 +3355,8 @@
       "column": -2,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r8"
     },
@@ -3364,8 +3364,8 @@
       "column": -1,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-1r8"
     },
@@ -3373,8 +3373,8 @@
       "column": 0,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c0r8"
     },
@@ -3382,8 +3382,8 @@
       "column": 1,
       "row": 8,
       "candidate_target_fraction": 0.998816,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c1r8"
     },
@@ -3391,8 +3391,8 @@
       "column": 2,
       "row": 8,
       "candidate_target_fraction": 0.582316,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c2r8"
     },
@@ -3400,8 +3400,8 @@
       "column": 3,
       "row": 8,
       "candidate_target_fraction": 0.082712,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c3r8"
     },
@@ -3409,8 +3409,8 @@
       "column": 4,
       "row": 8,
       "candidate_target_fraction": 0.000477,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c4r8"
     },
@@ -3418,8 +3418,8 @@
       "column": 5,
       "row": 8,
       "candidate_target_fraction": 0.768056,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c5r8"
     },
@@ -3427,8 +3427,8 @@
       "column": 6,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c6r8"
     },
@@ -3436,8 +3436,8 @@
       "column": 7,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c7r8"
     },
@@ -3445,8 +3445,8 @@
       "column": 8,
       "row": 8,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c8r8"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 4.16751503982877,
+  "published_ground_envelope_km2": 4.488093119815648,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 3.751409,
+      "published_intersection_km2": 4.008661,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -7719,91 +7719,91 @@
         "row": 8,
         "id": "c-4r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
         "row": 8,
         "id": "c-3r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -2,
         "row": 8,
         "id": "c-2r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -1,
         "row": 8,
         "id": "c-1r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 0,
         "row": 8,
         "id": "c0r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 1,
         "row": 8,
         "id": "c1r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 2,
         "row": 8,
         "id": "c2r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 3,
         "row": 8,
         "id": "c3r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 4,
         "row": 8,
         "id": "c4r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 5,
         "row": 8,
         "id": "c5r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 6,
         "row": 8,
         "id": "c6r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 7,
         "row": 8,
         "id": "c7r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 8,
         "row": 8,
         "id": "c8r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 9,
@@ -8520,14 +8520,14 @@
         "name": "PEDRO LAMATA",
         "source_id": "barrios.4",
         "administrative_area_km2": 0.10332277957417861,
-        "published_ground_envelope_intersection_km2": 0.08511338278221121,
+        "published_ground_envelope_intersection_km2": 0.08521141883431431,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SANTA TERESA",
         "source_id": "barrios.5",
         "administrative_area_km2": 0.2722938332622918,
-        "published_ground_envelope_intersection_km2": 0.144927202148265,
+        "published_ground_envelope_intersection_km2": 0.253653186270066,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8569,21 +8569,21 @@
         "name": "SAN PABLO",
         "source_id": "barrios.12",
         "administrative_area_km2": 0.6931638739375532,
-        "published_ground_envelope_intersection_km2": 0.03743533298511027,
+        "published_ground_envelope_intersection_km2": 0.08551557543996366,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "VEREDA",
         "source_id": "barrios.13",
         "administrative_area_km2": 0.34469531000804476,
-        "published_ground_envelope_intersection_km2": 0.004258405061780149,
+        "published_ground_envelope_intersection_km2": 0.03001188868452956,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SAN PEDRO - MORTERO",
         "source_id": "barrios.14",
         "administrative_area_km2": 0.9432136242081502,
-        "published_ground_envelope_intersection_km2": 0.06289745048612905,
+        "published_ground_envelope_intersection_km2": 0.2008177842214793,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8983,5 +8983,45 @@
     "pnoa_resolution_m": 0.25,
     "pnoa_date_scope": "one rounded central sample only, not wholepark or2026proof",
     "pnoa_date_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=598000%2C4313300%2C598200%2C4313500&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+  },
+  "exterior_park_geometry_candidates": {
+    "status": "not-final-city-mask",
+    "rows": [
+      {
+        "name": "pulgosa",
+        "osm_way": "173756517",
+        "area_ha": 39.298781510610084,
+        "outside_principal_ha": 39.298781510610084,
+        "source": {
+          "page_url": "https://download.geofabrik.de/europe/spain/castilla-la-mancha.html",
+          "download_url": "https://download.geofabrik.de/europe/spain/castilla-la-mancha-latest.osm.pbf",
+          "bytes": 107728194,
+          "sha256": "917cd7df93baea9a1a36d3a67d99f97159d7513cb65383d1d2cd99ac15dff5a2",
+          "page_state": "contains all OSM data up to2026-11-15T21:22:28Z",
+          "retrieved": "2026-11-16T15:02:00+01:00"
+        },
+        "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
+        "visual_review": "follows wooded park but excludes northeastern sports courts and western large open field; total equipment footprint unresolved",
+        "scope_status": "Explicit exterior sector, not excluded; retain equipment fringe inventory beyond this candidate."
+      },
+      {
+        "name": "botanico",
+        "osm_way": "139980346",
+        "area_ha": 6.996328071838348,
+        "outside_principal_ha": 6.996328071838348,
+        "source": {
+          "page_url": "https://download.geofabrik.de/europe/spain/castilla-la-mancha.html",
+          "download_url": "https://download.geofabrik.de/europe/spain/castilla-la-mancha-latest.osm.pbf",
+          "bytes": 107728194,
+          "sha256": "917cd7df93baea9a1a36d3a67d99f97159d7513cb65383d1d2cd99ac15dff5a2",
+          "page_state": "contains all OSM data up to2026-11-15T21:22:28Z",
+          "retrieved": "2026-11-16T15:02:00+01:00"
+        },
+        "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
+        "visual_review": "matches visible garden enclosure and operator approximate7ha",
+        "scope_status": "Explicit exterior sector, not excluded; retain equipment fringe inventory beyond this candidate."
+      }
+    ],
+    "caveat": "Polygons do not silently settle40ha vs51.7777ha maintenance scope or omit sports courts/open-field fringe."
   }
 }

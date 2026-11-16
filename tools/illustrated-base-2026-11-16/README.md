@@ -104,3 +104,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## right6
 
 6656x6656px, bounds[-1.0, -1.25, 2.25, 2.0]. Source records20517, renderedparts20501, roadways8813, faces598164, OSMelements9811. Six reference-ledpanels, all priorpixelsunchanged. OSM429paused;97.995percentcachequerycoverage,newgapthreepolygons6420m2checkedPNOAandcachedfullwaycenterlines. Catastro707additionalrecords. LaPulgosaexplicitpointinventory,noexclusionbyprincipalborder.
+
+
+## bottom7
+
+6656x7168px, bounds[-1.0, -1.25, 2.25, 2.25]. Source records21317, renderedparts21301, roadways16651, faces636444, OSMelements18575. Six aligned illustration panels, georeferenced cadastral buildings and regional Geofabrik roads. Earlier source IDs retained;8764 suitable new regional IDs added,800 additional cadastral records. Capture-only projected-frustum crop avoids renderer memory exhaustion without changing source geometry. Existing art pixels unchanged.

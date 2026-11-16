@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "botanico",
+    "osm_way": "139980346",
+    "area_ha": 6.996328071838348,
+    "outside_principal_ha": 6.996328071838348,
+    "source": {
+      "page_url": "https://download.geofabrik.de/europe/spain/castilla-la-mancha.html",
+      "download_url": "https://download.geofabrik.de/europe/spain/castilla-la-mancha-latest.osm.pbf",
+      "bytes": 107728194,
+      "sha256": "917cd7df93baea9a1a36d3a67d99f97159d7513cb65383d1d2cd99ac15dff5a2",
+      "page_state": "contains all OSM data up to2026-11-15T21:22:28Z",
+      "retrieved": "2026-11-16T15:02:00+01:00"
+    },
+    "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
+    "visual_review": "matches visible garden enclosure and operator approximate7ha",
+    "scope_status": "Explicit exterior sector, not excluded; retain equipment fringe inventory beyond this candidate."
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.8596287,
+          38.9714021
+        ],
+        [
+          -1.8595835,
+          38.9715909
+        ],
+        [
+          -1.8594362,
+          38.972007
+        ],
+        [
+          -1.8593098,
+          38.9723639
+        ],
+        [
+          -1.8590845,
+          38.9730396
+        ],
+        [
+          -1.8590704,
+          38.9730754
+        ],
+        [
+          -1.8589402,
+          38.9734063
+        ],
+        [
+          -1.8590072,
+          38.9738296
+        ],
+        [
+          -1.8591134,
+          38.9742462
+        ],
+        [
+          -1.8592752,
+          38.9749437
+        ],
+        [
+          -1.8593697,
+          38.9752751
+        ],
+        [
+          -1.8593723,
+          38.9752844
+        ],
+        [
+          -1.8594367,
+          38.9755359
+        ],
+        [
+          -1.8594678,
+          38.9756658
+        ],
+        [
+          -1.8606412,
+          38.9756132
+        ],
+        [
+          -1.8608067,
+          38.9744702
+        ],
+        [
+          -1.8609655,
+          38.9733413
+        ],
+        [
+          -1.8613375,
+          38.9727143
+        ],
+        [
+          -1.86147,
+          38.9724033
+        ],
+        [
+          -1.8615311,
+          38.9722541
+        ],
+        [
+          -1.8615671,
+          38.9721628
+        ],
+        [
+          -1.8616693,
+          38.9719729
+        ],
+        [
+          -1.8605212,
+          38.9716535
+        ],
+        [
+          -1.8596287,
+          38.9714021
+        ]
+      ]
+    ]
+  }
+}

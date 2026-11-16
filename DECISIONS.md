@@ -244,3 +244,8 @@ Append tile at(-1.0,-1.25),size(3.0,0.25),total6144x6656,approx3.847km2 grounden
 ## 2026-11-16 right6
 
 Append tile at(2.0,-1.25),size(0.25,3.25),total6656x6656,approx4.168km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Six reference-ledpanels, all priorpixelsunchanged. OSM429paused;97.995percentcachequerycoverage,newgapthreepolygons6420m2checkedPNOAandcachedfullwaycenterlines. Catastro707additionalrecords. LaPulgosaexplicitpointinventory,noexclusionbyprincipalborder.
+
+
+## 2026-11-16 bottom7
+
+Append tile at(-1.0,2.0),size(3.25,0.25),total6656x7168,approx4.488km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Six aligned illustration panels, georeferenced cadastral buildings and regional Geofabrik roads. Earlier source IDs retained;8764 suitable new regional IDs added,800 additional cadastral records. Capture-only projected-frustum crop avoids renderer memory exhaustion without changing source geometry. Existing art pixels unchanged.
