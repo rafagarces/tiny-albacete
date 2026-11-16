@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-16",
+  "base_commit": "f77a36c6ee2f227ce78e8cbb9a4cc72bb75431e6",
+  "representation": "fixed-camera interpreted raster scenes; not multi-angle 3D",
+  "files": [
+    {
+      "name": "entorno.webp",
+      "bytes": 905748,
+      "sha256": "6632df59f8ffaa10f191559335c3958fd6cce13019d5a82d4d22f845625b9c73"
+    },
+    {
+      "name": "catedral.webp",
+      "bytes": 437560,
+      "sha256": "2eef788b7f9c0fda113b0fffc7b970c1dfbb392bdae8f5b6a06abd24d97235fb"
+    },
+    {
+      "name": "base.webp",
+      "bytes": 120974,
+      "sha256": "09e091094fa6852f5427b1b2edaf1c1f2db6da85ad38dd1293f4b78713f360a9"
+    }
+  ]
+}

@@ -112,3 +112,7 @@ kbd{background:var(--paper-2);border:2px solid var(--ink);border-radius:4px;padd
 
 @media(max-width:760px){.zone-link{top:auto;bottom:66px;left:12px;z-index:18}}
 @media(min-width:761px){.zone-link{top:140px}}
+
+/* Separate illustrated pilot; preserve complete-map and rotating-3D routes. */
+.mode-links{position:fixed;right:20px;top:20px;z-index:10;display:grid;gap:7px;justify-items:end}.mode-links .zone-link{position:static}.art-link{background:#40553d;color:#fff;padding:11px 16px;border-radius:9px;text-decoration:none;font:13px system-ui;box-shadow:0 2px 10px #0001}@media(max-width:760px){.mode-links{top:92px;right:12px;gap:5px}.mode-links .zone-link,.art-link{font-size:11px;padding:8px 10px}}
+.mode-links{left:16px;right:auto;top:140px;justify-items:start}.mode-links .zone-link{position:static}@media(max-width:760px){.mode-links{top:auto;bottom:96px;left:12px;right:auto;max-width:calc(100vw - 24px)}}
