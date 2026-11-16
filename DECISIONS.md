@@ -114,3 +114,10 @@ Extend the approved fixed-camera environment from1536x1024 to2048x1024 with a512
 Expanded geometric input retains1362 bounded municipal records and adds1819 parts from the same downloaded municipal GML, with actual projected footprints rather than extending blank or invented block geometry. Context heights remain storey estimates. Expanded base uses the pending Gran Hotel axis correction as a drawing guide only; production3D model unchanged. Generated strip required localized review and correction from five to three cupolas, following the regional heritage catalogue and DnTrotaMundos2011 Commons photograph. Art remains interpreted and must not be described as exact parcel correspondence. Original approved finished pixels are retained.
 
 QA: desktop1280 and mobile390/320, no overflow/errors/failed assets; three cupolas and tile seam visually checked; legacy URL migration, comparison registration and restored view tested. Existing rotating3D and whole-map assets preserved. No billing, new paid resource, contact or obligation.
+
+
+## 2026-11-16 · lower contiguous illustrated strip
+
+Add a2048x512 lower strip at world x0,y.5,width1, for total2048x1536 coverage. Original entorno/east/detail assets and previous URL coordinate revision remain unchanged, with same original screen positions. Extend local geometry bounds westward using1022additional municipal GML records,4203source parts total,4187context parts rendered. Storey heights remain estimates and artistic output can shift boundaries. The expanded base is a separate comparison image, not changes to the live3D mesh.
+
+QA rejected an enlarged gold/blue invented dome near the largely occluded Perona location and replaced it with ordinary low roof/courtyard context. No claim to reconstruct Perona in this camera. A visible horizontal rectangle on a beige party wall at the old/new boundary was locally repaired only in new pixels. Inspect final seam, roof/street joins and entire map at desktop/mobile before publication. Scene is still a bounded fixed-camera illustration, not the whole city or parcel-accurate architecture.
