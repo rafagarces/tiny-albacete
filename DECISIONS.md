@@ -154,3 +154,8 @@ Current fixed-camera ground-plane envelope is approximately0.592km2, recorded as
 ## 2026-11-16 · third bottom strip
 
 Add3072x512atworld(0,1),total3072x2560,approximately0.740km2ground-plane envelope. Citywide coverage is still incomplete and no percentage is claimed. Art extends the main urban area using three overlapping geometry-guided panels with edge matching confined to new pixels. Prior seven art files and rotating3D unchanged. Expanded municipal base and OSM streets archived for reproduction. Additional source records do not certify a count of faithfully illustrated buildings. No new monument identification or current-facade claims.0EUR,no billing, no external contact.
+
+
+## 2026-11-16 · first left strip
+
+Extend512x2560to negative worldx[-.25,0], total3584x2560,approximately0.863km2 ground envelope. Existing art and coordinate links unchanged. Negative coordinates tested in real content, no renormalization. Same interpreted-art limits and0EUR/no billing/no external contact. Remaining city target provisional, no completion percentage.

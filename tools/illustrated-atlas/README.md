@@ -4,7 +4,7 @@
 
 Run `python tools/illustrated-atlas/validate.py` to check exact rectangular coverage, no overlaps, source image dimensions and all prior asset hashes. A rectangular coverage check establishes mosaic continuity, not that every drawn building matches reality.
 
-`ilustrado/coverage.geojson` is an approximate ground-plane envelope of the current fixed-camera atlas in longitude/latitude. It uses the real orthographic projection and shared UTM anchor. Ground area is approximately0.740km2. Raised buildings project beyond their ground positions, and interpreted artwork drifts relative to the geometry. Do not use this as a surveyed parcel coverage polygon.
+`ilustrado/coverage.geojson` is an approximate ground-plane envelope of the current fixed-camera atlas in longitude/latitude. It uses the real orthographic projection and shared UTM anchor. Ground area is approximately0.863km2. Raised buildings project beyond their ground positions, and interpreted artwork drifts relative to the geometry. Do not use this as a surveyed parcel coverage polygon.
 
 The whole-city target mask is NOT yet fixed. Work is contrasting municipal2016neighborhood plans, SIU planning classes with metadata date01May2025, municipal building footprints and PNOA orthophotography. A point query of PNOA in the central area returnedJuly2024imagery at25cm. This does not establish a single imagery date for the whole city or current2026facade conditions. Do not compute or publish a city-completion percentage by treating one SIU component as the target. Parks, modern fringes, industrial areas and separate settlements need explicit inclusion/exclusion records.
 

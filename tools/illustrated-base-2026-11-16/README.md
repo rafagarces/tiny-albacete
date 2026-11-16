@@ -29,3 +29,8 @@ The same archived base also covers the512x2048strip at global x2560. Capture3072
 Current build snapshot contains10190building-part records,10174rendered context parts,2376OSM source elements,2344road ways and283560total faces. Additional3711source parts support the expanded geometry extent; these counts do not certify illustrated building fidelity. Decompress `osm-source.json.gz` into the disposable copy's `zona-catedral/osm-source.json` as well as the prior instructions. Previous street ways win on duplicate IDs so their geometry is not replaced. The new ways were read from the public OSM map API on16November2026 in three bounded requests, stored without user information.
 
 Capture3072x2560,angle-154,tilt.60,scale295,focus(-217.156615188007,-289.503933543245)in the same local metre frame. Top2048pixels register with previous3072x2048base with RMS<=1.59/255per channel after expanded streets; this is camera/base registration, not parcel accuracy. Add3072x512at global(0,2048),world(0,1),width1.5,height.25. Atlas3072x2560,worldbounds(0,0,1.5,1.25). Preserve all prior illustrated tiles.
+
+
+## First left strip
+
+Atlas now spans world[-.25,0,1.5,1.25],3584x2560pixels. Negative world coordinates extend rather than shift the existing map. Append512x2560atworld(-.25,0). Capture3584x2560,scale295,focus(-243.020512845,-236.475084811),same angle-154/tilt.60. Geometry source parts unchanged10190/10174rendered;2852OSMelements/2817roadways/289498faces. Additional476source ways preserved existing IDs; two small public OSM API requests16November2026, no contact or user data. Existing base overlap after street additions RMS<=1.78/255per channel.

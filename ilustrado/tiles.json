@@ -3,16 +3,16 @@
   "units": "one world unit = 2048 atlas pixels",
   "url_revision": 2,
   "bounds": {
-    "minX": 0,
+    "minX": -0.25,
     "minY": 0,
     "maxX": 1.5,
     "maxY": 1.25
   },
   "comparison": {
-    "url": "base-bottom3.webp",
-    "x": 0,
+    "url": "base-left1.webp",
+    "x": -0.25,
     "y": 0,
-    "width": 1.5,
+    "width": 1.75,
     "height": 1.25
   },
   "tiles": [
@@ -71,6 +71,14 @@
       "y": 1,
       "width": 1.5,
       "height": 0.25
+    },
+    {
+      "id": "left1",
+      "url": "left1.webp",
+      "x": -0.25,
+      "y": 0,
+      "width": 0.25,
+      "height": 1.25
     }
   ]
 }
