@@ -121,3 +121,10 @@ QA: desktop1280 and mobile390/320, no overflow/errors/failed assets; three cupol
 Add a2048x512 lower strip at world x0,y.5,width1, for total2048x1536 coverage. Original entorno/east/detail assets and previous URL coordinate revision remain unchanged, with same original screen positions. Extend local geometry bounds westward using1022additional municipal GML records,4203source parts total,4187context parts rendered. Storey heights remain estimates and artistic output can shift boundaries. The expanded base is a separate comparison image, not changes to the live3D mesh.
 
 QA rejected an enlarged gold/blue invented dome near the largely occluded Perona location and replaced it with ordinary low roof/courtyard context. No claim to reconstruct Perona in this camera. A visible horizontal rectangle on a beige party wall at the old/new boundary was locally repaired only in new pixels. Inspect final seam, roof/street joins and entire map at desktop/mobile before publication. Scene is still a bounded fixed-camera illustration, not the whole city or parcel-accurate architecture.
+
+
+## 2026-11-16 · second right-side contiguous illustrated strip
+
+Add512x1536right-hand strip, total2560x1536, placed at world x1,y0,width.25. Keep world units anchored to2048pixels rather than re-normalizing old coordinates on every expansion. Expanded comparison is width1.25 in the same world frame; URL restoration now accepts x through1.25. All previous illustration files and production3D remain byte-identical.
+
+Local geometry base expands southward with843additional source records from municipal GML,5046records total/5030rendered context parts. Reprojected expanded crop matches previous base RMS0.59/255before extension; this verifies camera registration, not artistic parcel fidelity. Existing bounded OSM street source covers the added strip; road widths remain estimated. Generated ordinary building facades use already-documented local conventions, no new monument identification. New strip is interpreted, not new measured architecture. Reviewed full scene and vertical join for roof, wall and street continuity. No billing or paid resources enabled.
