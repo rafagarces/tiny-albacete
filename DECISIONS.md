@@ -219,3 +219,8 @@ Append tile at(-0.75,-0.75),size(0.25,2.5),total5120x5120,approx2.466km2 grounde
 ## 2026-11-16 bottom6
 
 Append tile at(-0.75,1.75),size(2.5,0.25),total5120x5632,approx2.713km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Camera5120x5632,focus(-268.88441051,-183.44623607),scale649. Additional cadastral parts and1061OSMways extend western base edge. Shared-reference RMS<=1.276/255 includes additional roads; artistic previous pixels unchanged. Five panels with interpreted facades, no claim of current facade verification.
+
+
+## 2026-11-16 right5
+
+Append tile at(1.75,-0.75),size(0.25,2.75),total5632x5632,approx2.984km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Five overlap-aligned right panels. Existing source pixels unchanged. Same municipal/OSM geometry extent adequate for strip; capture uses narrow viewport to avoid WebGLcontextloss above31millionpixels. Rounded central Romica PNOAsample confirmsJuly2024/25cm, no2026currentnessclaim.

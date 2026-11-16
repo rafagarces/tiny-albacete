@@ -416,7 +416,7 @@
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "explicit exterior sector, not excluded; final mask pending",
-        "pnoa_sample_date": null,
+        "pnoa_sample_date": "2024-07",
         "pnoa_date_scope": "one central sample only, not every pixel"
       },
       "geometry": {

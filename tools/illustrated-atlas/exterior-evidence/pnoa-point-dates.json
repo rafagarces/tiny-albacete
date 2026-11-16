@@ -8,10 +8,15 @@
   },
   {
     "name": "Pol\u00edgono Industrial Romica",
-    "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=600275.7921823334%2C4323860.489997536%2C600375.7921823334%2C4323960.489997536&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
-    "error": "The read operation timed out",
-    "point_acquisition_month": null,
-    "point_resolution_m": null
+    "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=600200%2C4323800%2C600400%2C4324000&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+    "point_acquisition_month": "2024-07",
+    "point_resolution_m": 0.25,
+    "date_query_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=600200%2C4323800%2C600400%2C4324000&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+    "date_query_status": "rounded central sample returned July2024/25cm after exact query timed out twice",
+    "previous_exact_sample_attempt": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=600275.7921823334%2C4323860.489997536%2C600375.7921823334%2C4323960.489997536&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+    },
+    "text": "\n<html>\n<head><title>Informaci&oacute;n PNOA</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /></head>\n<body>\n  \n  <p><strong>Informaci&oacute;n de la ortofoto</strong></p>\n\n<!--<table width=\"330\" border=\"1\" align=\"center\">-->\n<table width=\"220\" border=\"1\">\n  <tr>\n    <td width=\"150\" scope=\"row\">Fecha (a&ntildeo-mes)</td>\n    <td width=\"80\">2024-07</td>\n  </tr>\n  <tr>\n    <td scope=\"row\">Resoluci&oacute;n (metros)</td>\n    <td>0.25</td>\n  </tr>\n  <tr>\n    <td scope=\"row\">Ortoimagen Verdadera</td>\n    <td>NO</td>\n  </tr>\n</table>\n \n</body>\n</html>"
   },
   {
     "name": "Pol\u00edgono Ajusa",

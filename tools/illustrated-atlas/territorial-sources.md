@@ -38,3 +38,8 @@ Four named OSM industrial landuse polygons recovered directly through bboxAPI; s
 Fetched municipal descriptions: https://www.albacete.es/es/directorio/parque-empresarial-campollano ; https://www.albacete.es/es/directorio/poligono-industrial-romica ; https://www.albacete.es/es/directorio/parque-empresarial-ajusa ; https://www.albacete.es/es/directorio/parque-aeronautico-logistico . Undated descriptions, inconsistent extent figures across historical promotional documents, not polygon authority. Independent OSM-derived named sources fetched https://mapcarta.com/es/W205937669 and https://mapcarta.com/es/W31137184 .
 
 PNOA inspected individually for industrial polygons. Acquisition metadata sampled centrally, stored in exterior-evidence/pnoa-point-dates.json; point month does not certify every pixel. Romica and Ajusa include large empty industrial plots: industrial landuse must not be filled with invented buildings. PAL outline cuts past structures along northeast edge and imagery has obscured land beyond: not a complete industrial built-edge. Campollano closeup initialWMS502twice, rounded whole-sector request succeeded. No2026currentness claim. Separate settlements remain an unresolved scope outcome, not silently excluded.
+
+
+## Romica date-query recovery,16November2026
+
+A rounded central200mx200mGetFeatureInfosample returned2024-07and0.25m. The exact centroid query had timedout twice. This dates the single rounded central sample, not all pixels nor2026conditions. Preserved response in exterior-evidence/romica-date-rounded.html and sourceURL in JSON.

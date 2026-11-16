@@ -1,1 +1,3 @@
 Named industrial landuse candidates, not final target. Four OSM sourceURLrecords and filtered landuse geometries; no raw personal/author metadata. Date sourceHTML contains only public orthophoto attributes. Executable archive script is an audit snapshot and depends on working data paths, not a portable rebuild. Principal candidate remains25officialneighborhoods plus principalSIU,579cells. Exterior inventory is separate until builtedge/scope checks settle it. No citypercentage.
+
+Romica rounded central sample recovered2024-07/25cm after two exact-centroid timeouts; archivedHTML+URL. All4date samples nowJuly2024, not fullarea/2026verification.

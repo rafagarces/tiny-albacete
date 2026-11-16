@@ -79,3 +79,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## bottom6
 
 5120x5632px, bounds[-0.75, -0.75, 1.75, 2.0]. Source records17674, renderedparts17658, roadways7548, faces527285, OSMelements8227. Camera5120x5632,focus(-268.88441051,-183.44623607),scale649. Additional cadastral parts and1061OSMways extend western base edge. Shared-reference RMS<=1.276/255 includes additional roads; artistic previous pixels unchanged. Five panels with interpreted facades, no claim of current facade verification.
+
+
+## right5
+
+5632x5632px, bounds[-0.75, -0.75, 2.0, 2.0]. Source records17674, renderedparts17658, roadways7548, faces527285, OSMelements8227. Five overlap-aligned right panels. Existing source pixels unchanged. Same municipal/OSM geometry extent adequate for strip; capture uses narrow viewport to avoid WebGLcontextloss above31millionpixels. Rounded central Romica PNOAsample confirmsJuly2024/25cm, no2026currentnessclaim.
