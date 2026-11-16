@@ -63,3 +63,6 @@ The header and page title now name the selected landmark rather than always sayi
 
 ## 2026-11-16 · Palacio Provincial partial front
 Photo-led frontage registered to Catastro9472604WJ9197S. Two2017 free photos, elevations estimated. Lower floor/attic/hidden facades simplified rather than invented inventories. Rear/courtyard/context masses retained, including occlusions. No image textures, heraldry or interior reconstruction.
+
+## 2026-11-16 · Casa Perona, western edge
+Two documented facades and blue/white dome interpreted from free photos; no claimed exact carving, ironwork or dimensions. Capture dates unknown despite Commons publication dates. Catastro8971009WJ9187B and OSM street corner registration. Extend context50m west to avoid clipping the parcel, retaining previous coverage. All new neighbor parts remain estimated masses without invented facade details.
