@@ -204,3 +204,8 @@ Two immediate post-deploy comparison checks briefly changed the viewport, then p
 ## 2026-11-16 Municipal neighborhood vectors
 
 Retrieve all25public municipal neighborhood features and18singular entities. Use official neighborhood geometry rather than manual outer tracing for the expanded principal candidate. Retain prior raster approximation as an audit artifact. Keep historical approval, database timestamp and current reality distinct. No completion percentage or silent exclusion of external sectors.
+
+
+## 2026-11-16 top3
+
+Append tile at(-0.5,-0.75),size(2.25,0.25),total4608x5120,approx2.219km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. No new OSM fetch for this band: reuses archived right4 source URLs and geometry. Capture4608x5120,scale590,focus(-149.10471439,-190.66928932),angle-154,tilt.60; priorbaseoverlapRMS<=.624/255. Originalart pixels preserved.

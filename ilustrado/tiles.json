@@ -4,16 +4,16 @@
   "url_revision": 2,
   "bounds": {
     "minX": -0.5,
-    "minY": -0.5,
+    "minY": -0.75,
     "maxX": 1.75,
     "maxY": 1.75
   },
   "comparison": {
-    "url": "base-right4.webp",
+    "url": "base-top3.webp",
     "x": -0.5,
-    "y": -0.5,
+    "y": -0.75,
     "width": 2.25,
-    "height": 2.25,
+    "height": 2.5,
     "pyramid": "comparison.dzi"
   },
   "tiles": [
@@ -128,14 +128,22 @@
       "y": -0.5,
       "width": 0.25,
       "height": 2.25
+    },
+    {
+      "id": "top3",
+      "url": "top3.webp",
+      "x": -0.5,
+      "y": -0.75,
+      "width": 2.25,
+      "height": 0.25
     }
   ],
   "display": {
     "url": "atlas.dzi",
     "x": -0.5,
-    "y": -0.5,
+    "y": -0.75,
     "width": 2.25,
-    "height": 2.25
+    "height": 2.5
   },
-  "asset_revision": "dfbf1772bfbddc21"
+  "asset_revision": "9c0ad2f65615c0c1"
 }

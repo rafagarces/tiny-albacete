@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 81,
+  "published_cells_intersecting_candidate": 90,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -268,8 +268,8 @@
       "column": -2,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r-3"
     },
@@ -277,8 +277,8 @@
       "column": -1,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-1r-3"
     },
@@ -286,8 +286,8 @@
       "column": 0,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c0r-3"
     },
@@ -295,8 +295,8 @@
       "column": 1,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c1r-3"
     },
@@ -304,8 +304,8 @@
       "column": 2,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c2r-3"
     },
@@ -313,8 +313,8 @@
       "column": 3,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c3r-3"
     },
@@ -322,8 +322,8 @@
       "column": 4,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c4r-3"
     },
@@ -331,8 +331,8 @@
       "column": 5,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c5r-3"
     },
@@ -340,8 +340,8 @@
       "column": 6,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c6r-3"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 1.9974480368412133,
+  "published_ground_envelope_km2": 2.2193867076013265,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 1.997448,
+      "published_intersection_km2": 2.219387,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -4631,63 +4631,63 @@
         "row": -3,
         "id": "c-2r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -1,
         "row": -3,
         "id": "c-1r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 0,
         "row": -3,
         "id": "c0r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 1,
         "row": -3,
         "id": "c1r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 2,
         "row": -3,
         "id": "c2r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 3,
         "row": -3,
         "id": "c3r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 4,
         "row": -3,
         "id": "c4r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 5,
         "row": -3,
         "id": "c5r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 6,
         "row": -3,
         "id": "c6r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 7,
@@ -8610,7 +8610,7 @@
         "name": "SAN ANTONIO ABAD",
         "source_id": "barrios.20",
         "administrative_area_km2": 0.6931085647657959,
-        "published_ground_envelope_intersection_km2": 0.12040567469315976,
+        "published_ground_envelope_intersection_km2": 0.19335916357929167,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8645,7 +8645,7 @@
         "name": "POLÍGONO SAN ANTÓN",
         "source_id": "barrios.19",
         "administrative_area_km2": 0.34329089348531894,
-        "published_ground_envelope_intersection_km2": 0.13019035063920467,
+        "published_ground_envelope_intersection_km2": 0.265906504055552,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {

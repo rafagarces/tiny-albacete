@@ -64,3 +64,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## right4
 
 4608x4608px, bounds[-0.5, -0.5, 1.75, 1.75]. Source records16917, renderedparts16901, roadways6649, faces500052, OSMelements7166. Capture4608x4608,scale531,focus(-243.02051285,-236.47508481),angle-154,tilt.60. ExistingbaseoverlapRMS<=2.326/255. Fourgeometry-guidedpanels.
+
+
+## top3
+
+4608x5120px, bounds[-0.5, -0.75, 1.75, 1.75]. Source records16917, renderedparts16901, roadways6649, faces500052, OSMelements7166. No new OSM fetch for this band: reuses archived right4 source URLs and geometry. Capture4608x5120,scale590,focus(-149.10471439,-190.66928932),angle-154,tilt.60; priorbaseoverlapRMS<=.624/255. Originalart pixels preserved.
