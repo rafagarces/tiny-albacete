@@ -1,0 +1,138 @@
+{
+  "retrieved": "2026-11-16",
+  "public_viewer_url": "https://ide.ayto-albacete.es/gvsigonline/core/load_public_project/visorgenerico/",
+  "boundary_description": "Delimitación aprobada por JGL29/06/2016, as returned in viewer layer metadata",
+  "neighborhoods_source_url": "https://ide.ayto-albacete.es/geoserver/ws_albacete/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=ws_albacete%3Abarrios&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100",
+  "neighborhood_count": 25,
+  "record_dates": [
+    {
+      "name": "LA PAJARITA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "HOSPITAL",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "PARQUE SUR",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "PEDRO LAMATA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "SANTA TERESA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "FRANCISCANOS",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "VILLACERRADA - CENTRO",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "CARRETAS - HUERTA DE MARZO",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "FERIA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "EL PILAR",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "SAN PABLO",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "VEREDA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "SAN PEDRO - MORTERO",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "SEPULCRO",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "UNIVERSIDAD",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "LA MILAGROSA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "LA ESTRELLA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "HERMANOS FALCÓ",
+      "record_date": "2022-12-26T15:39:41.921Z",
+      "last_modification": "2022-12-26Z"
+    },
+    {
+      "name": "SAN ANTONIO ABAD",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "INDUSTRIA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "LOS LLANOS",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "CAÑICAS - CANAL DE MARIA CRISTINA",
+      "record_date": "2022-08-29T15:35:04.947Z",
+      "last_modification": null
+    },
+    {
+      "name": "FÁTIMA",
+      "record_date": "2022-12-26T15:39:19.295Z",
+      "last_modification": "2022-12-26Z"
+    },
+    {
+      "name": "POLÍGONO SAN ANTÓN",
+      "record_date": "2023-04-27T09:28:49.697Z",
+      "last_modification": "2023-04-27Z"
+    },
+    {
+      "name": "MEDICINA",
+      "record_date": "2023-09-28T08:25:49.093Z",
+      "last_modification": "2023-09-28Z"
+    }
+  ],
+  "record_date_caveat": "Database record timestamps do not date imagery or prove current facade conditions.",
+  "singular_entities_source_url": "https://ide.ayto-albacete.es/geoserver/ws_albacete/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=ws_albacete%3Aentidad_singular&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=1000",
+  "singular_entity_count": 18,
+  "license_note": "Public municipal viewer explicitly advertises download for these layers. Attribution retained; no endorsement claimed."
+}

@@ -199,3 +199,8 @@ Append tile at(1.5,-0.5),size(0.25,2.25),total4608x4608,approx1.997km2 groundenv
 ## 2026-11-16 Atlas cache consistency
 
 Two immediate post-deploy comparison checks briefly changed the viewport, then passed on repeat. Independent stale metadata is a suspected cause, not proven. Construct DZI sources from the current catalog instead of independently cached DZI metadata. Version raster tile requests by source-content digest, fetch catalog without storage, and revalidate viewer entry points. This removes a cross-revision metadata dependency; physical device cache behavior remains untested.
+
+
+## 2026-11-16 Municipal neighborhood vectors
+
+Retrieve all25public municipal neighborhood features and18singular entities. Use official neighborhood geometry rather than manual outer tracing for the expanded principal candidate. Retain prior raster approximation as an audit artifact. Keep historical approval, database timestamp and current reality distinct. No completion percentage or silent exclusion of external sectors.
