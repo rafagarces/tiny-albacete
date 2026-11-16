@@ -66,3 +66,6 @@ Photo-led frontage registered to Catastro9472604WJ9197S. Two2017 free photos, el
 
 ## 2026-11-16 · Casa Perona, western edge
 Two documented facades and blue/white dome interpreted from free photos; no claimed exact carving, ironwork or dimensions. Capture dates unknown despite Commons publication dates. Catastro8971009WJ9187B and OSM street corner registration. Extend context50m west to avoid clipping the parcel, retaining previous coverage. All new neighbor parts remain estimated masses without invented facade details.
+
+## 2026-11-16 · Navigation consistency
+Landmark selection updates the shareable URL and accessible canvas label as well as visible title. Explicit Cathedral links enter the close view. Escape closes information; desktop helper explains Shift-drag panning rather than touch gestures. A ground-shadow experiment was kept out of production pending physical-device performance evidence.
