@@ -1,10 +1,11 @@
 """Build a bounded, original, attributed mesh from local Catastro/OSM and Cathedral pilot.
-All heights except Cathedral references are storey-based estimates. No facade claims.
+Context heights are estimates, with explicitly marked historical roof references.
+Landmark meshes retain their own documented-vs-estimated feature provenance.
 """
 import sys,json,math
 from pathlib import Path
 from shapely.geometry import Polygon,box
-from shapely.ops import triangulate
+from shapely import constrained_delaunay_triangles
 ROOT=Path(__file__).resolve().parent.parent
 sys.path.insert(0,str(ROOT/'src'));import catparse
 out=[]
@@ -14,9 +15,11 @@ def flat(pts,z,col,kind='context-estimated'):
  p=Polygon(pts)
  if not p.is_valid:p=p.buffer(0)
  if kind.startswith('osm'):p=p.intersection(box(-310,-255,255,255))
- if p.geom_type!='Polygon':return
- for t in triangulate(p):
-  if p.covers(t.representative_point()): face([[x,y,z]for x,y in list(t.exterior.coords)[:3]],col,kind)
+ if p.geom_type not in ('Polygon','MultiPolygon'):return
+ # Constrain edges to polygon, including concave recesses and holes.
+ # Centroid-filtered unconstrained triangles can bridge outside the footprint.
+ for t in constrained_delaunay_triangles(p).geoms:
+  face([[x,y,z]for x,y in list(t.exterior.coords)[:3]],col,kind)
 # Bounded ground, street positions from OSM. No invented named features.
 flat([[-330,-270],[270,-270],[270,295],[-330,295]],-.15,'#dce1d5','presentation-base')
 osm=json.load(open(ROOT/'zona-catedral/osm-source.json'))

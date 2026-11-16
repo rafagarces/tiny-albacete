@@ -79,3 +79,8 @@ Comparadas cámaras móviles de Teatro, Perona y Gran Hotel. Nuevos ángulos per
 
 ## 2026-11-16 Teatro: corregir cubierta con evidencia2017
 Cono interior ajustado robustamente a266retornos PNOA2017, vértice21.2m y pendiente0.50; anillo exterior separado como cubierta12m. Se corrige abanico erróneo anterior sobre partecatastral12noestrellada. Error mediano absoluto0.25m del ajuste no equivale a precisión actualglobal. Datos/filtro/script y atribución guardados. No cambio automático masivo de alturas por percentiles. Cámara recentrada para incluir sala y fachada sin recorte.
+
+## 2026-11-16 Roof footprints: constrained triangulation
+The previous Delaunay mesh filtered triangles by a representative point. A triangle could pass that test yet cross a courtyard or a concave boundary. Replaced it with constrained Delaunay triangulation (Shapely >=2.1, GEOS >=3.10). Repaired MultiPolygon surfaces are retained rather than silently omitted.
+
+Offline regression checks 1,345 context roof footprints against the same source rings and chamfer adjustment. Previous method differed on 94, including one omitted MultiPolygon, with about731m² outside and1,143m² missing when summed per roof part. These are algorithmic differences against input footprints, not newly surveyed real-world area. New union-to-input difference below1e-6m² per footprint. Building count, floor heights and coverage unchanged. See tests/check_roof_triangulation.py. The inner Teatro cone fan was separately checked to stay inside its footprint.
