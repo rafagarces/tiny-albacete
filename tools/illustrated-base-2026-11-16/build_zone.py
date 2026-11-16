@@ -15,14 +15,14 @@ def face(v,c,kind='context-estimated'):
 def flat(pts,z,col,kind='context-estimated',holes=None):
  p=Polygon(pts,holes)
  if not p.is_valid:p=p.buffer(0)
- if kind.startswith('osm'):p=p.intersection(box(-2230,-1810,1660,1530))
+ if kind.startswith('osm'):p=p.intersection(box(-2460,-2060,1660,1530))
  if p.geom_type not in ('Polygon','MultiPolygon'):return
  # Constrain edges to polygon, including concave recesses and holes.
  # Centroid-filtered unconstrained triangles can bridge outside the footprint.
  for t in constrained_delaunay_triangles(p).geoms:
   face([[x,y,z]for x,y in list(t.exterior.coords)[:3]],col,kind)
 # Bounded ground, street positions from OSM. No invented named features.
-flat([[-2250,-1830],[1680,-1830],[1680,1550],[-2250,1550]],-.15,'#dce1d5','presentation-base')
+flat([[-2480,-2080],[1680,-2080],[1680,1550],[-2480,1550]],-.15,'#dce1d5','presentation-base')
 osm=json.load(open(ROOT/'zona-catedral/osm-source.json'))
 roads=0
 for el in osm.get('elements',[]):
@@ -47,7 +47,7 @@ for b in parts:
  if b['id'].startswith(('9271101WJ9197A','9272019WJ9197S')):continue
  if b['id'] in ['9472601WJ9197A_part8','9472601WJ9197A_part9']:continue
  pts=b['pts'];cx=sum(p[0]for p in pts)/len(pts);cy=sum(p[1]for p in pts)/len(pts)
- if cx < -2220 or cx > 1650 or cy < -1800 or cy > 1520 or b['area']<18:continue
+ if cx < -2450 or cx > 1650 or cy < -2050 or cy > 1520 or b['area']<18:continue
  col=palette[int(catparse.h01(b['id'])*len(palette))%len(palette)]
  h=min(50,max(3,b['floors']*3+2)) if b['floors']>0 else 9
  if b['id']=='9470007WJ9197A_part6':

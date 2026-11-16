@@ -124,3 +124,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## right7
 
 7680x7680px, bounds[-1.25, -1.25, 2.5, 2.5]. Source records24439, renderedparts24423, roadways16651, faces723029, OSMelements18575. Seven geometry-led panels; all existing cadastral and regionalroad records cover this strip, no newIDs. No citywide currentfacadeclaim.
+
+
+## bottom9
+
+7680x8192px, bounds[-1.25, -1.25, 2.5, 2.75]. Source records25760, renderedparts25744, roadways16651, faces754234, OSMelements18575. Seven panels visually inspected. Three seam segments inspected. Prior26sourcebytes and original3D preserved. Reference preflight PNOAJuly2024 at3points: barefields/dirtpaths retained, no claim2026facades. Temporary image precision interruptions recovered for all7production panels.
