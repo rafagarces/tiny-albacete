@@ -17,3 +17,8 @@ Capture the repository's WebGL viewer with angle-154degrees,tilt0.60,orthographi
 Final atlas coordinates: original1536x1024at(0,0),first512x1024right strip at(1536,0),2048x512bottom at(0,1024),second512x1536right strip at(2048,0),second2560x512bottom strip at(0,1536). Never regenerate old tiles when adding a strip. World units remain1/2048per pixel. Cathedral detail is a separate illustration.
 
 Catastro INSPIRE data attribution and OSM attribution remain as documented on the source page. The original full GML is not duplicated here.
+
+
+## Third right strip
+
+The same archived base also covers the512x2048strip at global x2560. Capture3072x2048,scale236,angle-154,tilt.60,focus(-123.2408167310922,-243.6981380554508). Overlap against the prior2560x2048base RMS<=.60/255per channel. Atlas now3072x2048,world bounds(0,0,1.5,1),keeping1/2048units per pixel.

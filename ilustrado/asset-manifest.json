@@ -57,10 +57,20 @@
       "name": "base-bottom2.webp",
       "bytes": 368412,
       "sha256": "74e8e10f6445ca5165c9637d02e093855e15f8f10cc5456154cc56359b807e2c"
+    },
+    {
+      "name": "right3.webp",
+      "bytes": 529760,
+      "sha256": "2e169a029c920c9013000f84342ec87b4488a326fad214e110aaa077f15c2b6e"
+    },
+    {
+      "name": "base-right3.webp",
+      "bytes": 333964,
+      "sha256": "79e7a1186022935c4dfd8637a3e25962efd7a61a334553539046f96079ae8654"
     }
   ],
   "atlas": {
-    "width": 2560,
+    "width": 3072,
     "height": 2048,
     "original_width": 1536,
     "new_strip_width": 512,
@@ -70,9 +80,10 @@
     "world_bounds": [
       0,
       0,
-      1.25,
+      1.5,
       1
     ],
-    "new_bottom2_height": 512
+    "new_bottom2_height": 512,
+    "new_right3_width": 512
   }
 }

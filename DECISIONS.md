@@ -138,3 +138,8 @@ Add2560x512at world(0,.75),width1.25. Total atlas2560x2048. Source base extended
 ## Requested next phase,16November2026,12:25Europe/Madrid
 
 After this illustrated quality is extended across the city, Rafa requests a whole-city reference pass to bring it close to the current real appearance. His approved routes include photographs, Google Maps and other suitable visual references. Preserve the explicit order: artistic extension first, current-reality fidelity pass second. Reference dates, observed features and inferred details must stay distinct; an old photograph is not evidence of current appearance. This does not replace the approved artistic direction or promise an exact replica. Keep0EUR/no billing/no third-party contact constraints. A visual reference can inform interpretation; do not copy third-party imagery,3D or textures into the delivered map without compatible rights.
+
+
+## 2026-11-16 · third right contiguous illustrated strip
+
+Add512x2048at world(1.25,0),width.25. Total3072x2048. This strip is inside the previously archived6479-part municipal source coverage and existing OSM street extract, so no new source inventory is claimed. Same camera projection, overlap RMS<=.60/255per channel. Only new strip pixels changed; previous six art assets and rotating3D unchanged. Interpreted ordinary architecture without new monument claims. No billing or paid resources.
