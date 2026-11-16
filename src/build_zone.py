@@ -48,6 +48,7 @@ for b in parts:
  h=min(50,max(3,b['floors']*3+2)) if b['floors']>0 else 9
  # Front coarse mass adjusted to match documented facade proportions; still estimated.
  if b['id']=='9371110WJ9197A_part4':h=11.2
+ if b['id'] in ['9472604WJ9197S_part5','9472604WJ9197S_part6','9472604WJ9197S_part7']:h=12.0
  if b['id'] in ['9472601WJ9197A_part6','9472601WJ9197A_part12']:
   # Conical auditorium roof documented by COACM2024; apex/height estimated.
   h=11
@@ -76,6 +77,10 @@ for f in json.load(open(ROOT/'pilots/ayuntamiento-3d/model.json')):
 ang=math.atan2(-17.9,30.4);ca,sa=math.cos(ang),math.sin(ang)
 for f in json.load(open(ROOT/'pilots/teatro-3d/model.json')):
  face([[ca*x-sa*y+130.7,sa*x+ca*y+31.7,z]for x,y,z in f['v']],f['c'],f['kind'])
+# Palacio Provincial street facade; cadastral rear and courtyard retained.
+ang=math.atan2(27.9,14.3);ca,sa=math.cos(ang),math.sin(ang)
+for f in json.load(open(ROOT/'pilots/diputacion-3d/model.json')):
+ face([[ca*x-sa*y+203.1,sa*x+ca*y-4.3,z]for x,y,z in f['v']],f['c'],f['kind'])
 (ROOT/'zona-catedral/model.json').write_text(json.dumps(out,separators=(',',':')))
 (ROOT/'zona-catedral/stats.json').write_text(json.dumps({'buildingParts':count,'roads':roads,'faces':len(out),'extentMeters':500,'generated':'2026-11-16','cathedralRegistration':'approximate rotation-24deg, offset(-13.1,6.7)m; not a surveyed alignment'}))
 print(count,'parts',roads,'roads',len(out),'faces')

@@ -57,3 +57,9 @@ Sitio: https://tiny-albacete.pages.dev (Cloudflare Pages, proyecto `tiny-albacet
 - Pórticos, telón curvo, marquesina y rótulo simplificados; no carteles. Catastro9472601WJ9197A,frente35.28m,partes8/9sustituidas,1236partescontexto restantes. No interior ni trasera reconstruidos.
 - COACM2024 documenta cubierta cónica decobre; se aproxima sobre partescurvas6/12 con altura11-18m y vértice estimados, no cúpula arbitraria. Fotografías/planos de COACM y CasaArquitectura no copiados.
 - Encaje/curvatura/cubierta/altura y letras estimados. Vecinos no se eliminan para ocultaroclusiones. SelectorTeatroCirco y ?l=teatro, mapa completo intacto. 0€sinserviciosnuevos.
+
+## 2026-11-16 · Landmark orientation
+The header and page title now name the selected landmark rather than always saying Cathedral. Overview uses a deterministic camera independent of the last inspected building. No geometry or map coverage changes.
+
+## 2026-11-16 · Palacio Provincial partial front
+Photo-led frontage registered to Catastro9472604WJ9197S. Two2017 free photos, elevations estimated. Lower floor/attic/hidden facades simplified rather than invented inventories. Rear/courtyard/context masses retained, including occlusions. No image textures, heraldry or interior reconstruction.
