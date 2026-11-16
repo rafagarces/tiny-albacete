@@ -13,3 +13,7 @@ Parcel9472601WJ9197A matched with OSM TeatroCircoQ11951071 and architecturerecor
 
 Other inspected photos (santiagolopezpastor2020page / EXIFuncertain and Siempremolinicos2007) were NOT used for geometry, only triage. Only licensed2010photo supplies facadeform. No sourcephotos included in repo or deployment.
 Run python pilots/teatro-3d/build.py then python src/build_zone.py.
+
+## Roof correction16Nov2026
+Prior viewer incorrectly fanned the annular part12 to the same apex aspart6. Replaced it with separate12m reference flatroof, and part6with a robust cone fitted266class6returnsfromPNOA2017tile598-4318. Normalizedheightusesmedian8nearestgroundclass2points; currentCatastropart6inset1m; sampley40..60,height12..24filtersbackstageandgroundoutliers. Fittedcx164.0969,cy50.1663,apex21.1963,slope.49989; roundedforrender21.2m/.50. Medianabsoluteresidual.25m is samplefitquality only, not global accuracy or currentcorniceclaim. Boundaryheightsandregistrationremaininterpolationestimates. No blanket percentile-to-heightreplacement.
+Source https://open-lidar-data.s3.eu-central-1.amazonaws.com/data/ES/CNIG/Lidar_2015-2021_epsg25830/copc/PNOA_2017_CLM-SE_598-4318_ORT-CLA-RGB.copc.laz . Data LiDARPNOA2017 IGN/SCNE CC-BY4.0 scne.es; COPCcopy https://github.com/flai-ai/open-lidar-data . License https://centrodedescargas.cnig.es/CentroDescargas/politica-datos . Transformedselected266roofreturnssharedinroof-samples-2017.json; reproducefitpythonfit_roof.pywithnumpy/scipy. Samplesarehistoricandmaynotmatchtoday. Retainstagebackbuildingmassesestimated, nointeriors.

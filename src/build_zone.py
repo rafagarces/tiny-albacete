@@ -53,15 +53,21 @@ for b in parts:
  # Front coarse mass adjusted to match documented facade proportions; still estimated.
  if b['id']=='9371110WJ9197A_part4':h=11.2
  if b['id'] in ['9472604WJ9197S_part5','9472604WJ9197S_part6','9472604WJ9197S_part7']:h=12.0
- if b['id'] in ['9472601WJ9197A_part6','9472601WJ9197A_part12']:
-  # Conical auditorium roof documented by COACM2024; apex/height estimated.
-  h=11
+ if b['id']=='9472601WJ9197A_part12':h=12.0 # 2017 annular-roof median, not another cone.
+ if b['id']=='9472601WJ9197A_part6':
+  # Robust cone fitted to266PNOA2017 roof returns; not a current survey.
+  # No fan across the non-star-shaped annular part12.
+  def roofheight(p):return 21.2-.5*math.hypot(p[0]-164.1,p[1]-50.2)
   for a,B in zip(pts,pts[1:]+pts[:1]):
-   if a!=B:face([[*a,h],[*B,h],[163.5,51.5,18]],'#9a9f89','documented-conical-roof-estimated')
- else:flat(pts,h,'#c6b5a0')
- for a,B in zip(pts,pts[1:]+pts[:1]):
-  if a==B:continue
-  face([[*a,0],[*B,0],[*B,h],[*a,h]],col)
+   if a!=B:
+    ha,hb=roofheight(a),roofheight(B)
+    face([[*a,ha],[*B,hb],[164.1,50.2,21.2]],'#9a9f89','pnoa2017-cone-fit')
+    face([[*a,0],[*B,0],[*B,hb],[*a,ha]],col,'pnoa2017-roof-reference')
+ else:
+  flat(pts,h,'#c6b5a0')
+  for a,B in zip(pts,pts[1:]+pts[:1]):
+   if a==B:continue
+   face([[*a,0],[*B,0],[*B,h],[*a,h]],col)
  # No invented windows/balconies/chimneys. Restrained cornice as artistic edge.
  count+=1
 # Replace ALL cadastral Cathedral parts, not a duplicate overlay. Approximate registration.

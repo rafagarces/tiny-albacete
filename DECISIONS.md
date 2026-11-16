@@ -76,3 +76,6 @@ Catastro9470007WJ9197A y DOCM2019. Dos frentes registrados, pequeño chaflán es
 
 ## 2026-11-16 Lectura conjunta de siete hitos
 Comparadas cámaras móviles de Teatro, Perona y Gran Hotel. Nuevos ángulos permiten leer mejor acceso del Teatro y retorno de Perona, y las tres cupulillas del Gran Hotel, sin quitar o transparentar vecinos ni editar geometría. La información inicial se centra en el hito elegido y enlaza su apartado de fuentes; Vista general permite leer las siete descripciones. Se mantienen explícitos límites y estimaciones.
+
+## 2026-11-16 Teatro: corregir cubierta con evidencia2017
+Cono interior ajustado robustamente a266retornos PNOA2017, vértice21.2m y pendiente0.50; anillo exterior separado como cubierta12m. Se corrige abanico erróneo anterior sobre partecatastral12noestrellada. Error mediano absoluto0.25m del ajuste no equivale a precisión actualglobal. Datos/filtro/script y atribución guardados. No cambio automático masivo de alturas por percentiles. Cámara recentrada para incluir sala y fachada sin recorte.
