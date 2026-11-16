@@ -1,0 +1,11 @@
+{
+  "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=598000%2C4313800%2C599600%2C4315400&WIDTH=1200&HEIGHT=1200&FORMAT=image%2Fjpeg",
+  "bbox_utm25830": [
+    598000,
+    4313800,
+    599600,
+    4315400
+  ],
+  "retrieved": "2026-11-16",
+  "acquisition_month": "not yet sampled here"
+}

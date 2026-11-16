@@ -1,0 +1,26 @@
+[
+  {
+    "name": "science",
+    "address": "P.\u00ba de la Innovaci\u00f3n, 1, 02006 Albacete, Spain",
+    "point": {
+      "lat": 38.9772263,
+      "lng": -1.8574797
+    },
+    "in_principal_candidate": true,
+    "in_art_ground_envelope": false,
+    "distance_to_principal_m": 0.0,
+    "point_not_boundary": true
+  },
+  {
+    "name": "botanico",
+    "address": "V\u00eda de, Av. de la Mancha, s/n, 02006 Albacete, Spain",
+    "point": {
+      "lat": 38.9755148,
+      "lng": -1.8600207
+    },
+    "in_principal_candidate": false,
+    "in_art_ground_envelope": false,
+    "distance_to_principal_m": 26.36613556405884,
+    "point_not_boundary": true
+  }
+]

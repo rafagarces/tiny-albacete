@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 132,
+  "published_cells_intersecting_candidate": 144,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -61,8 +61,8 @@
       "column": -4,
       "row": -4,
       "candidate_target_fraction": 0.599297,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r-4"
     },
@@ -250,8 +250,8 @@
       "column": -4,
       "row": -3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r-3"
     },
@@ -502,8 +502,8 @@
       "column": -4,
       "row": -2,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r-2"
     },
@@ -772,8 +772,8 @@
       "column": -4,
       "row": -1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r-1"
     },
@@ -1042,8 +1042,8 @@
       "column": -4,
       "row": 0,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r0"
     },
@@ -1339,8 +1339,8 @@
       "column": -4,
       "row": 1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r1"
     },
@@ -1681,8 +1681,8 @@
       "column": -4,
       "row": 2,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r2"
     },
@@ -2032,8 +2032,8 @@
       "column": -4,
       "row": 3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r3"
     },
@@ -2347,8 +2347,8 @@
       "column": -4,
       "row": 4,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r4"
     },
@@ -2635,8 +2635,8 @@
       "column": -4,
       "row": 5,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r5"
     },
@@ -2896,8 +2896,8 @@
       "column": -4,
       "row": 6,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r6"
     },
@@ -3130,8 +3130,8 @@
       "column": -4,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-4r7"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 3.2551005044816668,
+  "published_ground_envelope_km2": 3.551018732161694,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 3.167128,
+      "published_intersection_km2": 3.453165,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -4354,6 +4354,16 @@
     {
       "name": "Rural settlements and pedanías",
       "status": "separate municipal outcome, not equated to principal casco urbano; scope unresolved"
+    },
+    {
+      "name": "Parque Científico y Tecnológico de Albacete",
+      "status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+      "source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/"
+    },
+    {
+      "name": "Jardín Botánico de Castilla-La Mancha",
+      "status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+      "source": "https://www.jardinbotanico-clm.com/sobre-nosotros"
     }
   ],
   "sources": [
@@ -4449,7 +4459,7 @@
         "row": -4,
         "id": "c-4r-4",
         "candidate_fraction": 0.599297,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -4617,7 +4627,7 @@
         "row": -3,
         "id": "c-4r-3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -4876,7 +4886,7 @@
         "row": -2,
         "id": "c-4r-2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -5156,7 +5166,7 @@
         "row": -1,
         "id": "c-4r-1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -5443,7 +5453,7 @@
         "row": 0,
         "id": "c-4r0",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -5730,7 +5740,7 @@
         "row": 1,
         "id": "c-4r1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -6038,7 +6048,7 @@
         "row": 2,
         "id": "c-4r2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -6339,7 +6349,7 @@
         "row": 3,
         "id": "c-4r3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -6633,7 +6643,7 @@
         "row": 4,
         "id": "c-4r4",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -6920,7 +6930,7 @@
         "row": 5,
         "id": "c-4r5",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -7186,7 +7196,7 @@
         "row": 6,
         "id": "c-4r6",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -7445,7 +7455,7 @@
         "row": 7,
         "id": "c-4r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -3,
@@ -8540,21 +8550,21 @@
         "name": "FERIA",
         "source_id": "barrios.10",
         "administrative_area_km2": 0.40935669600910607,
-        "published_ground_envelope_intersection_km2": 0.24720328525069127,
+        "published_ground_envelope_intersection_km2": 0.3601617272923029,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "EL PILAR",
         "source_id": "barrios.11",
         "administrative_area_km2": 0.27952053569493146,
-        "published_ground_envelope_intersection_km2": 0.0,
+        "published_ground_envelope_intersection_km2": 0.01150677267263654,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SAN PABLO",
         "source_id": "barrios.12",
         "administrative_area_km2": 0.6931638739375532,
-        "published_ground_envelope_intersection_km2": 0.014633763564388098,
+        "published_ground_envelope_intersection_km2": 0.03743533298511027,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8610,14 +8620,14 @@
         "name": "SAN ANTONIO ABAD",
         "source_id": "barrios.20",
         "administrative_area_km2": 0.6931085647657959,
-        "published_ground_envelope_intersection_km2": 0.2556582014663016,
+        "published_ground_envelope_intersection_km2": 0.3096124268430625,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "INDUSTRIA",
         "source_id": "barrios.21",
         "administrative_area_km2": 0.5882993225574582,
-        "published_ground_envelope_intersection_km2": 0.1651543867644029,
+        "published_ground_envelope_intersection_km2": 0.2190713676802251,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8860,6 +8870,68 @@
         "scope_status": "explicit exterior sector, not excluded; final mask pending",
         "pnoa_sample_date": "2024-07",
         "pnoa_date_scope": "one central sample only, not every pixel"
+      }
+    ]
+  },
+  "southern_science_botanic_inventory": {
+    "status": "points-and-visual-evidence-not-final-boundaries",
+    "rows": [
+      {
+        "name": "science",
+        "address": "P.º de la Innovación, 1, 02006 Albacete, Spain",
+        "point": {
+          "lat": 38.9772263,
+          "lng": -1.8574797
+        },
+        "in_principal_candidate": true,
+        "in_art_ground_envelope": false,
+        "distance_to_principal_m": 0.0,
+        "point_not_boundary": true,
+        "display_name": "Parque Científico y Tecnológico de Albacete",
+        "official_source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/",
+        "scope_status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+        "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
+        "pnoa_date_check": {
+          "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598900%2C4314800%2C599100%2C4315000&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+          "sample_rounded_utm": [
+            599000,
+            4314900
+          ],
+          "acquisition_month": "2024-07",
+          "resolution_m": 0.25,
+          "scope": "one rounded central sample, not whole site or 2026 evidence"
+        },
+        "operator_facilities_count": 5,
+        "planned_new_building_caveat": "17 Oct 2025 license-process announcement is not proof Edificio 6 was built by Nov 2026."
+      },
+      {
+        "name": "botanico",
+        "address": "Vía de, Av. de la Mancha, s/n, 02006 Albacete, Spain",
+        "point": {
+          "lat": 38.9755148,
+          "lng": -1.8600207
+        },
+        "in_principal_candidate": false,
+        "in_art_ground_envelope": false,
+        "distance_to_principal_m": 26.36613556405884,
+        "point_not_boundary": true,
+        "display_name": "Jardín Botánico de Castilla-La Mancha",
+        "official_source": "https://www.jardinbotanico-clm.com/sobre-nosotros",
+        "scope_status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+        "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
+        "pnoa_date_check": {
+          "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598600%2C4314600%2C598800%2C4314800&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+          "sample_rounded_utm": [
+            598700,
+            4314700
+          ],
+          "acquisition_month": "2024-07",
+          "resolution_m": 0.25,
+          "scope": "one rounded central sample, not whole site or 2026 evidence"
+        },
+        "operator_area_ha_approx": 7,
+        "official_plan": "https://www.jardinbotanico-clm.com/plano-e-itinerario",
+        "visual_review": "Inspected PNOA south of AB20 against official visitor plan. Garden extends south of the principal candidate. Boundary still untraced."
       }
     ]
   }

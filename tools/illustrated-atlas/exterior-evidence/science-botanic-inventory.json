@@ -1,0 +1,59 @@
+[
+  {
+    "name": "science",
+    "address": "P.º de la Innovación, 1, 02006 Albacete, Spain",
+    "point": {
+      "lat": 38.9772263,
+      "lng": -1.8574797
+    },
+    "in_principal_candidate": true,
+    "in_art_ground_envelope": false,
+    "distance_to_principal_m": 0.0,
+    "point_not_boundary": true,
+    "display_name": "Parque Científico y Tecnológico de Albacete",
+    "official_source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/",
+    "scope_status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+    "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
+    "pnoa_date_check": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598900%2C4314800%2C599100%2C4315000&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+      "sample_rounded_utm": [
+        599000,
+        4314900
+      ],
+      "acquisition_month": "2024-07",
+      "resolution_m": 0.25,
+      "scope": "one rounded central sample, not whole site or 2026 evidence"
+    },
+    "operator_facilities_count": 5,
+    "planned_new_building_caveat": "17 Oct 2025 license-process announcement is not proof Edificio 6 was built by Nov 2026."
+  },
+  {
+    "name": "botanico",
+    "address": "Vía de, Av. de la Mancha, s/n, 02006 Albacete, Spain",
+    "point": {
+      "lat": 38.9755148,
+      "lng": -1.8600207
+    },
+    "in_principal_candidate": false,
+    "in_art_ground_envelope": false,
+    "distance_to_principal_m": 26.36613556405884,
+    "point_not_boundary": true,
+    "display_name": "Jardín Botánico de Castilla-La Mancha",
+    "official_source": "https://www.jardinbotanico-clm.com/sobre-nosotros",
+    "scope_status": "Explicit pending sector; not excluded by principal planning candidate. Point is not a boundary.",
+    "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
+    "pnoa_date_check": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598600%2C4314600%2C598800%2C4314800&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+      "sample_rounded_utm": [
+        598700,
+        4314700
+      ],
+      "acquisition_month": "2024-07",
+      "resolution_m": 0.25,
+      "scope": "one rounded central sample, not whole site or 2026 evidence"
+    },
+    "operator_area_ha_approx": 7,
+    "official_plan": "https://www.jardinbotanico-clm.com/plano-e-itinerario",
+    "visual_review": "Inspected PNOA south of AB20 against official visitor plan. Garden extends south of the principal candidate. Boundary still untraced."
+  }
+]
