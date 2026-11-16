@@ -11,3 +11,9 @@ Sources checked 16November2026. This is not a final city mask.
 - Contemporary reporting about2016neighborhoodrevision: https://www.albaceteabierto.es/albacete-noticias/item/18963-albacete-actualiza-la-delimitacion-de-sus-barrios-para-conseguir-una-mejor-gestion-de-los-servicios-municipales . Secondarysource21June2016, corroborates25urbanneighborhoodsandseparateruraldistrict.
 
 Allcoveragefiguresarefixed-cameraground-planeenvelopes,notfaithfullyverifiedfacades. No completionpercentage before an operationaltargethasbeencontrasted.
+
+## Expanded principal candidate, still not final
+
+The outer red line of the25neighborhood2016map was manually traced and visually overlaid on the source raster, avoiding the failed automatic extraction. Historic envelope12.3689km2. Its union with the largestSIUcomponent is archived separately as principal-extent-candidate.geojson, not a final2026city boundary or city completion denominator. This preserves parks and neighborhood areas missing from the planning-class-only candidate. Generalization about15-30m is much larger than the registration fit error.
+
+PNOAJuly2024/25cmnowconfirmed atfive sample points acrossprincipalextentandCampollano, not everypixel. A live north-up ortho overview was visually inspected against the historic envelope andSIU. External industrial and detached settlement areas remain separately inventoried. Currentfacades still require thelaterreferencepass. ExactGetMapandGetFeatureInfoURLs are retained incoverage-ledger.json.

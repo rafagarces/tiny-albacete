@@ -179,3 +179,8 @@ Add3584x512atworld(-.25,1.25),total3584x3584,approx1.208km2groundenvelope. Origi
 ##2026-11-16 second top strip
 
 Add3584x512atworld(-.25,-.5),total3584x4096,approx1.381km2groundenvelope. Originalartandcoordinatesunchanged. Fourgeometry-guidedpanels, no current-facadeclaim.0EUR,no billing,no contact. Internalprogressonlyuntilcitycomplete.
+
+
+##2026-11-16 second left strip
+
+Add512x4096atworld(-.5,-.5),total4096x4096,approx1.578km2groundenvelope. Originalartandcoordinatesunchanged. Fourgeometry-guidedpanels, no current-facadeclaim.0EUR,no billing,no contact. Internalprogressonlyuntilcitycomplete.

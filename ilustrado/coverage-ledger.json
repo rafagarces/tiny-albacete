@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 56,
+  "published_cells_intersecting_candidate": 64,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -520,8 +520,8 @@
       "column": -2,
       "row": -2,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r-2"
     },
@@ -790,8 +790,8 @@
       "column": -2,
       "row": -1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r-1"
     },
@@ -1060,8 +1060,8 @@
       "column": -2,
       "row": 0,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r0"
     },
@@ -1357,8 +1357,8 @@
       "column": -2,
       "row": 1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r1"
     },
@@ -1699,8 +1699,8 @@
       "column": -2,
       "row": 2,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r2"
     },
@@ -2050,8 +2050,8 @@
       "column": -2,
       "row": 3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r3"
     },
@@ -2365,8 +2365,8 @@
       "column": -2,
       "row": 4,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r4"
     },
@@ -2653,8 +2653,8 @@
       "column": -2,
       "row": 5,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r5"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 1.380951729174104,
+  "published_ground_envelope_km2": 1.5782305476276455,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 1.380952,
+      "published_intersection_km2": 1.578231,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -4369,5 +4369,4107 @@
     "2016neighborhood map is historical administrative evidence, not2026footprint.",
     "PNOAdateJuly2024was checked at one point only, not across the city.",
     "Published coverage describes a fixed-camera ground-plane envelope, not certified current facades."
-  ]
+  ],
+  "expanded_principal_candidate": {
+    "status": "expanded-principal-candidate-not-final-city-mask",
+    "crs": "EPSG:25830",
+    "method": "Union of hand-traced official2016neighborhood outer envelope and largest SIUurban planning component. Preserves parks and2016neighborhood edges omitted by planning-class-onlycandidate.",
+    "historic_envelope_km2": 12.368875163777297,
+    "union_km2": 12.690106585353613,
+    "limitations": [
+      "2016administrative boundary, not a2026urban footprint.",
+      "Manual generalization about15-30m; no parcel precision.",
+      "Does not claim external sectors or pedanias completed or excluded.",
+      "PNOAJuly2024 checked visually for principal urban extent, not currentfacades."
+    ],
+    "cells_count": 579,
+    "cells": [
+      {
+        "column": 7,
+        "row": -5,
+        "id": "c7r-5",
+        "candidate_fraction": 0.004436,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": -5,
+        "id": "c8r-5",
+        "candidate_fraction": 0.089882,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": -5,
+        "id": "c9r-5",
+        "candidate_fraction": 0.156255,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": -5,
+        "id": "c10r-5",
+        "candidate_fraction": 0.133875,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": -5,
+        "id": "c11r-5",
+        "candidate_fraction": 0.012125,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": -5,
+        "id": "c12r-5",
+        "candidate_fraction": 0.053927,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": -4,
+        "id": "c-5r-4",
+        "candidate_fraction": 0.281613,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": -4,
+        "id": "c-4r-4",
+        "candidate_fraction": 0.599297,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": -4,
+        "id": "c-3r-4",
+        "candidate_fraction": 0.695618,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": -4,
+        "id": "c-2r-4",
+        "candidate_fraction": 0.772267,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": -4,
+        "id": "c-1r-4",
+        "candidate_fraction": 0.848915,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": -4,
+        "id": "c0r-4",
+        "candidate_fraction": 0.910113,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": -4,
+        "id": "c1r-4",
+        "candidate_fraction": 0.698984,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": -4,
+        "id": "c2r-4",
+        "candidate_fraction": 0.525474,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": -4,
+        "id": "c3r-4",
+        "candidate_fraction": 0.590602,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": -4,
+        "id": "c4r-4",
+        "candidate_fraction": 0.626805,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": -4,
+        "id": "c5r-4",
+        "candidate_fraction": 0.72329,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": -4,
+        "id": "c6r-4",
+        "candidate_fraction": 0.849027,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": -4,
+        "id": "c7r-4",
+        "candidate_fraction": 0.957747,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": -4,
+        "id": "c8r-4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": -4,
+        "id": "c9r-4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": -4,
+        "id": "c10r-4",
+        "candidate_fraction": 0.992614,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": -4,
+        "id": "c11r-4",
+        "candidate_fraction": 0.997538,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": -4,
+        "id": "c12r-4",
+        "candidate_fraction": 0.998828,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": -4,
+        "id": "c13r-4",
+        "candidate_fraction": 0.391939,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": -4,
+        "id": "c20r-4",
+        "candidate_fraction": 0.005357,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": -4,
+        "id": "c21r-4",
+        "candidate_fraction": 0.085331,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": -3,
+        "id": "c-9r-3",
+        "candidate_fraction": 0.042852,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": -3,
+        "id": "c-8r-3",
+        "candidate_fraction": 0.168951,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": -3,
+        "id": "c-7r-3",
+        "candidate_fraction": 0.313975,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": -3,
+        "id": "c-6r-3",
+        "candidate_fraction": 0.692823,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": -3,
+        "id": "c-5r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": -3,
+        "id": "c-4r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": -3,
+        "id": "c-3r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": -3,
+        "id": "c-2r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": -3,
+        "id": "c-1r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": -3,
+        "id": "c0r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": -3,
+        "id": "c1r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": -3,
+        "id": "c2r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": -3,
+        "id": "c3r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": -3,
+        "id": "c4r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": -3,
+        "id": "c5r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": -3,
+        "id": "c6r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": -3,
+        "id": "c7r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": -3,
+        "id": "c8r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": -3,
+        "id": "c9r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": -3,
+        "id": "c10r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": -3,
+        "id": "c11r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": -3,
+        "id": "c12r-3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": -3,
+        "id": "c13r-3",
+        "candidate_fraction": 0.990206,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": -3,
+        "id": "c14r-3",
+        "candidate_fraction": 0.424982,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": -3,
+        "id": "c15r-3",
+        "candidate_fraction": 0.158811,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": -3,
+        "id": "c16r-3",
+        "candidate_fraction": 0.344425,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": -3,
+        "id": "c17r-3",
+        "candidate_fraction": 0.526333,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": -3,
+        "id": "c18r-3",
+        "candidate_fraction": 0.677743,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": -3,
+        "id": "c19r-3",
+        "candidate_fraction": 0.822392,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": -3,
+        "id": "c20r-3",
+        "candidate_fraction": 0.961685,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": -3,
+        "id": "c21r-3",
+        "candidate_fraction": 0.965686,
+        "art_status": "not-started"
+      },
+      {
+        "column": 22,
+        "row": -3,
+        "id": "c22r-3",
+        "candidate_fraction": 0.026109,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": -2,
+        "id": "c-15r-2",
+        "candidate_fraction": 0.107751,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": -2,
+        "id": "c-14r-2",
+        "candidate_fraction": 0.35517,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": -2,
+        "id": "c-13r-2",
+        "candidate_fraction": 0.482592,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": -2,
+        "id": "c-12r-2",
+        "candidate_fraction": 0.642417,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": -2,
+        "id": "c-11r-2",
+        "candidate_fraction": 0.783359,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": -2,
+        "id": "c-10r-2",
+        "candidate_fraction": 0.913532,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": -2,
+        "id": "c-9r-2",
+        "candidate_fraction": 0.997952,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": -2,
+        "id": "c-8r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": -2,
+        "id": "c-7r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": -2,
+        "id": "c-6r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": -2,
+        "id": "c-5r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": -2,
+        "id": "c-4r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": -2,
+        "id": "c-3r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": -2,
+        "id": "c-2r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": -2,
+        "id": "c-1r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": -2,
+        "id": "c0r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": -2,
+        "id": "c1r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": -2,
+        "id": "c2r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": -2,
+        "id": "c3r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": -2,
+        "id": "c4r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": -2,
+        "id": "c5r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": -2,
+        "id": "c6r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": -2,
+        "id": "c7r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": -2,
+        "id": "c8r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": -2,
+        "id": "c9r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": -2,
+        "id": "c10r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": -2,
+        "id": "c11r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": -2,
+        "id": "c12r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": -2,
+        "id": "c13r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": -2,
+        "id": "c14r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": -2,
+        "id": "c15r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": -2,
+        "id": "c16r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": -2,
+        "id": "c17r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": -2,
+        "id": "c18r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": -2,
+        "id": "c19r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": -2,
+        "id": "c20r-2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": -2,
+        "id": "c21r-2",
+        "candidate_fraction": 0.895688,
+        "art_status": "not-started"
+      },
+      {
+        "column": 22,
+        "row": -2,
+        "id": "c22r-2",
+        "candidate_fraction": 0.00596,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": -1,
+        "id": "c-18r-1",
+        "candidate_fraction": 0.119142,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": -1,
+        "id": "c-17r-1",
+        "candidate_fraction": 0.517432,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": -1,
+        "id": "c-16r-1",
+        "candidate_fraction": 0.832588,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": -1,
+        "id": "c-15r-1",
+        "candidate_fraction": 0.99465,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": -1,
+        "id": "c-14r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": -1,
+        "id": "c-13r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": -1,
+        "id": "c-12r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": -1,
+        "id": "c-11r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": -1,
+        "id": "c-10r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": -1,
+        "id": "c-9r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": -1,
+        "id": "c-8r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": -1,
+        "id": "c-7r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": -1,
+        "id": "c-6r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": -1,
+        "id": "c-5r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": -1,
+        "id": "c-4r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": -1,
+        "id": "c-3r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": -1,
+        "id": "c-2r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": -1,
+        "id": "c-1r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": -1,
+        "id": "c0r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": -1,
+        "id": "c1r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": -1,
+        "id": "c2r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": -1,
+        "id": "c3r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": -1,
+        "id": "c4r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": -1,
+        "id": "c5r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": -1,
+        "id": "c6r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": -1,
+        "id": "c7r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": -1,
+        "id": "c8r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": -1,
+        "id": "c9r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": -1,
+        "id": "c10r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": -1,
+        "id": "c11r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": -1,
+        "id": "c12r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": -1,
+        "id": "c13r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": -1,
+        "id": "c14r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": -1,
+        "id": "c15r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": -1,
+        "id": "c16r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": -1,
+        "id": "c17r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": -1,
+        "id": "c18r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": -1,
+        "id": "c19r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": -1,
+        "id": "c20r-1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": -1,
+        "id": "c21r-1",
+        "candidate_fraction": 0.518964,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 0,
+        "id": "c-19r0",
+        "candidate_fraction": 0.082481,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 0,
+        "id": "c-18r0",
+        "candidate_fraction": 0.876228,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 0,
+        "id": "c-17r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 0,
+        "id": "c-16r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 0,
+        "id": "c-15r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 0,
+        "id": "c-14r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 0,
+        "id": "c-13r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 0,
+        "id": "c-12r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 0,
+        "id": "c-11r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 0,
+        "id": "c-10r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 0,
+        "id": "c-9r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 0,
+        "id": "c-8r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 0,
+        "id": "c-7r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 0,
+        "id": "c-6r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 0,
+        "id": "c-5r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 0,
+        "id": "c-4r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 0,
+        "id": "c-3r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 0,
+        "id": "c-2r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": 0,
+        "id": "c-1r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": 0,
+        "id": "c0r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": 0,
+        "id": "c1r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": 0,
+        "id": "c2r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": 0,
+        "id": "c3r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": 0,
+        "id": "c4r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": 0,
+        "id": "c5r0",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": 0,
+        "id": "c6r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 0,
+        "id": "c7r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 0,
+        "id": "c8r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 0,
+        "id": "c9r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 0,
+        "id": "c10r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 0,
+        "id": "c11r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 0,
+        "id": "c12r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 0,
+        "id": "c13r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 0,
+        "id": "c14r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 0,
+        "id": "c15r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 0,
+        "id": "c16r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 0,
+        "id": "c17r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": 0,
+        "id": "c18r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": 0,
+        "id": "c19r0",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": 0,
+        "id": "c20r0",
+        "candidate_fraction": 0.951385,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": 0,
+        "id": "c21r0",
+        "candidate_fraction": 0.076255,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 1,
+        "id": "c-19r1",
+        "candidate_fraction": 0.51027,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 1,
+        "id": "c-18r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 1,
+        "id": "c-17r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 1,
+        "id": "c-16r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 1,
+        "id": "c-15r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 1,
+        "id": "c-14r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 1,
+        "id": "c-13r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 1,
+        "id": "c-12r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 1,
+        "id": "c-11r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 1,
+        "id": "c-10r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 1,
+        "id": "c-9r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 1,
+        "id": "c-8r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 1,
+        "id": "c-7r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 1,
+        "id": "c-6r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 1,
+        "id": "c-5r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 1,
+        "id": "c-4r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 1,
+        "id": "c-3r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 1,
+        "id": "c-2r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": 1,
+        "id": "c-1r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": 1,
+        "id": "c0r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": 1,
+        "id": "c1r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": 1,
+        "id": "c2r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": 1,
+        "id": "c3r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": 1,
+        "id": "c4r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": 1,
+        "id": "c5r1",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": 1,
+        "id": "c6r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 1,
+        "id": "c7r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 1,
+        "id": "c8r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 1,
+        "id": "c9r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 1,
+        "id": "c10r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 1,
+        "id": "c11r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 1,
+        "id": "c12r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 1,
+        "id": "c13r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 1,
+        "id": "c14r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 1,
+        "id": "c15r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 1,
+        "id": "c16r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 1,
+        "id": "c17r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": 1,
+        "id": "c18r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": 1,
+        "id": "c19r1",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": 1,
+        "id": "c20r1",
+        "candidate_fraction": 0.810811,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": 1,
+        "id": "c21r1",
+        "candidate_fraction": 0.319868,
+        "art_status": "not-started"
+      },
+      {
+        "column": 22,
+        "row": 1,
+        "id": "c22r1",
+        "candidate_fraction": 0.102374,
+        "art_status": "not-started"
+      },
+      {
+        "column": -21,
+        "row": 2,
+        "id": "c-21r2",
+        "candidate_fraction": 0.001794,
+        "art_status": "not-started"
+      },
+      {
+        "column": -20,
+        "row": 2,
+        "id": "c-20r2",
+        "candidate_fraction": 0.736685,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 2,
+        "id": "c-19r2",
+        "candidate_fraction": 0.998248,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 2,
+        "id": "c-18r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 2,
+        "id": "c-17r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 2,
+        "id": "c-16r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 2,
+        "id": "c-15r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 2,
+        "id": "c-14r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 2,
+        "id": "c-13r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 2,
+        "id": "c-12r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 2,
+        "id": "c-11r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 2,
+        "id": "c-10r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 2,
+        "id": "c-9r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 2,
+        "id": "c-8r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 2,
+        "id": "c-7r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 2,
+        "id": "c-6r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 2,
+        "id": "c-5r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 2,
+        "id": "c-4r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 2,
+        "id": "c-3r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 2,
+        "id": "c-2r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": 2,
+        "id": "c-1r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": 2,
+        "id": "c0r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": 2,
+        "id": "c1r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": 2,
+        "id": "c2r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": 2,
+        "id": "c3r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": 2,
+        "id": "c4r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": 2,
+        "id": "c5r2",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": 2,
+        "id": "c6r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 2,
+        "id": "c7r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 2,
+        "id": "c8r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 2,
+        "id": "c9r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 2,
+        "id": "c10r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 2,
+        "id": "c11r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 2,
+        "id": "c12r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 2,
+        "id": "c13r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 2,
+        "id": "c14r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 2,
+        "id": "c15r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 2,
+        "id": "c16r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 2,
+        "id": "c17r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": 2,
+        "id": "c18r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": 2,
+        "id": "c19r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": 2,
+        "id": "c20r2",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": 2,
+        "id": "c21r2",
+        "candidate_fraction": 0.984436,
+        "art_status": "not-started"
+      },
+      {
+        "column": 22,
+        "row": 2,
+        "id": "c22r2",
+        "candidate_fraction": 0.237009,
+        "art_status": "not-started"
+      },
+      {
+        "column": -20,
+        "row": 3,
+        "id": "c-20r3",
+        "candidate_fraction": 0.309199,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 3,
+        "id": "c-19r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 3,
+        "id": "c-18r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 3,
+        "id": "c-17r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 3,
+        "id": "c-16r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 3,
+        "id": "c-15r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 3,
+        "id": "c-14r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 3,
+        "id": "c-13r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 3,
+        "id": "c-12r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 3,
+        "id": "c-11r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 3,
+        "id": "c-10r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 3,
+        "id": "c-9r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 3,
+        "id": "c-8r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 3,
+        "id": "c-7r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 3,
+        "id": "c-6r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 3,
+        "id": "c-5r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 3,
+        "id": "c-4r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 3,
+        "id": "c-3r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 3,
+        "id": "c-2r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": 3,
+        "id": "c-1r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": 3,
+        "id": "c0r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": 3,
+        "id": "c1r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": 3,
+        "id": "c2r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": 3,
+        "id": "c3r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": 3,
+        "id": "c4r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": 3,
+        "id": "c5r3",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": 3,
+        "id": "c6r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 3,
+        "id": "c7r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 3,
+        "id": "c8r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 3,
+        "id": "c9r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 3,
+        "id": "c10r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 3,
+        "id": "c11r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 3,
+        "id": "c12r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 3,
+        "id": "c13r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 3,
+        "id": "c14r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 3,
+        "id": "c15r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 3,
+        "id": "c16r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 3,
+        "id": "c17r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": 3,
+        "id": "c18r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": 3,
+        "id": "c19r3",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": 3,
+        "id": "c20r3",
+        "candidate_fraction": 0.993072,
+        "art_status": "not-started"
+      },
+      {
+        "column": 21,
+        "row": 3,
+        "id": "c21r3",
+        "candidate_fraction": 0.367083,
+        "art_status": "not-started"
+      },
+      {
+        "column": -20,
+        "row": 4,
+        "id": "c-20r4",
+        "candidate_fraction": 0.000363,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 4,
+        "id": "c-19r4",
+        "candidate_fraction": 0.623459,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 4,
+        "id": "c-18r4",
+        "candidate_fraction": 0.851244,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 4,
+        "id": "c-17r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 4,
+        "id": "c-16r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 4,
+        "id": "c-15r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 4,
+        "id": "c-14r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 4,
+        "id": "c-13r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 4,
+        "id": "c-12r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 4,
+        "id": "c-11r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 4,
+        "id": "c-10r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 4,
+        "id": "c-9r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 4,
+        "id": "c-8r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 4,
+        "id": "c-7r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 4,
+        "id": "c-6r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 4,
+        "id": "c-5r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 4,
+        "id": "c-4r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 4,
+        "id": "c-3r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 4,
+        "id": "c-2r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": 4,
+        "id": "c-1r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": 4,
+        "id": "c0r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": 4,
+        "id": "c1r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": 4,
+        "id": "c2r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": 4,
+        "id": "c3r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": 4,
+        "id": "c4r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": 4,
+        "id": "c5r4",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": 4,
+        "id": "c6r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 4,
+        "id": "c7r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 4,
+        "id": "c8r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 4,
+        "id": "c9r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 4,
+        "id": "c10r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 4,
+        "id": "c11r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 4,
+        "id": "c12r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 4,
+        "id": "c13r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 4,
+        "id": "c14r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 4,
+        "id": "c15r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 4,
+        "id": "c16r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 4,
+        "id": "c17r4",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": 4,
+        "id": "c18r4",
+        "candidate_fraction": 0.883746,
+        "art_status": "not-started"
+      },
+      {
+        "column": 19,
+        "row": 4,
+        "id": "c19r4",
+        "candidate_fraction": 0.234777,
+        "art_status": "not-started"
+      },
+      {
+        "column": 20,
+        "row": 4,
+        "id": "c20r4",
+        "candidate_fraction": 0.23929,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 5,
+        "id": "c-18r5",
+        "candidate_fraction": 0.579435,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 5,
+        "id": "c-17r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 5,
+        "id": "c-16r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 5,
+        "id": "c-15r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 5,
+        "id": "c-14r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 5,
+        "id": "c-13r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 5,
+        "id": "c-12r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 5,
+        "id": "c-11r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 5,
+        "id": "c-10r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 5,
+        "id": "c-9r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 5,
+        "id": "c-8r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 5,
+        "id": "c-7r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 5,
+        "id": "c-6r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 5,
+        "id": "c-5r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 5,
+        "id": "c-4r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 5,
+        "id": "c-3r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 5,
+        "id": "c-2r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": -1,
+        "row": 5,
+        "id": "c-1r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 0,
+        "row": 5,
+        "id": "c0r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 1,
+        "row": 5,
+        "id": "c1r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 2,
+        "row": 5,
+        "id": "c2r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 3,
+        "row": 5,
+        "id": "c3r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 4,
+        "row": 5,
+        "id": "c4r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 5,
+        "row": 5,
+        "id": "c5r5",
+        "candidate_fraction": 1.0,
+        "art_status": "published"
+      },
+      {
+        "column": 6,
+        "row": 5,
+        "id": "c6r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 5,
+        "id": "c7r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 5,
+        "id": "c8r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 5,
+        "id": "c9r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 5,
+        "id": "c10r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 5,
+        "id": "c11r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 5,
+        "id": "c12r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 5,
+        "id": "c13r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 5,
+        "id": "c14r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 5,
+        "id": "c15r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 5,
+        "id": "c16r5",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 5,
+        "id": "c17r5",
+        "candidate_fraction": 0.997666,
+        "art_status": "not-started"
+      },
+      {
+        "column": 18,
+        "row": 5,
+        "id": "c18r5",
+        "candidate_fraction": 0.278208,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 6,
+        "id": "c-18r6",
+        "candidate_fraction": 0.796772,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 6,
+        "id": "c-17r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 6,
+        "id": "c-16r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 6,
+        "id": "c-15r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 6,
+        "id": "c-14r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 6,
+        "id": "c-13r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 6,
+        "id": "c-12r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 6,
+        "id": "c-11r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 6,
+        "id": "c-10r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 6,
+        "id": "c-9r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 6,
+        "id": "c-8r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 6,
+        "id": "c-7r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 6,
+        "id": "c-6r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 6,
+        "id": "c-5r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 6,
+        "id": "c-4r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 6,
+        "id": "c-3r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 6,
+        "id": "c-2r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": 6,
+        "id": "c-1r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": 6,
+        "id": "c0r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": 6,
+        "id": "c1r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": 6,
+        "id": "c2r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": 6,
+        "id": "c3r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": 6,
+        "id": "c4r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": 6,
+        "id": "c5r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": 6,
+        "id": "c6r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 6,
+        "id": "c7r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 6,
+        "id": "c8r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 6,
+        "id": "c9r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 6,
+        "id": "c10r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 6,
+        "id": "c11r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 6,
+        "id": "c12r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 6,
+        "id": "c13r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 6,
+        "id": "c14r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 6,
+        "id": "c15r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 6,
+        "id": "c16r6",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 6,
+        "id": "c17r6",
+        "candidate_fraction": 0.607117,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 7,
+        "id": "c-19r7",
+        "candidate_fraction": 0.025763,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 7,
+        "id": "c-18r7",
+        "candidate_fraction": 0.979429,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 7,
+        "id": "c-17r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 7,
+        "id": "c-16r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 7,
+        "id": "c-15r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 7,
+        "id": "c-14r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 7,
+        "id": "c-13r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 7,
+        "id": "c-12r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 7,
+        "id": "c-11r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 7,
+        "id": "c-10r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 7,
+        "id": "c-9r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 7,
+        "id": "c-8r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 7,
+        "id": "c-7r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 7,
+        "id": "c-6r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 7,
+        "id": "c-5r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 7,
+        "id": "c-4r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 7,
+        "id": "c-3r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 7,
+        "id": "c-2r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": 7,
+        "id": "c-1r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": 7,
+        "id": "c0r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": 7,
+        "id": "c1r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": 7,
+        "id": "c2r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": 7,
+        "id": "c3r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": 7,
+        "id": "c4r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": 7,
+        "id": "c5r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": 7,
+        "id": "c6r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 7,
+        "id": "c7r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 7,
+        "id": "c8r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 7,
+        "id": "c9r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 7,
+        "id": "c10r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 7,
+        "id": "c11r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 7,
+        "id": "c12r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 7,
+        "id": "c13r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 7,
+        "id": "c14r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 7,
+        "id": "c15r7",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 7,
+        "id": "c16r7",
+        "candidate_fraction": 0.869427,
+        "art_status": "not-started"
+      },
+      {
+        "column": 17,
+        "row": 7,
+        "id": "c17r7",
+        "candidate_fraction": 0.050752,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 8,
+        "id": "c-19r8",
+        "candidate_fraction": 0.088274,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 8,
+        "id": "c-18r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 8,
+        "id": "c-17r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 8,
+        "id": "c-16r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 8,
+        "id": "c-15r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 8,
+        "id": "c-14r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 8,
+        "id": "c-13r8",
+        "candidate_fraction": 0.882462,
+        "art_status": "not-started"
+      },
+      {
+        "column": -12,
+        "row": 8,
+        "id": "c-12r8",
+        "candidate_fraction": 0.612804,
+        "art_status": "not-started"
+      },
+      {
+        "column": -11,
+        "row": 8,
+        "id": "c-11r8",
+        "candidate_fraction": 0.349355,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 8,
+        "id": "c-10r8",
+        "candidate_fraction": 0.5561,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 8,
+        "id": "c-9r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 8,
+        "id": "c-8r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 8,
+        "id": "c-7r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 8,
+        "id": "c-6r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 8,
+        "id": "c-5r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 8,
+        "id": "c-4r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 8,
+        "id": "c-3r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 8,
+        "id": "c-2r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": 8,
+        "id": "c-1r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": 8,
+        "id": "c0r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": 8,
+        "id": "c1r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": 8,
+        "id": "c2r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": 8,
+        "id": "c3r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": 8,
+        "id": "c4r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": 8,
+        "id": "c5r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": 8,
+        "id": "c6r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 8,
+        "id": "c7r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 8,
+        "id": "c8r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 8,
+        "id": "c9r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 8,
+        "id": "c10r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 8,
+        "id": "c11r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 8,
+        "id": "c12r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 8,
+        "id": "c13r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 8,
+        "id": "c14r8",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 8,
+        "id": "c15r8",
+        "candidate_fraction": 0.965838,
+        "art_status": "not-started"
+      },
+      {
+        "column": 16,
+        "row": 8,
+        "id": "c16r8",
+        "candidate_fraction": 0.209138,
+        "art_status": "not-started"
+      },
+      {
+        "column": -19,
+        "row": 9,
+        "id": "c-19r9",
+        "candidate_fraction": 0.044859,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 9,
+        "id": "c-18r9",
+        "candidate_fraction": 0.733208,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 9,
+        "id": "c-17r9",
+        "candidate_fraction": 0.98503,
+        "art_status": "not-started"
+      },
+      {
+        "column": -16,
+        "row": 9,
+        "id": "c-16r9",
+        "candidate_fraction": 0.760196,
+        "art_status": "not-started"
+      },
+      {
+        "column": -15,
+        "row": 9,
+        "id": "c-15r9",
+        "candidate_fraction": 0.467736,
+        "art_status": "not-started"
+      },
+      {
+        "column": -14,
+        "row": 9,
+        "id": "c-14r9",
+        "candidate_fraction": 0.175277,
+        "art_status": "not-started"
+      },
+      {
+        "column": -13,
+        "row": 9,
+        "id": "c-13r9",
+        "candidate_fraction": 0.001442,
+        "art_status": "not-started"
+      },
+      {
+        "column": -10,
+        "row": 9,
+        "id": "c-10r9",
+        "candidate_fraction": 0.138037,
+        "art_status": "not-started"
+      },
+      {
+        "column": -9,
+        "row": 9,
+        "id": "c-9r9",
+        "candidate_fraction": 0.689882,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 9,
+        "id": "c-8r9",
+        "candidate_fraction": 0.995396,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 9,
+        "id": "c-7r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 9,
+        "id": "c-6r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 9,
+        "id": "c-5r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 9,
+        "id": "c-4r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 9,
+        "id": "c-3r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 9,
+        "id": "c-2r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": 9,
+        "id": "c-1r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": 9,
+        "id": "c0r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": 9,
+        "id": "c1r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": 9,
+        "id": "c2r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": 9,
+        "id": "c3r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": 9,
+        "id": "c4r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": 9,
+        "id": "c5r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": 9,
+        "id": "c6r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 9,
+        "id": "c7r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 9,
+        "id": "c8r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 9,
+        "id": "c9r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 9,
+        "id": "c10r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 9,
+        "id": "c11r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 9,
+        "id": "c12r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 9,
+        "id": "c13r9",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 9,
+        "id": "c14r9",
+        "candidate_fraction": 0.991603,
+        "art_status": "not-started"
+      },
+      {
+        "column": 15,
+        "row": 9,
+        "id": "c15r9",
+        "candidate_fraction": 0.348399,
+        "art_status": "not-started"
+      },
+      {
+        "column": -18,
+        "row": 10,
+        "id": "c-18r10",
+        "candidate_fraction": 0.001981,
+        "art_status": "not-started"
+      },
+      {
+        "column": -17,
+        "row": 10,
+        "id": "c-17r10",
+        "candidate_fraction": 0.055595,
+        "art_status": "not-started"
+      },
+      {
+        "column": -8,
+        "row": 10,
+        "id": "c-8r10",
+        "candidate_fraction": 0.123437,
+        "art_status": "not-started"
+      },
+      {
+        "column": -7,
+        "row": 10,
+        "id": "c-7r10",
+        "candidate_fraction": 0.389006,
+        "art_status": "not-started"
+      },
+      {
+        "column": -6,
+        "row": 10,
+        "id": "c-6r10",
+        "candidate_fraction": 0.647752,
+        "art_status": "not-started"
+      },
+      {
+        "column": -5,
+        "row": 10,
+        "id": "c-5r10",
+        "candidate_fraction": 0.868216,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 10,
+        "id": "c-4r10",
+        "candidate_fraction": 0.99803,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 10,
+        "id": "c-3r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 10,
+        "id": "c-2r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": 10,
+        "id": "c-1r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": 10,
+        "id": "c0r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": 10,
+        "id": "c1r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": 10,
+        "id": "c2r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": 10,
+        "id": "c3r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": 10,
+        "id": "c4r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": 10,
+        "id": "c5r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": 10,
+        "id": "c6r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 10,
+        "id": "c7r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 10,
+        "id": "c8r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 10,
+        "id": "c9r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 10,
+        "id": "c10r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 10,
+        "id": "c11r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 10,
+        "id": "c12r10",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 10,
+        "id": "c13r10",
+        "candidate_fraction": 0.93933,
+        "art_status": "not-started"
+      },
+      {
+        "column": 14,
+        "row": 10,
+        "id": "c14r10",
+        "candidate_fraction": 0.334114,
+        "art_status": "not-started"
+      },
+      {
+        "column": -4,
+        "row": 11,
+        "id": "c-4r11",
+        "candidate_fraction": 0.076708,
+        "art_status": "not-started"
+      },
+      {
+        "column": -3,
+        "row": 11,
+        "id": "c-3r11",
+        "candidate_fraction": 0.281132,
+        "art_status": "not-started"
+      },
+      {
+        "column": -2,
+        "row": 11,
+        "id": "c-2r11",
+        "candidate_fraction": 0.484246,
+        "art_status": "not-started"
+      },
+      {
+        "column": -1,
+        "row": 11,
+        "id": "c-1r11",
+        "candidate_fraction": 0.685932,
+        "art_status": "not-started"
+      },
+      {
+        "column": 0,
+        "row": 11,
+        "id": "c0r11",
+        "candidate_fraction": 0.881731,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": 11,
+        "id": "c1r11",
+        "candidate_fraction": 0.992404,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": 11,
+        "id": "c2r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": 11,
+        "id": "c3r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": 11,
+        "id": "c4r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": 11,
+        "id": "c5r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": 11,
+        "id": "c6r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 11,
+        "id": "c7r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 11,
+        "id": "c8r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 11,
+        "id": "c9r11",
+        "candidate_fraction": 1.0,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 11,
+        "id": "c10r11",
+        "candidate_fraction": 0.999949,
+        "art_status": "not-started"
+      },
+      {
+        "column": 11,
+        "row": 11,
+        "id": "c11r11",
+        "candidate_fraction": 0.806056,
+        "art_status": "not-started"
+      },
+      {
+        "column": 12,
+        "row": 11,
+        "id": "c12r11",
+        "candidate_fraction": 0.430543,
+        "art_status": "not-started"
+      },
+      {
+        "column": 13,
+        "row": 11,
+        "id": "c13r11",
+        "candidate_fraction": 0.059909,
+        "art_status": "not-started"
+      },
+      {
+        "column": 1,
+        "row": 12,
+        "id": "c1r12",
+        "candidate_fraction": 0.024771,
+        "art_status": "not-started"
+      },
+      {
+        "column": 2,
+        "row": 12,
+        "id": "c2r12",
+        "candidate_fraction": 0.136351,
+        "art_status": "not-started"
+      },
+      {
+        "column": 3,
+        "row": 12,
+        "id": "c3r12",
+        "candidate_fraction": 0.224522,
+        "art_status": "not-started"
+      },
+      {
+        "column": 4,
+        "row": 12,
+        "id": "c4r12",
+        "candidate_fraction": 0.293551,
+        "art_status": "not-started"
+      },
+      {
+        "column": 5,
+        "row": 12,
+        "id": "c5r12",
+        "candidate_fraction": 0.362581,
+        "art_status": "not-started"
+      },
+      {
+        "column": 6,
+        "row": 12,
+        "id": "c6r12",
+        "candidate_fraction": 0.413576,
+        "art_status": "not-started"
+      },
+      {
+        "column": 7,
+        "row": 12,
+        "id": "c7r12",
+        "candidate_fraction": 0.418153,
+        "art_status": "not-started"
+      },
+      {
+        "column": 8,
+        "row": 12,
+        "id": "c8r12",
+        "candidate_fraction": 0.420381,
+        "art_status": "not-started"
+      },
+      {
+        "column": 9,
+        "row": 12,
+        "id": "c9r12",
+        "candidate_fraction": 0.418686,
+        "art_status": "not-started"
+      },
+      {
+        "column": 10,
+        "row": 12,
+        "id": "c10r12",
+        "candidate_fraction": 0.181592,
+        "art_status": "not-started"
+      }
+    ],
+    "completion_percentage": null
+  },
+  "pnoa_date_sampling": {
+    "date": "2024-07",
+    "native_resolution_m": 0.25,
+    "points": [
+      {
+        "point": "northwest",
+        "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=594500%2C4314000%2C601000%2C4320500&WIDTH=1600&HEIGHT=1600&I=800&J=650&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "response_file": "pnoa-northwest-info.html"
+      },
+      {
+        "point": "northeast",
+        "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=594500%2C4314000%2C601000%2C4320500&WIDTH=1600&HEIGHT=1600&I=1450&J=650&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "response_file": "pnoa-northeast-info.html"
+      },
+      {
+        "point": "southwest",
+        "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=594500%2C4314000%2C601000%2C4320500&WIDTH=1600&HEIGHT=1600&I=800&J=1450&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "response_file": "pnoa-southwest-info.html"
+      },
+      {
+        "point": "southeast",
+        "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=594500%2C4314000%2C601000%2C4320500&WIDTH=1600&HEIGHT=1600&I=1450&J=1450&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "response_file": "pnoa-southeast-info.html"
+      },
+      {
+        "point": "campollano",
+        "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=594500%2C4314000%2C601000%2C4320500&WIDTH=1600&HEIGHT=1600&I=750&J=350&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "response_file": "pnoa-campollano-info.html"
+      }
+    ],
+    "image_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=594500%2C4314000%2C601000%2C4320500&WIDTH=1600&HEIGHT=1600&FORMAT=image%2Fjpeg"
+  }
 }
