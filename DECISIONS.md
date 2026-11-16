@@ -304,3 +304,8 @@ Append tile at(-1.5,-1.25),size(0.25,4.0),total10240x8192,approx7.891km2 grounde
 ## 2026-11-16 left7
 
 Append tile at(-1.75,-1.25),size(0.25,4.0),total10752x8192,approx8.286km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. Contiguous city strip. Same-camera PNOA July2024 samples. Interpretation, not surveyed facades. No new source records.
+
+
+## 2026-11-16 right12
+
+Append tile at(3.5,-1.25),size(0.25,4.0),total11264x8192,approx8.680km2 groundenvelope, notcitypercentage. Originalart/coordinatespreserved. No current-facadeclaim.0EUR,nobilling,nocontact. Internalprogressonlyuntilcitycomplete. RIGHT12 contiguous campus/sports edge. PNOA July2024 same-camera ground reference, municipal2021/2024 tree palette; varied rounded broadleaf crowns in new artwork, not botanical inventory. Existing artwork untouched; full city tree corrections pending.

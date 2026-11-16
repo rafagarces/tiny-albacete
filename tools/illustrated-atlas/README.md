@@ -4,7 +4,7 @@
 
 Run `python tools/illustrated-atlas/validate.py` to check exact rectangular coverage, no overlaps, source image dimensions and all prior asset hashes. A rectangular coverage check establishes mosaic continuity, not that every drawn building matches reality.
 
-`ilustrado/coverage.geojson` is an approximate ground-plane envelope of the current fixed-camera atlas in longitude/latitude. It uses the real orthographic projection and shared UTM anchor. Ground area is approximately8.286km2. Raised buildings project beyond their ground positions, and interpreted artwork drifts relative to the geometry. Do not use this as a surveyed parcel coverage polygon.
+`ilustrado/coverage.geojson` is an approximate ground-plane envelope of the current fixed-camera atlas in longitude/latitude. It uses the real orthographic projection and shared UTM anchor. Ground area is approximately8.680km2. Raised buildings project beyond their ground positions, and interpreted artwork drifts relative to the geometry. Do not use this as a surveyed parcel coverage polygon.
 
 The whole-city target mask is NOT yet fixed. Work is contrasting municipal2016neighborhood plans, SIU planning classes with metadata date01May2025, municipal building footprints and PNOA orthophotography. Five sampled PNOA points returnedJuly2024imagery at25cm. This does not establish a single imagery date for the whole city or current2026facade conditions. Do not compute or publish a city-completion percentage by treating one SIU component as the target. Parks, modern fringes, industrial areas and separate settlements need explicit inclusion/exclusion records.
 
@@ -23,30 +23,10 @@ A future target-grid ledger should identify every cell by stable column/row, sou
 
 ## On-demand display
 
-The spatial source catalog remains the authority. Display pyramids load512pixel tiles at the required level, with1pixel overlap. The top display level is lossless relative to decoded source WebPimages; smaller levels are downsampled. Original illustration files remain untouched. Atlas and comparison each use466display tiles at the present extent. OSD4.1requires explicit WebPsupport registration for DZI, safe here because all existing source illustrations already require WebP. Old catalog compatibility is retained.
+The spatial source catalog remains the authority. Display pyramids load512pixel tiles at the required level, with1pixel overlap. The top display level is lossless relative to decoded source WebPimages; smaller levels are downsampled. Original illustration files remain untouched. Atlas and comparison each use482display tiles at the present extent. OSD4.1requires explicit WebPsupport registration for DZI, safe here because all existing source illustrations already require WebP. Old catalog compatibility is retained.
 
 
 The expanded principal candidate now uses the actual25municipal neighborhood vectors, not the earlier manual raster trace:12.639917km2union with main SIU,579cells, still provisional. See territorial-sources.md and municipal-vector-provenance.json.
-
-
-## City-only scope clarification 2026-11-16
-
-The active task is the continuous Albacete city core. Pedanias and other detached municipal settlements are excluded. Ambiguous exterior industrial and park additions are deferred, not automatically included. Existing artwork and general map access remain intact. Administrative neighborhood and planning-class candidate polygons do not obligate filling every parcel. No city completion percentage is inferred. See city-scope.json.
-
-
-## City-only scope clarification 2026-11-16
-
-The active task is the continuous Albacete city core. Pedanias and other detached municipal settlements are excluded. Ambiguous exterior industrial and park additions are deferred, not automatically included. Existing artwork and general map access remain intact. Administrative neighborhood and planning-class candidate polygons do not obligate filling every parcel. No city completion percentage is inferred. See city-scope.json.
-
-
-## City-only scope clarification 2026-11-16
-
-The active task is the continuous Albacete city core. Pedanias and other detached municipal settlements are excluded. Ambiguous exterior industrial and park additions are deferred, not automatically included. Existing artwork and general map access remain intact. Administrative neighborhood and planning-class candidate polygons do not obligate filling every parcel. No city completion percentage is inferred. See city-scope.json.
-
-
-## City-only scope clarification 2026-11-16
-
-The active task is the continuous Albacete city core. Pedanias and other detached municipal settlements are excluded. Ambiguous exterior industrial and park additions are deferred, not automatically included. Existing artwork and general map access remain intact. Administrative neighborhood and planning-class candidate polygons do not obligate filling every parcel. No city completion percentage is inferred. See city-scope.json.
 
 
 ## City-only scope clarification 2026-11-16

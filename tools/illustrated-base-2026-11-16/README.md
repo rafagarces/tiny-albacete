@@ -159,3 +159,8 @@ Atlasbounds[-.5,-.5,1.5,1.5],4096x4096pixels. Add512x4096atworld(-.5,-.5). Captu
 ## left7
 
 10752x8192px, bounds[-1.75, -1.25, 3.5, 2.75]. Source records26589, renderedparts26573, roadways16651, faces780185, OSMelements18749. Contiguous city strip. Same-camera PNOA July2024 samples. Interpretation, not surveyed facades. No new source records.
+
+
+## right12
+
+11264x8192px, bounds[-1.75, -1.25, 3.75, 2.75]. Source records26589, renderedparts26573, roadways16651, faces780185, OSMelements18749. RIGHT12 contiguous campus/sports edge. PNOA July2024 same-camera ground reference, municipal2021/2024 tree palette; varied rounded broadleaf crowns in new artwork, not botanical inventory. Existing artwork untouched; full city tree corrections pending.
