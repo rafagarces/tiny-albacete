@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "3cfe67b7579c65eb94266472a2a27f068f2b9787",
+  "new_source": "left15.webp",
+  "extent": [
+    16896,
+    8192
+  ],
+  "old_changed_sources": [
+    "left14.webp"
+  ],
+  "old_changed_pixels": 683412,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=596295.307075923%2C4317486.63943372%2C599524.0682171903%2C4319284.540284284&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        596295.307075923,
+        4317486.63943372,
+        599524.0682171903,
+        4319284.540284284
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596295.307075923%2C4317486.63943372%2C599524.0682171903%2C4319284.540284284&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596295.307075923%2C4317486.63943372%2C599524.0682171903%2C4319284.540284284&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596295.307075923%2C4317486.63943372%2C599524.0682171903%2C4319284.540284284&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8611203285477338,39.01117418345891,-1.8510265720358698,39.01651338488812",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.869849446520466,39.00795713430275,-1.8597562806615495,39.013296919285494",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8785777857380512,39.0047394184932,-1.868485210734413,39.01007978678337",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.887305346102984,39.001521036251404,-1.8772133621567884,39.0068619876029"
+    ],
+    "OSM_corridors": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8611203285477338,39.01117418345891,-1.8510265720358698,39.01651338488812",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.869849446520466,39.00795713430275,-1.8597562806615495,39.013296919285494",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8785777857380512,39.0047394184932,-1.868485210734413,39.01007978678337",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.887305346102984,39.001521036251404,-1.8772133621567884,39.0068619876029"
+    ]
+  },
+  "limits": [
+    "PNOA sample dates July2024, not a certification of November2026 conditions.",
+    "261 current OSM footprint ways in four west-edge rectangles are a cross-check, not an exhaustive survey.",
+    "Registered aerial evidence overrides missing mesh detail near the open northern border.",
+    "A31 and N322 asphalt alignments and railway ground alignments confirmed by projected current OSM; grade-separated road bridges retained.",
+    "All artwork beyond the narrow overlap is unchanged.",
+    "Small facade, material, vegetation and roof details remain reference-led artistic interpretation.",
+    "The camera envelope is not whole Albacete or a completion percentage."
+  ]
+}
