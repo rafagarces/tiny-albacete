@@ -4828,6 +4828,59 @@
      ]
     }
    }
+  },
+  {
+   "lote": "batch11",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "24,12": {
+     "recorte_atlas_px": [
+      12288,
+      6220,
+      540,
+      360
+     ],
+     "motivo": "jardin, plaza y calles inventados donde PNOA muestra plaza con fuente, calles y aparcamiento"
+    },
+    "26,3": {
+     "recortes_atlas_px": [
+      [
+       13312,
+       1612,
+       540,
+       360
+      ],
+      [
+       13312,
+       1900,
+       540,
+       360
+      ],
+      [
+       13800,
+       1700,
+       540,
+       360
+      ],
+      [
+       13800,
+       2050,
+       540,
+       360
+      ]
+     ],
+     "motivo": "gran cubierta comercial dibujada como teja roja; PNOA muestra cubierta plana oscura con paneles solares, aparcamiento y pistas; 4 recortes solapados; edificio concreto no identificado por referencia catastral"
+    },
+    "12,15": {
+     "recorte_atlas_px": [
+      6144,
+      7756,
+      540,
+      360
+     ],
+     "motivo": "continuidad este del parche SW: calle con coches inventada donde PNOA muestra suelo abierto, caminos y huerto"
+    }
+   }
   }
  ],
  "barrido_celdas": {
