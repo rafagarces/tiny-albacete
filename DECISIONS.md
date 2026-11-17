@@ -334,3 +334,11 @@ Extended the adjacent west strip with current OSM footprint cross-checks (359 wa
 
 ### LEFT10 contiguous west continuation, 2026-11-17
 Advanced one adjacent west strip after checking the historical neighborhood outline against the current camera envelope. The administrative outline is not a mandatory fill mask. Current OSM470footprint ways and PNOA July2024 samples ground low residential blocks, sports pitch, dry plots, the small paired-loop road footbridge and the separate railway corridor. A missing private preparation-mesh fringe was expanded without changing the public rotating3D. All37previous sources checked: only661032pixels ofleft9 changed, strictly within the narrow overlap mask.416native art tiles and416comparison tiles match their sources. Map and public3D remain exact against754dd6d. No completion percentage;10.2584986km2is the ground-plane camera envelope only. One image request timed out and was retried successfully. No new billable resources or external contact.
+
+## 2026-11-17: siguiente continuidad oeste (LEFT16)
+
+- Se conserva el mapa general y la zona 3D sin cambios. La ilustración añade512px al oeste:46fragmentos fuente,17408×8192px. La envolvente13,414960km² no es superficie urbana completada ni porcentaje de ciudad.
+- Base da88b7f. Solo left15.webp previo cambia:715954píxeles dentro de la máscara explícita de solape. Las otras44fuentes previas no cambian. Siete paneles y siete uniones continuas inspeccionados antes de integrar.
+- Referencias:220huellas OSM y842corredores en cuatro rectángulos,108partes catastrales añadidas al modelo de trabajo. PNOA recuperado17nov, tres muestras fechadas julio2024. El ferrocarril queda separado de las carreteras elevadas. No se certifica vigencia2026 de todas las fachadas.
+- Se conservan vacíos, cultivos y pistas. No se rellenan automáticamente polígonos administrativos ni se incluyen pedanías o polígonos industriales separados. El montaje RIGHT16 incompleto no forma parte de este cambio.
+- Pirámides reconstruidas0–15,544teselas nativas por vista. QA local390/1280:sin errores JS/HTTP,pellizco,Catedral,mapa,rotación3D y comparación sin salto. Publicación en el proyecto existente sin activar facturación.

@@ -12,7 +12,7 @@
         "area_km2": 3.828241834095064,
         "outside_principal_candidate_km2": 3.578645563239835,
         "overlap_all_municipal_SIU_km2": 3.0509875195487535,
-        "published_ground_envelope_intersection_km2": 0.011685774117687998,
+        "published_ground_envelope_intersection_km2": 0.05864304594809521,
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
