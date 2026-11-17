@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "bfb7639",
+  "new_source": "left12.webp",
+  "extent": [
+    14336,
+    8192
+  ],
+  "old_changed_sources": [
+    "left11.webp"
+  ],
+  "old_changed_pixels": 727540,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=596450.4904618863%2C4317168.466341331%2C599679.2516031537%2C4318966.367191895&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        596450.4904618863,
+        4317168.466341331,
+        599679.2516031537,
+        4318966.367191895
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596450.4904618863%2C4317168.466341331%2C599679.2516031537%2C4318966.367191895&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596450.4904618863%2C4317168.466341331%2C599679.2516031537%2C4318966.367191895&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596450.4904618863%2C4317168.466341331%2C599679.2516031537%2C4318966.367191895&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8593742799895205,39.008290058537945,-1.8492808985488767,39.01362915193424",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8681031161153652,39.00507313438089,-1.858010325182367,39.0104128113091",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8768311736430505,39.00185554360793,-1.8667389734200195,39.007195803821965",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.88555845247506,38.99863728644011,-1.875466843164154,39.00397812969393"
+    ]
+  },
+  "limits": [
+    "PNOA sample dates July2024, not a certification of November2026 conditions.",
+    "496 current OSM footprint ways in four west-edge rectangles are a cross-check, not an exhaustive survey.",
+    "Registered aerial evidence overrides missing mesh detail near the open northern border.",
+    "Sports grounds, open western plots, a small pedestrian road bridge and low sheds retained.",
+    "The existing CIAb tower and all artwork beyond the narrow overlap are unchanged.",
+    "Small facade, material, vegetation and roof details remain reference-led artistic interpretation.",
+    "The camera envelope is not whole Albacete or a completion percentage.",
+    "The top motorway and lower railway remain separate corridors. LEFT11 rail and pitch corrections beyond the narrow strip overlap are unchanged."
+  ],
+  "registration": [
+    {
+      "panel": "a",
+      "inliers": 2040,
+      "median_error": 0.4205218554248443,
+      "matrix": [
+        [
+          0.9999787120481723,
+          1.8030938238983086e-05,
+          0.07493483026810198
+        ],
+        [
+          -1.8030938238983086e-05,
+          0.9999787120481723,
+          0.13530736804749324
+        ]
+      ]
+    },
+    {
+      "panel": "b",
+      "inliers": 1930,
+      "median_error": 0.40492739948518913,
+      "matrix": [
+        [
+          1.0000596343505843,
+          -9.980932223964128e-05,
+          0.13299549334438057
+        ],
+        [
+          9.980932223964128e-05,
+          1.0000596343505843,
+          -0.13009554851521696
+        ]
+      ]
+    },
+    {
+      "panel": "c",
+      "inliers": 2233,
+      "median_error": 0.41574265991475345,
+      "matrix": [
+        [
+          1.0001087567328952,
+          3.466983793592001e-05,
+          -0.036439589822736575
+        ],
+        [
+          -3.466983793592001e-05,
+          1.0001087567328952,
+          -0.005035613333395967
+        ]
+      ]
+    },
+    {
+      "panel": "d",
+      "inliers": 2134,
+      "median_error": 0.42123679088301147,
+      "matrix": [
+        [
+          0.9999407293550594,
+          -1.7862562679042445e-05,
+          0.0473020618166038
+        ],
+        [
+          1.7862562679042445e-05,
+          0.9999407293550594,
+          0.15978725738791785
+        ]
+      ]
+    },
+    {
+      "panel": "e",
+      "inliers": 1951,
+      "median_error": 0.4063421208602795,
+      "matrix": [
+        [
+          1.0000090960631938,
+          0.00013530461608450607,
+          -0.12568053532911502
+        ],
+        [
+          -0.00013530461608450607,
+          1.0000090960631938,
+          0.2337714830239846
+        ]
+      ]
+    },
+    {
+      "panel": "f",
+      "inliers": 2017,
+      "median_error": 0.4137031494512513,
+      "matrix": [
+        [
+          1.000039255390138,
+          -3.3823864939988885e-05,
+          0.18368447667074947
+        ],
+        [
+          3.3823864939988885e-05,
+          1.000039255390138,
+          0.09054640751837538
+        ]
+      ]
+    },
+    {
+      "panel": "h",
+      "inliers": 2140,
+      "median_error": 0.4082094460171817,
+      "matrix": [
+        [
+          1.0000814065723194,
+          2.549378075505809e-05,
+          -0.07571368829021302
+        ],
+        [
+          -2.549378075505809e-05,
+          1.0000814065723194,
+          0.1566013456347099
+        ]
+      ]
+    }
+  ]
+}
