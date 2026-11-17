@@ -1,0 +1,226 @@
+{
+ "date": "2026-11-18",
+ "method": "Correccion a escala de celda (recorte 540x360 px) en el acabado aprobado, mezcla con borde suave; 0 px distintos fuera de la zona de mezcla salvo teselas piramide regeneradas. Evidencia PNOA 2024-07, no estado actual. Detalle, vehiculos y vegetacion interpretados; el borde del recorte puede mostrar discontinuidades leves con las celdas vecinas.",
+ "cells": {
+  "12,4": {
+   "recorte_atlas_px": [
+    6144,
+    2124,
+    540,
+    360
+   ],
+   "motivo": "bloques altos en el atlas; PNOA muestra viviendas bajas de teja y suelo abierto con pistas",
+   "tiles": [
+    {
+     "tile": "left5",
+     "rect_world": [
+      -2560,
+      -436,
+      -2532,
+      -76
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 7307
+    },
+    {
+     "tile": "left6",
+     "rect_world": [
+      -3072,
+      -436,
+      -2560,
+      -76
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 175311
+    }
+   ]
+  },
+  "29,13": {
+   "recorte_atlas_px": [
+    14848,
+    6732,
+    540,
+    360
+   ],
+   "motivo": "colegio y calle inventados; PNOA muestra aparcamiento, plaza ajardinada y calles",
+   "tiles": [
+    {
+     "tile": "right9",
+     "rect_world": [
+      5632,
+      4172,
+      6144,
+      4532
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 169871
+    },
+    {
+     "tile": "right10",
+     "rect_world": [
+      6144,
+      4172,
+      6172,
+      4532
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 5595
+    }
+   ]
+  },
+  "25,8": {
+   "recorte_atlas_px": [
+    12800,
+    4172,
+    540,
+    360
+   ],
+   "motivo": "parque ornamental en estrella; PNOA muestra pinar con claros",
+   "tiles": [
+    {
+     "tile": "right5",
+     "rect_world": [
+      3584,
+      1612,
+      4096,
+      1972
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 175106
+    },
+    {
+     "tile": "right6",
+     "rect_world": [
+      4096,
+      1612,
+      4124,
+      1972
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 7325
+    }
+   ]
+  },
+  "29,12": {
+   "recorte_atlas_px": [
+    14848,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "bloques de pisos inventados; PNOA muestra suelo abierto y una nave",
+   "tiles": [
+    {
+     "tile": "right9",
+     "rect_world": [
+      5632,
+      3660,
+      6144,
+      4020
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 169914
+    },
+    {
+     "tile": "right10",
+     "rect_world": [
+      6144,
+      3660,
+      6172,
+      4020
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 5628
+    }
+   ]
+  },
+  "25,12": {
+   "recorte_atlas_px": [
+    12800,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "aparcamiento sustituido por plaza, jardin y calles; restaurado aparcamiento con plazas",
+   "tiles": [
+    {
+     "tile": "right5",
+     "rect_world": [
+      3584,
+      3660,
+      4096,
+      4020
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 175475
+    },
+    {
+     "tile": "right6",
+     "rect_world": [
+      4096,
+      3660,
+      4124,
+      4020
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 7356
+    }
+   ]
+  },
+  "3,1": {
+   "recorte_atlas_px": [
+    1536,
+    588,
+    540,
+    360
+   ],
+   "motivo": "nave y patio inventados; PNOA muestra suelo vacio",
+   "tiles": [
+    {
+     "tile": "left14",
+     "rect_world": [
+      -7168,
+      -1972,
+      -7140,
+      -1612
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 5423
+    },
+    {
+     "tile": "left15",
+     "rect_world": [
+      -7680,
+      -1972,
+      -7168,
+      -1612
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 169319
+    }
+   ]
+  },
+  "20,13": {
+   "recorte_atlas_px": [
+    10240,
+    6732,
+    540,
+    360
+   ],
+   "motivo": "colegio con patio y pistas dibujado como viviendas y solar; mascara de recorte completo, no solo cubierta",
+   "tiles": [
+    {
+     "tile": "bottom7",
+     "rect_world": [
+      1024,
+      4172,
+      1564,
+      4532
+     ],
+     "max_diff_source_vs_pyramid_crop": 0.0,
+     "changed_px": 182601
+    }
+   ]
+  }
+ }
+}
