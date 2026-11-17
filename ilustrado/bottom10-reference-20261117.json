@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "093c0216ea87f3de08e8af6619e8289bee4ced49",
+  "new_source": "bottom10.webp",
+  "new_source_pixels": [
+    2048,
+    512
+  ],
+  "extent": [
+    18944,
+    8704
+  ],
+  "actual_source_union_km2": 14.17941507634051,
+  "old_changed_sources": [
+    "bottom9.webp"
+  ],
+  "old_changed_pixels": 164756,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "new_source_world_rect": [
+    1.5,
+    2.75,
+    2.5,
+    3
+  ],
+  "registration": [
+    {
+      "reference": "layout",
+      "inliers": 2,
+      "median_error": 0.0,
+      "matrix": [
+        [
+          -0.326290620752049,
+          0.050593664282526915,
+          1034.575571573429
+        ],
+        [
+          -0.050593664282526915,
+          -0.326290620752049,
+          541.9162883098079
+        ]
+      ],
+      "status": "REJECTED: only two matches; no registration authority"
+    },
+    {
+      "reference": "ortho",
+      "inliers": 235,
+      "median_error": 0.7429803734497129,
+      "matrix": [
+        [
+          1.1544584715059836,
+          -5.561665618185047e-05,
+          0.5292863431200947
+        ],
+        [
+          5.561665618185047e-05,
+          1.1544584715059836,
+          -1.539306636082403
+        ]
+      ],
+      "status": "SELECTED: ground alignment to PNOA"
+    }
+  ],
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=597193.7591807522%2C4314955.700801087%2C597896.3335558648%2C4315683.154772894&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        597193.7591807522,
+        4314955.700801087,
+        597896.3335558648,
+        4315683.154772894
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597193.7591807522%2C4314955.700801087%2C597896.3335558648%2C4315683.154772894&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597193.7591807522%2C4314955.700801087%2C597896.3335558648%2C4315683.154772894&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597193.7591807522%2C4314955.700801087%2C597896.3335558648%2C4315683.154772894&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM": "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.877261298680051,38.97860717684698,-1.8703709341729566,38.98426131735977"
+  },
+  "limits": [
+    "Four new rectangular cells extend a contiguous residential tip. Not all SanPedroMortero is complete.",
+    "Only localized southern cells added, not a full-width atlas row. The stepped exterior remains transparent. No detached industrial area or village added.",
+    "PNOA sampled July2024 at three points, not a current2026 facade survey.",
+    "Facade, vegetation and roof details are reference-led artistic interpretation, not an exact replica. Older source heights above the overlap remain unchanged."
+  ],
+  "registration_method": "Generated top half changed, so failed art-reference registration discarded. Affine registration to PNOA ground selected; original pixels retained outside explicit seam mask."
+}
