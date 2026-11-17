@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-17",
+  "purpose": "Correccion localizada de edificios no residenciales dibujados como viviendas de teja roja",
+  "method": "Guia geometrica Catastro (altura 3*plantas+2) + recorte del atlas + ortofoto PNOA como referencia de material (no se copian pixeles) -> edicion asistida por generacion de imagen -> mezcla con mascara; 0 px cambiados fuera de la zona de mezcla",
+  "pnoa": "PNOA-MA, IGN, fecha de mosaico 2024-07, 0,25 m (GetFeatureInfo OI.MosaicElement)",
+  "cases": {
+    "dep": {
+      "ref": "9264206WJ9196C",
+      "note": "Polideportivo; extremo oeste ~4-5 m corto o tapado; anexo de 3 plantas (76 m2) NO verificado"
+    },
+    "coch": {
+      "ref": "8560003WJ9186B",
+      "note": "Cocheras; ala oeste del bloque curvo mas corta, sin verificar"
+    },
+    "ies": {
+      "ref": "8656402WJ9185F",
+      "note": "IES Alto de los Molinos; ~70% del recorte repintado (arboles y suelo)"
+    },
+    "s0": {
+      "ref": "7368001WJ9176G",
+      "note": "Complejo publico con nave gris"
+    },
+    "s3": {
+      "ref": "7774513WJ9177D",
+      "note": "Nave industrial en patio de manzana"
+    }
+  },
+  "changed_sources": {
+    "dep": [
+      {
+        "tile": "right4",
+        "rect_world": [
+          3424,
+          920,
+          3584,
+          1280
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 13251
+      },
+      {
+        "tile": "right5",
+        "rect_world": [
+          3584,
+          920,
+          3964,
+          1280
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 42987
+      }
+    ],
+    "coch": [
+      {
+        "tile": "right4",
+        "rect_world": [
+          3577,
+          3058,
+          3584,
+          3418
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 0
+      },
+      {
+        "tile": "right5",
+        "rect_world": [
+          3584,
+          3058,
+          4096,
+          3418
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 59111
+      },
+      {
+        "tile": "right6",
+        "rect_world": [
+          4096,
+          3058,
+          4117,
+          3418
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 0
+      }
+    ],
+    "ies": [
+      {
+        "tile": "right7",
+        "rect_world": [
+          5090,
+          3101,
+          5120,
+          3461
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 2390
+      },
+      {
+        "tile": "right8",
+        "rect_world": [
+          5120,
+          3101,
+          5630,
+          3461
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 132156
+      }
+    ],
+    "s0": [
+      {
+        "tile": "bottom8",
+        "rect_world": [
+          -1596,
+          4850,
+          -1056,
+          5120
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 52634
+      },
+      {
+        "tile": "bottom9",
+        "rect_world": [
+          -1596,
+          5120,
+          -1056,
+          5210
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 2390
+      }
+    ],
+    "s3": [
+      {
+        "tile": "left6",
+        "rect_world": [
+          -3072,
+          3356,
+          -2715,
+          3716
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 43172
+      },
+      {
+        "tile": "left7",
+        "rect_world": [
+          -3255,
+          3356,
+          -3072,
+          3716
+        ],
+        "max_diff_source_vs_pyramid_crop": 0.0,
+        "changed_px": 5211
+      }
+    ]
+  }
+}
