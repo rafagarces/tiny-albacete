@@ -12,13 +12,20 @@
         "area_km2": 3.828241834095064,
         "outside_principal_candidate_km2": 3.578645563239835,
         "overlap_all_municipal_SIU_km2": 3.0509875195487535,
-        "published_ground_envelope_intersection_km2": 0.0586430459480638,
+        "published_ground_envelope_intersection_km2": 0.05864304594786898,
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.05864304594786898,
+        "outside_source_union_km2": 3.7695987881472033,
+        "distance_to_source_union_m": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       "geometry": {
         "type": "Polygon",
@@ -417,7 +424,14 @@
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.0,
+        "outside_source_union_km2": 2.8281224351882552,
+        "distance_to_source_union_m": 3512.152950339132,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       "geometry": {
         "type": "Polygon",
@@ -676,7 +690,14 @@
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.0,
+        "outside_source_union_km2": 0.31991459976711795,
+        "distance_to_source_union_m": 1929.5799598864783,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       "geometry": {
         "type": "Polygon",
@@ -739,7 +760,14 @@
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.0,
+        "outside_source_union_km2": 0.753813956459521,
+        "distance_to_source_union_m": 3128.4879581852356,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       "geometry": {
         "type": "Polygon",

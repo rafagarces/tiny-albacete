@@ -8504,175 +8504,275 @@
         "source_id": "barrios.0",
         "administrative_area_km2": 0.10329639601728847,
         "published_ground_envelope_intersection_km2": 0.10329639601728843,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "HOSPITAL",
         "source_id": "barrios.1",
         "administrative_area_km2": 0.43157693353976134,
         "published_ground_envelope_intersection_km2": 0.43157693353976134,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "PARQUE SUR",
         "source_id": "barrios.3",
         "administrative_area_km2": 0.2704680431623052,
         "published_ground_envelope_intersection_km2": 0.27046804316230516,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "PEDRO LAMATA",
         "source_id": "barrios.4",
         "administrative_area_km2": 0.10332277957417861,
         "published_ground_envelope_intersection_km2": 0.1033227795741786,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "SANTA TERESA",
         "source_id": "barrios.5",
         "administrative_area_km2": 0.2722938332622918,
         "published_ground_envelope_intersection_km2": 0.2722938332622918,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "FRANCISCANOS",
         "source_id": "barrios.6",
         "administrative_area_km2": 0.6224287683489467,
         "published_ground_envelope_intersection_km2": 0.6224287683489466,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "VILLACERRADA - CENTRO",
         "source_id": "barrios.7",
         "administrative_area_km2": 0.32294542609954185,
         "published_ground_envelope_intersection_km2": 0.32294542609954185,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "CARRETAS - HUERTA DE MARZO",
         "source_id": "barrios.8",
         "administrative_area_km2": 0.4175451619649783,
         "published_ground_envelope_intersection_km2": 0.4175451619649784,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "FERIA",
         "source_id": "barrios.10",
         "administrative_area_km2": 0.40935669600910607,
         "published_ground_envelope_intersection_km2": 0.4093566960091061,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "EL PILAR",
         "source_id": "barrios.11",
         "administrative_area_km2": 0.27952053569493146,
         "published_ground_envelope_intersection_km2": 0.2795205356949314,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "SAN PABLO",
         "source_id": "barrios.12",
         "administrative_area_km2": 0.6931638739375532,
         "published_ground_envelope_intersection_km2": 0.687015824553193,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.00614805933962615,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "VEREDA",
         "source_id": "barrios.13",
         "administrative_area_km2": 0.34469531000804476,
         "published_ground_envelope_intersection_km2": 0.315709550896122,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.028985759111942382,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "SAN PEDRO - MORTERO",
         "source_id": "barrios.14",
         "administrative_area_km2": 0.9432136242081502,
         "published_ground_envelope_intersection_km2": 0.759987960697134,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.18322566351100586,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "SEPULCRO",
         "source_id": "barrios.15",
         "administrative_area_km2": 0.6057334375289314,
         "published_ground_envelope_intersection_km2": 0.6015095671378121,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.00422387039112321,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "UNIVERSIDAD",
         "source_id": "barrios.16",
         "administrative_area_km2": 0.9913328433007585,
         "published_ground_envelope_intersection_km2": 0.9912535184928355,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 7.932480791121508e-05,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "LA MILAGROSA",
         "source_id": "barrios.17",
         "administrative_area_km2": 0.36585435179839754,
         "published_ground_envelope_intersection_km2": 0.36585435179839754,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "LA ESTRELLA",
         "source_id": "barrios.18",
         "administrative_area_km2": 0.11891166845557789,
         "published_ground_envelope_intersection_km2": 0.1189116684555779,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "HERMANOS FALCÓ",
         "source_id": "barrios.2",
         "administrative_area_km2": 0.1076835374877714,
         "published_ground_envelope_intersection_km2": 0.10768353748777139,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "SAN ANTONIO ABAD",
         "source_id": "barrios.20",
         "administrative_area_km2": 0.6931085647657959,
         "published_ground_envelope_intersection_km2": 0.6931085647657961,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "INDUSTRIA",
         "source_id": "barrios.21",
         "administrative_area_km2": 0.5882993225574582,
         "published_ground_envelope_intersection_km2": 0.5882993225574585,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "LOS LLANOS",
         "source_id": "barrios.22",
         "administrative_area_km2": 0.9232225087451356,
         "published_ground_envelope_intersection_km2": 0.6164155747266883,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.30680693401844866,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "CAÑICAS - CANAL DE MARIA CRISTINA",
         "source_id": "barrios.23",
         "administrative_area_km2": 1.340734298802062,
         "published_ground_envelope_intersection_km2": 1.314428989173653,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.026305309628372065,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "FÁTIMA",
         "source_id": "barrios.9",
         "administrative_area_km2": 0.36964259690903595,
         "published_ground_envelope_intersection_km2": 0.36964259690903595,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "POLÍGONO SAN ANTÓN",
         "source_id": "barrios.19",
         "administrative_area_km2": 0.34329089348531894,
         "published_ground_envelope_intersection_km2": 0.34329089348531905,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       },
       {
         "name": "MEDICINA",
         "source_id": "barrios.24",
         "administrative_area_km2": 0.6166046953297804,
         "published_ground_envelope_intersection_km2": 0.6155282319233372,
-        "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "outside_source_union_km2": 0.0010764634063455015,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17"
       }
     ]
   },
@@ -8822,13 +8922,20 @@
         "area_km2": 3.828241834095064,
         "outside_principal_candidate_km2": 3.578645563239835,
         "overlap_all_municipal_SIU_km2": 3.0509875195487535,
-        "published_ground_envelope_intersection_km2": 0.0586430459480638,
+        "published_ground_envelope_intersection_km2": 0.05864304594786898,
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.05864304594786898,
+        "outside_source_union_km2": 3.7695987881472033,
+        "distance_to_source_union_m": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       {
         "name": "Polígono Industrial Romica",
@@ -8845,7 +8952,14 @@
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.0,
+        "outside_source_union_km2": 2.8281224351882552,
+        "distance_to_source_union_m": 3512.152950339132,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       {
         "name": "Polígono Ajusa",
@@ -8862,7 +8976,14 @@
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.0,
+        "outside_source_union_km2": 0.31991459976711795,
+        "distance_to_source_union_m": 1929.5799598864783,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       {
         "name": "Parque Aeronáutico y Logístico de Albacete",
@@ -8879,7 +9000,14 @@
         "currentness_status": "2026built-edge and facade review pending",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
         "pnoa_sample_date": "2024-07",
-        "pnoa_date_scope": "one central sample only, not every pixel"
+        "pnoa_date_scope": "one central sample only, not every pixel",
+        "published_source_union_intersection_km2": 0.0,
+        "outside_source_union_km2": 0.753813956459521,
+        "distance_to_source_union_m": 3128.4879581852356,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       }
     ],
     "active_scope_status": "deferred-not-automatically-included"
@@ -8895,13 +9023,13 @@
           "lng": -1.8574797
         },
         "in_principal_candidate": true,
-        "in_art_ground_envelope": false,
+        "in_art_ground_envelope": true,
         "distance_to_principal_m": 0.0,
         "point_not_boundary": true,
         "display_name": "Parque Científico y Tecnológico de Albacete",
         "official_source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
-        "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
+        "geometry_status": "Point alone does not certify whole-site coverage. See current polygon overlap where available.",
         "pnoa_date_check": {
           "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598900%2C4314800%2C599100%2C4315000&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
           "sample_rounded_utm": [
@@ -8913,7 +9041,12 @@
           "scope": "one rounded central sample, not whole site or 2026 evidence"
         },
         "operator_facilities_count": 5,
-        "planned_new_building_caveat": "17 Oct 2025 license-process announcement is not proof Edificio 6 was built by Nov 2026."
+        "planned_new_building_caveat": "17 Oct 2025 license-process announcement is not proof Edificio 6 was built by Nov 2026.",
+        "point_distance_to_art_m": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       {
         "name": "botanico",
@@ -8923,13 +9056,13 @@
           "lng": -1.8600207
         },
         "in_principal_candidate": false,
-        "in_art_ground_envelope": false,
+        "in_art_ground_envelope": true,
         "distance_to_principal_m": 26.36613556405884,
         "point_not_boundary": true,
         "display_name": "Jardín Botánico de Castilla-La Mancha",
         "official_source": "https://www.jardinbotanico-clm.com/sobre-nosotros",
         "scope_status": "deferred-not-automatically-included-in-city-only-task",
-        "geometry_status": "No perimeter yet recovered or certified. Do not infer whole-site inclusion from point.",
+        "geometry_status": "Point alone does not certify whole-site coverage. See current polygon overlap where available.",
         "pnoa_date_check": {
           "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598600%2C4314600%2C598800%2C4314800&WIDTH=200&HEIGHT=200&I=100&J=100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
           "sample_rounded_utm": [
@@ -8942,7 +9075,12 @@
         },
         "operator_area_ha_approx": 7,
         "official_plan": "https://www.jardinbotanico-clm.com/plano-e-itinerario",
-        "visual_review": "Inspected PNOA south of AB20 against official visitor plan. Garden extends south of the principal candidate. Boundary still untraced."
+        "visual_review": "Inspected PNOA south of AB20 against official visitor plan. Garden extends south of the principal candidate. Boundary still untraced.",
+        "point_distance_to_art_m": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       }
     ],
     "active_scope_status": "deferred-not-automatically-included"
@@ -8956,7 +9094,7 @@
     "point_in_principal_candidate": false,
     "point_distance_to_principal_candidate_m": 1279.8114714411201,
     "point_in_art": false,
-    "point_distance_to_art_m": 2192.1895084016655,
+    "point_distance_to_art_m": 856.6896372593111,
     "scope_status": "deferred-not-automatically-included-in-city-only-task",
     "sources": [
       {
@@ -8989,7 +9127,11 @@
     "pnoa_sample_date": "2024-07",
     "pnoa_resolution_m": 0.25,
     "pnoa_date_scope": "one rounded central sample only, not wholepark or2026proof",
-    "pnoa_date_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=598000%2C4313300%2C598200%2C4313500&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+    "pnoa_date_url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&QUERY_LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=598000%2C4313300%2C598200%2C4313500&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+    "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+    "measurement_revision": "left18-reference-20261117",
+    "measurement_date": "2026-11-17",
+    "meaning": "geometry overlap only, not verified architecture, current facade or completion"
   },
   "exterior_park_geometry_candidates": {
     "status": "not-final-city-mask",
@@ -9009,7 +9151,14 @@
         },
         "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
         "visual_review": "follows wooded park but excludes northeastern sports courts and western large open field; total equipment footprint unresolved",
-        "scope_status": "deferred-not-automatically-included-in-city-only-task"
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
+        "published_source_union_intersection_km2": 0.0,
+        "outside_source_union_km2": 0.39298781510610087,
+        "distance_to_source_union_m": 478.4334933644463,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
       {
         "name": "botanico",
@@ -9026,7 +9175,14 @@
         },
         "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
         "visual_review": "matches visible garden enclosure and operator approximate7ha",
-        "scope_status": "deferred-not-automatically-included-in-city-only-task"
+        "scope_status": "deferred-not-automatically-included-in-city-only-task",
+        "published_source_union_intersection_km2": 0.011441043206623334,
+        "outside_source_union_km2": 0.05852223751175938,
+        "distance_to_source_union_m": 0.0,
+        "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+        "measurement_revision": "left18-reference-20261117",
+        "measurement_date": "2026-11-17",
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       }
     ],
     "caveat": "Polygons do not silently settle40ha vs51.7777ha maintenance scope or omit sports courts/open-field fringe.",
@@ -9041,5 +9197,11 @@
     "candidate_caveat": "Administrative neighborhoods and planning-class union are research candidates, not an obligation to fill every polygon.",
     "preservation": "Existing artwork and general map access preserved; no automatic clipping or deletion.",
     "completion_percentage": null
+  },
+  "inventory_measurement_refresh": {
+    "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
+    "measurement_revision": "left18-reference-20261117",
+    "measurement_date": "2026-11-17",
+    "meaning": "geometry overlap only, not verified architecture, current facade or completion"
   }
 }

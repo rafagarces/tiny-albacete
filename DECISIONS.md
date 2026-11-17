@@ -382,3 +382,6 @@ Eleven new sourcecells complete contiguous shopping center and sports facilities
 
 ## 2026-11-17 LEFT18 dated construction interpretation
 One512square cell x[-4.25,-4],y[.75,1] completes city-side construction site. Two exact currentOSM construction footprints(lastedit7Mar2025),threePNOAsamplesJuly2024,andmunicipality24Mar2026streetnamecontext;3Nov2026reportUA2beingbuilt. Art explicitly depicts dated2024foundations,notcertified2026floorheightsorcompletion. No finished future blocks or pools. PrivateEsri19Sep2025contrastnotinputtogenerationorpublished. V1rejectedfootprintdrift,V2correctedwithannotatedOSM,V3onlyboundedroadjoin.2074registrationinliers,median0.462px.96539maskedoldpixelschangedinleft16/left17a,53otherprior sources exact,map/3D exact.697native tiles/viewpixel-exact,600actualcells/697bounds,14.79591138400819km2,ledger421to422noregression. Notcitycompletion.
+
+## 2026-11-17 inventory derived-fact refresh
+Historical point inventories imported stale art extents. Recompute against actualcurrent sourceunion afterevery scopeapply. Science/Botanicpointsinside;Botanicpolygon0.011441043206623334km2inside,0.05852223751175938outside. Pulgosa0overlap,polygon478.4334933644463mfromart,point856.6896372593111m. Pointsarenotwhole-sitecoverage. Sourcegeometrydatespreserved,notcurrent2026survey. Noimage/catalog/map/3Dchange,56sourcefilesexact.

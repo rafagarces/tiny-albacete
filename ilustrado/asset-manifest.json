@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "base_commit": "879218a865ddf6d84f43aca8ddecf6a117d0c7df",
+  "base_commit": "926916d6fd052930deaf8a5c90caecc7e8c3f546",
   "representation": "fixed-camera interpreted raster scenes; not multi-angle 3D",
   "files": [
     {
@@ -10140,8 +10140,8 @@
     },
     {
       "name": "coverage-ledger.json",
-      "bytes": 238203,
-      "sha256": "df0027bfb0a6b8524a66507a1773bae1d2027612ce0d944db0875fa3cf085b46"
+      "bytes": 248793,
+      "sha256": "2576d43787abc2180cbe22941bdcb8971a6223000a17840a468b7215a843de4c"
     },
     {
       "name": "coverage.geojson",
@@ -10160,13 +10160,13 @@
     },
     {
       "name": "exterior-industrial-candidates.geojson",
-      "bytes": 22167,
-      "sha256": "ab498b8b76359a9c973c415e4923026e0b94c5736d0c3a2d896d75ea0149ebeb"
+      "bytes": 24100,
+      "sha256": "cead663c19fbcc22d2f7febb52116dd6f9e9a57b8f2507eb3cae668b78eb91d8"
     },
     {
       "name": "exterior-park-candidates.geojson",
-      "bytes": 12963,
-      "sha256": "98b72db80419037f6d5b236cc9bcdd5fa87fff645d4a8467f7776ba27c287de6"
+      "bytes": 13932,
+      "sha256": "e7ddb388953207b40ef8f02f3dbc3f03f58a393cd3aa7990a7b5ba711d48e5bc"
     },
     {
       "name": "index.html",
