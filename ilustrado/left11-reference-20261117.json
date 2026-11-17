@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "7c3f346",
+  "new_source": "left11.webp",
+  "extent": [
+    13824,
+    8192
+  ],
+  "old_changed_sources": [
+    {
+      "source": "top3.webp",
+      "pixels": 325625
+    },
+    {
+      "source": "left3.webp",
+      "pixels": 153141
+    },
+    {
+      "source": "top4.webp",
+      "pixels": 1073413
+    },
+    {
+      "source": "left4.webp",
+      "pixels": 158853
+    },
+    {
+      "source": "top5.webp",
+      "pixels": 2926
+    },
+    {
+      "source": "left5.webp",
+      "pixels": 158510
+    },
+    {
+      "source": "left6.webp",
+      "pixels": 159442
+    },
+    {
+      "source": "left7.webp",
+      "pixels": 158229
+    },
+    {
+      "source": "left8.webp",
+      "pixels": 156252
+    },
+    {
+      "source": "left9.webp",
+      "pixels": 207053
+    },
+    {
+      "source": "left10.webp",
+      "pixels": 765153
+    }
+  ],
+  "old_changed_pixels": 3318597,
+  "rail_repair": {
+    "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=598657.0631972979%2C4316849.443791147%2C600104.8307769019%2C4318722.952161254&WIDTH=3000&HEIGHT=2400&FORMAT=image%2Fjpeg",
+    "bbox": [
+      598657.0631972979,
+      4316849.443791147,
+      600104.8307769019,
+      4318722.952161254
+    ],
+    "atlas_crop": [
+      0,
+      600,
+      7200,
+      2400
+    ],
+    "retrieved": "2026-11-17",
+    "date_query_urls": [
+      "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598657.0631972979%2C4316849.443791147%2C600104.8307769019%2C4318722.952161254&WIDTH=3000&HEIGHT=2400&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=350&J=1400&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+      "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598657.0631972979%2C4316849.443791147%2C600104.8307769019%2C4318722.952161254&WIDTH=3000&HEIGHT=2400&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1450&J=1250&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+      "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&CRS=EPSG%3A25830&BBOX=598657.0631972979%2C4316849.443791147%2C600104.8307769019%2C4318722.952161254&WIDTH=3000&HEIGHT=2400&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2650&J=1000&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+    ],
+    "date_query_results_text": [
+      "\n \n  Informaci&oacute;n PNOA   \n \n  \n    Informaci&oacute;n de la ortofoto  \n\n -->\n \n   \n     Fecha (a&ntildeo-mes) \n     2024-07 \n   \n   \n     Resoluci&oacute;n (metros) \n     0.25 \n   \n   \n     Ortoimagen Verdadera \n     NO \n   \n \n \n \n ",
+      "\n \n  Informaci&oacute;n PNOA   \n \n  \n    Informaci&oacute;n de la ortofoto  \n\n -->\n \n   \n     Fecha (a&ntildeo-mes) \n     2024-07 \n   \n   \n     Resoluci&oacute;n (metros) \n     0.25 \n   \n   \n     Ortoimagen Verdadera \n     NO \n   \n \n \n \n ",
+      "\n \n  Informaci&oacute;n PNOA   \n \n  \n    Informaci&oacute;n de la ortofoto  \n\n -->\n \n   \n     Fecha (a&ntildeo-mes) \n     2024-07 \n   \n   \n     Resoluci&oacute;n (metros) \n     0.25 \n   \n   \n     Ortoimagen Verdadera \n     NO \n   \n \n \n \n "
+    ]
+  },
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=596502.2182572074%2C4317062.408643867%2C599730.9793984748%2C4318860.309494431&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        596502.2182572074,
+        4317062.408643867,
+        599730.9793984748,
+        4318860.309494431
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596502.2182572074%2C4317062.408643867%2C599730.9793984748%2C4318860.309494431&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596502.2182572074%2C4317062.408643867%2C599730.9793984748%2C4318860.309494431&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596502.2182572074%2C4317062.408643867%2C599730.9793984748%2C4318860.309494431&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8587922948301396,39.007328677917194,-1.8486990384051665,39.012667735306614",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.867521037010915,39.00411179542123,-1.8574283710451598,39.009451436335354",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.876249000645853,39.00089424632181,-1.8661569253416337,39.00623447051458",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8849761856374356,38.99767603084007,-1.8748847011969074,39.0030168380654"
+    ]
+  },
+  "limits": [
+    "PNOA sample dates July2024, not a certification of November2026 conditions.",
+    "465 current OSM footprint ways in four west-edge rectangles are a cross-check, not an exhaustive survey.",
+    "Registered aerial evidence overrides missing mesh detail near the open northern border.",
+    "Sports grounds, open western plots, a small pedestrian road bridge and low sheds retained.",
+    "Explicit rail-corridor and pitch masks repair continuity and remove a duplicated center circle; all other old artwork beyond the new strip overlap is unchanged.",
+    "Small facade, material, vegetation and roof details remain reference-led artistic interpretation.",
+    "The camera envelope is not whole Albacete or a completion percentage."
+  ],
+  "unchanged_outside_explicit_join_rail_and_pitch_masks": true
+}
