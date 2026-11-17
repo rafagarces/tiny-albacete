@@ -1,0 +1,16 @@
+{
+ "date": "2026-11-17",
+ "method": "Igual que lotes 1 a 3 (guia Catastro 3*plantas+2, atlas, PNOA 2024-07 como referencia, mezcla con mascara, 0 px fuera de la zona de mezcla)",
+ "cases": {
+  "m3": {
+   "ref": "9068016WJ9196G",
+   "use": "industrial",
+   "note": "cubierta plana clara de nave en vez de teja; forma y detalle aproximados, tejados contiguos algo repintados dentro de la zona de mezcla"
+  },
+  "m6": {
+   "ref": "9864401WJ9196D",
+   "use": "servicios publicos",
+   "note": "edificio en L con patio y cubiertas planas segun PNOA; detalle aproximado"
+  }
+ }
+}
