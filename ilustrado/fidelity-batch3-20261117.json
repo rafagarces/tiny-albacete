@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-17",
+  "method": "Igual que lotes 1 y 2 (guia Catastro 3*plantas+2, atlas, PNOA 2024-07 como referencia, mezcla con mascara, 0 px fuera de la zona de mezcla)",
+  "cases": {
+    "n1": {"ref": "8457001WJ9185N", "use": "industrial", "note": "cubiertas planas grises en vez de teja; forma aproximada"},
+    "n2": {"ref": "9662005WJ9196S", "use": "servicios publicos", "note": "patio interior y cubiertas planas con paneles solares segun PNOA; detalle aproximado"},
+    "n5": {"ref": "9366401WJ9196E", "use": "servicios publicos", "note": "cubierta plana oscura; cambio pequeno"},
+    "n12": {"ref": "8165703WJ9186E", "use": "comercial", "note": "cubierta plana gris; cambio pequeno"},
+    "n13": {"ref": "8569410WJ9186H", "use": "oficinas", "note": "bloque de cubierta plana con paneles solares en el interior de manzana; forma aproximada"}
+  }
+}
