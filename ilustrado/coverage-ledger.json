@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 409,
+  "published_cells_intersecting_candidate": 412,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -1546,8 +1546,8 @@
       "column": 19,
       "row": 1,
       "candidate_target_fraction": 0.557337,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c19r1"
     },
@@ -1888,8 +1888,8 @@
       "column": 19,
       "row": 2,
       "candidate_target_fraction": 0.880468,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c19r2"
     },
@@ -2239,8 +2239,8 @@
       "column": 19,
       "row": 3,
       "candidate_target_fraction": 0.295523,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c19r3"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 13.686218030207147,
+  "published_ground_envelope_km2": 13.883496848660974,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 8.634622,
+      "published_intersection_km2": 8.677365,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -4354,6 +4354,26 @@
     {
       "name": "Rural settlements and pedanías",
       "status": "excluded-from-city-only-task"
+    },
+    {
+      "name": "Parque Científico y Tecnológico de Albacete",
+      "status": "deferred-not-automatically-included-in-city-only-task",
+      "source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/"
+    },
+    {
+      "name": "Jardín Botánico de Castilla-La Mancha",
+      "status": "deferred-not-automatically-included-in-city-only-task",
+      "source": "https://www.jardinbotanico-clm.com/sobre-nosotros"
+    },
+    {
+      "name": "Parque Científico y Tecnológico de Albacete",
+      "status": "deferred-not-automatically-included-in-city-only-task",
+      "source": "https://pctclm.com/parque-cientifico-tecnologico-albacete/"
+    },
+    {
+      "name": "Jardín Botánico de Castilla-La Mancha",
+      "status": "deferred-not-automatically-included-in-city-only-task",
+      "source": "https://www.jardinbotanico-clm.com/sobre-nosotros"
     },
     {
       "name": "Parque Científico y Tecnológico de Albacete",
@@ -4786,7 +4806,7 @@
         "row": -3,
         "id": "c19r-3",
         "candidate_fraction": 0.63145,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -5052,7 +5072,7 @@
         "row": -2,
         "id": "c19r-2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -5332,7 +5352,7 @@
         "row": -1,
         "id": "c19r-1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -5619,7 +5639,7 @@
         "row": 0,
         "id": "c19r0",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -5906,7 +5926,7 @@
         "row": 1,
         "id": "c19r1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -6214,7 +6234,7 @@
         "row": 2,
         "id": "c19r2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -6515,7 +6535,7 @@
         "row": 3,
         "id": "c19r3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -6809,7 +6829,7 @@
         "row": 4,
         "id": "c19r4",
         "candidate_fraction": 0.256942,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 20,
@@ -8598,7 +8618,7 @@
         "name": "UNIVERSIDAD",
         "source_id": "barrios.16",
         "administrative_area_km2": 0.9913328433007585,
-        "published_ground_envelope_intersection_km2": 0.8028889239323836,
+        "published_ground_envelope_intersection_km2": 0.8718363584390316,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8668,7 +8688,7 @@
         "name": "MEDICINA",
         "source_id": "barrios.24",
         "administrative_area_km2": 0.6166046953297804,
-        "published_ground_envelope_intersection_km2": 0.3529926077550732,
+        "published_ground_envelope_intersection_km2": 0.45391259657545285,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       }
     ]
@@ -9039,7 +9059,7 @@
     "preservation": "Existing artwork and general map access preserved; no automatic clipping or deletion.",
     "completion_percentage": null
   },
-  "published_coverage_method": "Union of actual source rectangles. Rectangular atlas bounds and transparent notch are not counted as supplied art. No city completion percentage.",
-  "published_source_union_km2": 13.686218030207147,
-  "published_atlas_bounds_envelope_km2": 13.809517291740546
+  "published_source_union_km2": 13.883496848660974,
+  "published_atlas_bounds_envelope_km2": 14.204074928647817,
+  "published_coverage_method": "Union of actual source rectangles; atlas bounds include exterior pixels, not completed art."
 }
