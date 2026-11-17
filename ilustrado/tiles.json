@@ -9,7 +9,7 @@
     "maxY": 3
   },
   "comparison": {
-    "url": "base-left18.jpg",
+    "url": "base-botanic19.jpg",
     "x": -4.5,
     "y": -1.25,
     "width": 10.25,
@@ -464,6 +464,14 @@
       "y": 0.75,
       "width": 0.25,
       "height": 0.25
+    },
+    {
+      "id": "botanic19",
+      "url": "botanic19.webp",
+      "x": 4.5,
+      "y": 1.75,
+      "width": 0.75,
+      "height": 0.5
     }
   ],
   "display": {
@@ -473,7 +481,7 @@
     "width": 10.25,
     "height": 4.25
   },
-  "asset_revision": "left18-reference-20261117",
+  "asset_revision": "botanic19-reference-20261117",
   "sparse_atlas": true,
   "coverage_note": "Actual source rectangles form a stepped edge; transparent pixels outside those rectangles are not supplied art or completed city."
 }

@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "1aba3e84ea9fe7eb3abc978f38b69ba75124633c",
+  "new_source": "botanic19.webp",
+  "new_cells": 6,
+  "extent": [
+    20992,
+    8704
+  ],
+  "actual_source_union_km2": 14.943870497848247,
+  "old_changed_sources": [
+    "right15.webp"
+  ],
+  "old_changed_pixels": 59819,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "new_source_world_rect": [
+    4.5,
+    1.75,
+    5.25,
+    2.25
+  ],
+  "registration": {
+    "check": "registered output against preserved left reference crop",
+    "inliers": 280,
+    "median_error": 0.8999601136864972,
+    "residual_transform": [
+      [
+        1.0000224909455773,
+        -0.00010789822482393272,
+        0.3130708591878912
+      ],
+      [
+        0.00010789822482393272,
+        1.0000224909455773,
+        0.12951260093556657
+      ]
+    ]
+  },
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=598086.7003277915%2C4313866.231613482%2C599268.3934873744%2C4314989.024162171&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg",
+      "bbox": [
+        598086.7003277915,
+        4313866.231613482,
+        599268.3934873744,
+        4314989.024162171
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=598086.7003277915%2C4313866.231613482%2C599268.3934873744%2C4314989.024162171&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=1100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=598086.7003277915%2C4313866.231613482%2C599268.3934873744%2C4314989.024162171&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=1100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=598086.7003277915%2C4313866.231613482%2C599268.3934873744%2C4314989.024162171&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=1100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM": "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.867,38.970,-1.850,38.981",
+    "operator": "https://www.jardinbotanico-clm.com/sobre-nosotros",
+    "operator_itinerary": "https://www.jardinbotanico-clm.com/plano-e-itinerario",
+    "operator_location": "https://www.jardinbotanico-clm.com/copia-de-horario-y-entradas",
+    "BGCI": "https://gardensearch.bgci.org/garden/4333"
+  },
+  "garden_geometry": {
+    "osm_way": 139980346,
+    "area_ha": 6.996328071838348,
+    "outside_art_m2": 0.0
+  },
+  "limits": [
+    "Reference-led artistic interpretation of the July2024 PNOA layout, not a November2026 survey or exact plant/building inventory.",
+    "Finishes the same Botanic enclosure already partly illustrated at its urban avenue entrance. It does not add LaPulgosa, detached industrial sectors or dispersed settlements.",
+    "Ponds, paths, greenhouse and planting zones are grounded in the aerial layout; small trees, materials and details are interpreted. No species census is claimed.",
+    "Operator itinerary was inspected for identity and arrangement but explicitly marked pending update; no operator image pixels are published or used as a generation input.",
+    "Current OSM polygon establishes a mapped enclosure, not a guaranteed survey boundary or current facade verification.",
+    "Six rectangular atlas cells include narrow immediate surroundings; coverage does not make outside rural/industrial sectors active city targets.",
+    "All other prior source pixels outside the explicit right15 overlap mask and general map/rotating3D are preserved.",
+    "Geometry coverage only, not city completion or current architectural certification."
+  ]
+}

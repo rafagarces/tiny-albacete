@@ -23,7 +23,7 @@
         "outside_source_union_km2": 0.39298781510610087,
         "distance_to_source_union_m": 478.4334933644463,
         "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
-        "measurement_revision": "left18-reference-20261117",
+        "measurement_revision": "botanic19-reference-20261117",
         "measurement_date": "2026-11-17",
         "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
@@ -484,14 +484,15 @@
         },
         "status": "community geometry visually checked against PNOA July2024 central-sample imagery, not official or final city boundary",
         "visual_review": "matches visible garden enclosure and operator approximate7ha",
-        "scope_status": "deferred-not-automatically-included-in-city-only-task",
-        "published_source_union_intersection_km2": 0.011441043206623334,
-        "outside_source_union_km2": 0.05852223751175938,
+        "scope_status": "included-bounded-same-Botanic-enclosure",
+        "published_source_union_intersection_km2": 0.06996328071838348,
+        "outside_source_union_km2": 0.0,
         "distance_to_source_union_m": 0.0,
         "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
-        "measurement_revision": "left18-reference-20261117",
+        "measurement_revision": "botanic19-reference-20261117",
         "measurement_date": "2026-11-17",
-        "meaning": "geometry overlap only, not verified architecture, current facade or completion"
+        "meaning": "geometry overlap only, not verified architecture, current facade or completion",
+        "scope_note": "Same Botanic enclosure at the urban avenue entrance completed as a dated interpretation; no LaPulgosa or detached-sector expansion."
       },
       "geometry": {
         "type": "Polygon",
@@ -598,5 +599,5 @@
       }
     }
   ],
-  "active_scope_status": "source-inventory-only; additions-deferred-under-city-only-task"
+  "active_scope_status": "row-specific; Botanic enclosure included, LaPulgosa remains deferred"
 }

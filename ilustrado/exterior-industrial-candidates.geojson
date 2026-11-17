@@ -23,7 +23,7 @@
         "outside_source_union_km2": 3.7695987881472033,
         "distance_to_source_union_m": 0.0,
         "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
-        "measurement_revision": "left18-reference-20261117",
+        "measurement_revision": "botanic19-reference-20261117",
         "measurement_date": "2026-11-17",
         "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
@@ -429,7 +429,7 @@
         "outside_source_union_km2": 2.8281224351882552,
         "distance_to_source_union_m": 3512.152950339132,
         "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
-        "measurement_revision": "left18-reference-20261117",
+        "measurement_revision": "botanic19-reference-20261117",
         "measurement_date": "2026-11-17",
         "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
@@ -695,7 +695,7 @@
         "outside_source_union_km2": 0.31991459976711795,
         "distance_to_source_union_m": 1929.5799598864783,
         "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
-        "measurement_revision": "left18-reference-20261117",
+        "measurement_revision": "botanic19-reference-20261117",
         "measurement_date": "2026-11-17",
         "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },
@@ -765,7 +765,7 @@
         "outside_source_union_km2": 0.753813956459521,
         "distance_to_source_union_m": 3128.4879581852356,
         "measurement_basis": "actual current source-rectangle union, not atlas bounds or source-era extent",
-        "measurement_revision": "left18-reference-20261117",
+        "measurement_revision": "botanic19-reference-20261117",
         "measurement_date": "2026-11-17",
         "meaning": "geometry overlap only, not verified architecture, current facade or completion"
       },

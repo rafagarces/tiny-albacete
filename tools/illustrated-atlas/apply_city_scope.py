@@ -31,3 +31,19 @@ p=r/'tools/illustrated-atlas/city-scope.json';p.write_text(json.dumps(notice,ind
 # Every imported inventory may carry old art measurements. Refresh derived facts last.
 import runpy
 runpy.run_path("/tmp/fiel-albacete/refresh_inventory_measurements.py")
+
+# Bounded completion of the same urban-edge Botanic landmark, not a new exterior target.
+p=r/'ilustrado/coverage-ledger.json';d=json.load(open(p));scope_note='Same Botanic enclosure at the urban avenue entrance completed as a dated interpretation; no LaPulgosa or detached-sector expansion.'
+d['active_scope']['bounded_landmark_completion']={'name':'Jardin Botanico de Castilla-La Mancha','date':'2026-11-17','scope':scope_note,'reference':'botanic19-reference-20261117.json'}
+for key in ['southern_science_botanic_inventory','exterior_park_geometry_candidates']:
+ group=d.get(key,{})
+ if isinstance(group,dict):
+  group['active_scope_status']='row-specific; Botanic enclosure included, other exterior candidates remain deferred'
+  for row in group.get('rows',[]):
+   if str(row.get('osm_way'))=='139980346' or 'bot' in row.get('name','').lower():row['scope_status']='included-bounded-same-Botanic-enclosure';row['scope_note']=scope_note
+p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+p=r/'ilustrado/exterior-park-candidates.geojson';j=json.load(open(p));j['active_scope_status']='row-specific; Botanic enclosure included, LaPulgosa remains deferred'
+for f in j['features']:
+ if str(f['properties'].get('osm_way'))=='139980346':f['properties']['scope_status']='included-bounded-same-Botanic-enclosure';f['properties']['scope_note']=scope_note
+p.write_text(json.dumps(j,indent=2,ensure_ascii=False)+'\n')
+p=r/'tools/illustrated-atlas/city-scope.json';j=json.load(open(p));j['bounded_landmark_completion']=d['active_scope']['bounded_landmark_completion'];p.write_text(json.dumps(j,indent=2,ensure_ascii=False)+'\n')

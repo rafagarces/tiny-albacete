@@ -6,5 +6,11 @@
   "deferred": "Ambiguous detached industrial/park additions are not presumed included.",
   "candidate_caveat": "Administrative neighborhoods and planning-class union are research candidates, not an obligation to fill every polygon.",
   "preservation": "Existing artwork and general map access preserved; no automatic clipping or deletion.",
-  "completion_percentage": null
+  "completion_percentage": null,
+  "bounded_landmark_completion": {
+    "name": "Jardin Botanico de Castilla-La Mancha",
+    "date": "2026-11-17",
+    "scope": "Same Botanic enclosure at the urban avenue entrance completed as a dated interpretation; no LaPulgosa or detached-sector expansion.",
+    "reference": "botanic19-reference-20261117.json"
+  }
 }
