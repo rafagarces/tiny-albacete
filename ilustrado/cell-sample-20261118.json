@@ -1,0 +1,484 @@
+{
+ "fecha": "2026-11-18",
+ "metodo": "muestra aleatoria con semilla 20261118 de 36 celdas de 512 px del atlas con tesela; juicio visual por presencia/uso/volumen/trazado a escala de celda; no es inventario ni tasa de ciudad",
+ "conteos": {
+  "aceptable": 17,
+  "claro": 6,
+  "moderado": 4,
+  "vacia": 7,
+  "resuelto_parcialmente_por_parche_SW": 1,
+  "sin_comparar_PNOA_no_cargo": 1
+ },
+ "comparables": 28,
+ "nota_vacias": "7 celdas con tesela pero sin contenido ilustrado en la ventana: brecha de cobertura si caen dentro del alcance; no entran en la tasa de errores de contenido",
+ "filas": [
+  {
+   "celda": "39,8",
+   "atlas_px_recorte": [
+    19968,
+    4172,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "12,4",
+   "atlas_px_recorte": [
+    6144,
+    2124,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "claro",
+   "nota": "bloques altos en atlas; PNOA viviendas bajas en hilera con pistas"
+  },
+  {
+   "celda": "20,11",
+   "atlas_px_recorte": [
+    10240,
+    5708,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "moderado",
+   "nota": "volumen: bloques altos en atlas, PNOA tejido bajo denso"
+  },
+  {
+   "celda": "4,8",
+   "atlas_px_recorte": [
+    2048,
+    4172,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "2,12",
+   "atlas_px_recorte": [
+    1024,
+    6220,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "1,1",
+   "atlas_px_recorte": [
+    512,
+    588,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "vacia",
+   "nota": ""
+  },
+  {
+   "celda": "13,9",
+   "atlas_px_recorte": [
+    6656,
+    4684,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "22,16",
+   "atlas_px_recorte": [
+    11264,
+    8268,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "vacia",
+   "nota": ""
+  },
+  {
+   "celda": "19,0",
+   "atlas_px_recorte": [
+    9728,
+    76,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "moderado",
+   "nota": "casa pequena y vial vs chatarreria"
+  },
+  {
+   "celda": "29,13",
+   "atlas_px_recorte": [
+    14848,
+    6732,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "claro",
+   "nota": "colegio y calle en atlas; PNOA casas pequenas y matorral"
+  },
+  {
+   "celda": "25,8",
+   "atlas_px_recorte": [
+    12800,
+    4172,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "claro",
+   "nota": "parque ornamental en estrella en atlas; PNOA pinar con claros"
+  },
+  {
+   "celda": "9,16",
+   "atlas_px_recorte": [
+    4608,
+    8268,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "vacia",
+   "nota": ""
+  },
+  {
+   "celda": "13,1",
+   "atlas_px_recorte": [
+    6656,
+    588,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "40,13",
+   "atlas_px_recorte": [
+    20480,
+    6732,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "vacia",
+   "nota": ""
+  },
+  {
+   "celda": "0,3",
+   "atlas_px_recorte": [
+    0,
+    1612,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "vacia",
+   "nota": ""
+  },
+  {
+   "celda": "13,13",
+   "atlas_px_recorte": [
+    6656,
+    6732,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "32,12",
+   "atlas_px_recorte": [
+    16384,
+    6220,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "3,3",
+   "atlas_px_recorte": [
+    1536,
+    1612,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "22,4",
+   "atlas_px_recorte": [
+    11264,
+    2124,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "0,6",
+   "atlas_px_recorte": [
+    0,
+    3148,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "vacia",
+   "nota": ""
+  },
+  {
+   "celda": "12,9",
+   "atlas_px_recorte": [
+    6144,
+    4684,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "16,10",
+   "atlas_px_recorte": [
+    8192,
+    5196,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "21,7",
+   "atlas_px_recorte": [
+    10752,
+    3660,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "5,13",
+   "atlas_px_recorte": [
+    2560,
+    6732,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "34,5",
+   "atlas_px_recorte": [
+    17408,
+    2636,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "moderado",
+   "nota": "bloques arriba en atlas, PNOA suelo abierto con naves"
+  },
+  {
+   "celda": "31,3",
+   "atlas_px_recorte": [
+    15872,
+    1612,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "moderado",
+   "nota": "calles y patios en atlas, PNOA solares y aparcamiento"
+  },
+  {
+   "celda": "23,8",
+   "atlas_px_recorte": [
+    11776,
+    4172,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "8,11",
+   "atlas_px_recorte": [
+    4096,
+    5708,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "12,15",
+   "atlas_px_recorte": [
+    6144,
+    7756,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "resuelto_parcialmente_por_parche_SW",
+   "nota": "region cubierta por lote 9; queda calle con coches en borde E (x>6570) sin contrastar con PNOA como correccion"
+  },
+  {
+   "celda": "35,2",
+   "atlas_px_recorte": [
+    17920,
+    1100,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "13,16",
+   "atlas_px_recorte": [
+    6656,
+    8268,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "vacia",
+   "nota": ""
+  },
+  {
+   "celda": "6,7",
+   "atlas_px_recorte": [
+    3072,
+    3660,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "aceptable",
+   "nota": ""
+  },
+  {
+   "celda": "29,12",
+   "atlas_px_recorte": [
+    14848,
+    6220,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "claro",
+   "nota": "bloques de pisos en atlas; PNOA suelo abierto y una nave"
+  },
+  {
+   "celda": "25,12",
+   "atlas_px_recorte": [
+    12800,
+    6220,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "claro",
+   "nota": "atlas sustituye el aparcamiento por plaza, jardin y calles"
+  },
+  {
+   "celda": "13,0",
+   "atlas_px_recorte": [
+    6656,
+    76,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "sin_comparar_PNOA_no_cargo",
+   "nota": ""
+  },
+  {
+   "celda": "3,1",
+   "atlas_px_recorte": [
+    1536,
+    588,
+    540,
+    360
+   ],
+   "version_atlas_revisada": "repo 5118686 / deploy 3b6a3317 (tras lote 9)",
+   "pnoa": "PNOA 2024-07, 3x, mismo registro",
+   "estado": "claro",
+   "nota": "nave y patio en atlas; PNOA suelo vacio"
+  }
+ ]
+}
