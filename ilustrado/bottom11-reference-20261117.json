@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "39a997dd376f8d8d44eb154a9642a597eba88438",
+  "new_source": "bottom11.webp",
+  "new_source_pixels": [
+    2048,
+    512
+  ],
+  "extent": [
+    19456,
+    8704
+  ],
+  "actual_source_union_km2": 14.450673451714326,
+  "old_changed_sources": [
+    "bottom9.webp"
+  ],
+  "old_changed_pixels": 237196,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "new_source_world_rect": [
+    -0.5,
+    2.75,
+    0.5,
+    3
+  ],
+  "registration": [
+    {
+      "reference": "layout",
+      "inliers": 1632,
+      "median_error": 0.4988464535463324,
+      "matrix": [
+        [
+          1.1545195681851865,
+          3.2520496304368046e-05,
+          0.11160182046217287
+        ],
+        [
+          -3.2520496304368046e-05,
+          1.1545195681851865,
+          0.10957462306132085
+        ]
+      ],
+      "status": "selected"
+    },
+    {
+      "reference": "ortho",
+      "inliers": 2,
+      "median_error": 5.684341886080802e-14,
+      "matrix": [
+        [
+          -0.41631922102380076,
+          0.29198926270053055,
+          1200.0667148569971
+        ],
+        [
+          -0.29198926270053055,
+          -0.41631922102380076,
+          731.0575952681683
+        ]
+      ],
+      "status": "rejected: only two matches"
+    }
+  ],
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=596779.9368181833%2C4315379.93159094%2C597689.4223745804%2C4316531.616352601&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        596779.9368181833,
+        4315379.93159094,
+        597689.4223745804,
+        4316531.616352601
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596779.9368181833%2C4315379.93159094%2C597689.4223745804%2C4316531.616352601&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596779.9368181833%2C4315379.93159094%2C597689.4223745804%2C4316531.616352601&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596779.9368181833%2C4315379.93159094%2C597689.4223745804%2C4316531.616352601&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM": "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8819179457862794,38.98245235559483,-1.8726986981348,38.99195170578039"
+  },
+  "limits": [
+    "Four new rectangular cells extend a contiguous residential tip. Not all Vereda is complete.",
+    "Only localized southern cells added, not a full-width atlas row. The stepped exterior remains transparent. No detached industrial area or village added.",
+    "PNOA sampled July2024 at three points, not a current2026 facade survey.",
+    "Facade, vegetation and roof details are reference-led artistic interpretation, not an exact replica. Older source heights above the overlap remain unchanged.",
+    "Research covered a wider two-world-unit strip; only the left half was added. Allotment/garden outskirts beyond x0.5 were not automatically added."
+  ],
+  "registration_selected": "layout"
+}

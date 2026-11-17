@@ -370,3 +370,6 @@ Four cells only at x1.5..2.5,y2.75..3, not a full atlas row. PNOA July2024 (thre
 ## RIGHT19 seven-cell residential ring-road continuation, 2026-11-17
 
 Added x5.25..5.5,y-.75..1 only. Excluded last lower generated512row: no automatic full-height edge fill. PNOA July2024 three-point check, live OSM359building ways/755corridor ways. Triangular courtyard/pool and curved avenue confirmed in aerial; roof/facade interpretation remains non-exact.51sources19456×8704,582actual source-union cells/646bounds,14.35203404248763km²,not completion.Only372286pixels right18 changed inside explicit mask,49other sources/map/3D exact.646native tiles/view pixel-exact. Reference-art registrations3109/1570/2403inliers,median0.42/0.54/0.40px. Local390/1280QA passed0JS/HTTP, pinch,3Drotation,comparison without jump.
+
+## 2026-11-17 BOTTOM11 localized Vereda edge
+Four cells x-0.5..0.5,y2.75..3. July2024 PNOA and live OSM, original art registration1632inliers median0.499px. PNOA automatic registration rejected(2matches). Existing sources all unchanged except237196 masked bottom9 pixels. Preserve older artistic heights above seam, not surveyed. No detached outskirts added. Memory-safe tiled pyramid build, native tiles checked exact; lower levels use contextual Lanczos reduction.

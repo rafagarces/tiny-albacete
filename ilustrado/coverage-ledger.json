@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 418,
+  "published_cells_intersecting_candidate": 420,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -3778,8 +3778,8 @@
       "column": -2,
       "row": 11,
       "candidate_target_fraction": 0.000511,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-2r11"
     },
@@ -3787,8 +3787,8 @@
       "column": -1,
       "row": 11,
       "candidate_target_fraction": 0.018528,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-1r11"
     },
@@ -3874,8 +3874,8 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 14.35203404248763,
-  "published_source_union_km2": 14.35203404248763,
+  "published_ground_envelope_km2": 14.450673451714326,
+  "published_source_union_km2": 14.450673451714326,
   "published_atlas_bounds_envelope_km2": 15.930264590115083,
   "published_coverage_method": "Union of actual source rectangles; atlas bounds include exterior pixels, not completed art.",
   "published_revision": "see containing repository commit",
@@ -4039,7 +4039,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 8.734136,
+      "published_intersection_km2": 8.734605,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -8282,28 +8282,28 @@
         "row": 11,
         "id": "c-2r11",
         "candidate_fraction": 0.376837,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -1,
         "row": 11,
         "id": "c-1r11",
         "candidate_fraction": 0.596938,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 0,
         "row": 11,
         "id": "c0r11",
         "candidate_fraction": 0.814726,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 1,
         "row": 11,
         "id": "c1r11",
         "candidate_fraction": 0.978809,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 2,
@@ -8573,21 +8573,21 @@
         "name": "SAN PABLO",
         "source_id": "barrios.12",
         "administrative_area_km2": 0.6931638739375532,
-        "published_ground_envelope_intersection_km2": 0.6813387152254704,
+        "published_ground_envelope_intersection_km2": 0.687015824553193,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "VEREDA",
         "source_id": "barrios.13",
         "administrative_area_km2": 0.34469531000804476,
-        "published_ground_envelope_intersection_km2": 0.2531452312867891,
+        "published_ground_envelope_intersection_km2": 0.315709550896122,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SAN PEDRO - MORTERO",
         "source_id": "barrios.14",
         "administrative_area_km2": 0.9432136242081502,
-        "published_ground_envelope_intersection_km2": 0.7599879606971528,
+        "published_ground_envelope_intersection_km2": 0.759987960697134,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {

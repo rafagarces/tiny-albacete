@@ -9,7 +9,7 @@
     "maxY": 3
   },
   "comparison": {
-    "url": "base-right19.jpg",
+    "url": "base-bottom11.jpg",
     "x": -4.0,
     "y": -1.25,
     "width": 9.5,
@@ -424,6 +424,14 @@
       "y": -0.75,
       "width": 0.25,
       "height": 1.75
+    },
+    {
+      "id": "bottom11",
+      "url": "bottom11.webp",
+      "x": -0.5,
+      "y": 2.75,
+      "width": 1,
+      "height": 0.25
     }
   ],
   "display": {
@@ -433,7 +441,7 @@
     "width": 9.5,
     "height": 4.25
   },
-  "asset_revision": "right19-reference-20261117",
+  "asset_revision": "bottom11-reference-20261117",
   "sparse_atlas": true,
   "coverage_note": "Actual source rectangles form a stepped edge; transparent pixels outside those rectangles are not supplied art or completed city."
 }
