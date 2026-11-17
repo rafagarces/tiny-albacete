@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 319,
+  "published_cells_intersecting_candidate": 331,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -214,8 +214,8 @@
       "column": -8,
       "row": -3,
       "candidate_target_fraction": 0.168951,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r-3"
     },
@@ -466,8 +466,8 @@
       "column": -8,
       "row": -2,
       "candidate_target_fraction": 0.475632,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r-2"
     },
@@ -736,8 +736,8 @@
       "column": -8,
       "row": -1,
       "candidate_target_fraction": 0.421384,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r-1"
     },
@@ -1006,8 +1006,8 @@
       "column": -8,
       "row": 0,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r0"
     },
@@ -1303,8 +1303,8 @@
       "column": -8,
       "row": 1,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r1"
     },
@@ -1645,8 +1645,8 @@
       "column": -8,
       "row": 2,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r2"
     },
@@ -1996,8 +1996,8 @@
       "column": -8,
       "row": 3,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r3"
     },
@@ -2311,8 +2311,8 @@
       "column": -8,
       "row": 4,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r4"
     },
@@ -2599,8 +2599,8 @@
       "column": -8,
       "row": 5,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r5"
     },
@@ -2860,8 +2860,8 @@
       "column": -8,
       "row": 6,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r6"
     },
@@ -3094,8 +3094,8 @@
       "column": -8,
       "row": 7,
       "candidate_target_fraction": 1.0,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r7"
     },
@@ -3301,8 +3301,8 @@
       "column": -8,
       "row": 8,
       "candidate_target_fraction": 0.135181,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-8r8"
     },
@@ -3874,7 +3874,7 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 9.074825648858395,
+  "published_ground_envelope_km2": 9.46938328576511,
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
     {
@@ -4036,7 +4036,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 7.055919,
+      "published_intersection_km2": 7.282818,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -4604,7 +4604,7 @@
         "row": -3,
         "id": "c-8r-3",
         "candidate_fraction": 0.168951,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -4863,7 +4863,7 @@
         "row": -2,
         "id": "c-8r-2",
         "candidate_fraction": 0.969279,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -5143,7 +5143,7 @@
         "row": -1,
         "id": "c-8r-1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -5430,7 +5430,7 @@
         "row": 0,
         "id": "c-8r0",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -5717,7 +5717,7 @@
         "row": 1,
         "id": "c-8r1",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -6025,7 +6025,7 @@
         "row": 2,
         "id": "c-8r2",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -6326,7 +6326,7 @@
         "row": 3,
         "id": "c-8r3",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -6620,7 +6620,7 @@
         "row": 4,
         "id": "c-8r4",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -6907,7 +6907,7 @@
         "row": 5,
         "id": "c-8r5",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -7173,7 +7173,7 @@
         "row": 6,
         "id": "c-8r6",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -7432,7 +7432,7 @@
         "row": 7,
         "id": "c-8r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -7691,7 +7691,7 @@
         "row": 8,
         "id": "c-8r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -7922,7 +7922,7 @@
         "row": 9,
         "id": "c-8r9",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -8104,7 +8104,7 @@
         "row": 10,
         "id": "c-8r10",
         "candidate_fraction": 0.176841,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -7,
@@ -8563,14 +8563,14 @@
         "name": "EL PILAR",
         "source_id": "barrios.11",
         "administrative_area_km2": 0.27952053569493146,
-        "published_ground_envelope_intersection_km2": 0.2477662802202757,
+        "published_ground_envelope_intersection_km2": 0.2795205356949314,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "SAN PABLO",
         "source_id": "barrios.12",
         "administrative_area_km2": 0.6931638739375532,
-        "published_ground_envelope_intersection_km2": 0.5063039742912401,
+        "published_ground_envelope_intersection_km2": 0.5905986676682464,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8626,14 +8626,14 @@
         "name": "SAN ANTONIO ABAD",
         "source_id": "barrios.20",
         "administrative_area_km2": 0.6931085647657959,
-        "published_ground_envelope_intersection_km2": 0.4541729730463828,
+        "published_ground_envelope_intersection_km2": 0.49799636663706887,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "INDUSTRIA",
         "source_id": "barrios.21",
         "administrative_area_km2": 0.5882993225574582,
-        "published_ground_envelope_intersection_km2": 0.3916772985819105,
+        "published_ground_envelope_intersection_km2": 0.45278844825561515,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8647,7 +8647,7 @@
         "name": "CAÑICAS - CANAL DE MARIA CRISTINA",
         "source_id": "barrios.23",
         "administrative_area_km2": 1.340734298802062,
-        "published_ground_envelope_intersection_km2": 0.01981873507225592,
+        "published_ground_envelope_intersection_km2": 0.08704961360322738,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {

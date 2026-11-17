@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "baec131",
+  "new_source": "left8.webp",
+  "extent": [
+    12288,
+    8192
+  ],
+  "old_changed_sources": [
+    "top3.webp",
+    "left3.webp",
+    "top4.webp",
+    "left4.webp",
+    "top5.webp",
+    "left5.webp",
+    "left6.webp",
+    "left7.webp"
+  ],
+  "old_changed_pixels": 6225857,
+  "unchanged_outside_explicit_join_and_NW_masks": true,
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=596657.4016431707%2C4316744.235551477%2C599886.1627844381%2C4318542.136402042&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        596657.4016431707,
+        4316744.235551477,
+        599886.1627844381,
+        4318542.136402042
+      ],
+      "retrieved": "2026-11-16",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596657.4016431707%2C4316744.235551477%2C599886.1627844381%2C4318542.136402042&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596657.4016431707%2C4316744.235551477%2C599886.1627844381%2C4318542.136402042&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596657.4016431707%2C4316744.235551477%2C599886.1627844381%2C4318542.136402042&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.857046432417474,39.00444451911784,-1.8469535510153046,39.009783468498895",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.865774892774717,39.00122776158924,-1.8556826016864998,39.006567294473385",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8745025747430732,38.99801033749469,-1.8644108741711218,39.00335045363587",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8832294782250123,38.99479224705521,-1.8731383683714746,39.000132946207394"
+    ],
+    "NW_buildings": "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8559553201472145,39.001000961535674,-1.8446264515528592,39.009783468498895",
+    "CIAb": "https://www.aguasdealbacete.com/ciab",
+    "CIAb_2026_photo": "https://www.eldigitaldealbacete.com/2026/09/14/albacete-mira-a-la-feria-desde-las-alturas-el-mirador-del-centro-de-interpretacion-del-agua-vuelve-a-ser-uno-de-los-grandes-reclamos/",
+    "NW_street_view_april2026": "https://www.google.com/maps/@39.0070093,-1.8499798,677a,90y,270h,90t/data=!3m7!1e1!3m5!1sGoKU1VEwZD86Oo_qNF0uhg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DGoKU1VEwZD86Oo_qNF0uhg%26yaw%3D270!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "limits": [
+    "PNOA sample dates July2024, not a certification of November2026 conditions.",
+    "317 current OSM footprint ways in four west-edge source rectangles, not an exhaustive building inventory.",
+    "NW upper corridor is asphalt highway; lower corridor railway retained. April2026 Street View supports corridor and open ground, not every parcel.",
+    "Water tower retained as a slender shaft and elevated tank grounded in operator and September2026 photograph, not an invented squat roof cylinder.",
+    "Low western-edge sheds and open fields retained; no automatic industrial-area expansion.",
+    "Small facades, trees and roof detail are interpreted illustration.",
+    "Envelope is not whole Albacete nor completion percentage."
+  ]
+}
