@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "879218a865ddf6d84f43aca8ddecf6a117d0c7df",
+  "new_source": "left18.webp",
+  "new_cells": 1,
+  "extent": [
+    20992,
+    8704
+  ],
+  "actual_source_union_km2": 14.79591138400819,
+  "old_changed_sources": [
+    "left16.webp",
+    "left17a.webp"
+  ],
+  "old_changed_pixels": 96539,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "new_source_world_rect": [
+    -4.25,
+    0.75,
+    -4,
+    1
+  ],
+  "registration": {
+    "inliers": 2074,
+    "median_error": 0.46246144951482093,
+    "matrix": [
+      [
+        0.8165955821362052,
+        -3.513882524047862e-05,
+        -0.15562433436798237
+      ],
+      [
+        3.513882524047862e-05,
+        0.8165955821362052,
+        0.18072377543242504
+      ]
+    ]
+  },
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=597318.8410667651%2C4318248.4243745105%2C597917.9598512355%2C4318763.762951393&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg",
+      "bbox": [
+        597318.8410667651,
+        4318248.4243745105,
+        597917.9598512355,
+        4318763.762951393
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597318.8410667651%2C4318248.4243745105%2C597917.9598512355%2C4318763.762951393&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=1100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597318.8410667651%2C4318248.4243745105%2C597917.9598512355%2C4318763.762951393&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=1100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597318.8410667651%2C4318248.4243745105%2C597917.9598512355%2C4318763.762951393&WIDTH=2200&HEIGHT=2200&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=1100&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8727700327179189,39.00728009833072,-1.8622474730557161,39.01548961656728"
+    ],
+    "municipality_street": "https://www.albacete.es/es/noticias/isabel-portugal-dara-nombre-calle-ciudad-perpetuando-asi-memoria-figura-gran-relevancia",
+    "construction_report": "https://www.europapress.es/castilla-lamancha/noticia-pleno-albacete-aprueba-nuevo-desarrollo-urbanistico-entrada-carretera-madrid-190-viviendas-20261103182500.html"
+  },
+  "limits": [
+    "Explicitly dated July2024 foundation/construction-site artistic interpretation. It does not depict or certify the November2026 block height, facades or completion.",
+    "Two OSM construction footprint polygons last edited7March2025 ground the positions; low columns and materials are interpreted, not an exact worksite inventory.",
+    "March2026 street-name announcement and3November2026 UA2 being built report establish city-side development context, not the specific blocks current completion.",
+    "No completed future architecture, marketed pools or speculative floor counts added.",
+    "One city-side cell only, not Campollano or an expansion north of motorway. Road join corrected only inside explicit overlap mask.",
+    "Not a completion percentage or exhaustive city census."
+  ]
+}

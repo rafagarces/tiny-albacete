@@ -9,7 +9,7 @@
     "maxY": 3
   },
   "comparison": {
-    "url": "base-left17.jpg",
+    "url": "base-left18.jpg",
     "x": -4.5,
     "y": -1.25,
     "width": 10.25,
@@ -456,6 +456,14 @@
       "y": 1.25,
       "width": 0.5,
       "height": 1.25
+    },
+    {
+      "id": "left18",
+      "url": "left18.webp",
+      "x": -4.25,
+      "y": 0.75,
+      "width": 0.25,
+      "height": 0.25
     }
   ],
   "display": {
@@ -465,7 +473,7 @@
     "width": 10.25,
     "height": 4.25
   },
-  "asset_revision": "left17-reference-20261117",
+  "asset_revision": "left18-reference-20261117",
   "sparse_atlas": true,
   "coverage_note": "Actual source rectangles form a stepped edge; transparent pixels outside those rectangles are not supplied art or completed city."
 }

@@ -379,3 +379,6 @@ Two sourcecells x5.5..5.75,y.25...75 complete the contiguous pale-roof blocks.17
 
 ## 2026-11-17 LEFT17 bounded Canicas
 Eleven new sourcecells complete contiguous shopping center and sports facilities. Top-left motorway-side cell excluded. Two registered panels1064/1241inliers,median0.672/0.721px. ThreePNOAsamplesJuly2024 plus liveOSM.350217maskedleft16pixels changed;52other sources exact,map/3D exact.697native tiles/view pixel-exact,599actualcells/697bounds,14.77125153170115km2. Not completion or current2026survey.
+
+## 2026-11-17 LEFT18 dated construction interpretation
+One512square cell x[-4.25,-4],y[.75,1] completes city-side construction site. Two exact currentOSM construction footprints(lastedit7Mar2025),threePNOAsamplesJuly2024,andmunicipality24Mar2026streetnamecontext;3Nov2026reportUA2beingbuilt. Art explicitly depicts dated2024foundations,notcertified2026floorheightsorcompletion. No finished future blocks or pools. PrivateEsri19Sep2025contrastnotinputtogenerationorpublished. V1rejectedfootprintdrift,V2correctedwithannotatedOSM,V3onlyboundedroadjoin.2074registrationinliers,median0.462px.96539maskedoldpixelschangedinleft16/left17a,53otherprior sources exact,map/3D exact.697native tiles/viewpixel-exact,600actualcells/697bounds,14.79591138400819km2,ledger421to422noregression. Notcitycompletion.
