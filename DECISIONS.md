@@ -373,3 +373,6 @@ Added x5.25..5.5,y-.75..1 only. Excluded last lower generated512row: no automati
 
 ## 2026-11-17 BOTTOM11 localized Vereda edge
 Four cells x-0.5..0.5,y2.75..3. July2024 PNOA and live OSM, original art registration1632inliers median0.499px. PNOA automatic registration rejected(2matches). Existing sources all unchanged except237196 masked bottom9 pixels. Preserve older artistic heights above seam, not surveyed. No detached outskirts added. Memory-safe tiled pyramid build, native tiles checked exact; lower levels use contextual Lanczos reduction.
+
+## 2026-11-17 RIGHT20 bounded Calle Maraton
+Two sourcecells x5.5..5.75,y.25...75 complete the contiguous pale-roof blocks.1794artregistrationinliers,median0.421px;3PNOAsamplesJuly2024,liveOSM.Only94581maskedright19pixels changed;51other sources exact,map/3D exact.663native tiles perview checked,588actualcells/663bounds,14.499993156327605km2. Not completion or current2026survey. Wider researched lower ground excluded.

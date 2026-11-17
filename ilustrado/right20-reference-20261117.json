@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "f272478929e516339decf92036f345d8627b71d3",
+  "new_source": "right20.webp",
+  "new_source_pixels": [
+    512,
+    1024
+  ],
+  "extent": [
+    19968,
+    8704
+  ],
+  "actual_source_union_km2": 14.499993156327605,
+  "old_changed_sources": [
+    "right19.webp"
+  ],
+  "old_changed_pixels": 94581,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "new_source_world_rect": [
+    5.5,
+    0.25,
+    5.75,
+    0.75
+  ],
+  "registration": {
+    "inliers": 1794,
+    "median_error": 0.4205650435374002,
+    "matrix": [
+      [
+        1.0001867375481592,
+        3.782608697429547e-06,
+        -0.9645803291518876
+      ],
+      [
+        -3.782608697429547e-06,
+        1.0001867375481592,
+        -0.02004074122481217
+      ]
+    ]
+  },
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=599472.3288858815%2C4314309.843461883%2C600259.2792672659%2C4314916.793629741&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        599472.3288858815,
+        4314309.843461883,
+        600259.2792672659,
+        4314916.793629741
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=599472.3288858815%2C4314309.843461883%2C600259.2792672659%2C4314916.793629741&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=599472.3288858815%2C4314309.843461883%2C600259.2792672659%2C4314916.793629741&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=599472.3288858815%2C4314309.843461883%2C600259.2792672659%2C4314916.793629741&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8480935396081601,38.97374003015506,-1.8449034954545762,38.97615293072453"
+    ],
+    "OSM_corridors": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8480935396081601,38.97374003015506,-1.8449034954545762,38.97615293072453"
+    ]
+  },
+  "limits": [
+    "Two new rectangular cells extend a contiguous residential area. The Calle Maraton / Avenida Olimpia block ends are completed; this does not certify Universidad complete.",
+    "The stepped exterior remains transparent. No detached industrial area or village has been added.",
+    "PNOA sampled July2024 at three points, not a current2026 facade survey. OSM research rectangles extend beyond the new illustration.",
+    "Facade, vegetation and roof details are reference-led artistic interpretation, not an exact replica."
+  ]
+}
