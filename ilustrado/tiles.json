@@ -5,14 +5,14 @@
   "bounds": {
     "minX": -4.0,
     "minY": -1.25,
-    "maxX": 5,
+    "maxX": 5.25,
     "maxY": 2.75
   },
   "comparison": {
-    "url": "base-right17.jpg",
+    "url": "base-right18.jpg",
     "x": -4.0,
     "y": -1.25,
-    "width": 9,
+    "width": 9.25,
     "height": 4.0,
     "pyramid": "comparison.dzi"
   },
@@ -400,16 +400,24 @@
       "y": -0.75,
       "width": 0.25,
       "height": 2
+    },
+    {
+      "id": "right18",
+      "url": "right18.webp",
+      "x": 5.0,
+      "y": -0.75,
+      "width": 0.25,
+      "height": 2
     }
   ],
   "display": {
     "url": "atlas.dzi",
     "x": -4.0,
     "y": -1.25,
-    "width": 9,
+    "width": 9.25,
     "height": 4.0
   },
-  "asset_revision": "right17-reference-20261117",
+  "asset_revision": "right18-reference-20261117",
   "sparse_atlas": true,
   "coverage_note": "Actual source rectangles form a stepped edge; transparent pixels outside those rectangles are not supplied art or completed city."
 }

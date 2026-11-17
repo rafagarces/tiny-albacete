@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "3db92192f233a2ee90c602f799a2282f1f7b430d",
+  "new_source": "right18.webp",
+  "new_source_pixels": [
+    512,
+    4096
+  ],
+  "extent": [
+    18944,
+    8192
+  ],
+  "actual_source_union_km2": 14.080775667113734,
+  "old_changed_sources": [
+    "right17.webp"
+  ],
+  "old_changed_pixels": 351284,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "new_source_world_rect": [
+    5,
+    -0.75,
+    5.25,
+    1.25
+  ],
+  "registration": [
+    {
+      "panel": "a",
+      "inliers": 2891,
+      "median_error": 0.39433245577226606,
+      "matrix": [
+        [
+          0.999782539606293,
+          -0.00025880420316513284,
+          -0.7043583811710535
+        ],
+        [
+          0.00025880420316513284,
+          0.999782539606293,
+          0.18230224161261602
+        ]
+      ]
+    },
+    {
+      "panel": "b",
+      "inliers": 2464,
+      "median_error": 0.38234560110282434,
+      "matrix": [
+        [
+          1.0000075887714714,
+          6.9093322114480975e-06,
+          -0.1394191508201737
+        ],
+        [
+          -6.9093322114480975e-06,
+          1.0000075887714714,
+          0.07222041852410109
+        ]
+      ]
+    },
+    {
+      "panel": "c",
+      "inliers": 2477,
+      "median_error": 0.39785716522309167,
+      "matrix": [
+        [
+          0.999876904129757,
+          -2.8392429570608196e-05,
+          -0.2647620735170567
+        ],
+        [
+          2.8392429570608196e-05,
+          0.999876904129757,
+          0.13410773481250884
+        ]
+      ]
+    }
+  ],
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=599181.0416983252%2C4314430.347265832%2C600907.15006428%2C4315495.355388577&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        599181.0416983252,
+        4314430.347265832,
+        600907.15006428,
+        4315495.355388577
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=599181.0416983252%2C4314430.347265832%2C600907.15006428%2C4315495.355388577&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=599181.0416983252%2C4314430.347265832%2C600907.15006428%2C4315495.355388577&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=599181.0416983252%2C4314430.347265832%2C600907.15006428%2C4315495.355388577&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8457030077447263,38.976878214265845,-1.835613794392598,38.982216484085214",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8544285440021913,38.9736622472312,-1.8443399197590855,38.979001100236005"
+    ],
+    "OSM_corridors": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8457030077447263,38.976878214265845,-1.835613794392598,38.982216484085214",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8544285440021913,38.9736622472312,-1.8443399197590855,38.979001100236005"
+    ]
+  },
+  "limits": [
+    "Eight new rectangular cells extend a contiguous residential area. Not all Medicina or Universidad is complete.",
+    "The stepped exterior remains transparent. No detached industrial area or village has been added.",
+    "PNOA sampled July2024 at three points, not a current2026 facade survey. OSM research rectangles extend beyond the new illustration.",
+    "Facade, vegetation and roof details are reference-led artistic interpretation, not an exact replica."
+  ]
+}
