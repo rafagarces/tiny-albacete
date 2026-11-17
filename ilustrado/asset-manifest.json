@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "base_commit": "4c23a84a85696ccb66af7c88ed93b6b13fc18f79",
+  "base_commit": "eb74d7d33e1d3226dc26aba4706a20ab4f5cc49d",
   "representation": "fixed-camera interpreted raster scenes; not multi-angle 3D",
   "files": [
     {
@@ -10,13 +10,13 @@
     },
     {
       "name": "art.js",
-      "bytes": 10687,
-      "sha256": "36a28bf2647766fe4914f58050bb9f8e91c00cb2dcf79004e5fb3e3e6e065a93"
+      "bytes": 10769,
+      "sha256": "90a1a48091ade7469de54e213e2fc826895b97ab16acbc8e7521ff4f493387a2"
     },
     {
       "name": "atlas.dzi",
       "bytes": 143,
-      "sha256": "91221755078a13de5c1ede656d8251ac3a99519040d8b026ed3c5041901581ee"
+      "sha256": "f33f1d7aa4c6d6ddce9e871ac6674c98ab0b82b2640b1f8ee45471ec27a5ac4b"
     },
     {
       "name": "atlas_files/0/0_0.webp",
@@ -26,7 +26,7 @@
     {
       "name": "atlas_files/1/0_0.webp",
       "bytes": 62,
-      "sha256": "e1ed71115830b6385ed78e625cf6308bc2fc0b24ffdad8e4be9dd06cb463b423"
+      "sha256": "0b32ba784514d29cd7322140fbc6f35cfc2bc7a22d2d7b584230db5c95df4404"
     },
     {
       "name": "atlas_files/10/0_0.webp",
@@ -40,8 +40,8 @@
     },
     {
       "name": "atlas_files/10/1_0.webp",
-      "bytes": 147534,
-      "sha256": "f10345d409999e8af684b2abeb8ad884da531f019d7dadd59ac7c7e3ff244779"
+      "bytes": 157272,
+      "sha256": "28aaaca7e5d3520d882674d42e6e8bff980464231d2de812be9433caea13080f"
     },
     {
       "name": "atlas_files/10/1_1.webp",
@@ -110,13 +110,13 @@
     },
     {
       "name": "atlas_files/11/3_0.webp",
-      "bytes": 135370,
-      "sha256": "7521867cfce7769a365c49768229165096beb847648f40cc65da839e499519cb"
+      "bytes": 154634,
+      "sha256": "9b641a1581367263ab239bc9b4635d8dd11e9d3f9de3191de31a41ef7b7e084a"
     },
     {
       "name": "atlas_files/11/3_1.webp",
-      "bytes": 141348,
-      "sha256": "3064604f13b03bd8fd07f27f06feddca704f18fc0cf2e5bbb16cb08329073b34"
+      "bytes": 160990,
+      "sha256": "7f4516cb4450de3e069070ab0107effb44bf111bee78b5fdfee3a15c1f2fc9b4"
     },
     {
       "name": "atlas_files/11/3_2.webp",
@@ -410,23 +410,23 @@
     },
     {
       "name": "atlas_files/12/7_0.webp",
-      "bytes": 114614,
-      "sha256": "0505065f38cc9a14d38fe37fca4d77974743d1088adf518a77b4b41c526229a3"
+      "bytes": 153110,
+      "sha256": "6275ea3100634c7ac27dbc7bd5a9ed920377ebd9473d24b48ea1948c66f7cb51"
     },
     {
       "name": "atlas_files/12/7_1.webp",
-      "bytes": 111600,
-      "sha256": "024c79d133263e7b56a3a9bae2ae0ed30789a45c68b1dd80be731faa00811e79"
+      "bytes": 148490,
+      "sha256": "73a17013e9d5332165ac9b9be3c339f67affd3568de602d685ad6cb2c8b6f097"
     },
     {
       "name": "atlas_files/12/7_2.webp",
-      "bytes": 114012,
-      "sha256": "d6dd83cecea15dc70272f05da8765e7e3c813461b0efc86f05baa00d096c3c7c"
+      "bytes": 155980,
+      "sha256": "e9ea2d94321d249687e318b8f85c3986a3e801a0374f9b4418ce7312f2858bbb"
     },
     {
       "name": "atlas_files/12/7_3.webp",
-      "bytes": 117930,
-      "sha256": "da27d8e5265a017e95aa6cf2b16e791b71621a485b2d238556547015b86663c3"
+      "bytes": 156156,
+      "sha256": "dbdb07135cb0bbabd70ca46c04e5489a311f63f5d400fd7933b1140c98b1948b"
     },
     {
       "name": "atlas_files/12/7_4.webp",
@@ -930,13 +930,13 @@
     },
     {
       "name": "atlas_files/13/15_0.webp",
-      "bytes": 70156,
-      "sha256": "dc5dff26b91a280f6ba8b8eb5f920040d3904407a278f90273dd5b7aca4a00a4"
+      "bytes": 149366,
+      "sha256": "f916710f56692d2804a274f318b49ee6247d117da19128955a4f8f60567fc9b0"
     },
     {
       "name": "atlas_files/13/15_1.webp",
-      "bytes": 71686,
-      "sha256": "dad7148105452db89afbd5c435f034ec67e7e5e475d4ab711b3547ded1a8d947"
+      "bytes": 141968,
+      "sha256": "d7a6a139fa6a9557bb092cc53f5e1d8b7a3fa02dadb559224442cb72e0105290"
     },
     {
       "name": "atlas_files/13/15_10.webp",
@@ -970,33 +970,33 @@
     },
     {
       "name": "atlas_files/13/15_2.webp",
-      "bytes": 74694,
-      "sha256": "369b083be0d6f0d481078d9c22c191068b4a8b521dd018be87a6fabc6fe356c8"
+      "bytes": 146022,
+      "sha256": "1d6f2d4faa4838fd7186a578373bfa5a5475c0e872958ca32661a06043b48969"
     },
     {
       "name": "atlas_files/13/15_3.webp",
-      "bytes": 69066,
-      "sha256": "a4da2e3cea8aa0fbad25a2aa6b7161716d37725536bb1e232709d8bace6741ed"
+      "bytes": 144292,
+      "sha256": "0aea709ffbc54870b55a31a9bc08b9fbd26f37599982f7db57cd50d4a6130c8e"
     },
     {
       "name": "atlas_files/13/15_4.webp",
-      "bytes": 76012,
-      "sha256": "55b80d64d48c69c49de28370bf38da7dce3a5a5da210327cfa02a55cf0ff3db3"
+      "bytes": 148944,
+      "sha256": "aaf9ce7f02295e271180a3b3a0b4acff7791f885de12ce065de6021c05ea7e07"
     },
     {
       "name": "atlas_files/13/15_5.webp",
-      "bytes": 73506,
-      "sha256": "074d7e8082f99a48aa15c2e43b8a4c1b118650b2c57c1ac7797198302c4cd47c"
+      "bytes": 145734,
+      "sha256": "dec3fcc359a635caf01d287a4855351cef3cace73198a7729e66da7d4216e9e5"
     },
     {
       "name": "atlas_files/13/15_6.webp",
-      "bytes": 72672,
-      "sha256": "f23e5330af4e62733149b90bff018a9ab2ede4cf1b9762c84aeaac8d0875433e"
+      "bytes": 142326,
+      "sha256": "9ca0c08f73f7c76ff8513b1acc1bed8abf824c881557526f99d1615177e321a0"
     },
     {
       "name": "atlas_files/13/15_7.webp",
-      "bytes": 76516,
-      "sha256": "8c31025bfb95504a67c40929c2ba7193259d06a6318d3c4ea65e688c75a8624b"
+      "bytes": 149202,
+      "sha256": "7e9a437d1dd5cbb2a502e295bdbd231eac928b5968a3543d8ebc6ebd0a071857"
     },
     {
       "name": "atlas_files/13/15_8.webp",
@@ -3570,83 +3570,163 @@
     },
     {
       "name": "atlas_files/14/30_0.webp",
-      "bytes": 399270,
-      "sha256": "d7b1cd461025d66ac02914335ce133d9fdb319eeadb36c45d325319373012e7c"
+      "bytes": 403006,
+      "sha256": "69b7f0c54caf9ea5776b604d6703da8d553a7ebfbe650fc9c26ae080978c1e90"
     },
     {
       "name": "atlas_files/14/30_1.webp",
-      "bytes": 380156,
-      "sha256": "74506e39cc2faead8e7e41abfdd0140fe12ea3485a8e41d5e84b1ca03737d618"
+      "bytes": 384032,
+      "sha256": "6d70b2fe51a9c75f80134b43d596ca7e0122b5662fa428a1dc387c3eb44c3aee"
     },
     {
       "name": "atlas_files/14/30_10.webp",
-      "bytes": 441160,
-      "sha256": "75e13c332b684b807d8e57ebaed21743d4365868ebab7fb99d99bd13fa77a9ca"
+      "bytes": 439422,
+      "sha256": "0a39cc26e33518bbdc38a1e4bff5198e68949ea284b4a123adfa9d591b259636"
     },
     {
       "name": "atlas_files/14/30_11.webp",
-      "bytes": 425036,
-      "sha256": "ba438b991cff63dd9619a13607638ac14606709276d7a952a2505a972ef7215f"
+      "bytes": 424376,
+      "sha256": "b45a531d2961140511b619ab0c17d38408700e632e453e4b616e6a78be483644"
     },
     {
       "name": "atlas_files/14/30_12.webp",
-      "bytes": 423922,
-      "sha256": "00167a28a56be50da2aeab7c5698a9342b879fae4e78b5d6d5377e516f40d7af"
+      "bytes": 424540,
+      "sha256": "b5fcff45576005110b1a074264c1b1b66419495a4eaf274f7c680deb4e549e2e"
     },
     {
       "name": "atlas_files/14/30_13.webp",
-      "bytes": 437576,
-      "sha256": "d784f4df5856f37a4cb5621614fda373b62525aa335bb53ff25ec7d41b83c398"
+      "bytes": 437224,
+      "sha256": "91ccbf8595c0cb659add32ef89d22657559b8adecbdab24a1fff8cac1645ad49"
     },
     {
       "name": "atlas_files/14/30_14.webp",
-      "bytes": 446956,
-      "sha256": "4d18e50a14e40bbfde45734237557f5f00bbe8c6b0acda8ee12df9db8edf01e7"
+      "bytes": 444460,
+      "sha256": "b9968867bab0c2412797dbaa939ee589e463b898069dbf837ee481450b03607d"
     },
     {
       "name": "atlas_files/14/30_15.webp",
-      "bytes": 436382,
-      "sha256": "497d5a0ab5b3659221039c9eb8e69b0484b9fefbe1b4d9505d9874468f4e23aa"
+      "bytes": 434224,
+      "sha256": "46d3d13f661e562c5bb2b956fb10e33d6b92417de5753e0a95724e388c168084"
     },
     {
       "name": "atlas_files/14/30_2.webp",
-      "bytes": 400394,
-      "sha256": "910eaab511bfcf9df861d9f85241d796bc962fce379ec200270737e7c99bd3fd"
+      "bytes": 401888,
+      "sha256": "043be014f14c276b37f324206ea4b8d3fc6667659a0b9eeb3fae720e55e1aae0"
     },
     {
       "name": "atlas_files/14/30_3.webp",
-      "bytes": 436416,
-      "sha256": "9ef6f0e2295fda2975b50b2e77205a710d79253a903dc9d0b412a5876706c447"
+      "bytes": 433088,
+      "sha256": "c0db2be6cceed0cea959b953bde4a05ab638c3c110cb4553b0b244db56a4f3c3"
     },
     {
       "name": "atlas_files/14/30_4.webp",
-      "bytes": 448912,
-      "sha256": "b7c3b13742e67929e35ed930b67f2726338a746c20f3ee3834a8a941e305f9cd"
+      "bytes": 445978,
+      "sha256": "992a2a8ce3fb104d4bd13e0c0ed768cb884f887878bff21a734b406ca6865177"
     },
     {
       "name": "atlas_files/14/30_5.webp",
-      "bytes": 452530,
-      "sha256": "31f3a39808d6040150334816b13ef57f9ded0477e8e0e05b4c4e3f9ee8e37843"
+      "bytes": 449124,
+      "sha256": "b4a91042d8cc2a196d26f0e9be0bbf2d47e9135aafa937792ff37366507fe7de"
     },
     {
       "name": "atlas_files/14/30_6.webp",
-      "bytes": 453786,
-      "sha256": "56fcb58486b7194bc2a6471328c311907631231ffec42d03a9af1d2c076efe2f"
+      "bytes": 451352,
+      "sha256": "853467e1736d4880fe86ad4519190f052ef01b6682ea732817b73fbad7f87369"
     },
     {
       "name": "atlas_files/14/30_7.webp",
-      "bytes": 399336,
-      "sha256": "f1e20f539501dec9c2dcb1ec82fbc8a33c62800e6177663c66fae5fb52e80ffa"
+      "bytes": 398016,
+      "sha256": "f35cf58ef369fbb2cfe6bec30f974962d4304cf28c9f737d02e7813d7c8fe13b"
     },
     {
       "name": "atlas_files/14/30_8.webp",
-      "bytes": 457430,
-      "sha256": "ec02c2c8a41906dd8e0d594299cd923cddf265b44d360e04fc8c448f6b60f4f8"
+      "bytes": 455536,
+      "sha256": "5f39287955a0a1996a46fb9cb4f43db2a9d796cc95f391d10cb6d72ec14c76e3"
     },
     {
       "name": "atlas_files/14/30_9.webp",
-      "bytes": 461548,
-      "sha256": "7898d63ac9340a4b235658273b9c3d7ec162b8fba5705c9a02cce09e892680e9"
+      "bytes": 459996,
+      "sha256": "c400dceecf67da713abb6fb9401f420676f85d466aba2e9470d175a5f0f4c601"
+    },
+    {
+      "name": "atlas_files/14/31_0.webp",
+      "bytes": 441844,
+      "sha256": "86c098324dd42f3df81046af5dde71cf4b5b684068b6a4f1bc6a62cb443defe5"
+    },
+    {
+      "name": "atlas_files/14/31_1.webp",
+      "bytes": 439462,
+      "sha256": "e47a9c6f9e4e51e70a65bbd3b63d188624a15041f2e9b882c8e14b58cb7d6950"
+    },
+    {
+      "name": "atlas_files/14/31_10.webp",
+      "bytes": 442738,
+      "sha256": "d29239b61cd7e2f4b4c9bc4b0e6206125a78c7a09874451b776bc63f66027496"
+    },
+    {
+      "name": "atlas_files/14/31_11.webp",
+      "bytes": 433076,
+      "sha256": "5c07a7aed903b5922c1df39aab2310e37f17ca70c80aed220fbf0ad1c13f2505"
+    },
+    {
+      "name": "atlas_files/14/31_12.webp",
+      "bytes": 425364,
+      "sha256": "b0b029043a1a29e91ec3b64c21202bfffbbcb63ea6ec1eb92302044a3a5b5edd"
+    },
+    {
+      "name": "atlas_files/14/31_13.webp",
+      "bytes": 409222,
+      "sha256": "52cde8fb8b33398a43582b96a1cb9d16ef62bb543416a2ce6bf94d90b842788c"
+    },
+    {
+      "name": "atlas_files/14/31_14.webp",
+      "bytes": 430130,
+      "sha256": "4190ba63157d28104e31217aeb35c961bf6a6f7ded58b8dd125de3b11ab9a133"
+    },
+    {
+      "name": "atlas_files/14/31_15.webp",
+      "bytes": 432184,
+      "sha256": "90c2914e80d95c6472dc741261562d8ea565a090bc301d83a321bc3d51347c10"
+    },
+    {
+      "name": "atlas_files/14/31_2.webp",
+      "bytes": 419258,
+      "sha256": "bb81ffcd87313bf34d7a2c6db5dbbb91da2b14b3909765f701a7f9c432a633b3"
+    },
+    {
+      "name": "atlas_files/14/31_3.webp",
+      "bytes": 422498,
+      "sha256": "a30443ddf9913f924594099b7ea53e8393bc6cc0197e84089488ed6201285803"
+    },
+    {
+      "name": "atlas_files/14/31_4.webp",
+      "bytes": 437464,
+      "sha256": "d2c4fbde72a372c105965ed91baac2cafda6e8934c2f2e392b405f3c3cbd52e2"
+    },
+    {
+      "name": "atlas_files/14/31_5.webp",
+      "bytes": 430170,
+      "sha256": "d1b9ae38c776545a0ba73f1f956a41cc5b6b50223814f9fea8ef34cd9716b550"
+    },
+    {
+      "name": "atlas_files/14/31_6.webp",
+      "bytes": 454112,
+      "sha256": "57b0382a4e12b6c2b015bb7f97969d51353baa5acbb9ceecc50064f95b3f5be1"
+    },
+    {
+      "name": "atlas_files/14/31_7.webp",
+      "bytes": 482346,
+      "sha256": "344df3d581f36305dc771dff4f30121450d69c47ef3ea8b12d84af7900a874ba"
+    },
+    {
+      "name": "atlas_files/14/31_8.webp",
+      "bytes": 469662,
+      "sha256": "a63c46e194b12cdce42bbd00326df862535a078b25b19fe089043d8e4ca27a45"
+    },
+    {
+      "name": "atlas_files/14/31_9.webp",
+      "bytes": 445744,
+      "sha256": "d0fe18558ded08052ed046b373f7bfc1a0313670e05b665a83b5c91e36e6f713"
     },
     {
       "name": "atlas_files/14/3_0.webp",
@@ -4215,38 +4295,38 @@
     },
     {
       "name": "atlas_files/3/0_0.webp",
-      "bytes": 82,
-      "sha256": "7022aecc988b608b04be056912eb0fad354d80e32c630e124b9965b89f193874"
+      "bytes": 80,
+      "sha256": "822720c520d59f911838c158b28b6c485aceffc6e2990cfaa382b637b72f0782"
     },
     {
       "name": "atlas_files/4/0_0.webp",
-      "bytes": 108,
-      "sha256": "3516f8c64c6b29315dd105f87fbd06c1dd47c970034287c4fb2f7558b04d92a3"
+      "bytes": 104,
+      "sha256": "74f36397e0f9b2d824b83e1843b53e3f8c54a63349c8a5c1f5f82a7a494efbf3"
     },
     {
       "name": "atlas_files/5/0_0.webp",
       "bytes": 256,
-      "sha256": "2b5c537c0d6e991d0a1c31e01329090b0c7b0162f7991e11b7feb625499480e6"
+      "sha256": "d1dbbaa1f476dcf15626c7cf91ea9d4b81fe2d90f204b46a147bd55069990a92"
     },
     {
       "name": "atlas_files/6/0_0.webp",
-      "bytes": 886,
-      "sha256": "bdcdcde9b8f9d8ab3b6de668615542bf41f45f3fa252a7eb43fa27db8067f232"
+      "bytes": 922,
+      "sha256": "f17b0cab0be51773d33bc682bb3e63dc1b42d891b62e21f2fa716c1a407a09aa"
     },
     {
       "name": "atlas_files/7/0_0.webp",
-      "bytes": 3682,
-      "sha256": "cb51e10ac30bc31318299d2ba7b657e4c61973f6d1e92eab13ff581e99e1950e"
+      "bytes": 3872,
+      "sha256": "90bb4ace62a8acb7c6a5803aceb0628476da165ecf446dba1c197c986624ee2b"
     },
     {
       "name": "atlas_files/8/0_0.webp",
-      "bytes": 16492,
-      "sha256": "75b96a01746a693e37819d503e07fcfd67803890fa99e83e5746a3a157872bee"
+      "bytes": 16672,
+      "sha256": "9124ef7e587151bfbc0c73e78e03f268712f682feb12b24f4be2abe3d2d067a3"
     },
     {
       "name": "atlas_files/9/0_0.webp",
-      "bytes": 72004,
-      "sha256": "49629d3cd5ce7a7508424423597b2effac9af6a8c63ca0c22756b0b0303b9b3c"
+      "bytes": 74364,
+      "sha256": "4bfe446c6aaf3b17fdbfb4825375676c4609d03a6f4f1ac41fa0e44f8d3770a1"
     },
     {
       "name": "base-bottom.webp",
@@ -4394,6 +4474,11 @@
       "sha256": "f4ec8f544122952aa96b6884d9c0e5d5c1d364863bddd3fd0f09b132758e0532"
     },
     {
+      "name": "base-right15.jpg",
+      "bytes": 22395068,
+      "sha256": "a709a7228412823878e3ec8e215f20e5abdb274467bdca77e467cd5257ca1658"
+    },
+    {
       "name": "base-right2.webp",
       "bytes": 274552,
       "sha256": "d21ef86ced7e8f6d032814b13e187849c58d6115d96ab457032d504aff1f172f"
@@ -4516,17 +4601,17 @@
     {
       "name": "comparison.dzi",
       "bytes": 143,
-      "sha256": "91221755078a13de5c1ede656d8251ac3a99519040d8b026ed3c5041901581ee"
+      "sha256": "f33f1d7aa4c6d6ddce9e871ac6674c98ab0b82b2640b1f8ee45471ec27a5ac4b"
     },
     {
       "name": "comparison_files/0/0_0.webp",
       "bytes": 60,
-      "sha256": "ccd73f1cf45067eca8fb85b05e2633b1c8e1097c13ce31bf83ed850592b53f75"
+      "sha256": "ede21d604b45f60173d2ffd72ac185aee61cb8f467c2cfd813dc512d07cc2ecd"
     },
     {
       "name": "comparison_files/1/0_0.webp",
       "bytes": 72,
-      "sha256": "478b36bd60d1b2f9cb815af5b93e196a8c079b6c29632fc288c16304005763c2"
+      "sha256": "b86cbfeecc0cbcc56bae26f9c3043dac8e06e18c36e6e87f3c4129856fc967d6"
     },
     {
       "name": "comparison_files/10/0_0.webp",
@@ -4540,8 +4625,8 @@
     },
     {
       "name": "comparison_files/10/1_0.webp",
-      "bytes": 128776,
-      "sha256": "3359b305fe7c783d80763c47b3bb1f00ba83c9867d96395a35eb3f3d55e60128"
+      "bytes": 131120,
+      "sha256": "8d488a7d57ba9358e53f6b872d3ac6edf873677bcdd4f4732eaeb495d2c7fc42"
     },
     {
       "name": "comparison_files/10/1_1.webp",
@@ -4610,13 +4695,13 @@
     },
     {
       "name": "comparison_files/11/3_0.webp",
-      "bytes": 92414,
-      "sha256": "711800b7f3ecc7d6a8ef9d6b1316d693a7216b887ff8ead1ed45eda408d46475"
+      "bytes": 95974,
+      "sha256": "63aa5b7336d584adf21bb99340f2d71faf7a0edfc2abfb4c3e5dd4edf365a573"
     },
     {
       "name": "comparison_files/11/3_1.webp",
-      "bytes": 95912,
-      "sha256": "7d8f9390efaeb787f4a385396f1b233fb208db2e80ed2bee4346aea46fafbde4"
+      "bytes": 101432,
+      "sha256": "079bc5dbfb0dd08cf806959e7c6966278347dac3924a21091e5fdbfc279039cb"
     },
     {
       "name": "comparison_files/11/3_2.webp",
@@ -4716,7 +4801,7 @@
     {
       "name": "comparison_files/12/2_1.webp",
       "bytes": 153944,
-      "sha256": "e6895b2e8a5f86a937adf84eaa3b67e178a410af5ba471fd559f38f9ce786b8f"
+      "sha256": "7bec277980fd28ead25ccca29ee9ed7ad1b4487e0e7feb7e35d95bd18d565ef7"
     },
     {
       "name": "comparison_files/12/2_2.webp",
@@ -4910,23 +4995,23 @@
     },
     {
       "name": "comparison_files/12/7_0.webp",
-      "bytes": 15170,
-      "sha256": "6bd070df30c2582587b5fc6f17d0e6ac037b867eb329cdf43f2a5929e4c85e9d"
+      "bytes": 19652,
+      "sha256": "ea380e73dc281a3260417308511c366c6df2938eee7eee104c4d6b21cf77a8b3"
     },
     {
       "name": "comparison_files/12/7_1.webp",
-      "bytes": 22748,
-      "sha256": "cc1c06a7d1dfeed6532b36564191bdd29a891f9d7410bcdeab708303c4b9301f"
+      "bytes": 31602,
+      "sha256": "e98d24357244a19cb33a0c867dbe75a7d986b578220e4fdad7ce05820d18ce17"
     },
     {
       "name": "comparison_files/12/7_2.webp",
-      "bytes": 24142,
-      "sha256": "384e5c6dc80b8930897d182020e1b49f5d5e14e2e7e39c16c00c2e729885da93"
+      "bytes": 33634,
+      "sha256": "8093fdad5a3916454572adee90bf62205e705e3d47b0d02040e0ab9948d8df10"
     },
     {
       "name": "comparison_files/12/7_3.webp",
-      "bytes": 14982,
-      "sha256": "d8f75bfb07e4952138a6654752f8fb688db8ea7f6cafb0e3f0e51b0cf037e11a"
+      "bytes": 19398,
+      "sha256": "45bda15b39a585e36c1d6c0115fef35d02b887271d4302f9acce06541dd7357a"
     },
     {
       "name": "comparison_files/12/7_4.webp",
@@ -5275,8 +5360,8 @@
     },
     {
       "name": "comparison_files/13/13_1.webp",
-      "bytes": 142084,
-      "sha256": "bc10048ce5ee5211451dd1cb43bee17195a168fc64e312c14e8602eb8ea0d014"
+      "bytes": 142038,
+      "sha256": "1e1f9023d584ace438aff8abd92701d06462a191b9da04255e476762dc383cfe"
     },
     {
       "name": "comparison_files/13/13_10.webp",
@@ -5430,13 +5515,13 @@
     },
     {
       "name": "comparison_files/13/15_0.webp",
-      "bytes": 6784,
-      "sha256": "85da9b8236dab792ef99ae94d2deb049a56bb32007a8f18504d1c349821919e6"
+      "bytes": 10378,
+      "sha256": "fcb7a04ca7f8e4279a0447bc67d04ed3faee70e3836a4316614f75167028d853"
     },
     {
       "name": "comparison_files/13/15_1.webp",
-      "bytes": 7118,
-      "sha256": "ddf70d60e8d7e1bf7472ebdc950f979cfaa1c18eb91118617e101730123eadc5"
+      "bytes": 15914,
+      "sha256": "374a9a0f3e526c61632d9c033f3fa6cf9e1740c7b9cb99f278bdefc31c003dc6"
     },
     {
       "name": "comparison_files/13/15_10.webp",
@@ -5470,33 +5555,33 @@
     },
     {
       "name": "comparison_files/13/15_2.webp",
-      "bytes": 10110,
-      "sha256": "6fe37fb55d1a59d09c26cd60b6084a0a3644ad3821a6efa8fcc70751c054db93"
+      "bytes": 18152,
+      "sha256": "69408dac7ca58435ec02bf7de54a54514cf005cea8bf865ffa3f6bac0b8958a4"
     },
     {
       "name": "comparison_files/13/15_3.webp",
-      "bytes": 7624,
-      "sha256": "0f26383570f33d4f1df79e0b0a2d680600f92e837ba7e75e2d82617b5ef5e8af"
+      "bytes": 20896,
+      "sha256": "ac84ada61bbc714ec89c0c4bfc881a3d2752e898bae1a14cb41039f2d525bad0"
     },
     {
       "name": "comparison_files/13/15_4.webp",
-      "bytes": 11366,
-      "sha256": "a3f4a06455b601a107e8f47db0d7d83114a9c86560feb5197889da6de3092654"
+      "bytes": 23414,
+      "sha256": "c8048648d526631b5f3a72b742524b2ff751d7a227cc034cd84def57e128dba1"
     },
     {
       "name": "comparison_files/13/15_5.webp",
-      "bytes": 11750,
-      "sha256": "cff7cbb48d5ec36a28fdb0eda3bafc377cfcacbe7689a7a019cb35c432649a1e"
+      "bytes": 22070,
+      "sha256": "13d007a40ea7466935a7e6f84c59ca57863a187e00a5b6ea793d6e8b156a77a7"
     },
     {
       "name": "comparison_files/13/15_6.webp",
-      "bytes": 11014,
-      "sha256": "f366baf45b880aaf6099458b880a99e2e6bbb2b22411a1bf89690cffffd59088"
+      "bytes": 16050,
+      "sha256": "4205a6e64699637bf76a542cd0f30a031cd29ed2de18e016b0877cfb9f5bbb3d"
     },
     {
       "name": "comparison_files/13/15_7.webp",
-      "bytes": 4970,
-      "sha256": "e2793e14efaa8932ff00b6894cf44c907da184e9e573c46d38fc5c2df1597e52"
+      "bytes": 9874,
+      "sha256": "71ca8d928b652b710d8860601937d7d84a47f809dbb3292f6079fd65ad0182ec"
     },
     {
       "name": "comparison_files/13/15_8.webp",
@@ -5755,8 +5840,8 @@
     },
     {
       "name": "comparison_files/13/4_1.webp",
-      "bytes": 153142,
-      "sha256": "cc78331d240f98d75c88472d2b27bc47f0b5d22f7921aeb563a6bf5be7e7c4ee"
+      "bytes": 153138,
+      "sha256": "1b43d710791dac69ccad110a7e260378cf5affc7085afc58b2e6ab299acb2417"
     },
     {
       "name": "comparison_files/13/4_10.webp",
@@ -5875,8 +5960,8 @@
     },
     {
       "name": "comparison_files/13/5_3.webp",
-      "bytes": 140592,
-      "sha256": "298ebd193cc8952f5d85831c49a527d7482265e3b6f242ffe5538628f1710229"
+      "bytes": 140498,
+      "sha256": "a4d1315c4c41552149a42af1e43b01a10e2a51f6aad63d0d0c2175bca9b1e539"
     },
     {
       "name": "comparison_files/13/5_4.webp",
@@ -5960,8 +6045,8 @@
     },
     {
       "name": "comparison_files/13/6_4.webp",
-      "bytes": 139724,
-      "sha256": "d051ee6fb60a43ef6657852fd52f0056d804e2f0f78154acce528ecf0ff24635"
+      "bytes": 139688,
+      "sha256": "fca7ecf49e7e6f91970a7ae662f44dde4bb10b6555da0a944dcebbc10c4253aa"
     },
     {
       "name": "comparison_files/13/6_5.webp",
@@ -6370,8 +6455,8 @@
     },
     {
       "name": "comparison_files/14/10_6.webp",
-      "bytes": 406158,
-      "sha256": "67a1be27d79aaf3e4d2e59eb60fd7b605e5c622bd6fc1ed04af4785ec799d752"
+      "bytes": 406156,
+      "sha256": "ac3dadd9d23f908e7be1a3c35695d4b684a1b36469024810743922f01125c0cd"
     },
     {
       "name": "comparison_files/14/10_7.webp",
@@ -6625,8 +6710,8 @@
     },
     {
       "name": "comparison_files/14/13_9.webp",
-      "bytes": 391104,
-      "sha256": "7463b01e08bbbdd5406889b9c6106056657a524de42e4424b84ae2951f44612e"
+      "bytes": 391108,
+      "sha256": "d057bd11d8f109ee4ad4ee0988da4286d1f247f2ca25890f08a24d5d433c26f8"
     },
     {
       "name": "comparison_files/14/14_0.webp",
@@ -7790,8 +7875,8 @@
     },
     {
       "name": "comparison_files/14/27_2.webp",
-      "bytes": 369044,
-      "sha256": "6f1ee400ab6dcd8226a414bae294722c899ef870d0aedd0614c85ec70dc06297"
+      "bytes": 369042,
+      "sha256": "1026bf300b745563831c282c3d9e6a8a3fe7296c32dcda4df35150f32aba08dc"
     },
     {
       "name": "comparison_files/14/27_3.webp",
@@ -8070,83 +8155,163 @@
     },
     {
       "name": "comparison_files/14/30_0.webp",
-      "bytes": 28048,
-      "sha256": "7b3de734e1a80bd7d3ead2e7e95e20c5c5b857573c92d0c136c8def9bcfbe4ea"
+      "bytes": 28166,
+      "sha256": "d5e64f0b1d7e567d1f7166a4114237a2d436ad4973dab3e50fef2417987efbf8"
     },
     {
       "name": "comparison_files/14/30_1.webp",
-      "bytes": 42164,
-      "sha256": "aec3a30c602e4c59ed2cc145b5f16920ef10bed2b04a23c6d19a0bbcfb755f8f"
+      "bytes": 42680,
+      "sha256": "87e01fe3b6e0c77077c6f13b5af75a4db0cc7af557b6b876f304065574849499"
     },
     {
       "name": "comparison_files/14/30_10.webp",
-      "bytes": 82548,
-      "sha256": "30a98c2a2c4ff1ffe589e39a0aea838b212dd438b6c6eb6000a0e754ad20c513"
+      "bytes": 82994,
+      "sha256": "3dd0bfc7a8f00fb16640105cdd7c58921aca708c0b74b76c9c153e6ccdd76f21"
     },
     {
       "name": "comparison_files/14/30_11.webp",
-      "bytes": 78750,
-      "sha256": "54f2cbcb50e87d01f0552a0a32d6d27139bfce96382a759a5308c61072444057"
+      "bytes": 78998,
+      "sha256": "95f18e1b144f8157447f5202bf24d2a7564c10cd0d1aa1c8b0ada33c8945c96e"
     },
     {
       "name": "comparison_files/14/30_12.webp",
-      "bytes": 79500,
-      "sha256": "6fed718a9018d0e7e9f63739471b8ccf8d5fa2789c019c631089590f6839762a"
+      "bytes": 79562,
+      "sha256": "6a038f5aa9af2ff61e38de2ad4d65c716a9767829f8ae4fa7e2325ae47122048"
     },
     {
       "name": "comparison_files/14/30_13.webp",
-      "bytes": 76296,
-      "sha256": "2be80715efa699623a8b845e0234ffe354df27e713c8acdda433169bf9951e02"
+      "bytes": 76540,
+      "sha256": "7a4719d4b05811933a9cf0c2e8e9c4269b9779ea27cb2a86cf50ff4b9dcf9772"
     },
     {
       "name": "comparison_files/14/30_14.webp",
-      "bytes": 60884,
-      "sha256": "9e807f62215bcb8a61af2a4bfca7109a388a10d4c28ee75cb991cc966c7dcfe8"
+      "bytes": 61376,
+      "sha256": "96897907adabec872f8238c4a63711dcfb8c256a844d00c4d34b6734e12c1fe5"
     },
     {
       "name": "comparison_files/14/30_15.webp",
-      "bytes": 15294,
-      "sha256": "70a94b3378e7d8ae04d1e89389832f669f5be31c5415fdc8d4144b1275003785"
+      "bytes": 15432,
+      "sha256": "d142d259b836713767359454161eb6b551b0705c7260215d7611ef34ff678f98"
     },
     {
       "name": "comparison_files/14/30_2.webp",
-      "bytes": 28686,
-      "sha256": "bb43191096b53702354c782579accafd1d06fdfdc62128132874b9b1cea0f6b4"
+      "bytes": 28746,
+      "sha256": "84bfa8be77d50d1221a7e34f9de17b3d2b1274f6e51624c09807eb912c9842f5"
     },
     {
       "name": "comparison_files/14/30_3.webp",
-      "bytes": 75592,
-      "sha256": "c611fa451df3e7ea0996a071c5f213ea19ff07db071873d650bb657afdab2c43"
+      "bytes": 76302,
+      "sha256": "59e6614e70444e5adb3a7b025459c7830eb634a654de69c8324e06ec5aa96a99"
     },
     {
       "name": "comparison_files/14/30_4.webp",
-      "bytes": 87782,
-      "sha256": "f07561dd265fa0418945153de1355917a5e0395243e2cfc0da64ddbfc467152e"
+      "bytes": 88268,
+      "sha256": "2d492c308617c6206b254f216ea5d8a4360081894a912c5fd60cea29507d29a5"
     },
     {
       "name": "comparison_files/14/30_5.webp",
-      "bytes": 55758,
-      "sha256": "a7b3112a3acf45e710cd04f4408560cf50f00bb8db8981c77a0c3efa9050e3d6"
+      "bytes": 56008,
+      "sha256": "7f61e2661d1ccca563ee1837643ed17a880baa8e5be9ea04d3ff35127f268cbe"
     },
     {
       "name": "comparison_files/14/30_6.webp",
-      "bytes": 77128,
-      "sha256": "2aa35b4d127c67fc32aea21a2a118d6d935041ce5088499a10f2d751a75d8a46"
+      "bytes": 77380,
+      "sha256": "deced19ddaf7ee68cef83466c8badf33cef44f730090e6f761e03ddedcd570fe"
     },
     {
       "name": "comparison_files/14/30_7.webp",
-      "bytes": 35030,
-      "sha256": "347fb2b6fca8b26726b5b84539dbe432b3706dc6fc5dd08503078757c2bab31d"
+      "bytes": 35382,
+      "sha256": "b6f719335631f97011f7b7996872f974f5d542533c4ed3fb07f90ad2657fd3ea"
     },
     {
       "name": "comparison_files/14/30_8.webp",
-      "bytes": 89602,
-      "sha256": "25c4e4c9b0a4868c1f2bc4a928c9ead238b22b75856d76b068057b6195093adf"
+      "bytes": 90138,
+      "sha256": "9c717f957e84972b938f526930175c59324ba3a1e4bc6150231e0d74a1863787"
     },
     {
       "name": "comparison_files/14/30_9.webp",
-      "bytes": 77038,
-      "sha256": "4c4c33b5a01c1923e5709c1c50aa60e41d4dd269645e8f24563338b2d517effd"
+      "bytes": 77374,
+      "sha256": "4a9b7ea282b65c8cf3bbc253f216ac218adc3fc7a1a9347a1fd8254ee84733d4"
+    },
+    {
+      "name": "comparison_files/14/31_0.webp",
+      "bytes": 11878,
+      "sha256": "f7eb7431ffb46d8f89e99dedbf492034dfbccdd6201efb29d60c5a6154ca38b5"
+    },
+    {
+      "name": "comparison_files/14/31_1.webp",
+      "bytes": 31698,
+      "sha256": "559b583d3557b1dc93b52008e5383d638e7409267b751f1567a78915d9183426"
+    },
+    {
+      "name": "comparison_files/14/31_10.webp",
+      "bytes": 73324,
+      "sha256": "9b595c9930b118497f11f0c5508fa96974152eefd20eb1c024c6ded34f08c557"
+    },
+    {
+      "name": "comparison_files/14/31_11.webp",
+      "bytes": 100478,
+      "sha256": "be82b21023b0974401119c99b218351c58c3d4e1ea2a7ead23d4e758ba5a6727"
+    },
+    {
+      "name": "comparison_files/14/31_12.webp",
+      "bytes": 46742,
+      "sha256": "a70677d1f7b4bd22c0c169f53adfbe2a2f41aa650f3031a93c6248719ec227e1"
+    },
+    {
+      "name": "comparison_files/14/31_13.webp",
+      "bytes": 41570,
+      "sha256": "10842da360b8cc5f819d66ee82ab126ff54b2088646b059f1b605bc2b0ac1a07"
+    },
+    {
+      "name": "comparison_files/14/31_14.webp",
+      "bytes": 66662,
+      "sha256": "ee4f3c0e2e01d43169d7d0e34e8494727a3bc2da3d78d8b8817b2b0a42af8bd0"
+    },
+    {
+      "name": "comparison_files/14/31_15.webp",
+      "bytes": 19554,
+      "sha256": "f314628b5dfb364b9b7c3167ccc917e48bedcec4da8432e438fda24cd10a0557"
+    },
+    {
+      "name": "comparison_files/14/31_2.webp",
+      "bytes": 32644,
+      "sha256": "7347b1113aaa213ea8edea3941b73d41317df3ed3b10d33ca36be8a1045c8d60"
+    },
+    {
+      "name": "comparison_files/14/31_3.webp",
+      "bytes": 93804,
+      "sha256": "fc76d5102ee6ea7224f5bf0d4e3cb0fc23725ef1a0fc8ed6fd5fc1edeec13d06"
+    },
+    {
+      "name": "comparison_files/14/31_4.webp",
+      "bytes": 104280,
+      "sha256": "f2314ed4b3ca595aab218c416b861b435e50d65235c7acea034f04aeea221d05"
+    },
+    {
+      "name": "comparison_files/14/31_5.webp",
+      "bytes": 14736,
+      "sha256": "2184d12bc23a04c956f19d605ac6d2e2802022be38f6bb82e1231cc7ea630da5"
+    },
+    {
+      "name": "comparison_files/14/31_6.webp",
+      "bytes": 79530,
+      "sha256": "3aed885eae9a697ca688aef7346a6321c69d2a7ae378feaa570c91ce312af758"
+    },
+    {
+      "name": "comparison_files/14/31_7.webp",
+      "bytes": 119738,
+      "sha256": "733418bc07bf04e80706ebc95f2559f58c8857640d5543c2cf702aa2441dc071"
+    },
+    {
+      "name": "comparison_files/14/31_8.webp",
+      "bytes": 106836,
+      "sha256": "cef83fdd7102561e38fb10783f94d408af82cd398f1c162370ef6ee63aa4c816"
+    },
+    {
+      "name": "comparison_files/14/31_9.webp",
+      "bytes": 91558,
+      "sha256": "a19dd44cff2d1dd589c8bb675a70af4552a9a841d9f87b6844fff9a356c7514f"
     },
     {
       "name": "comparison_files/14/3_0.webp",
@@ -8590,8 +8755,8 @@
     },
     {
       "name": "comparison_files/14/8_2.webp",
-      "bytes": 377932,
-      "sha256": "ea5fbced28f3f986695ad1e9a82ebf64f77cc11da5c1de06352e1d8026c96e07"
+      "bytes": 377936,
+      "sha256": "92ed6b0c09000a596f11fea7093edff16da82bc47d7d5e6646455854b44a19a1"
     },
     {
       "name": "comparison_files/14/8_3.webp",
@@ -8710,53 +8875,53 @@
     },
     {
       "name": "comparison_files/2/0_0.webp",
-      "bytes": 68,
-      "sha256": "f2a8e727ff09c2efa6923b85d7ea22285dc856d4a35b5baa39a650de970e3a29"
+      "bytes": 80,
+      "sha256": "186ddbeacbdebebdc20ef9c7f427602513eb352a3150622c2a782831465f080a"
     },
     {
       "name": "comparison_files/3/0_0.webp",
       "bytes": 92,
-      "sha256": "87765c84dd82e1fdef8916b0f4bdf9adda8ce2bf68654082d57a5995cb50835b"
+      "sha256": "54a09c74dab2ec3da08a68e40b202eaa8c80cfd3944fce11ba5a789289efc0f1"
     },
     {
       "name": "comparison_files/4/0_0.webp",
-      "bytes": 128,
-      "sha256": "d6cc0b691b088c9f8a426aea7c7fccceec9fa6e410a74236a3f55dfddc5db921"
+      "bytes": 126,
+      "sha256": "3e5dbf2025d4d7805d2b54ebd797f0d0b330efdb2e3224e1963e03fed5947680"
     },
     {
       "name": "comparison_files/5/0_0.webp",
-      "bytes": 256,
-      "sha256": "506b3bc69296ec4626ffaf72556f5dd55b2787de5b12b14e9e342b2576023f92"
+      "bytes": 248,
+      "sha256": "1fcb9e11c24db2368af7e95177a8739e7a573d47f1713c78f2f2e81e37f91172"
     },
     {
       "name": "comparison_files/6/0_0.webp",
-      "bytes": 774,
-      "sha256": "993796871727d1a8dea7948a65f0b95e72949d0480d56f3968f9b83af387d871"
+      "bytes": 776,
+      "sha256": "ed0f1a21c2cf9cf286ab17518c9e5d3b65b9b88acdb7d5d3763d6e919c77635c"
     },
     {
       "name": "comparison_files/7/0_0.webp",
-      "bytes": 3142,
-      "sha256": "0e480251aca28aa26cc6bf5391853d1e4520e6093467e82cf486fd4c6a271a11"
+      "bytes": 3174,
+      "sha256": "41b191bebec4fcd1d970eb92906b1a283539abf6498c6b65bdec5e5c71f1f7dd"
     },
     {
       "name": "comparison_files/8/0_0.webp",
-      "bytes": 13542,
-      "sha256": "1e88efeabb8686902510e51ae50bd3fd5bac3be080db723f9d6e779e88012436"
+      "bytes": 13682,
+      "sha256": "db50d8805e7cdee85aa5915d79c978ce322c354db9ae449e7ff10cfde4093d07"
     },
     {
       "name": "comparison_files/9/0_0.webp",
-      "bytes": 59910,
-      "sha256": "073828008360ffd0aea6b8f42e20c52b75d391df83462e584f22f761a721611f"
+      "bytes": 61266,
+      "sha256": "c416f59b4755ede23ab44069aa8d0eb453f1c8c8000c1fda80daade0f0d0050d"
     },
     {
       "name": "coverage-ledger.json",
-      "bytes": 238194,
-      "sha256": "69a2118848a0ce350828d1a18def0e11fc3ad9c90081b14ebd2831fe954eca7c"
+      "bytes": 238162,
+      "sha256": "48d7f7fc23af986e0939d10a65fcabe6eef2db356e53f57be8e602eaab6676fd"
     },
     {
       "name": "coverage.geojson",
-      "bytes": 788,
-      "sha256": "d28fe370d5a424c8f37d3fe33a1b4aba3189e923cf1c1946c9c4435dceb3250c"
+      "bytes": 787,
+      "sha256": "f72245625029ee24a4de2790b82792c399f78ed00484d64282fd9252b2112551"
     },
     {
       "name": "east.webp",
@@ -8945,8 +9110,18 @@
     },
     {
       "name": "right14.webp",
-      "bytes": 6995942,
-      "sha256": "14aa7f273b161623816bb7ef7cf2399bb0c230def740abb43fc6391f1512684e"
+      "bytes": 6968500,
+      "sha256": "4273c7c2b5d99df866fd48380d310a26d7cf0c768f253a3c88037f60faa222e4"
+    },
+    {
+      "name": "right15-reference-20261117.json",
+      "bytes": 3645,
+      "sha256": "e1fbe0dd98b084f4261284f6787926ae6cc9673057ac28a221edd2d15b0166f1"
+    },
+    {
+      "name": "right15.webp",
+      "bytes": 7096382,
+      "sha256": "fb0fd85a2f992aad464d0a717a5b9d395f8f9a8b48b28be8cff0c97d5dff8ed0"
     },
     {
       "name": "right2.webp",
@@ -8990,13 +9165,13 @@
     },
     {
       "name": "sources.html",
-      "bytes": 15645,
-      "sha256": "defba26409d691b2ea5dd5a29f000bbb43c523a567e6ef584bcbce4e8aaf8b97"
+      "bytes": 16236,
+      "sha256": "9333b467b037cfd5bd4501cffd92bb054852072514b2c1a2841d9d10f76ed756"
     },
     {
       "name": "tiles.json",
-      "bytes": 6431,
-      "sha256": "9a2e4d2b8b9f781ec0a8e19fab8f14370ce938594bc8532937a04fb1edca48f2"
+      "bytes": 6571,
+      "sha256": "4bff30c99627c8c131031c1092deb4825cd788ab760ed3221a02f453261feac4"
     },
     {
       "name": "top1.webp",
@@ -9025,7 +9200,7 @@
     }
   ],
   "atlas": {
-    "width": 15872,
+    "width": 16384,
     "height": 8192,
     "original_width": 1536,
     "new_strip_width": 512,
@@ -9035,7 +9210,7 @@
     "world_bounds": [
       -3.5,
       -1.25,
-      4.25,
+      4.5,
       2.75
     ],
     "new_bottom2_height": 512,
