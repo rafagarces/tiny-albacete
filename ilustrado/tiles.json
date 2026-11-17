@@ -3,16 +3,16 @@
   "units": "one world unit = 2048 atlas pixels",
   "url_revision": 2,
   "bounds": {
-    "minX": -4.0,
+    "minX": -4.5,
     "minY": -1.25,
     "maxX": 5.75,
     "maxY": 3
   },
   "comparison": {
-    "url": "base-right20.jpg",
-    "x": -4.0,
+    "url": "base-left17.jpg",
+    "x": -4.5,
     "y": -1.25,
-    "width": 9.75,
+    "width": 10.25,
     "height": 4.25,
     "pyramid": "comparison.dzi"
   },
@@ -440,16 +440,32 @@
       "y": 0.25,
       "width": 0.25,
       "height": 0.5
+    },
+    {
+      "id": "left17a",
+      "url": "left17a.webp",
+      "x": -4.25,
+      "y": 1,
+      "width": 0.25,
+      "height": 0.25
+    },
+    {
+      "id": "left17b",
+      "url": "left17b.webp",
+      "x": -4.5,
+      "y": 1.25,
+      "width": 0.5,
+      "height": 1.25
     }
   ],
   "display": {
     "url": "atlas.dzi",
-    "x": -4.0,
+    "x": -4.5,
     "y": -1.25,
-    "width": 9.75,
+    "width": 10.25,
     "height": 4.25
   },
-  "asset_revision": "right20-reference-20261117",
+  "asset_revision": "left17-reference-20261117",
   "sparse_atlas": true,
   "coverage_note": "Actual source rectangles form a stepped edge; transparent pixels outside those rectangles are not supplied art or completed city."
 }

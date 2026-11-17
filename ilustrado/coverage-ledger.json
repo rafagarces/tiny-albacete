@@ -8,7 +8,7 @@
     6287.305861831309
   ],
   "candidate_cells": 429,
-  "published_cells_intersecting_candidate": 420,
+  "published_cells_intersecting_candidate": 421,
   "cell_ground_area_km2": 0.02465985230667989,
   "target_boundary_warning": "SIU urban planning classification is not current built-up footprint; excludes/omits some parks, industries and edges. Do not present completion percentage from this candidate.",
   "cells": [
@@ -2248,8 +2248,8 @@
       "column": -17,
       "row": 4,
       "candidate_target_fraction": 0.087077,
-      "art_status": "not-started",
-      "published_fraction": 0.0,
+      "art_status": "published",
+      "published_fraction": 1.0,
       "reference_status": "not-citywide-currentness-checked",
       "id": "c-17r4"
     },
@@ -3874,9 +3874,9 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 14.499993156327605,
-  "published_source_union_km2": 14.499993156327605,
-  "published_atlas_bounds_envelope_km2": 16.34948207932847,
+  "published_ground_envelope_km2": 14.77125153170115,
+  "published_source_union_km2": 14.77125153170115,
+  "published_atlas_bounds_envelope_km2": 17.18791705775567,
   "published_coverage_method": "Union of actual source rectangles; atlas bounds include exterior pixels, not completed art.",
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
@@ -4039,7 +4039,7 @@
         598736.5,
         4316641.3
       ],
-      "published_intersection_km2": 8.734605,
+      "published_intersection_km2": 8.736753,
       "role": "principal planning component; incomplete city candidate"
     },
     {
@@ -6560,7 +6560,7 @@
         "row": 4,
         "id": "c-17r4",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -16,
@@ -6840,14 +6840,14 @@
         "row": 5,
         "id": "c-18r5",
         "candidate_fraction": 0.972014,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -17,
         "row": 5,
         "id": "c-17r5",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -16,
@@ -7106,14 +7106,14 @@
         "row": 6,
         "id": "c-18r6",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -17,
         "row": 6,
         "id": "c-17r6",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -16,
@@ -7365,14 +7365,14 @@
         "row": 7,
         "id": "c-18r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -17,
         "row": 7,
         "id": "c-17r7",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -16,
@@ -7624,14 +7624,14 @@
         "row": 8,
         "id": "c-18r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -17,
         "row": 8,
         "id": "c-17r8",
         "candidate_fraction": 1.0,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -16,
@@ -7876,14 +7876,14 @@
         "row": 9,
         "id": "c-18r9",
         "candidate_fraction": 0.764933,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -17,
         "row": 9,
         "id": "c-17r9",
         "candidate_fraction": 0.930524,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -16,
@@ -8643,14 +8643,14 @@
         "name": "LOS LLANOS",
         "source_id": "barrios.22",
         "administrative_area_km2": 0.9232225087451356,
-        "published_ground_envelope_intersection_km2": 0.5826102862395901,
+        "published_ground_envelope_intersection_km2": 0.591755722419779,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
         "name": "CAÑICAS - CANAL DE MARIA CRISTINA",
         "source_id": "barrios.23",
         "administrative_area_km2": 1.340734298802062,
-        "published_ground_envelope_intersection_km2": 1.0605160635739754,
+        "published_ground_envelope_intersection_km2": 1.314428989173653,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8822,7 +8822,7 @@
         "area_km2": 3.828241834095064,
         "outside_principal_candidate_km2": 3.578645563239835,
         "overlap_all_municipal_SIU_km2": 3.0509875195487535,
-        "published_ground_envelope_intersection_km2": 0.05864304594809521,
+        "published_ground_envelope_intersection_km2": 0.05864304594782976,
         "geocoded_point_inside": true,
         "geocoded_point_distance_to_polygon_m": 0.0,
         "currentness_status": "2026built-edge and facade review pending",

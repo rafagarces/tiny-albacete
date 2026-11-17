@@ -376,3 +376,6 @@ Four cells x-0.5..0.5,y2.75..3. July2024 PNOA and live OSM, original art registr
 
 ## 2026-11-17 RIGHT20 bounded Calle Maraton
 Two sourcecells x5.5..5.75,y.25...75 complete the contiguous pale-roof blocks.1794artregistrationinliers,median0.421px;3PNOAsamplesJuly2024,liveOSM.Only94581maskedright19pixels changed;51other sources exact,map/3D exact.663native tiles perview checked,588actualcells/663bounds,14.499993156327605km2. Not completion or current2026survey. Wider researched lower ground excluded.
+
+## 2026-11-17 LEFT17 bounded Canicas
+Eleven new sourcecells complete contiguous shopping center and sports facilities. Top-left motorway-side cell excluded. Two registered panels1064/1241inliers,median0.672/0.721px. ThreePNOAsamplesJuly2024 plus liveOSM.350217maskedleft16pixels changed;52other sources exact,map/3D exact.697native tiles/view pixel-exact,599actualcells/697bounds,14.77125153170115km2. Not completion or current2026survey.
