@@ -1,0 +1,26 @@
+{
+ "date": "2026-11-17",
+ "method": "Igual que lotes 1 a 4 (guia Catastro 3*plantas+2, atlas, PNOA 2024-07 como referencia, mezcla con mascara, 0 px fuera de la zona de mezcla; correspondencia atlas/Catastro comprobada caso a caso)",
+ "cases": {
+  "q1": {
+   "ref": "7383905WJ9178S",
+   "use": "comercial",
+   "note": "cubierta plana con paneles en vez de teja; cambio pequeno"
+  },
+  "q2": {
+   "ref": "8559103WJ9185H",
+   "use": "industrial",
+   "note": "cubierta plana clara en manzana densa; forma aproximada"
+  },
+  "q5": {
+   "ref": "9552201WJ9195S",
+   "use": "comercial",
+   "note": "cubierta plana con paneles solares segun PNOA; detalle aproximado"
+  },
+  "q8": {
+   "ref": "7962406WJ9176B",
+   "use": "servicios publicos",
+   "note": "edificio con patio y paneles solares segun PNOA; detalle aproximado"
+  }
+ }
+}
