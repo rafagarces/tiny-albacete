@@ -3874,9 +3874,9 @@
       "id": "c9r12"
     }
   ],
-  "published_ground_envelope_km2": 14.17941507634051,
-  "published_source_union_km2": 14.17941507634051,
-  "published_atlas_bounds_envelope_km2": 15.51104710090176,
+  "published_ground_envelope_km2": 14.35203404248763,
+  "published_source_union_km2": 14.35203404248763,
+  "published_atlas_bounds_envelope_km2": 15.930264590115083,
   "published_coverage_method": "Union of actual source rectangles; atlas bounds include exterior pixels, not completed art.",
   "published_revision": "see containing repository commit",
   "neighborhood_inventory": [
@@ -4803,7 +4803,7 @@
         "row": -3,
         "id": "c21r-3",
         "candidate_fraction": 0.891547,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -16,
@@ -5069,7 +5069,7 @@
         "row": -2,
         "id": "c21r-2",
         "candidate_fraction": 0.856524,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -18,
@@ -5349,7 +5349,7 @@
         "row": -1,
         "id": "c21r-1",
         "candidate_fraction": 0.565502,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -19,
@@ -5636,7 +5636,7 @@
         "row": 0,
         "id": "c21r0",
         "candidate_fraction": 0.088337,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -19,
@@ -5923,7 +5923,7 @@
         "row": 1,
         "id": "c21r1",
         "candidate_fraction": 0.24867,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 22,
@@ -6231,7 +6231,7 @@
         "row": 2,
         "id": "c21r2",
         "candidate_fraction": 0.99362,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": 22,
@@ -6532,7 +6532,7 @@
         "row": 3,
         "id": "c21r3",
         "candidate_fraction": 0.511088,
-        "art_status": "not-started"
+        "art_status": "published"
       },
       {
         "column": -20,
@@ -8601,7 +8601,7 @@
         "name": "UNIVERSIDAD",
         "source_id": "barrios.16",
         "administrative_area_km2": 0.9913328433007585,
-        "published_ground_envelope_intersection_km2": 0.9395837309711392,
+        "published_ground_envelope_intersection_km2": 0.9828218010083506,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       },
       {
@@ -8671,7 +8671,7 @@
         "name": "MEDICINA",
         "source_id": "barrios.24",
         "administrative_area_km2": 0.6166046953297804,
-        "published_ground_envelope_intersection_km2": 0.5562975067685865,
+        "published_ground_envelope_intersection_km2": 0.6155282319233372,
         "meaning": "ground-plane envelope only, not verified artwork/facades or a completion percentage"
       }
     ]
