@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "fbdc7dc",
+  "new_source": "left9.webp",
+  "extent": [
+    12800,
+    8192
+  ],
+  "old_changed_sources": [
+    "left8.webp"
+  ],
+  "old_changed_pixels": 591227,
+  "unchanged_outside_explicit_overlap_mask": true,
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=596605.6738478496%2C4316850.29324894%2C599834.434989117%2C4318648.1940995045&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        596605.6738478496,
+        4316850.29324894,
+        599834.434989117,
+        4318648.1940995045
+      ],
+      "retrieved": "2026-11-17",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596605.6738478496%2C4316850.29324894%2C599834.434989117%2C4318648.1940995045&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596605.6738478496%2C4316850.29324894%2C599834.434989117%2C4318648.1940995045&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=1100&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=596605.6738478496%2C4316850.29324894%2C599834.434989117%2C4318648.1940995045&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": [
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8576283710451598,39.00540590820684,-1.8475353646394235,39.01074489358865",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8663569253416337,39.0021891090251,-1.8562645092982684,39.0075286779172",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8750847011969074,38.9989716432649,-1.8649928757182268,39.00431179542124",
+      "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8838116985134534,38.99575351114731,-1.873720463801611,39.00109424632182"
+    ]
+  },
+  "limits": [
+    "PNOA sample dates July2024, not a certification of November2026 conditions.",
+    "359 current OSM footprint ways in four west-edge rectangles are a cross-check, not an exhaustive survey.",
+    "Two rejected candidates duplicated the existing tower/park in the wrong panel; those candidates are not used.",
+    "Sports pitch retained rather than generated orchard; open western plots and low sheds retained.",
+    "The existing CIAb tower and all artwork beyond the narrow overlap are unchanged.",
+    "Small facade, material, vegetation and roof details remain reference-led artistic interpretation.",
+    "The camera envelope is not whole Albacete or a completion percentage."
+  ]
+}
