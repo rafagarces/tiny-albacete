@@ -5,10 +5,15 @@
   "universo_no_residencial_>=300m2": 431,
   "dentro_atlas": 373,
   "fuera_atlas": 58,
-  "dentro_atlas_revisado": 76,
-  "dentro_atlas_sin_revisar": 297,
+  "dentro_atlas_revisado": 89,
+  "dentro_atlas_sin_revisar": 284,
   "publicados_total": 22,
-  "pendientes_correspondencia_<=3_partes": 16
+  "pendientes_correspondencia_<=3_partes": 0,
+  "discrepancias_abiertas": [
+   "7270327WJ9177S",
+   "8454019WJ9185C",
+   "002000300WJ91H"
+  ]
  },
  "refs": {
   "8654701WJ9185D": {
@@ -1627,8 +1632,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 3,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "posible_correccion_pendiente_zoom",
    "lote": null
   },
   "8470006WJ9187A": {
@@ -1717,8 +1722,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 2,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "9162003WJ9196S": {
@@ -2007,8 +2012,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 1,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "discrepancia_catastro_vs_PNOA_atlas_coincide_con_PNOA",
    "lote": null
   },
   "002000400WJ91H": {
@@ -2017,8 +2022,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 3,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "no_concluyente",
    "lote": null
   },
   "002001600WJ91H": {
@@ -2908,7 +2913,7 @@
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 3,
    "revisado": true,
-   "estado": "revisado_correccion_menor_no_publicada",
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": "lote4_revisado"
   },
   "000101600XJ01E": {
@@ -3167,8 +3172,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 2,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "000100300XJ01E": {
@@ -3467,8 +3472,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 1,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "7185801WJ9178N": {
@@ -3477,8 +3482,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 3,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "7383901WJ9178S": {
@@ -3537,8 +3542,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 3,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "7785024WJ9178N": {
@@ -3677,8 +3682,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 1,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "000204500WJ91F": {
@@ -3838,7 +3843,7 @@
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 1,
    "revisado": true,
-   "estado": "revisado_discrepancia_atlas_vs_PNOA_pendiente",
+   "estado": "discrepancia_contenido_atlas_vs_PNOA",
    "lote": "lote5_revisado"
   },
   "7655023WJ9175F": {
@@ -3887,8 +3892,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 2,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "8454019WJ9185C": {
@@ -3898,7 +3903,7 @@
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 21,
    "revisado": true,
-   "estado": "revisado_no_concluyente",
+   "estado": "discrepancia_contenido_atlas_vs_PNOA",
    "lote": null
   },
   "8854301WJ9185D": {
@@ -3977,8 +3982,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 0,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "no_concluyente",
    "lote": null
   },
   "9654002WJ9195D": {
@@ -3997,8 +4002,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 1,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "9955001WJ9195F": {
@@ -4298,7 +4303,7 @@
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 1,
    "revisado": true,
-   "estado": "revisado_aceptable",
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": "lote5_revisado"
   },
   "9150801WJ9195S": {
@@ -4307,8 +4312,8 @@
    "en_universo_no_residencial_300": true,
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 3,
-   "revisado": false,
-   "estado": "sin_revisar",
+   "revisado": true,
+   "estado": "revisado_aceptable_baja_densidad_correspondencia_ok",
    "lote": null
   },
   "9351901WJ9195A": {
