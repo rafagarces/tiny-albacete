@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-17",
+  "method": "Igual que lote 1 (guia Catastro 3*plantas+2, atlas, PNOA 2024-07 como referencia, mezcla con mascara, 0 px fuera de la zona de mezcla)",
+  "cases": {
+    "n19": {"ref": "0272704XJ0107S", "use": "servicios publicos", "note": "cubiertas redibujadas en gris segun PNOA; tono y forma de cubierta aproximados, no verificados edificio a edificio"},
+    "n21": {"ref": "9478203WJ9197G", "use": "servicios publicos", "note": "cubierta plana con lucernarios; edificios menores del entorno cercano pueden variar ligeramente"},
+    "n23": {"ref": "8976616WJ9187F", "use": "industrial", "note": "nave de cubierta metalica en manzana densa"}
+  }
+}

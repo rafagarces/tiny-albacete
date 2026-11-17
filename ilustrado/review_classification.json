@@ -1,0 +1,434 @@
+[
+ {
+  "i": 0,
+  "tag": "N",
+  "ref": "8654701WJ9185D",
+  "use": "4_3_publicServices",
+  "area": 2960,
+  "floors": 3,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 1,
+  "tag": "N",
+  "ref": "8457001WJ9185N",
+  "use": "3_industrial",
+  "area": 722,
+  "floors": 2,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 2,
+  "tag": "N",
+  "ref": "9662005WJ9196S",
+  "use": "4_3_publicServices",
+  "area": 1432,
+  "floors": 5,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 3,
+  "tag": "N",
+  "ref": "9166004WJ9196E",
+  "use": "4_3_publicServices",
+  "area": 462,
+  "floors": 4,
+  "verdict": "no_concluyente"
+ },
+ {
+  "i": 4,
+  "tag": "N",
+  "ref": "8880322WJ9188B",
+  "use": "3_industrial",
+  "area": 302,
+  "floors": 1,
+  "verdict": "no_concluyente"
+ },
+ {
+  "i": 5,
+  "tag": "N",
+  "ref": "9366401WJ9196E",
+  "use": "4_3_publicServices",
+  "area": 602,
+  "floors": 3,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 6,
+  "tag": "N",
+  "ref": "0272703XJ0107S",
+  "use": "4_3_publicServices",
+  "area": 2528,
+  "floors": 3,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 7,
+  "tag": "N",
+  "ref": "8070002WJ9187A",
+  "use": "4_2_retail",
+  "area": 305,
+  "floors": 1,
+  "verdict": "no_concluyente"
+ },
+ {
+  "i": 8,
+  "tag": "N",
+  "ref": "8973601WJ9187D",
+  "use": "4_3_publicServices",
+  "area": 943,
+  "floors": 3,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 9,
+  "tag": "N",
+  "ref": "8460203WJ9186A",
+  "use": "4_3_publicServices",
+  "area": 652,
+  "floors": 2,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 10,
+  "tag": "N",
+  "ref": "8286002WJ9188E",
+  "use": "4_1_office",
+  "area": 1186,
+  "floors": 2,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 11,
+  "tag": "N",
+  "ref": "9370006WJ9197A",
+  "use": "4_1_office",
+  "area": 390,
+  "floors": 3,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 12,
+  "tag": "N",
+  "ref": "8165703WJ9186E",
+  "use": "4_2_retail",
+  "area": 637,
+  "floors": 2,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 13,
+  "tag": "N",
+  "ref": "8569410WJ9186H",
+  "use": "4_1_office",
+  "area": 1469,
+  "floors": 5,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 14,
+  "tag": "N",
+  "ref": "0058005XJ0105G",
+  "use": "4_2_retail",
+  "area": 576,
+  "floors": 1,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 15,
+  "tag": "N",
+  "ref": "0060201XJ0106S",
+  "use": "4_3_publicServices",
+  "area": 1771,
+  "floors": 6,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 16,
+  "tag": "N",
+  "ref": "9372307WJ9197S",
+  "use": "4_2_retail",
+  "area": 388,
+  "floors": 6,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 17,
+  "tag": "N",
+  "ref": "9453201WJ9195C",
+  "use": "4_3_publicServices",
+  "area": 3022,
+  "floors": 4,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 18,
+  "tag": "N",
+  "ref": "8782103WJ9188B",
+  "use": "3_industrial",
+  "area": 602,
+  "floors": 1,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 19,
+  "tag": "N",
+  "ref": "0272704XJ0107S",
+  "use": "4_3_publicServices",
+  "area": 4735,
+  "floors": 4,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 20,
+  "tag": "N",
+  "ref": "9168007WJ9196G",
+  "use": "4_1_office",
+  "area": 1460,
+  "floors": 6,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 21,
+  "tag": "N",
+  "ref": "9478203WJ9197G",
+  "use": "4_3_publicServices",
+  "area": 2963,
+  "floors": 3,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 22,
+  "tag": "N",
+  "ref": "7562112WJ9176B",
+  "use": "3_industrial",
+  "area": 424,
+  "floors": 2,
+  "verdict": "aceptable_o_menor"
+ },
+ {
+  "i": 23,
+  "tag": "N",
+  "ref": "8976616WJ9187F",
+  "use": "3_industrial",
+  "area": 1076,
+  "floors": 1,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 24,
+  "tag": "R",
+  "ref": "9065801WJ9196E",
+  "use": "1_residential",
+  "area": 253,
+  "floors": 9,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 25,
+  "tag": "R",
+  "ref": "8973607WJ9187D",
+  "use": "1_residential",
+  "area": 328,
+  "floors": 6,
+  "verdict": "menor_dudoso"
+ },
+ {
+  "i": 26,
+  "tag": "R",
+  "ref": "0255605XJ0105N",
+  "use": "1_residential",
+  "area": 652,
+  "floors": 5,
+  "verdict": "menor_dudoso"
+ },
+ {
+  "i": 27,
+  "tag": "R",
+  "ref": "8268016WJ9186G",
+  "use": "1_residential",
+  "area": 338,
+  "floors": 3,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 28,
+  "tag": "R",
+  "ref": "0255607XJ0105N",
+  "use": "1_residential",
+  "area": 448,
+  "floors": 3,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 29,
+  "tag": "R",
+  "ref": "9866413WJ9196F",
+  "use": "1_residential",
+  "area": 447,
+  "floors": 5,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 30,
+  "tag": "R",
+  "ref": "8972417WJ9187S",
+  "use": "1_residential",
+  "area": 208,
+  "floors": 3,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 31,
+  "tag": "R",
+  "ref": "8668515WJ9186H",
+  "use": "1_residential",
+  "area": 208,
+  "floors": 6,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 32,
+  "tag": "R",
+  "ref": "9967705WJ9196F",
+  "use": "1_residential",
+  "area": 310,
+  "floors": 7,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 33,
+  "tag": "R",
+  "ref": "8462406WJ9186S",
+  "use": "1_residential",
+  "area": 300,
+  "floors": 5,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 34,
+  "tag": "R",
+  "ref": "9177809WJ9197E",
+  "use": "1_residential",
+  "area": 1058,
+  "floors": 5,
+  "verdict": "correccion_clara"
+ },
+ {
+  "i": 35,
+  "tag": "R",
+  "ref": "8761802WJ9186S",
+  "use": "1_residential",
+  "area": 326,
+  "floors": 4,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 36,
+  "tag": "R",
+  "ref": "9767045WJ9196N",
+  "use": "1_residential",
+  "area": 426,
+  "floors": 7,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 37,
+  "tag": "R",
+  "ref": "8270013WJ9187A",
+  "use": "1_residential",
+  "area": 580,
+  "floors": 6,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 38,
+  "tag": "R",
+  "ref": "9084205WJ9198C",
+  "use": "1_residential",
+  "area": 1124,
+  "floors": 9,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 39,
+  "tag": "R",
+  "ref": "8962006WJ9186B",
+  "use": "1_residential",
+  "area": 1326,
+  "floors": 8,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 40,
+  "tag": "R",
+  "ref": "9267311WJ9196N",
+  "use": "1_residential",
+  "area": 347,
+  "floors": 6,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 41,
+  "tag": "R",
+  "ref": "8566006WJ9186F",
+  "use": "1_residential",
+  "area": 213,
+  "floors": 6,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 42,
+  "tag": "R",
+  "ref": "0168002XJ0106G",
+  "use": "1_residential",
+  "area": 223,
+  "floors": 5,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 43,
+  "tag": "R",
+  "ref": "7673707WJ9177D",
+  "use": "1_residential",
+  "area": 225,
+  "floors": 3,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 44,
+  "tag": "R",
+  "ref": "8668504WJ9186H",
+  "use": "1_residential",
+  "area": 265,
+  "floors": 3,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 45,
+  "tag": "R",
+  "ref": "9171013WJ9197A",
+  "use": "1_residential",
+  "area": 289,
+  "floors": 4,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 46,
+  "tag": "R",
+  "ref": "8556446WJ9185F",
+  "use": "1_residential",
+  "area": 258,
+  "floors": 4,
+  "verdict": "aceptable_o_no_concluyente"
+ },
+ {
+  "i": 47,
+  "tag": "R",
+  "ref": "9560001WJ9196B",
+  "use": "1_residential",
+  "area": 1165,
+  "floors": 8,
+  "verdict": "aceptable_o_no_concluyente"
+ }
+]
