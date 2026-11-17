@@ -5,14 +5,14 @@
   "bounds": {
     "minX": -1.75,
     "minY": -1.25,
-    "maxX": 3.75,
+    "maxX": 4.0,
     "maxY": 2.75
   },
   "comparison": {
-    "url": "base-right12.webp",
+    "url": "base-right13.webp",
     "x": -1.75,
     "y": -1.25,
-    "width": 5.5,
+    "width": 5.75,
     "height": 4.0,
     "pyramid": "comparison.dzi"
   },
@@ -288,14 +288,22 @@
       "y": -1.25,
       "width": 0.25,
       "height": 4.0
+    },
+    {
+      "id": "right13",
+      "url": "right13.webp",
+      "x": 3.75,
+      "y": -1.25,
+      "width": 0.25,
+      "height": 4.0
     }
   ],
   "display": {
     "url": "atlas.dzi",
     "x": -1.75,
     "y": -1.25,
-    "width": 5.5,
+    "width": 5.75,
     "height": 4.0
   },
-  "asset_revision": "rail-station-reference-20261117"
+  "asset_revision": "right13-reference-20261117"
 }

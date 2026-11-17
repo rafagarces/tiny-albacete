@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "e7a178e",
+  "new_source": "right13.webp",
+  "extent": [
+    11776,
+    8192
+  ],
+  "old_sources_changed_only_in_north_join": [
+    "right12.webp"
+  ],
+  "old_changed_pixels": 339072,
+  "unchanged_outside_mask": true,
+  "references": {
+    "PNOA": {
+      "url": "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG%3A25830&BBOX=597795.4131402351%2C4314410.9662072845%2C601024.1742815026%2C4316208.867057849&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg",
+      "bbox": [
+        597795.4131402351,
+        4314410.9662072845,
+        601024.1742815026,
+        4316208.867057849
+      ],
+      "retrieved": "2026-11-16",
+      "date_query_urls": [
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597795.4131402351%2C4314410.9662072845%2C601024.1742815026%2C4316208.867057849&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=200&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5",
+        "https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&REQUEST=GetFeatureInfo&VERSION=1.3.0&LAYERS=OI.MosaicElement&STYLES=&CRS=EPSG%3A25830&BBOX=597795.4131402351%2C4314410.9662072845%2C601024.1742815026%2C4316208.867057849&WIDTH=2200&HEIGHT=1800&FORMAT=image%2Fjpeg&QUERY_LAYERS=OI.MosaicElement&I=2000&J=900&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=5"
+      ]
+    },
+    "OSM_buildings": "https://www.openstreetmap.org/api/0.6/map.json?bbox=-1.8511737879331613,38.98067778554395,-1.8381058299419029,38.98724003355292",
+    "sports": "https://www.albacete.es/es/directorio/complejo-deportivo-carlos-belmonte"
+  },
+  "limits": [
+    "PNOA sample dates July 2024, not certification of November2026conditions.",
+    "Building footprints checked against current OSM and cached cadastral geometry; fine facades/trees/roof details interpreted.",
+    "Football stadium rectangular with no invented running track. Separate athletics oval retained from aerial evidence.",
+    "No broad deletion of newer buildings based on old orthophotos.",
+    "Illustrated envelope is not whole Albacete nor city completion."
+  ]
+}
