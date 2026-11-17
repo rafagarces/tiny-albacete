@@ -342,3 +342,12 @@ Advanced one adjacent west strip after checking the historical neighborhood outl
 - Referencias:220huellas OSM y842corredores en cuatro rectángulos,108partes catastrales añadidas al modelo de trabajo. PNOA recuperado17nov, tres muestras fechadas julio2024. El ferrocarril queda separado de las carreteras elevadas. No se certifica vigencia2026 de todas las fachadas.
 - Se conservan vacíos, cultivos y pistas. No se rellenan automáticamente polígonos administrativos ni se incluyen pedanías o polígonos industriales separados. El montaje RIGHT16 incompleto no forma parte de este cambio.
 - Pirámides reconstruidas0–15,544teselas nativas por vista. QA local390/1280:sin errores JS/HTTP,pellizco,Catedral,mapa,rotación3D y comparación sin salto. Publicación en el proyecto existente sin activar facturación.
+
+## 2026-11-17: Universidad/Medicina con borde escalonado, sin continuación rural
+
+- Se aprovecha solo el tramo previamente dibujado de RIGHT16 hasta5632px. Se añade una fuente512×5632 junto al campus y se deja fuera de esta ampliación el jardín botánico y la continuación rural. No se ha creado imagen para rellenar la esquina. Las áreas vecinas previamente dibujadas se conservan.
+- El atlas17920×8192 tiene una esquina transparente512×2560. Al centrar el visor fuera de las fuentes, el rótulo lo identifica como fuera del área ilustrada. Es un límite de esta entrega de arte, no el borde urbano definitivo.
+- La huella se calcula como unión de rectángulos fuente reales antes de proyectarlos al terreno.555celdas equivalentes, no560de la caja.13,686218km² dehuella dearte, no porcentaje de ciudad. Pruebas: sin agujeros interiores, sin pérdida previa y11celdas nuevas. Ledger actualizado con el mismo método.
+- Base9d80cc9.46fuentes previas auditadas:solo420246píxeles de right15 cambian dentro de máscara.45restantes, mapa y3D byteexactos.47fuentes en total.
+- Las referencias de los rectángulos de investigación, más amplios que este recorte, incluyen715huellas y1229corredoresOSM,PNOAjulio2024 en3muestras y94partescatastrales de apoyo. No son una revisión exhaustiva de fachadas2026.
+- QA local390/1280 de campus,cruceferroviario,esquina transparente,comparaciónsin salto,pellizco,Catedral,mapayrotación3D.560teselas nativas de cada vista comprobadas pixel a pixel. Sin nuevos servicios ni facturación.
