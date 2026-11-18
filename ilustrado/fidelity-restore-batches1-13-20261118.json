@@ -1,0 +1,93 @@
+{
+ "date": "2026-11-18",
+ "method": "Restauracion exacta de pixeles de los tiles fuente al estado previo a cada lote (solo donde previo!=lote y actual==lote), sin mezcla. Auditoria visual a resolucion nativa, comparando antes|ahora. La evidencia es visual, no verifica fidelidad geografica.",
+ "status": "pendiente_de_fidelidad_no_resuelta",
+ "restored_regions": [
+  {
+   "id": "R1.1",
+   "batch": "lote 1",
+   "commit": "05938fb",
+   "world_box": "3616,3008,4008,3384",
+   "content": "cocheras 8560003WJ9186B",
+   "defect": "velo gris en el borde superior"
+  },
+  {
+   "id": "R1.2",
+   "batch": "lote 1",
+   "commit": "05938fb",
+   "world_box": "5048,3048,5648,3496",
+   "content": "polideportivo 9264206WJ9196C",
+   "defect": "borde izquierdo difuminado"
+  },
+  {
+   "id": "R3.1",
+   "batch": "lote 3",
+   "commit": "052d4eb",
+   "world_box": "4936,552,5264,896",
+   "content": "edificio no residencial",
+   "defect": "velo rosado en cubierta"
+  },
+  {
+   "id": "R10.0",
+   "batch": "lote 10",
+   "commit": "fd9f18d",
+   "world_box": "-7680,-2016,-7096,-1568",
+   "content": "parcela y via",
+   "defect": "desvanecido en borde y parche borroso"
+  },
+  {
+   "id": "R10.3",
+   "batch": "lote 10",
+   "commit": "fd9f18d",
+   "world_box": "3536,3616,4168,4064",
+   "content": "aparcamiento",
+   "defect": "banda gris en borde inferior"
+  },
+  {
+   "id": "R10.4",
+   "batch": "lote 10",
+   "commit": "fd9f18d",
+   "world_box": "5592,3616,6216,4064",
+   "content": "nave y solar",
+   "defect": "borde izquierdo y banda inferior difuminados"
+  },
+  {
+   "id": "R10.5",
+   "batch": "lote 10",
+   "commit": "fd9f18d",
+   "world_box": "976,4128,1608,4576",
+   "content": "colegio y pistas",
+   "defect": "pista azul desvanecida en borde derecho"
+  },
+  {
+   "id": "R12.0",
+   "batch": "lote 12",
+   "commit": "8a87807",
+   "world_box": "-3664,4136,-2592,4584",
+   "content": "borde sur de manzana",
+   "defect": "desvanecido en borde con campo"
+  },
+  {
+   "id": "R13.1",
+   "batch": "lote 13",
+   "commit": "5bdc0c6",
+   "world_box": "6616,-992,7240,-544",
+   "content": "solar y pista",
+   "defect": "borde derecho desvanecido"
+  },
+  {
+   "id": "R13.3",
+   "batch": "lote 13",
+   "commit": "5bdc0c6",
+   "world_box": "976,3104,1608,3552",
+   "content": "manzana residencial",
+   "defect": "borrosidad en borde derecho"
+  }
+ ],
+ "kept_mild_flagged": [
+  "R2.1 arbol oscuro borroso",
+  "R8.0 bloque denso de arbolado con borde marcado",
+  "R11.2 velo leve esquina superior derecha",
+  "R13.2 desvanecido leve borde izquierdo"
+ ]
+}
