@@ -69,10 +69,12 @@
     "M": 72,
     "U": 3
    },
-   "pendientes_barrido_actual": 424,
+   "pendientes_barrido_actual": 392,
    "cribado_previo": "teja roja >5% y <=3 edificios Catastro: 32 celdas, criterio distinto (heuristica de un solo atributo); NO cuenta como revision de contenido; se solapa en parte con el barrido actual",
    "bordes_pendientes": "banda revisada 360 de 512 px de alto por celda (70%); 76 px arriba y 76 abajo sin revisar en las celdas clasificadas y en las pendientes",
-   "nota": "el 756=42x18 citado antes era mi rango de busqueda, no la rejilla; 697=41x17 es correcto"
+   "nota": "el 756=42x18 citado antes era mi rango de busqueda, no la rejilla; 697=41x17 es correcto",
+   "celdas_revisadas_o_corregidas_antes_del_barrido_actual": 32,
+   "aritmetica": "608 = 184 clasificadas en barrido actual + 392 pendientes + 32 revisadas/corregidas antes con otros criterios (las 32 no estan en el barrido actual)"
   },
   "celdas_U_incertidumbre": {
    "29,1": "calles sobre campo en atlas; PNOA sin calles; sin fuente posterior que decida",
