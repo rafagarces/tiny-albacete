@@ -1,0 +1,97 @@
+{
+ "date": "2026-11-18",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas. Incertidumbre abierta: PNOA es de 2024-07; el Catastro no lo descarta. Motivos de lectura visual, aproximados. Revision en contexto (760x620) hecha antes de publicar. Excluidas del lote 24,13 y 30,15: el atlas tiene un edificio grande singular que PNOA no confirma en esa posicion; pendientes de contraste con fuente mas reciente. Muchas celdas son de borde SE/E, alcance respecto a 'sin pedanias' por decidir.",
+ "cells": {
+  "20,12": {
+   "recorte_atlas_px": [
+    10240,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "bloques de teja y parque; PNOA muestra hileras paralelas de bloques bajos con patios"
+  },
+  "22,12": {
+   "recorte_atlas_px": [
+    11264,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "manzanas de teja y jardines; PNOA muestra bloques de cubierta plana con piscina, pista y colegio de teja"
+  },
+  "16,14": {
+   "recorte_atlas_px": [
+    8192,
+    7244,
+    540,
+    360
+   ],
+   "motivo": "bloque alto y solares; PNOA muestra manzanas con zona arbolada y edificio de esquina"
+  },
+  "18,14": {
+   "recorte_atlas_px": [
+    9216,
+    7244,
+    540,
+    360
+   ],
+   "motivo": "parcelas y viviendas; PNOA muestra viviendas con piscinas, solares abiertos y calles en curva"
+  },
+  "20,14": {
+   "recorte_atlas_px": [
+    10240,
+    7244,
+    540,
+    360
+   ],
+   "motivo": "campo con calles; PNOA muestra chatarreria o deposito de materiales con parcelas"
+  },
+  "11,15": {
+   "recorte_atlas_px": [
+    5632,
+    7756,
+    540,
+    360
+   ],
+   "motivo": "campo y casas sueltas; PNOA muestra patio de naves y parcelas"
+  },
+  "14,15": {
+   "recorte_atlas_px": [
+    7168,
+    7756,
+    540,
+    360
+   ],
+   "motivo": "campo abierto; PNOA muestra pista deportiva, arbolado y viviendas en el borde"
+  },
+  "24,15": {
+   "recorte_atlas_px": [
+    12288,
+    7756,
+    540,
+    360
+   ],
+   "motivo": "bloques de teja y descampado; PNOA muestra calle curva, viviendas bajas y solar"
+  },
+  "26,15": {
+   "recorte_atlas_px": [
+    13312,
+    7756,
+    540,
+    360
+   ],
+   "motivo": "bloques de teja; PNOA muestra manzana de cubierta plana con aparcamiento y solar"
+  },
+  "17,16": {
+   "recorte_atlas_px": [
+    8704,
+    8268,
+    540,
+    360
+   ],
+   "motivo": "viviendas y campo; PNOA muestra naves, cobertizos y parcelas con calle"
+  }
+ },
+ "incertidumbre": "Si una fuente posterior a 2024-07 muestra obra nueva, la correccion debe revisarse."
+}

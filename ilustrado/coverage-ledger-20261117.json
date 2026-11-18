@@ -114,11 +114,27 @@
     "25,11",
     "27,11",
     "29,11",
-    "11,12"
+    "11,12",
+    "20,12",
+    "22,12",
+    "16,14",
+    "18,14",
+    "20,14",
+    "11,15",
+    "14,15",
+    "24,15",
+    "26,15",
+    "17,16"
    ],
    "celdas_C_revertidas_pendientes": {
     "7,11": "posible hito (edificio largo de cubierta oscura); necesita fuente mas reciente que PNOA 2024",
     "31,11": "corte contra campo de futbol; rehacer con continuidad"
+   },
+   "celdas_C_excluidas_posible_hito": {
+    "12,8": "plaza de toros",
+    "24,13": "edificio grande",
+    "30,15": "edificio institucional",
+    "7,11": "edificio largo cubierta oscura (revertida)"
    }
   },
   "celdas_U_incertidumbre": {
@@ -5151,6 +5167,26 @@
     "7,11",
     "31,11"
    ]
+  },
+  {
+   "lote": "batch19",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "20,12": "bloques de teja y parque; PNOA muestra hileras paralelas de bloques bajos con patios",
+    "22,12": "manzanas de teja y jardines; PNOA muestra bloques de cubierta plana con piscina, pista y colegio de teja",
+    "16,14": "bloque alto y solares; PNOA muestra manzanas con zona arbolada y edificio de esquina",
+    "18,14": "parcelas y viviendas; PNOA muestra viviendas con piscinas, solares abiertos y calles en curva",
+    "20,14": "campo con calles; PNOA muestra chatarreria o deposito de materiales con parcelas",
+    "11,15": "campo y casas sueltas; PNOA muestra patio de naves y parcelas",
+    "14,15": "campo abierto; PNOA muestra pista deportiva, arbolado y viviendas en el borde",
+    "24,15": "bloques de teja y descampado; PNOA muestra calle curva, viviendas bajas y solar",
+    "26,15": "bloques de teja; PNOA muestra manzana de cubierta plana con aparcamiento y solar",
+    "17,16": "viviendas y campo; PNOA muestra naves, cobertizos y parcelas con calle"
+   },
+   "excluidas_posible_hito": {
+    "24,13": "edificio grande en atlas no confirmado por PNOA",
+    "30,15": "edificio institucional en atlas no confirmado por PNOA"
+   }
   }
  ],
  "barrido_celdas": {
