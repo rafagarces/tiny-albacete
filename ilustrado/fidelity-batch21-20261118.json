@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "method": "Celda aislada (31,3) como en lotes previos. Las otras siete con metodo de continuidad: recorte ancho 720x480 del atlas ya corregido en vecinas, PNOA alineado al mismo recorte, banda exterior conservada y mezcla ancha (36 px de margen, sigma 20), revisadas en contexto antes de publicar. Motivos de lectura visual, aproximados. Excluidas tras revision en contexto: 31,11 (borde del campo de futbol difuso) y 27,1 (mancha roja en el borde). Incertidumbre: PNOA es 2024-07.",
+ "method": "Solo 31,3 (celda aislada, como en lotes previos). Retiradas el mismo dia las siete celdas hechas con recorte ancho (20,13 29,12 12,4 21,2 26,2 28,2 30,2): en revision en contexto la mezcla ancha dejaba velos y emborronaba edificios y calles en los bordes (visto en 28,2, 29,12, 30,2, 20,13). Siguen sin corregir. El metodo de continuidad con mezcla ancha no se da por valido. Incertidumbre: PNOA es 2024-07.",
  "cells": {
   "31,3": {
    "tipo": "celda",
@@ -11,76 +11,15 @@
     360
    ],
    "motivo": "calles y solares; PNOA muestra solar abierto, aparcamiento y pista"
-  },
-  "20,13": {
-   "tipo": "ancha",
-   "recorte_atlas_px": [
-    10150,
-    6672,
-    720,
-    480
-   ],
-   "motivo": "colegio con pistas deportivas y solar; PNOA muestra patio escolar, pistas y calle"
-  },
-  "29,12": {
-   "tipo": "ancha",
-   "recorte_atlas_px": [
-    14758,
-    6160,
-    720,
-    480
-   ],
-   "motivo": "nave grande y solar con calle; PNOA muestra solar abierto con camino y nave"
-  },
-  "12,4": {
-   "tipo": "ancha",
-   "recorte_atlas_px": [
-    6054,
-    2064,
-    720,
-    480
-   ],
-   "motivo": "manzanas y parque; PNOA muestra bloques bajos, rotonda y zona arbolada"
-  },
-  "21,2": {
-   "tipo": "ancha",
-   "recorte_atlas_px": [
-    10662,
-    1040,
-    720,
-    480
-   ],
-   "motivo": "manzanas y aparcamiento; PNOA muestra naves, viviendas y calle"
-  },
-  "26,2": {
-   "tipo": "ancha",
-   "recorte_atlas_px": [
-    13222,
-    1040,
-    720,
-    480
-   ],
-   "motivo": "manzanas y parque; PNOA muestra bloques con patios y zona verde"
-  },
-  "28,2": {
-   "tipo": "ancha",
-   "recorte_atlas_px": [
-    14246,
-    1040,
-    720,
-    480
-   ],
-   "motivo": "bloques con patios; PNOA muestra manzanas de cubierta oscura y plaza"
-  },
-  "30,2": {
-   "tipo": "ancha",
-   "recorte_atlas_px": [
-    15270,
-    1040,
-    720,
-    480
-   ],
-   "motivo": "solar y edificios institucionales; PNOA muestra solar con aparcamiento y edificios"
   }
- }
+ },
+ "retiradas_tras_revision": [
+  "20,13",
+  "29,12",
+  "12,4",
+  "21,2",
+  "26,2",
+  "28,2",
+  "30,2"
+ ]
 }

@@ -131,14 +131,7 @@
     "24,12",
     "32,12",
     "34,5",
-    "31,3",
-    "20,13",
-    "29,12",
-    "12,4",
-    "21,2",
-    "26,2",
-    "28,2",
-    "30,2"
+    "31,3"
    ],
    "celdas_C_revertidas_pendientes": {
     "7,11": "posible hito (edificio largo de cubierta oscura); necesita fuente mas reciente que PNOA 2024",
@@ -228,8 +221,18 @@
     "29,13"
    ],
    "celdas_C_excluidas_tras_revision_en_contexto": {
-    "27,1": "mancha roja en el borde con metodo de continuidad"
-   }
+    "27,1": "mancha roja en el borde con recorte ancho",
+    "31,11": "borde del campo de futbol difuso con recorte ancho"
+   },
+   "celdas_C_pendientes_metodo_continuidad_no_validado": [
+    "20,13",
+    "29,12",
+    "12,4",
+    "21,2",
+    "26,2",
+    "28,2",
+    "30,2"
+   ]
   },
   "celdas_U_incertidumbre": {
    "29,1": "calles sobre campo en atlas; PNOA sin calles; sin fuente posterior que decida",
@@ -237,7 +240,11 @@
   },
   "celdas_aplazadas_por_costura": [
    "27,1",
-   "28,1"
+   "28,1",
+   "21,2",
+   "26,2",
+   "28,2",
+   "30,2"
   ]
  },
  "refs": {
@@ -5294,16 +5301,18 @@
    "lote": "batch21",
    "fecha": "2026-11-18",
    "celdas": {
-    "31,3": "calles y solares; PNOA muestra solar abierto, aparcamiento y pista",
-    "20,13": "colegio con pistas deportivas y solar; PNOA muestra patio escolar, pistas y calle",
-    "29,12": "nave grande y solar con calle; PNOA muestra solar abierto con camino y nave",
-    "12,4": "manzanas y parque; PNOA muestra bloques bajos, rotonda y zona arbolada",
-    "21,2": "manzanas y aparcamiento; PNOA muestra naves, viviendas y calle",
-    "26,2": "manzanas y parque; PNOA muestra bloques con patios y zona verde",
-    "28,2": "bloques con patios; PNOA muestra manzanas de cubierta oscura y plaza",
-    "30,2": "solar y edificios institucionales; PNOA muestra solar con aparcamiento y edificios"
+    "31,3": "calles y solares; PNOA muestra solar abierto, aparcamiento y pista"
    },
-   "metodo": "continuidad (recorte ancho) salvo 31,3"
+   "metodo": "solo 31,3; las 7 de recorte ancho retiradas",
+   "retiradas": [
+    "20,13",
+    "29,12",
+    "12,4",
+    "21,2",
+    "26,2",
+    "28,2",
+    "30,2"
+   ]
   }
  ],
  "barrido_celdas": {
