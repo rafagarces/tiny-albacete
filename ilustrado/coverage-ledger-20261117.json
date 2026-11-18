@@ -3938,8 +3938,9 @@
    "dentro_atlas": true,
    "partes_catastro_en_recorte": 21,
    "revisado": true,
-   "estado": "discrepancia_contenido_atlas_vs_PNOA",
-   "lote": null
+   "estado": "resuelto_por_correccion_de_celda_29,13_lote10",
+   "lote": "batch10 (celda)",
+   "nota": "2026-11-18: tras el lote 10 el atlas muestra a escala de edificio tejado de teja roja, naves grises, patio con restos y cubierta azul en las posiciones que PNOA 2024-07 muestra; no se publico correccion de edificio aparte. Comparacion visual, no medida."
   },
   "8854301WJ9185D": {
    "uso_catastro": "4_3_publicServices",
