@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-18",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave; no es estado actual. Detalle, vehiculos y vegetacion interpretados. El borde norte (y<6740) y el borde este del parche no se han revisado.",
+ "cells": {
+  "sn1+sn2": {
+   "recortes_atlas_px": [
+    [
+     5600,
+     6740,
+     540,
+     360
+    ],
+    [
+     6040,
+     6740,
+     540,
+     360
+    ]
+   ],
+   "motivo": "franja norte del parche SW: el atlas dibujaba vias de tren, arboles y manzanas donde PNOA 2024-07 muestra una fila de viviendas de teja, calle, solar y campo; sn2 regenerado tras aplicar sn1 para evitar costura (primer intento mostraba corte visible y se descarto antes de publicar)"
+  }
+ }
+}

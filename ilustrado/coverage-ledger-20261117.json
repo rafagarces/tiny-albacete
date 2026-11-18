@@ -4881,6 +4881,29 @@
      "motivo": "continuidad este del parche SW: calle con coches inventada donde PNOA muestra suelo abierto, caminos y huerto"
     }
    }
+  },
+  {
+   "lote": "batch12",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "sn1+sn2": {
+     "recortes_atlas_px": [
+      [
+       5600,
+       6740,
+       540,
+       360
+      ],
+      [
+       6040,
+       6740,
+       540,
+       360
+      ]
+     ],
+     "motivo": "franja norte del parche SW: el atlas dibujaba vias de tren, arboles y manzanas donde PNOA 2024-07 muestra una fila de viviendas de teja, calle, solar y campo; sn2 regenerado tras aplicar sn1 para evitar costura (primer intento mostraba corte visible y se descarto antes de publicar)"
+    }
+   }
   }
  ],
  "barrido_celdas": {
