@@ -124,7 +124,13 @@
     "14,15",
     "24,15",
     "26,15",
-    "17,16"
+    "17,16",
+    "2,12",
+    "5,13",
+    "16,10",
+    "24,12",
+    "32,12",
+    "34,5"
    ],
    "celdas_C_revertidas_pendientes": {
     "7,11": "posible hito (edificio largo de cubierta oscura); necesita fuente mas reciente que PNOA 2024",
@@ -207,7 +213,12 @@
      "39,8": "A",
      "13,0": "sin_clasificar (PNOA fallo)"
     }
-   }
+   },
+   "celdas_C_posible_hito_pendientes_de_las_32": [
+    "20,11",
+    "25,8",
+    "29,13"
+   ]
   },
   "celdas_U_incertidumbre": {
    "29,1": "calles sobre campo en atlas; PNOA sin calles; sin fuente posterior que decida",
@@ -5258,6 +5269,18 @@
    "excluidas_posible_hito": {
     "24,13": "edificio grande en atlas no confirmado por PNOA",
     "30,15": "edificio institucional en atlas no confirmado por PNOA"
+   }
+  },
+  {
+   "lote": "batch20",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "2,12": "comercial con pista de aparcamiento; PNOA muestra naves, circuito y rotonda",
+    "5,13": "viviendas sueltas con piscinas; PNOA muestra parcelas con casas bajas, arbolado y solar",
+    "16,10": "manzanas de teja; PNOA muestra nave larga y manzanas bajas",
+    "24,12": "manzanas y parque; PNOA muestra solar, ruinas y viviendas bajas",
+    "32,12": "viviendas de borde; PNOA muestra casas dispersas, pista y campo",
+    "34,5": "edificio y calles; PNOA muestra solar abierto y naves de chapa"
    }
   }
  ],

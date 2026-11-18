@@ -1,0 +1,60 @@
+{
+ "date": "2026-11-18",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, solo celdas aisladas (sin vecinas ya corregidas). Motivos de lectura visual, aproximados. Revision en contexto (760x620) antes de publicar. Clasificacion de estas celdas por lectura rapida (cribado de las 32 sin clasificar). Incertidumbre: PNOA es 2024-07.",
+ "cells": {
+  "2,12": {
+   "recorte_atlas_px": [
+    1024,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "comercial con pista de aparcamiento; PNOA muestra naves, circuito y rotonda"
+  },
+  "5,13": {
+   "recorte_atlas_px": [
+    2560,
+    6732,
+    540,
+    360
+   ],
+   "motivo": "viviendas sueltas con piscinas; PNOA muestra parcelas con casas bajas, arbolado y solar"
+  },
+  "16,10": {
+   "recorte_atlas_px": [
+    8192,
+    5196,
+    540,
+    360
+   ],
+   "motivo": "manzanas de teja; PNOA muestra nave larga y manzanas bajas"
+  },
+  "24,12": {
+   "recorte_atlas_px": [
+    12288,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "manzanas y parque; PNOA muestra solar, ruinas y viviendas bajas"
+  },
+  "32,12": {
+   "recorte_atlas_px": [
+    16384,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "viviendas de borde; PNOA muestra casas dispersas, pista y campo"
+  },
+  "34,5": {
+   "recorte_atlas_px": [
+    17408,
+    2636,
+    540,
+    360
+   ],
+   "motivo": "edificio y calles; PNOA muestra solar abierto y naves de chapa"
+  }
+ }
+}
