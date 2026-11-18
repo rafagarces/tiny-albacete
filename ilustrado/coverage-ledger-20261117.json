@@ -133,10 +133,7 @@
     "34,5",
     "31,3",
     "9,9",
-    "14,5",
-    "20,3",
     "20,15",
-    "23,13",
     "29,10"
    ],
    "celdas_C_revertidas_pendientes": {
@@ -236,7 +233,10 @@
     "11,13": "rastro en borde izquierdo",
     "18,7": "corte duro en tejado",
     "20,7": "corte en plaza",
-    "28,12": "franja roja en borde"
+    "28,12": "franja roja en borde",
+    "14,5": "velo/borde borroso en el limite de la celda (auditoria a resolucion completa); restaurada",
+    "20,3": "velo/borde borroso en el limite de la celda (auditoria a resolucion completa); restaurada",
+    "23,13": "velo/borde borroso en el limite de la celda (auditoria a resolucion completa); restaurada"
    },
    "celdas_C_pendientes_metodo_continuidad_no_validado": [
     "20,13",
