@@ -4998,6 +4998,17 @@
      "motivo": "bloques altos de teja; PNOA muestra viviendas bajas en hilera con cubiertas grises y teja"
     }
    }
+  },
+  {
+   "lote": "batch15",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "20,2": "bloques altos en atlas; PNOA muestra viviendas bajas y cubiertas grises",
+    "25,2": "parque y solar inventados; PNOA muestra manzana con edificio y solar vacio junto a rotonda",
+    "27,2": "bloques altos de teja; PNOA muestra bloque bajo oscuro y plaza",
+    "29,2": "campo de futbol inventado; PNOA muestra patio arbolado y bloque en L",
+    "31,2": "campo abierto; PNOA muestra parcelas pavimentadas con franja verde y edificio"
+   }
   }
  ],
  "barrido_celdas": {
