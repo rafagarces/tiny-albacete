@@ -9253,7 +9253,7 @@
     "id": "R10.3",
     "batch": "lote 10",
     "commit": "fd9f18d",
-    "world_box": "3536,3616,4168,4064",
+    "world_box": "3496,3616,4168,4064",
     "content": "aparcamiento",
     "defect": "banda gris en borde inferior"
    },
@@ -9303,6 +9303,7 @@
    "R8.0 bloque denso de arbolado con borde marcado",
    "R11.2 velo leve esquina superior derecha",
    "R13.2 desvanecido leve borde izquierdo"
-  ]
+  ],
+  "verificacion_post_restauracion": "Inspeccion visual a resolucion nativa tras restaurar: R1.1,R10.3,R13.1 requirieron reversion completa en caja (cambios posteriores al lote impedian la restauracion exacta; R10.3 ampliada 40 px a la izquierda). R12.0: el borde inferior de casas ya estaba cortado en el estado previo al lote (defecto previo, no resuelto)."
  }
 }
