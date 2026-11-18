@@ -1,0 +1,60 @@
+{
+ "date": "2026-11-18",
+ "method": "Celdas aisladas (sin vecina horizontal corregida), PNOA 2024-07 como referencia, mezcla estrecha. Revision en contexto (760x620) a resolucion completa, buscando cortes y velos, antes de publicar. Motivos de lectura visual, aproximados. Retenidas tras esa revision por corte o artefacto en el borde: 11,13 (rastro en borde izquierdo), 18,7 (corte duro en tejado), 20,7 (corte en plaza), 28,12 (franja roja). Retenidas por cautela de hito singular (el atlas muestra un edificio singular que PNOA no confirma): 14,10 (arcada curva), 27,3 (complejo plano), 31,15 (estacion), 25,13 (nave grande). Incertidumbre: PNOA es 2024-07.",
+ "cells": {
+  "9,9": {
+   "recorte_atlas_px": [
+    4608,
+    4684,
+    540,
+    360
+   ],
+   "motivo": "manzanas con patio; PNOA muestra bloques con patios, nave plana y solar"
+  },
+  "14,5": {
+   "recorte_atlas_px": [
+    7168,
+    2636,
+    540,
+    360
+   ],
+   "motivo": "bloque con patio y via; PNOA muestra bloque con piscina y cubierta plana"
+  },
+  "20,3": {
+   "recorte_atlas_px": [
+    10240,
+    1612,
+    540,
+    360
+   ],
+   "motivo": "torres y manzanas; PNOA muestra viviendas adosadas y edificios oscuros"
+  },
+  "20,15": {
+   "recorte_atlas_px": [
+    10240,
+    7756,
+    540,
+    360
+   ],
+   "motivo": "campo con casas; PNOA muestra pinar y solar"
+  },
+  "23,13": {
+   "recorte_atlas_px": [
+    11776,
+    6732,
+    540,
+    360
+   ],
+   "motivo": "manzanas densas; PNOA muestra manzanas pequenas de teja con patios"
+  },
+  "29,10": {
+   "recorte_atlas_px": [
+    14848,
+    5196,
+    540,
+    360
+   ],
+   "motivo": "manzanas altas; PNOA muestra manzanas mixtas con cubiertas planas"
+  }
+ }
+}

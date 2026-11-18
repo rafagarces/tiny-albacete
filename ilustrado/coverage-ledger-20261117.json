@@ -131,7 +131,13 @@
     "24,12",
     "32,12",
     "34,5",
-    "31,3"
+    "31,3",
+    "9,9",
+    "14,5",
+    "20,3",
+    "20,15",
+    "23,13",
+    "29,10"
    ],
    "celdas_C_revertidas_pendientes": {
     "7,11": "posible hito (edificio largo de cubierta oscura); necesita fuente mas reciente que PNOA 2024",
@@ -141,7 +147,11 @@
     "12,8": "plaza de toros",
     "24,13": "edificio grande",
     "30,15": "edificio institucional",
-    "7,11": "edificio largo cubierta oscura (revertida)"
+    "7,11": "edificio largo cubierta oscura (revertida)",
+    "14,10": "arcada curva singular",
+    "27,3": "complejo plano grande",
+    "31,15": "estacion",
+    "25,13": "nave grande"
    },
    "celdas_con_pixeles_sin_clasificar_por_id": {
     "n": 32,
@@ -222,7 +232,11 @@
    ],
    "celdas_C_excluidas_tras_revision_en_contexto": {
     "27,1": "mancha roja en el borde con recorte ancho",
-    "31,11": "borde del campo de futbol difuso con recorte ancho"
+    "31,11": "borde del campo de futbol difuso con recorte ancho",
+    "11,13": "rastro en borde izquierdo",
+    "18,7": "corte duro en tejado",
+    "20,7": "corte en plaza",
+    "28,12": "franja roja en borde"
    },
    "celdas_C_pendientes_metodo_continuidad_no_validado": [
     "20,13",
@@ -5313,6 +5327,18 @@
     "28,2",
     "30,2"
    ]
+  },
+  {
+   "lote": "batch22",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "9,9": "manzanas con patio; PNOA muestra bloques con patios, nave plana y solar",
+    "14,5": "bloque con patio y via; PNOA muestra bloque con piscina y cubierta plana",
+    "20,3": "torres y manzanas; PNOA muestra viviendas adosadas y edificios oscuros",
+    "20,15": "campo con casas; PNOA muestra pinar y solar",
+    "23,13": "manzanas densas; PNOA muestra manzanas pequenas de teja con patios",
+    "29,10": "manzanas altas; PNOA muestra manzanas mixtas con cubiertas planas"
+   }
   }
  ],
  "barrido_celdas": {
