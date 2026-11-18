@@ -9306,6 +9306,7 @@
   ],
   "verificacion_post_restauracion": "Inspeccion visual a resolucion nativa tras restaurar: R1.1,R10.3,R13.1 requirieron reversion completa en caja (cambios posteriores al lote impedian la restauracion exacta; R10.3 ampliada 40 px a la izquierda). R12.0: el borde inferior de casas ya estaba cortado en el estado previo al lote (defecto previo, no resuelto).",
   "celda_retirada_25_11": "Celda 25,11 (lote 18) retirada por completo (antes parcial 49% por la reversion de R1.1, con costura recta): reversion a ccd20a1^ en la celda y franja derecha 4096-4136 x 3140-3516, y R1.1 reaplicada. Pendiente de fidelidad. Inspeccion nativa limpia.",
-  "parche_24_12_revertido": "Parche de la celda 24,12 (lotes 11 y 20, mundo x3040-3520 y3604-4084) revertido al estado previo al lote 10 porque dejaba un corte vertical recto en x=3496 contra la caja revertida de R10.3. Pierde fidelidad: parque y aparcamiento de 24,12. Pendiente de fidelidad. Banda horizontal preexistente en y~4064-4130 sin resolver (defecto separado)."
+  "parche_24_12_revertido": "Parche de la celda 24,12 (lotes 11 y 20, mundo x3040-3520 y3604-4084) revertido al estado previo al lote 10 porque dejaba un corte vertical recto en x=3496 contra la caja revertida de R10.3. Pierde fidelidad: parque y aparcamiento de 24,12. Pendiente de fidelidad. Banda horizontal preexistente en y~4064-4130 sin resolver (defecto separado).",
+  "celda_retirada_25_1": "Celda 25,1 (lote 14) retirada (reversion completa de la celda, mundo x3584-4096 y-2048--1536): dejaba un corte vertical recto en x=4096 contra 26,1, ambas mejoradas sin solape. 26,1 se mantiene. Pierde fidelidad el contenido de 25,1. Pendiente de fidelidad. Inspeccion nativa sin corte visible."
  }
 }
