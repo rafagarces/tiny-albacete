@@ -1,0 +1,80 @@
+2,0 A
+3,0 C sheds+houses vs empty pale ground
+4,0 A
+5,0 A
+6,0 C road/plot layout and parking vs atlas houses
+7,0 A
+8,0 M houses+pools vs long sheds/dense cemetery
+9,0 A
+10,0 A
+11,0 A
+12,0 A
+14,0 A
+15,0 A
+16,0 M curved road invented; PNOA junkyard plot
+17,0 M fenced plot with building missing
+18,0 M diagonal tree road vs track
+20,0 A
+21,0 A
+22,0 A
+23,0 M overpass/ramps layout differs
+24,0 M overpass and trees vs atlas junction
+25,0 A
+26,0 A
+27,0 A
+28,0 A
+29,0 A
+30,0 M houses vs villa with pool
+31,0 M atlas plot streets vs open land
+32,0 A
+33,0 A
+34,0 A
+35,0 A
+36,0 A
+2,1 A
+4,1 A
+5,1 A
+6,1 A
+7,1 A
+8,1 A
+9,1 A
+10,1 A
+11,1 A
+12,1 A
+14,1 A
+15,1 M atlas street and houses at right edge; PNOA open land
+16,1 C two red-roof houses and street vs open land
+17,1 A
+18,1 A
+19,1 A
+20,1 A
+21,1 A
+22,1 M red roofs vs grey industrial roofs and sheds
+23,1 M roof material and use
+24,1 M red pitched vs grey flat roofs, layout similar
+25,1 C open land and road vs park with paths and plaza
+26,1 C tall blocks vs low rowhouses
+27,1 C dense red blocks vs low mixed plots (check post-2024 construction)
+28,1 C large red blocks vs low informal houses/open land (check)
+29,1 C street grid blocks vs open land (check post-2024)
+30,1 C street grid vs open land and park (check post-2024)
+31,1 M roundabout garden vs plaza disc; grid vs land
+32,1 M plaza and paths vs open land with heliport
+33,1 A
+34,1 A
+35,1 A
+36,1 A
+2,2 A
+3,2 A
+4,2 A
+5,2 A
+6,2 A
+7,2 A
+8,2 A
+9,2 A
+10,2 A
+11,2 A
+12,2 A
+13,2 A
+14,2 A
+15,2 A

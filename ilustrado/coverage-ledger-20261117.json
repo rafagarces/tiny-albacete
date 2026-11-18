@@ -4947,6 +4947,57 @@
      "motivo": "calles y patios; PNOA muestra solares, aparcamiento y suelo abierto"
     }
    }
+  },
+  {
+   "lote": "batch14",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "3,0": {
+     "recorte_atlas_px": [
+      1536,
+      76,
+      540,
+      360
+     ],
+     "motivo": "casetas y viviendas dibujadas donde PNOA muestra suelo vacio"
+    },
+    "6,0": {
+     "recorte_atlas_px": [
+      3072,
+      76,
+      540,
+      360
+     ],
+     "motivo": "viviendas y calle diagonal; PNOA muestra calle curva, parcela vacia y cementerio con aparcamiento"
+    },
+    "16,1": {
+     "recorte_atlas_px": [
+      8192,
+      588,
+      540,
+      360
+     ],
+     "motivo": "calle curva y casas inventadas; PNOA muestra campo abierto, camino y nave"
+    },
+    "25,1": {
+     "recorte_atlas_px": [
+      12800,
+      588,
+      540,
+      360
+     ],
+     "motivo": "solar y calle; PNOA muestra parque con caminos y plaza junto a avenida"
+    },
+    "26,1": {
+     "recorte_atlas_px": [
+      13312,
+      588,
+      540,
+      360
+     ],
+     "motivo": "bloques altos de teja; PNOA muestra viviendas bajas en hilera con cubiertas grises y teja"
+    }
+   }
   }
  ],
  "barrido_celdas": {
