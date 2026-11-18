@@ -1,0 +1,70 @@
+{
+ "date": "2026-11-18",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas (sin vecina corregida). Incertidumbre abierta: PNOA es de 2024-07 y puede haber obra o urbanizacion posterior; el Catastro no lo descarta porque las fechas pueden no reflejar ultima actualizacion ni incluyen calles. Motivos redactados al aplicar, de lectura visual; detalle interpretado.",
+ "cells": {
+  "9,3": {
+   "recorte_atlas_px": [
+    4608,
+    1612,
+    540,
+    360
+   ],
+   "motivo": "vias de tren y naves: atlas con bloques residenciales y solares inventados; PNOA muestra playa de vias, naves industriales y parcelas"
+  },
+  "5,4": {
+   "recorte_atlas_px": [
+    2560,
+    2124,
+    540,
+    360
+   ],
+   "motivo": "naves y cubiertas industriales distintas; PNOA muestra complejo de naves con patio"
+  },
+  "13,4": {
+   "recorte_atlas_px": [
+    6656,
+    2124,
+    540,
+    360
+   ],
+   "motivo": "rotonda y parque con volumenes distintos; PNOA muestra edificio de tejas junto a plaza y arbolado"
+  },
+  "23,5": {
+   "recorte_atlas_px": [
+    11776,
+    2636,
+    540,
+    360
+   ],
+   "motivo": "manzanas densas de otro volumen; PNOA muestra patios, cubiertas grises y colegio"
+  },
+  "31,5": {
+   "recorte_atlas_px": [
+    15872,
+    2636,
+    540,
+    360
+   ],
+   "motivo": "edificio y patio central distintos; PNOA muestra bloque en U con piscina y solar"
+  },
+  "17,6": {
+   "recorte_atlas_px": [
+    8704,
+    3148,
+    540,
+    360
+   ],
+   "motivo": "manzana con contenido inventado; PNOA muestra edificios bajos y naves"
+  },
+  "28,6": {
+   "recorte_atlas_px": [
+    14336,
+    3148,
+    540,
+    360
+   ],
+   "motivo": "solar y calles; PNOA muestra viviendas bajas y parcelas"
+  }
+ },
+ "incertidumbre": "Si una fuente posterior a 2024-07 muestra obra nueva en estas celdas, la correccion debe revisarse."
+}

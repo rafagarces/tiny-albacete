@@ -62,19 +62,39 @@
      9
     ]
    ],
-   "barrido_contenido_actual_celdas_clasificadas": 184,
+   "barrido_contenido_actual_celdas_clasificadas": 576,
    "clases": {
-    "A": 80,
-    "C": 29,
-    "M": 72,
-    "U": 3
+    "A": 180,
+    "C": 94,
+    "M": 272,
+    "U": 30
    },
-   "pendientes_barrido_actual": 392,
+   "pendientes_barrido_actual": 0,
    "cribado_previo": "teja roja >5% y <=3 edificios Catastro: 32 celdas, criterio distinto (heuristica de un solo atributo); NO cuenta como revision de contenido; se solapa en parte con el barrido actual",
    "bordes_pendientes": "banda revisada 360 de 512 px de alto por celda (70%); 76 px arriba y 76 abajo sin revisar en las celdas clasificadas y en las pendientes",
    "nota": "el 756=42x18 citado antes era mi rango de busqueda, no la rejilla; 697=41x17 es correcto",
    "celdas_revisadas_o_corregidas_antes_del_barrido_actual": 32,
-   "aritmetica": "608 = 184 clasificadas en barrido actual + 392 pendientes + 32 revisadas/corregidas antes con otros criterios (las 32 no estan en el barrido actual)"
+   "aritmetica": "608 celdas con pixeles; 576 clasificadas en el barrido actual (banda central 70%), 32 revisadas/corregidas antes con otro criterio; esas 32 se solapan en parte con las 576 (solape no cuantificado), asi que 576+32 no es una suma disjunta",
+   "pendiente_actual": "segunda pasada de bordes (76 px arriba y abajo por celda) en las 608; correccion de las celdas C no generadas; las C aplazadas por costura",
+   "celdas_C_publicadas": [
+    "3,0",
+    "6,0",
+    "16,1",
+    "25,1",
+    "26,1",
+    "20,2",
+    "25,2",
+    "27,2",
+    "29,2",
+    "31,2",
+    "9,3",
+    "5,4",
+    "13,4",
+    "23,5",
+    "31,5",
+    "17,6",
+    "28,6"
+   ]
   },
   "celdas_U_incertidumbre": {
    "29,1": "calles sobre campo en atlas; PNOA sin calles; sin fuente posterior que decida",
@@ -5050,6 +5070,19 @@
     "27,2": "bloques altos de teja; PNOA muestra bloque bajo oscuro y plaza",
     "29,2": "campo de futbol inventado; PNOA muestra patio arbolado y bloque en L",
     "31,2": "campo abierto; PNOA muestra parcelas pavimentadas con franja verde y edificio"
+   }
+  },
+  {
+   "lote": "batch16",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "9,3": "vias de tren y naves: atlas con bloques residenciales y solares inventados; PNOA muestra playa de vias, naves industriales y parcelas",
+    "5,4": "naves y cubiertas industriales distintas; PNOA muestra complejo de naves con patio",
+    "13,4": "rotonda y parque con volumenes distintos; PNOA muestra edificio de tejas junto a plaza y arbolado",
+    "23,5": "manzanas densas de otro volumen; PNOA muestra patios, cubiertas grises y colegio",
+    "31,5": "edificio y patio central distintos; PNOA muestra bloque en U con piscina y solar",
+    "17,6": "manzana con contenido inventado; PNOA muestra edificios bajos y naves",
+    "28,6": "solar y calles; PNOA muestra viviendas bajas y parcelas"
    }
   }
  ],
