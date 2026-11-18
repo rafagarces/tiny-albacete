@@ -4904,6 +4904,48 @@
      "motivo": "franja norte del parche SW: el atlas dibujaba vias de tren, arboles y manzanas donde PNOA 2024-07 muestra una fila de viviendas de teja, calle, solar y campo; sn2 regenerado tras aplicar sn1 para evitar costura (primer intento mostraba corte visible y se descarto antes de publicar)"
     }
    }
+  },
+  {
+   "lote": "batch13",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "20,11": {
+     "recorte_atlas_px": [
+      10240,
+      5708,
+      540,
+      360
+     ],
+     "motivo": "bloques altos amarillos y teja uniforme; PNOA muestra manzanas bajas con cubiertas planas grises y teja mezclada"
+    },
+    "19,0": {
+     "recorte_atlas_px": [
+      9728,
+      76,
+      540,
+      360
+     ],
+     "motivo": "casa pequena y avenida arbolada; PNOA muestra autovia, nave larga, chatarreria y campo"
+    },
+    "34,5": {
+     "recorte_atlas_px": [
+      17408,
+      2636,
+      540,
+      360
+     ],
+     "motivo": "bloques arriba y viviendas; PNOA muestra equipamiento bajo, suelo abierto y naves"
+    },
+    "31,3": {
+     "recorte_atlas_px": [
+      15872,
+      1612,
+      540,
+      360
+     ],
+     "motivo": "calles y patios; PNOA muestra solares, aparcamiento y suelo abierto"
+    }
+   }
   }
  ],
  "barrido_celdas": {
