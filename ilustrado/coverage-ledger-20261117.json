@@ -130,11 +130,19 @@
     "16,10",
     "24,12",
     "32,12",
-    "34,5"
+    "34,5",
+    "31,3",
+    "20,13",
+    "29,12",
+    "12,4",
+    "21,2",
+    "26,2",
+    "28,2",
+    "30,2"
    ],
    "celdas_C_revertidas_pendientes": {
     "7,11": "posible hito (edificio largo de cubierta oscura); necesita fuente mas reciente que PNOA 2024",
-    "31,11": "corte contra campo de futbol; rehacer con continuidad"
+    "31,11": "rehecha con continuidad: borde del campo de futbol difuso; sigue pendiente"
    },
    "celdas_C_excluidas_posible_hito": {
     "12,8": "plaza de toros",
@@ -218,7 +226,10 @@
     "20,11",
     "25,8",
     "29,13"
-   ]
+   ],
+   "celdas_C_excluidas_tras_revision_en_contexto": {
+    "27,1": "mancha roja en el borde con metodo de continuidad"
+   }
   },
   "celdas_U_incertidumbre": {
    "29,1": "calles sobre campo en atlas; PNOA sin calles; sin fuente posterior que decida",
@@ -226,11 +237,7 @@
   },
   "celdas_aplazadas_por_costura": [
    "27,1",
-   "28,1",
-   "21,2",
-   "26,2",
-   "28,2",
-   "30,2"
+   "28,1"
   ]
  },
  "refs": {
@@ -5282,6 +5289,21 @@
     "32,12": "viviendas de borde; PNOA muestra casas dispersas, pista y campo",
     "34,5": "edificio y calles; PNOA muestra solar abierto y naves de chapa"
    }
+  },
+  {
+   "lote": "batch21",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "31,3": "calles y solares; PNOA muestra solar abierto, aparcamiento y pista",
+    "20,13": "colegio con pistas deportivas y solar; PNOA muestra patio escolar, pistas y calle",
+    "29,12": "nave grande y solar con calle; PNOA muestra solar abierto con camino y nave",
+    "12,4": "manzanas y parque; PNOA muestra bloques bajos, rotonda y zona arbolada",
+    "21,2": "manzanas y aparcamiento; PNOA muestra naves, viviendas y calle",
+    "26,2": "manzanas y parque; PNOA muestra bloques con patios y zona verde",
+    "28,2": "bloques con patios; PNOA muestra manzanas de cubierta oscura y plaza",
+    "30,2": "solar y edificios institucionales; PNOA muestra solar con aparcamiento y edificios"
+   },
+   "metodo": "continuidad (recorte ancho) salvo 31,3"
   }
  ],
  "barrido_celdas": {
