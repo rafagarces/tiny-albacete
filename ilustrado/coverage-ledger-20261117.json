@@ -110,14 +110,16 @@
     "30,9",
     "12,10",
     "18,10",
-    "7,11",
     "14,11",
     "25,11",
     "27,11",
     "29,11",
-    "31,11",
     "11,12"
-   ]
+   ],
+   "celdas_C_revertidas_pendientes": {
+    "7,11": "posible hito (edificio largo de cubierta oscura); necesita fuente mas reciente que PNOA 2024",
+    "31,11": "corte contra campo de futbol; rehacer con continuidad"
+   }
   },
   "celdas_U_incertidumbre": {
    "29,1": "calles sobre campo en atlas; PNOA sin calles; sin fuente posterior que decida",
@@ -5137,14 +5139,18 @@
     "30,9": "bloques de teja; PNOA muestra manzanas de cubierta plana beige con patios y solares",
     "12,10": "bloques y solar con via; PNOA muestra manzanas bajas de teja con patios interiores",
     "18,10": "parcela verde y bloques; PNOA muestra manzana arbolada con edificios de teja y nave",
-    "7,11": "manzanas y edificio de teja; PNOA muestra solar abierto y edificios de cubierta plana",
+    "7,11": "revertida: PNOA 2024 no basta para sustituir un posible hito (edificio largo de cubierta oscura); sin evidencia mas reciente se conserva el atlas anterior",
     "14,11": "jardines y viviendas; PNOA muestra plaza semicircular amplia con arbolado y polideportivo",
     "25,11": "manzanas de teja; PNOA muestra viviendas bajas, nave y arbolado",
     "27,11": "bloques densos; PNOA muestra solar con parcelas, bloque de teja y viviendas adosadas con piscinas",
     "29,11": "manzanas y solares; PNOA muestra viviendas adosadas con piscinas y pista deportiva",
-    "31,11": "campo y bloques altos; PNOA muestra arbolado denso y manzanas de teja",
+    "31,11": "revertida: el recorte dejaba corte abrupto contra el campo de futbol vecino; se conserva el atlas anterior (el borde con el campo ya existia antes)",
     "11,12": "a revisar: motivo aproximado; PNOA muestra manzanas de teja con calle diagonal"
-   }
+   },
+   "revertidas": [
+    "7,11",
+    "31,11"
+   ]
   }
  ],
  "barrido_celdas": {
