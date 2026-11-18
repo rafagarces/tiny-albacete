@@ -9304,6 +9304,7 @@
    "R11.2 velo leve esquina superior derecha",
    "R13.2 desvanecido leve borde izquierdo"
   ],
-  "verificacion_post_restauracion": "Inspeccion visual a resolucion nativa tras restaurar: R1.1,R10.3,R13.1 requirieron reversion completa en caja (cambios posteriores al lote impedian la restauracion exacta; R10.3 ampliada 40 px a la izquierda). R12.0: el borde inferior de casas ya estaba cortado en el estado previo al lote (defecto previo, no resuelto)."
+  "verificacion_post_restauracion": "Inspeccion visual a resolucion nativa tras restaurar: R1.1,R10.3,R13.1 requirieron reversion completa en caja (cambios posteriores al lote impedian la restauracion exacta; R10.3 ampliada 40 px a la izquierda). R12.0: el borde inferior de casas ya estaba cortado en el estado previo al lote (defecto previo, no resuelto).",
+  "celda_retirada_25_11": "Celda 25,11 (lote 18) retirada por completo (antes parcial 49% por la reversion de R1.1, con costura recta): reversion a ccd20a1^ en la celda y franja derecha 4096-4136 x 3140-3516, y R1.1 reaplicada. Pendiente de fidelidad. Inspeccion nativa limpia."
  }
 }
