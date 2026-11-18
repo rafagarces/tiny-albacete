@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas. Incertidumbre abierta: PNOA es de 2024-07; el Catastro no lo descarta. Motivos de lectura visual, aproximados. Revision en contexto (760x620) hecha antes de publicar. Excluidas del lote 24,13 y 30,15: el atlas tiene un edificio grande singular que PNOA no confirma en esa posicion; pendientes de contraste con fuente mas reciente. Muchas celdas son de borde SE/E, alcance respecto a 'sin pedanias' por decidir.",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas. Incertidumbre abierta: PNOA es de 2024-07; el Catastro no lo descarta. Motivos de lectura visual, aproximados. Revision en contexto (760x620) hecha antes de publicar. Excluidas del lote 24,13 y 30,15: el atlas tiene un edificio grande singular que PNOA no confirma en esa posicion; pendientes de contraste con fuente mas reciente. Muchas celdas son de borde SE/E, alcance respecto a 'sin pedanias' por decidir. Auditoria posterior a resolucion completa: 26,15 restauradas al estado previo a este lote por velo o borde borroso en el limite de la celda.",
  "cells": {
   "20,12": {
    "recorte_atlas_px": [
@@ -73,15 +73,6 @@
     360
    ],
    "motivo": "bloques de teja y descampado; PNOA muestra calle curva, viviendas bajas y solar"
-  },
-  "26,15": {
-   "recorte_atlas_px": [
-    13312,
-    7756,
-    540,
-    360
-   ],
-   "motivo": "bloques de teja; PNOA muestra manzana de cubierta plana con aparcamiento y solar"
   },
   "17,16": {
    "recorte_atlas_px": [

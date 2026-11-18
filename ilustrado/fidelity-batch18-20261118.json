@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas (sin vecina corregida, ni entre si). Incertidumbre abierta: PNOA es de 2024-07 y puede haber obra o urbanizacion posterior; el Catastro no lo descarta. Motivos de lectura visual y aproximados; detalle interpretado. Muchas de estas celdas son de borde SE/E y estan en revision de alcance respecto a 'sin pedanias' (ver ledger). Revertidas 7,11 y 31,11 tras revision (ver cells).",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas (sin vecina corregida, ni entre si). Incertidumbre abierta: PNOA es de 2024-07 y puede haber obra o urbanizacion posterior; el Catastro no lo descarta. Motivos de lectura visual y aproximados; detalle interpretado. Muchas de estas celdas son de borde SE/E y estan en revision de alcance respecto a 'sin pedanias' (ver ledger). Revertidas 7,11 y 31,11 tras revision (ver cells). Auditoria posterior a resolucion completa: 12,10, 11,12, 14,11, 18,10 restauradas al estado previo a este lote por velo o borde borroso en el limite de la celda.",
  "cells": {
   "35,8": {
    "recorte_atlas_px": [
@@ -29,36 +29,9 @@
    ],
    "motivo": "bloques de teja; PNOA muestra manzanas de cubierta plana beige con patios y solares"
   },
-  "12,10": {
-   "recorte_atlas_px": [
-    6144,
-    5196,
-    540,
-    360
-   ],
-   "motivo": "bloques y solar con via; PNOA muestra manzanas bajas de teja con patios interiores"
-  },
-  "18,10": {
-   "recorte_atlas_px": [
-    9216,
-    5196,
-    540,
-    360
-   ],
-   "motivo": "parcela verde y bloques; PNOA muestra manzana arbolada con edificios de teja y nave"
-  },
   "7,11": {
    "estado": "revertida",
    "motivo": "revertida: PNOA 2024 no basta para sustituir un posible hito (edificio largo de cubierta oscura); sin evidencia mas reciente se conserva el atlas anterior"
-  },
-  "14,11": {
-   "recorte_atlas_px": [
-    7168,
-    5708,
-    540,
-    360
-   ],
-   "motivo": "jardines y viviendas; PNOA muestra plaza semicircular amplia con arbolado y polideportivo"
   },
   "25,11": {
    "recorte_atlas_px": [
@@ -90,15 +63,6 @@
   "31,11": {
    "estado": "revertida",
    "motivo": "revertida: el recorte dejaba corte abrupto contra el campo de futbol vecino; se conserva el atlas anterior (el borde con el campo ya existia antes)"
-  },
-  "11,12": {
-   "recorte_atlas_px": [
-    5632,
-    6220,
-    540,
-    360
-   ],
-   "motivo": "a revisar: motivo aproximado; PNOA muestra manzanas de teja con calle diagonal"
   }
  },
  "incertidumbre": "Si una fuente posterior a 2024-07 muestra obra nueva en estas celdas, la correccion debe revisarse."

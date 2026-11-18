@@ -1,25 +1,7 @@
 {
  "date": "2026-11-18",
- "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas (sin vecina corregida, ni entre si). Incertidumbre abierta: PNOA es de 2024-07 y puede haber obra o urbanizacion posterior; el Catastro no lo descarta. Motivos de lectura visual; detalle interpretado. Excluida 12,8 del lote por contener una plaza de toros en el atlas que PNOA warp no mostraba (hito singular, pendiente de revision aparte).",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas (sin vecina corregida, ni entre si). Incertidumbre abierta: PNOA es de 2024-07 y puede haber obra o urbanizacion posterior; el Catastro no lo descarta. Motivos de lectura visual; detalle interpretado. Excluida 12,8 del lote por contener una plaza de toros en el atlas que PNOA warp no mostraba (hito singular, pendiente de revision aparte). Auditoria posterior a resolucion completa: 11,4, 15,3 restauradas al estado previo a este lote por velo o borde borroso en el limite de la celda.",
  "cells": {
-  "15,3": {
-   "recorte_atlas_px": [
-    7680,
-    1612,
-    540,
-    360
-   ],
-   "motivo": "bloques altos de teja y solar con casas; PNOA muestra bloques bajos de cubierta plana y azotea parda"
-  },
-  "11,4": {
-   "recorte_atlas_px": [
-    5632,
-    2124,
-    540,
-    360
-   ],
-   "motivo": "campos y casas sueltas en atlas; PNOA muestra plaza, conjunto residencial con piscina y arbolado"
-  },
   "21,4": {
    "recorte_atlas_px": [
     10752,

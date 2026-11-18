@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, solo celdas aisladas (sin vecinas ya corregidas). Motivos de lectura visual, aproximados. Revision en contexto (760x620) antes de publicar. Clasificacion de estas celdas por lectura rapida (cribado de las 32 sin clasificar). Incertidumbre: PNOA es 2024-07.",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, solo celdas aisladas (sin vecinas ya corregidas). Motivos de lectura visual, aproximados. Revision en contexto (760x620) antes de publicar. Clasificacion de estas celdas por lectura rapida (cribado de las 32 sin clasificar). Incertidumbre: PNOA es 2024-07. Auditoria posterior a resolucion completa: 16,10 restauradas al estado previo a este lote por velo o borde borroso en el limite de la celda.",
  "cells": {
   "2,12": {
    "recorte_atlas_px": [
@@ -19,15 +19,6 @@
     360
    ],
    "motivo": "viviendas sueltas con piscinas; PNOA muestra parcelas con casas bajas, arbolado y solar"
-  },
-  "16,10": {
-   "recorte_atlas_px": [
-    8192,
-    5196,
-    540,
-    360
-   ],
-   "motivo": "manzanas de teja; PNOA muestra nave larga y manzanas bajas"
   },
   "24,12": {
    "recorte_atlas_px": [
