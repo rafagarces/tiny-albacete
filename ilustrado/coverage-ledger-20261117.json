@@ -93,7 +93,18 @@
     "23,5",
     "31,5",
     "17,6",
-    "28,6"
+    "28,6",
+    "15,3",
+    "11,4",
+    "21,4",
+    "27,4",
+    "11,6",
+    "19,6",
+    "14,7",
+    "7,8",
+    "10,8",
+    "15,9",
+    "20,9"
    ]
   },
   "celdas_U_incertidumbre": {
@@ -5083,6 +5094,26 @@
     "31,5": "edificio y patio central distintos; PNOA muestra bloque en U con piscina y solar",
     "17,6": "manzana con contenido inventado; PNOA muestra edificios bajos y naves",
     "28,6": "solar y calles; PNOA muestra viviendas bajas y parcelas"
+   }
+  },
+  {
+   "lote": "batch17",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "15,3": "bloques altos de teja y solar con casas; PNOA muestra bloques bajos de cubierta plana y azotea parda",
+    "11,4": "campos y casas sueltas en atlas; PNOA muestra plaza, conjunto residencial con piscina y arbolado",
+    "21,4": "bloques altos amarillos; PNOA muestra manzanas con patio, cubiertas rojas y pista deportiva",
+    "27,4": "aparcamiento y bloques con volumen distinto; PNOA muestra aparcamiento amplio y edificio de esquina",
+    "11,6": "manzanas de otra disposicion; PNOA muestra naves y bloques con patios y pista",
+    "19,6": "plaza y manzanas de otro volumen; PNOA muestra plaza empedrada con edificio historico y manzanas bajas",
+    "14,7": "solar vacio y bloques; PNOA muestra nave con patio, cubierta gris y manzanas",
+    "7,8": "manzanas distintas; PNOA muestra aparcamiento, solares y bloque de esquina",
+    "10,8": "manzanas y zonas verdes distintas; PNOA muestra naves y bloques con patios",
+    "15,9": "parque con praderas; PNOA muestra paseo arbolado denso con puestos y edificios",
+    "20,9": "bloques altos amarillos; PNOA muestra manzanas bajas de teja con pista y cubierta gris"
+   },
+   "excluida": {
+    "12,8": "plaza de toros en atlas, hito singular; revisar aparte"
    }
   }
  ],

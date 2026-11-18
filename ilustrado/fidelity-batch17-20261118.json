@@ -1,0 +1,106 @@
+{
+ "date": "2026-11-18",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas (sin vecina corregida, ni entre si). Incertidumbre abierta: PNOA es de 2024-07 y puede haber obra o urbanizacion posterior; el Catastro no lo descarta. Motivos de lectura visual; detalle interpretado. Excluida 12,8 del lote por contener una plaza de toros en el atlas que PNOA warp no mostraba (hito singular, pendiente de revision aparte).",
+ "cells": {
+  "15,3": {
+   "recorte_atlas_px": [
+    7680,
+    1612,
+    540,
+    360
+   ],
+   "motivo": "bloques altos de teja y solar con casas; PNOA muestra bloques bajos de cubierta plana y azotea parda"
+  },
+  "11,4": {
+   "recorte_atlas_px": [
+    5632,
+    2124,
+    540,
+    360
+   ],
+   "motivo": "campos y casas sueltas en atlas; PNOA muestra plaza, conjunto residencial con piscina y arbolado"
+  },
+  "21,4": {
+   "recorte_atlas_px": [
+    10752,
+    2124,
+    540,
+    360
+   ],
+   "motivo": "bloques altos amarillos; PNOA muestra manzanas con patio, cubiertas rojas y pista deportiva"
+  },
+  "27,4": {
+   "recorte_atlas_px": [
+    13824,
+    2124,
+    540,
+    360
+   ],
+   "motivo": "aparcamiento y bloques con volumen distinto; PNOA muestra aparcamiento amplio y edificio de esquina"
+  },
+  "11,6": {
+   "recorte_atlas_px": [
+    5632,
+    3148,
+    540,
+    360
+   ],
+   "motivo": "manzanas de otra disposicion; PNOA muestra naves y bloques con patios y pista"
+  },
+  "19,6": {
+   "recorte_atlas_px": [
+    9728,
+    3148,
+    540,
+    360
+   ],
+   "motivo": "plaza y manzanas de otro volumen; PNOA muestra plaza empedrada con edificio historico y manzanas bajas"
+  },
+  "14,7": {
+   "recorte_atlas_px": [
+    7168,
+    3660,
+    540,
+    360
+   ],
+   "motivo": "solar vacio y bloques; PNOA muestra nave con patio, cubierta gris y manzanas"
+  },
+  "7,8": {
+   "recorte_atlas_px": [
+    3584,
+    4172,
+    540,
+    360
+   ],
+   "motivo": "manzanas distintas; PNOA muestra aparcamiento, solares y bloque de esquina"
+  },
+  "10,8": {
+   "recorte_atlas_px": [
+    5120,
+    4172,
+    540,
+    360
+   ],
+   "motivo": "manzanas y zonas verdes distintas; PNOA muestra naves y bloques con patios"
+  },
+  "15,9": {
+   "recorte_atlas_px": [
+    7680,
+    4684,
+    540,
+    360
+   ],
+   "motivo": "parque con praderas; PNOA muestra paseo arbolado denso con puestos y edificios"
+  },
+  "20,9": {
+   "recorte_atlas_px": [
+    10240,
+    4684,
+    540,
+    360
+   ],
+   "motivo": "bloques altos amarillos; PNOA muestra manzanas bajas de teja con pista y cubierta gris"
+  }
+ },
+ "incertidumbre": "Si una fuente posterior a 2024-07 muestra obra nueva en estas celdas, la correccion debe revisarse."
+}
