@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-18",
+ "method": "Correccion a escala de celda con PNOA 2024-07 como referencia, mezcla suave, celdas aisladas (sin vecina corregida, ni entre si). Incertidumbre abierta: PNOA es de 2024-07 y puede haber obra o urbanizacion posterior; el Catastro no lo descarta. Motivos de lectura visual y aproximados; detalle interpretado. Muchas de estas celdas son de borde SE/E y estan en revision de alcance respecto a 'sin pedanias' (ver ledger).",
+ "cells": {
+  "35,8": {
+   "recorte_atlas_px": [
+    17920,
+    4172,
+    540,
+    360
+   ],
+   "motivo": "bloques de teja y parque; PNOA muestra bloques de cubierta plana con paneles solares, arbolado y rotonda"
+  },
+  "26,9": {
+   "recorte_atlas_px": [
+    13312,
+    4684,
+    540,
+    360
+   ],
+   "motivo": "jardin con rotonda y bloques altos; PNOA muestra zona arbolada con viviendas bajas y piscinas"
+  },
+  "30,9": {
+   "recorte_atlas_px": [
+    15360,
+    4684,
+    540,
+    360
+   ],
+   "motivo": "bloques de teja; PNOA muestra manzanas de cubierta plana beige con patios y solares"
+  },
+  "12,10": {
+   "recorte_atlas_px": [
+    6144,
+    5196,
+    540,
+    360
+   ],
+   "motivo": "bloques y solar con via; PNOA muestra manzanas bajas de teja con patios interiores"
+  },
+  "18,10": {
+   "recorte_atlas_px": [
+    9216,
+    5196,
+    540,
+    360
+   ],
+   "motivo": "parcela verde y bloques; PNOA muestra manzana arbolada con edificios de teja y nave"
+  },
+  "7,11": {
+   "recorte_atlas_px": [
+    3584,
+    5708,
+    540,
+    360
+   ],
+   "motivo": "manzanas y edificio de teja; PNOA muestra solar abierto y edificios de cubierta plana"
+  },
+  "14,11": {
+   "recorte_atlas_px": [
+    7168,
+    5708,
+    540,
+    360
+   ],
+   "motivo": "jardines y viviendas; PNOA muestra plaza semicircular amplia con arbolado y polideportivo"
+  },
+  "25,11": {
+   "recorte_atlas_px": [
+    12800,
+    5708,
+    540,
+    360
+   ],
+   "motivo": "manzanas de teja; PNOA muestra viviendas bajas, nave y arbolado"
+  },
+  "27,11": {
+   "recorte_atlas_px": [
+    13824,
+    5708,
+    540,
+    360
+   ],
+   "motivo": "bloques densos; PNOA muestra solar con parcelas, bloque de teja y viviendas adosadas con piscinas"
+  },
+  "29,11": {
+   "recorte_atlas_px": [
+    14848,
+    5708,
+    540,
+    360
+   ],
+   "motivo": "manzanas y solares; PNOA muestra viviendas adosadas con piscinas y pista deportiva"
+  },
+  "31,11": {
+   "recorte_atlas_px": [
+    15872,
+    5708,
+    540,
+    360
+   ],
+   "motivo": "campo y bloques altos; PNOA muestra arbolado denso y manzanas de teja"
+  },
+  "11,12": {
+   "recorte_atlas_px": [
+    5632,
+    6220,
+    540,
+    360
+   ],
+   "motivo": "a revisar: motivo aproximado; PNOA muestra manzanas de teja con calle diagonal"
+  }
+ },
+ "incertidumbre": "Si una fuente posterior a 2024-07 muestra obra nueva en estas celdas, la correccion debe revisarse."
+}

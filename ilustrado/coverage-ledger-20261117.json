@@ -104,7 +104,19 @@
     "7,8",
     "10,8",
     "15,9",
-    "20,9"
+    "20,9",
+    "35,8",
+    "26,9",
+    "30,9",
+    "12,10",
+    "18,10",
+    "7,11",
+    "14,11",
+    "25,11",
+    "27,11",
+    "29,11",
+    "31,11",
+    "11,12"
    ]
   },
   "celdas_U_incertidumbre": {
@@ -5114,6 +5126,24 @@
    },
    "excluida": {
     "12,8": "plaza de toros en atlas, hito singular; revisar aparte"
+   }
+  },
+  {
+   "lote": "batch18",
+   "fecha": "2026-11-18",
+   "celdas": {
+    "35,8": "bloques de teja y parque; PNOA muestra bloques de cubierta plana con paneles solares, arbolado y rotonda",
+    "26,9": "jardin con rotonda y bloques altos; PNOA muestra zona arbolada con viviendas bajas y piscinas",
+    "30,9": "bloques de teja; PNOA muestra manzanas de cubierta plana beige con patios y solares",
+    "12,10": "bloques y solar con via; PNOA muestra manzanas bajas de teja con patios interiores",
+    "18,10": "parcela verde y bloques; PNOA muestra manzana arbolada con edificios de teja y nave",
+    "7,11": "manzanas y edificio de teja; PNOA muestra solar abierto y edificios de cubierta plana",
+    "14,11": "jardines y viviendas; PNOA muestra plaza semicircular amplia con arbolado y polideportivo",
+    "25,11": "manzanas de teja; PNOA muestra viviendas bajas, nave y arbolado",
+    "27,11": "bloques densos; PNOA muestra solar con parcelas, bloque de teja y viviendas adosadas con piscinas",
+    "29,11": "manzanas y solares; PNOA muestra viviendas adosadas con piscinas y pista deportiva",
+    "31,11": "campo y bloques altos; PNOA muestra arbolado denso y manzanas de teja",
+    "11,12": "a revisar: motivo aproximado; PNOA muestra manzanas de teja con calle diagonal"
    }
   }
  ],
