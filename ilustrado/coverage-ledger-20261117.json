@@ -47,17 +47,32 @@
    "nota": "heuristica teja roja vs edificios Catastro municipal; exploratoria, no tasa"
   },
   "universo_barrido_celdas": {
-   "posiciones_rejilla_atlas": 756,
-   "con_pixeles_atlas": 608,
-   "barridas_por_filtro_textura_std>12": 606,
-   "borde_parcial_a_incluir": [
-    "0,8",
-    "0,9"
+   "dimensiones_atlas_px": "20992x8704 (atlas.dzi)",
+   "rejilla_celdas_512": "41 columnas x 17 filas = 697",
+   "celdas_con_pixeles": 608,
+   "celdas_vacias_transparentes": 89,
+   "celdas_filtro_textura_std>12": 606,
+   "celdas_borde_parcial_incluidas_extra": [
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ]
    ],
-   "cifra_697": "de informes anteriores (17-nov 23:23, 18-nov 00:02); no reproducible con la rejilla actual: 608 celdas con pixeles; resto vacias",
-   "pendientes_al_empezar_revision": 574,
-   "revisadas_hasta_18-nov_02:16": 96,
-   "brecha": "banda central 360 de 512 px de alto: queda sin revisar un 30% de cada celda (76 px arriba y abajo). Segunda pasada propuesta con recortes centrados en los limites entre filas."
+   "barrido_contenido_actual_celdas_clasificadas": 184,
+   "clases": {
+    "A": 80,
+    "C": 29,
+    "M": 72,
+    "U": 3
+   },
+   "pendientes_barrido_actual": 424,
+   "cribado_previo": "teja roja >5% y <=3 edificios Catastro: 32 celdas, criterio distinto (heuristica de un solo atributo); NO cuenta como revision de contenido; se solapa en parte con el barrido actual",
+   "bordes_pendientes": "banda revisada 360 de 512 px de alto por celda (70%); 76 px arriba y 76 abajo sin revisar en las celdas clasificadas y en las pendientes",
+   "nota": "el 756=42x18 citado antes era mi rango de busqueda, no la rejilla; 697=41x17 es correcto"
   },
   "celdas_U_incertidumbre": {
    "29,1": "calles sobre campo en atlas; PNOA sin calles; sin fuente posterior que decida",
