@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "base_commit": "21263cef56bd7398e8fd8be3a50c5e015ba882ed",
+ "base_commit": "PENDING-COMMIT",
  "representation": "fixed-camera interpreted raster scenes; not multi-angle 3D",
  "files": [
   {
@@ -2765,8 +2765,8 @@
   },
   {
    "name": "atlas_files/15/24_13.webp",
-   "bytes": 436066,
-   "sha256": "faf4edfe94fbed348f6216ce7539393df99d3b8f507d33e8f80f77129dd04dfc"
+   "bytes": 436356,
+   "sha256": "ba96e547fefd96fa22f476fe28539af9fdb4df91d6b956550987b39032a5e500"
   },
   {
    "name": "atlas_files/15/24_14.webp",
@@ -2850,8 +2850,8 @@
   },
   {
    "name": "atlas_files/15/25_13.webp",
-   "bytes": 416688,
-   "sha256": "f0c0f96c552f82d9b97ef212906b53716f82724d15ea1dfea77efdb7b0f5a2ad"
+   "bytes": 414900,
+   "sha256": "3cbdf2bfb8eeb3890c3fc6cc781bf669ada406678b8636056563a18aa65ff439"
   },
   {
    "name": "atlas_files/15/25_14.webp",
@@ -5245,8 +5245,8 @@
   },
   {
    "name": "bottom7.webp",
-   "bytes": 5365454,
-   "sha256": "cec1dc877c538d32c7a75e18d12ced182f8a3f9e4cfbd6fadce23df0d35f3b02"
+   "bytes": 5362732,
+   "sha256": "55945c652e4e360d97c6ef835ed3f84cea9657de35dd7d4af6418e12f191bb8d"
   },
   {
    "name": "bottom8.webp",

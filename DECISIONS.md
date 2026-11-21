@@ -480,3 +480,27 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
 - Contrastado con PNOA: óvalo que encierra el campo, pabellón blanco con
   círculos al SO, pista rojiza al SE. Interpretado: color exacto de la
   pista, líneas, gradas y vegetación interior.
+
+## 2026-11-21 — Celda 25,13 (rectificación): el estadio ovalado era un error mío; restaurado el campo de tierra real
+
+- Rectificación de la entrada anterior: la pista ovalada de atletismo que
+  dibujé en la revisión anterior NO está respaldada por la referencia.
+  Verificación con fuentes identificables (consultadas 2026-11-21):
+  · Nominatim/OSM (38.984171,-1.869209): Calle Méjico, barrio Pedro Lamata.
+    https://nominatim.openstreetmap.org/reverse?lat=38.984171&lon=-1.869209&zoom=18&format=jsonv2&accept-language=es
+  · Censo de Instalaciones Deportivas de Castilla-La Mancha (CSV oficial):
+    CAMPO DE FÚTBOL 'PEDRO LAMATA', PISTA POLIDEPORTIVA 'PEDRO LAMATA',
+    PISTAS DE PETANCA 'PEDRO LAMATA'.
+    https://datosabiertos.castillalamancha.es/sites/datosabiertos.castillalamancha.es/files/Listado%20Censo%20Instalaciones%20Deportivas%20CLM.csv
+  · PNOA WMS IGN ampliada: campo de tierra RECTANGULAR con marcas blancas,
+    sin óvalo; pista polideportiva roja al SE; edificio de franja blanca con
+    lucernarios circulares al SO; calles de petanca al S.
+- Corrección: el estadio se sustituye por el campo de fútbol de tierra
+  rectangular (misma huella y orientación que en PNOA). Se conservan del
+  trabajo previo el pabellón blanco con círculos (SO), la pista roja (SE),
+  las pistas de petanca (S) y la cubierta solar industrial.
+- Soporte 40.724 px centrado, sin tocar bordes; 0 difs RGBA fuera; alfa
+  intacto; cuatro bordes nativos limpios.
+- Contrastado: rectangularidad del campo, marcas de fútbol, pista
+  polideportiva SE, pabellón SO, petanca S. Interpretado: textura fina de
+  la tierra, porterías y líneas exactas.
