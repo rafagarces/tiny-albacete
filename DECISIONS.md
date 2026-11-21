@@ -385,3 +385,11 @@ One512square cell x[-4.25,-4],y[.75,1] completes city-side construction site. Tw
 
 ## 2026-11-17 inventory derived-fact refresh
 Historical point inventories imported stale art extents. Recompute against actualcurrent sourceunion afterevery scopeapply. Science/Botanicpointsinside;Botanicpolygon0.011441043206623334km2inside,0.05852223751175938outside. Pulgosa0overlap,polygon478.4334933644463mfromart,point856.6896372593111m. Pointsarenotwhole-sitecoverage. Sourcegeometrydatespreserved,notcurrent2026survey. Noimage/catalog/map/3Dchange,56sourcefilesexact.
+
+## 2026-11-21 Objeto 32 (nave junto a edificio curvo) restaurado por contorno de objeto
+
+Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion aplicada con la via de objeto completo aceptada en local el 18 nov, nunca desplegada entonces.
+
+- Produccion anterior mostraba bloques residenciales de teja inventados; la ortofoto PNOA (mosaico mas reciente, servida 2026-11-21 via WMS IGN) muestra una nave industrial blanca junto al edificio curvo y la rotonda. Contraste geografico rehecho hoy de forma independiente (registro marco atlas->UTM validado contra edificio curvo, rotonda y plaza circular); la nave, aceras y cruce coinciden con la referencia. PNOA no prueba estado 2026 ni fachada exacta.
+- Composicion por poligono de contorno de objeto (16 vertices) con desenfoque de 1 px sobre right5.webp; 32.470 pixeles cambiados en L15, 16 teselas de piramide, cero diferencias RGBA fuera del soporte y su proyeccion en todos los niveles, alfa original intacto. Reproducible con el paquete isolated32 (compose.py/atlas.py/verify.py).
+- QA visual propia a resolucion nativa y niveles 14/13/12: integracion sin costuras, rectangulos ni velos; vecinos conservados pixel a pixel. right5.webp y manifiesto actualizados; mapa general, 3D y demas fuentes sin cambios.
