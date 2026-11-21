@@ -466,3 +466,17 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
   pabellón adosado y la existencia/disposición del complejo deportivo.
   Interpretado — detalle fino de paneles, líneas de las pistas y
   vegetación interior (no verificables a esta escala).
+
+## 2026-11-21 — Celda 25,13 (revisión): complejo deportivo rehecho con la geometría de PNOA
+
+- La primera sustitución del complejo deportivo dejaba el campo de fútbol
+  como rectángulo verde separado y superficies rojas rectangulares; PNOA
+  muestra un único estadio: óvalo de atletismo color arena que encierra el
+  campo, pabellón largo de cubierta blanca con lucernarios circulares al
+  suroeste, pista pequeña rojiza al sureste y gradas en cuña al sur.
+- Re-edición guiada por ortofoto solo del complejo (crop 700×700 en
+  12500,6650). Soporte 125.641 px, sin tocar bordes del crop; 0 difs RGBA
+  fuera del soporte; alfa intacto; cuatro bordes nativos limpios.
+- Contrastado con PNOA: óvalo que encierra el campo, pabellón blanco con
+  círculos al SO, pista rojiza al SE. Interpretado: color exacto de la
+  pista, líneas, gradas y vegetación interior.
