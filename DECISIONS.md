@@ -504,3 +504,8 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
 - Contrastado: rectangularidad del campo, marcas de fútbol, pista
   polideportiva SE, pabellón SO, petanca S. Interpretado: textura fina de
   la tierra, porterías y líneas exactas.
+    - e) Rectificacion 31,11 - estadio universitario de atletismo UCLM COMPLETO:
+      - sustituido el recorte parcial (primer intento cortaba el anillo este en el borde)
+      - estadio completo: ovalo azul-gris 400m, hierba, zonas saltos azul claro, grada NE, perimetro arena
+      - contraste: PNOA hires (vuelo PNOA 2024, consultado 2026-11-21) + UCLM noticia 2024-10-29 (uclm.es convenio atletismo) + Nominatim reverse 38.979554,-1.860197 (2026-11-21) - geometria ovalo azul-gris, infield hierba, grada NE
+      - soporte 95.9k px conectado, 0 diffs fuera, juntas verificadas 4 lados; interpretado: marcas de calles, desgaste de hierba
