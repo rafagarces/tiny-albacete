@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "base_commit": "PENDING-COMMIT",
+ "base_commit": "d56ed569d6401bcf03dae3c1f465bc6239f0b414",
  "representation": "fixed-camera interpreted raster scenes; not multi-angle 3D",
  "files": [
   {
