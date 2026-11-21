@@ -411,3 +411,18 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
   verde difuso que el 18 nov motivó la reversión; pendiente reparación
   guiada por PNOA, no publicación del donante tal cual.
 - Regiones 20/47/51: sin cambios (bloqueadas 18 nov).
+
+## 2026-11-21 — Celda 12,8: eliminado el segundo coso inventado
+
+- El atlas original contenía dos plazas de toros: la real (15,8, verificada
+  alineada con PNOA) y un coso inventado en 12,8 sobre manzanas ordinarias
+  (PNOA y Catastro: bloques de viviendas y plazuela). Contenido del atlas
+  original, no de lotes 1–22, por lo que no cabía reversión: sustitución
+  guiada por ortofoto (edición de imagen con doble referencia, atlas+PNOA).
+- Integración por soporte: componente conectada del diff suavizado
+  (umbral sobre media local, dilatación 20 px hasta ejes de calle, pluma
+  2 px). 0 difs RGBA fuera del soporte en todos los niveles; alfa intacto.
+- Verificación: 0 difs fuera de soporte; cuatro bordes inspeccionados a
+  resolución nativa sin costuras; tríptico actual|nuevo|PNOA conforme;
+  consistencia del warp PNOA comprobada por solape (dif media 4,9).
+- Fuentes left5–left8 actualizadas en consecuencia.
