@@ -425,4 +425,27 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
 - Verificación: 0 difs fuera de soporte; cuatro bordes inspeccionados a
   resolución nativa sin costuras; tríptico actual|nuevo|PNOA conforme;
   consistencia del warp PNOA comprobada por solape (dif media 4,9).
+- Alcance de la corrección: la ELIMINACIÓN del coso está contrastada con
+  PNOA+Catastro (no existe tal edificio; hay manzanas y plazuela). El
+  reemplazo es ilustración interpretada: tipología (bloques con patios y
+  plazuela) y trazado viario contrastados con la ortofoto, pero las
+  viviendas, patios y árboles individuales generados NO están verificados
+  uno a uno contra referencia. No computa como verificación geométrica.
 - Fuentes left5–left8 actualizadas en consecuencia.
+
+## 2026-11-21 — Celda 31,15: eliminados vía férrea y estación inventadas
+
+- El atlas original dibujaba una vía con estación en el sureste (huertas),
+  sin respaldo en PNOA 2024 ni en la realidad del enclave: sustitución
+  guiada por ortofoto (edición con doble referencia atlas+PNOA).
+- Integración por soporte: componente conectada del diff suavizado,
+  dilatación 20 px, pluma 2 px. 0 difs RGBA fuera del soporte en todos los
+  niveles; alfa intacto (el soporte queda por encima del borde de encuadre
+  y=8192). Fuentes right10–right13 actualizadas.
+- Verificación: bordes internos y externos (incluido el borde del propio
+  recorte) inspeccionados a resolución nativa sin costuras; tríptico
+  antes|después|PNOA conforme.
+- Alcance: la ELIMINACIÓN de vía y estación está contrastada con PNOA
+  (ausencia en la referencia). El reemplazo (huertas, caminos de tierra,
+  lindes) es ilustración interpretada coherente con el entorno y la
+  ortofoto, NO verificación parcela a parcela.
