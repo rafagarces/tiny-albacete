@@ -393,3 +393,21 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
 - Produccion anterior mostraba bloques residenciales de teja inventados; la ortofoto PNOA (mosaico mas reciente, servida 2026-11-21 via WMS IGN) muestra una nave industrial blanca junto al edificio curvo y la rotonda. Contraste geografico rehecho hoy de forma independiente (registro marco atlas->UTM validado contra edificio curvo, rotonda y plaza circular); la nave, aceras y cruce coinciden con la referencia. PNOA no prueba estado 2026 ni fachada exacta.
 - Composicion por poligono de contorno de objeto (16 vertices) con desenfoque de 1 px sobre right5.webp; 32.470 pixeles cambiados en L15, 16 teselas de piramide, cero diferencias RGBA fuera del soporte y su proyeccion en todos los niveles, alfa original intacto. Reproducible con el paquete isolated32 (compose.py/atlas.py/verify.py).
 - QA visual propia a resolucion nativa y niveles 14/13/12: integracion sin costuras, rectangulos ni velos; vecinos conservados pixel a pixel. right5.webp y manifiesto actualizados; mapa general, 3D y demas fuentes sin cambios.
+
+## 2026-11-21 — Restauración de 5 regiones invertidas el 18 nov (35, 40, 42, 44, 45)
+
+- El 18 nov se revirtieron por caja 5 regiones que la comparación con PNOA
+  muestra correctas en el contenido previo. Reintegración quirúrgica:
+  donante f7651d32 (previo a lotes 14–22), soporte = dif |donante−actual|>12
+  dilatada 3 px con pluma 1.5 px; 0 difs RGBA fuera del soporte en cada
+  pirámide; alfa idéntico. Fuentes webp actualizadas igualmente.
+- Regiones: 35 (patios en zigzag CEIP), 40 (parking + glorieta),
+  42 (nave gris + campos), 44 (colegio con pistas roja/azul),
+  45 (borde urbano: suprimido ferrocarril inventado).
+- Verificación: 0 difs fuera de soporte en todos los niveles; hoja L14 y
+  recortes de borde a resolución nativa sin costuras; trípticos por región
+  contra PNOA.
+- Región 33: EXCLUIDA de este lote — el donante tiene el borde del campo
+  verde difuso que el 18 nov motivó la reversión; pendiente reparación
+  guiada por PNOA, no publicación del donante tal cual.
+- Regiones 20/47/51: sin cambios (bloqueadas 18 nov).
