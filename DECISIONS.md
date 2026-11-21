@@ -449,3 +449,20 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
   (ausencia en la referencia). El reemplazo (huertas, caminos de tierra,
   lindes) es ilustración interpretada coherente con el entorno y la
   ortofoto, NO verificación parcela a parcela.
+
+## 2026-11-21 — Celda 25,13: nave logística genérica corregida a lo que muestra PNOA
+
+- El atlas original dibujaba una nave logística tan con camiones donde PNOA
+  muestra una gran cubierta gris con filas de paneles solares y pabellón
+  blanco adosado, y una nave pequeña con patio donde PNOA muestra un
+  complejo deportivo (pista de atletismo roja, pabellón, campo de fútbol).
+  Sustitución guiada por ortofoto (edición con doble referencia).
+- Integración por soporte de diff conectado (dilatación 20 px, pluma 2 px).
+  0 difs RGBA fuera del soporte en todos los niveles; alfa intacto.
+  Fuentes bottom6–8 y right5–6 actualizadas.
+- Verificación: cuatro bordes a resolución nativa sin costuras; tríptico
+  antes|después|PNOA conforme.
+- Alcance: contrastado con PNOA — la cubierta con paneles solares, el
+  pabellón adosado y la existencia/disposición del complejo deportivo.
+  Interpretado — detalle fino de paneles, líneas de las pistas y
+  vegetación interior (no verificables a esta escala).
