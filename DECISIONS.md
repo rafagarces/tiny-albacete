@@ -509,3 +509,8 @@ Reanudacion autorizada por Rafa el 21 nov ("Avanza tuuuu"). Primera correccion a
       - estadio completo: ovalo azul-gris 400m, hierba, zonas saltos azul claro, grada NE, perimetro arena
       - contraste: PNOA hires (vuelo PNOA 2024, consultado 2026-11-21) + UCLM noticia 2024-10-29 (uclm.es convenio atletismo) + Nominatim reverse 38.979554,-1.860197 (2026-11-21) - geometria ovalo azul-gris, infield hierba, grada NE
       - soporte 95.9k px conectado, 0 diffs fuera, juntas verificadas 4 lados; interpretado: marcas de calles, desgaste de hierba
+    - f) Verificacion hitos retenidos (21 nov ~17:05, atlas vs PNOA vuelo 2024 consultado 2026-11-21, mismo extent 700x700 L15):
+      - 24,13 COINCIDE (parking, edificio lucernarios, campo tierra). 20,11 COINCIDE (casco, edificio zigzag). 25,8 COINCIDE (parque, estilizado pero mismo lugar).
+      - 30,15 NO COINCIDE: atlas residencial en colina vs PNOA naves dispersas; zona de extension sur (arte termina ~y8100 ahi).
+      - 29,13 NO COINCIDE: atlas matorral+pistas deportivas vs PNOA campos y naves.
+      - Sin tocar: correccion de ambos pendiente de decision (contenido de extension interpretado por diseno vs pase de fidelidad).
